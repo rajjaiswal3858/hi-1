@@ -1,0 +1,30 @@
+{
+  "route": "/private-equity/",
+  "title": "Private Equity AI Solutions | HatchWorks AI",
+  "description": "We embed AI inside your portfolio companies to cut cost, modernize how they operate, and build proprietary IP they own. Production systems, grounded in their",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "website",
+    "og:title": "Private Equity AI Solutions | HatchWorks AI",
+    "og:description": "We embed AI inside your portfolio companies to cut cost, modernize operations, and build proprietary IP they own. Production systems tied to ROI, built to show up in the exit valuation.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/06/2-private-equity-hw.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Private Equity AI Solutions | HatchWorks AI",
+    "twitter:description": "Production AI inside PE-backed portfolio companies. Cut cost, modernize operations, build IP that drives the exit multiple.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35351 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35351 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35351.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

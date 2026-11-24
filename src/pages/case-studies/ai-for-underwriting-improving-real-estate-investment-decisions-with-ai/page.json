@@ -1,0 +1,30 @@
+{
+  "route": "/case-studies/ai-for-underwriting-improving-real-estate-investment-decisions-with-ai/",
+  "title": "Scaling Real Estate Underwriting with AI | HatchWorks AI",
+  "description": "HatchWorks AI designed and delivered a machine learning underwriting system for Grandview Homes, a distressed property acquisition business in the US Midwest.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Scaling Real Estate Underwriting with AI | HatchWorks AI",
+    "og:description": "HatchWorks AI designed and delivered a machine learning underwriting system for Grandview Homes, a distressed property acquisition business in the US Midwest.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/grandview-1.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Scaling Real Estate Underwriting with AI | HatchWorks AI",
+    "twitter:description": "HatchWorks AI designed and delivered a machine learning underwriting system for Grandview Homes, a distressed property acquisition business in the US Midwest.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/grandview-1.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36216 page-child parent-pageid-23823 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36216 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-36216.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

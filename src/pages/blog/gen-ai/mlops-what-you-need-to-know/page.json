@@ -1,0 +1,46 @@
+{
+  "route": "/blog/gen-ai/mlops-what-you-need-to-know/",
+  "title": "MLOps in 2026: What You Need to Know to Stay Competitive",
+  "description": "Stay competitive in 2026 with our MLOps guide. See how to streamline ML models, enhance team collaboration, and master future MLOps trends.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "MLOps in 2026: What You Need to Know to Stay Competitive",
+    "og:description": "Stay competitive in 2026 with our MLOps guide. See how to streamline ML models, enhance team collaboration, and master future MLOps trends.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/12/LLMOps-The-Hidden-Challenges-No-One-Talks-About.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "MLOps in 2026: What You Need to Know to Stay Competitive",
+    "twitter:description": "Stay competitive in 2026 with our MLOps guide. See how to streamline ML models, enhance team collaboration, and master future MLOps trends.",
+    "twitter:image": "/assets/wp-content/uploads/2024/12/LLMOps-The-Hidden-Challenges-No-One-Talks-About.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-32977 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32977 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-common-styles.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-vertical-timeline.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32977.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "twae-wrapper-2.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

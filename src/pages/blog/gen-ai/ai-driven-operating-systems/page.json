@@ -1,0 +1,39 @@
+{
+  "route": "/blog/gen-ai/ai-driven-operating-systems/",
+  "title": "How AI as an Operating System is Shaping Our Digital Future | HatchWorks AI",
+  "description": "Learn how AI-driven OSs are transforming the digital realm, enhancing connectivity, and reshaping our interaction with technology for a smarter future.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How AI as an Operating System is Shaping Our Digital Future | HatchWorks AI",
+    "og:description": "Learn how AI-driven OSs are transforming the digital realm, enhancing connectivity, and reshaping our interaction with technology for a smarter future.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/05/ai-operating-system-banner-v2.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How AI as an Operating System is Shaping Our Digital Future | HatchWorks AI",
+    "twitter:description": "Learn how AI-driven OSs are transforming the digital realm, enhancing connectivity, and reshaping our interaction with technology for a smarter future.",
+    "twitter:image": "/assets/wp-content/uploads/2024/05/ai-operating-system-banner-v2.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-31270 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-31270 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

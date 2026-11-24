@@ -1,0 +1,42 @@
+{
+  "route": "/blog/nearshore-development/in-house-vs-outsourcing-software-development/",
+  "title": "In-House Software Development vs Outsourcing: Your 2026 Essential Guide",
+  "description": "Explore the critical differences between in-house software development vs outsourcing in our comprehensive guide for 2024.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "In-House Software Development vs Outsourcing: Your 2026 Essential Guide",
+    "og:description": "Explore the critical differences between in-house software development vs outsourcing in our comprehensive guide for 2024.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/01/InHouse-Software-Development-vs-Outsourcing-Your-2025-Essential-Guide-Social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "In-House Software Development vs Outsourcing: Your 2026 Essential Guide",
+    "twitter:description": "Explore the critical differences between in-house software development vs outsourcing in our comprehensive guide for 2024.",
+    "twitter:image": "/assets/wp-content/uploads/2024/01/InHouse-Software-Development-vs-Outsourcing-Your-2025-Essential-Guide-Social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30436 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30436 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30436.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwnsg-block.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

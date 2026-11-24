@@ -1,0 +1,34 @@
+{
+  "route": "/state-of-ai-2025/",
+  "title": "State of AI 2025 | HatchWorks AI",
+  "description": "Navigate evolving regulations shaping AI ethics, security, and compliance.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "State of AI 2025 | HatchWorks AI",
+    "og:description": "Navigate evolving regulations shaping AI ethics, security, and compliance.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/01/STATE-OF-AI@500x.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "State of AI 2025 | HatchWorks AI",
+    "twitter:description": "Navigate evolving regulations shaping AI ethics, security, and compliance.",
+    "twitter:image": "/assets/wp-content/uploads/2025/01/STATE-OF-AI@500x.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-32940 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32940 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32940.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

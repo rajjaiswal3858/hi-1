@@ -1,0 +1,44 @@
+{
+  "route": "/blog/databricks/data-lake-vs-data-warehouse-vs-data-mart/",
+  "title": "Data Lake vs Data Warehouse vs Data Mart: Key Differences Explained",
+  "description": "Learn the key differences between data lakes, warehouses, and marts, their use cases, and best practices to choose the right data solution.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Data Lake vs Data Warehouse vs Data Mart: Key Differences Explained",
+    "og:description": "Learn the key differences between data lakes, warehouses, and marts, their use cases, and best practices to choose the right data solution.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/06/Data-lake-vs-data-warehouse-vs-data-mart-Social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Data Lake vs Data Warehouse vs Data Mart: Key Differences Explained",
+    "twitter:description": "Learn the key differences between data lakes, warehouses, and marts, their use cases, and best practices to choose the right data solution.",
+    "twitter:image": "/assets/wp-content/uploads/2025/06/Data-lake-vs-data-warehouse-vs-data-mart-Social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33664 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33664 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33664.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

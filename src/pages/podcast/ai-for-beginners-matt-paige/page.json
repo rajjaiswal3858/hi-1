@@ -1,0 +1,40 @@
+{
+  "route": "/podcast/ai-for-beginners-matt-paige/",
+  "title": "AI for Beginners featuring Matt Paige | HatchWorks AI",
+  "description": "Join Matt Paige in learning custom GPTs and their benefits for small business marketing and operations.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI for Beginners featuring Matt Paige | HatchWorks AI",
+    "og:description": "Join Matt Paige in learning custom GPTs and their benefits for small business marketing and operations.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/04/THUMBNAIL-4am-reportAsset-32.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI for Beginners featuring Matt Paige | HatchWorks AI",
+    "twitter:description": "Join Matt Paige in learning custom GPTs and their benefits for small business marketing and operations.",
+    "twitter:image": "/assets/wp-content/uploads/2024/04/THUMBNAIL-4am-reportAsset-32.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30922 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30922 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30922.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

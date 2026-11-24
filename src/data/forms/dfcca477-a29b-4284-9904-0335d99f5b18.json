@@ -1,0 +1,57 @@
+{
+  "id": "dfcca477-a29b-4284-9904-0335d99f5b18",
+  "captcha": false,
+  "submitText": "Submit",
+  "inlineMessage": "",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        },
+        {
+          "name": "lastname",
+          "label": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Your company email",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "<p><span style=\"color: #ffffff;\">By filling out this form, you agree to allow us to handle your information as stated in our Privacy Policy. If you don't want to receive email updates from us, you can change your email settings at any time.</span></p>",
+      "fields": []
+    }
+  ],
+  "legal": null
+}

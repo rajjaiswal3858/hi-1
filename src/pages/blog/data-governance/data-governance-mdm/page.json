@@ -1,0 +1,42 @@
+{
+  "route": "/blog/data-governance/data-governance-mdm/",
+  "title": "Unlock Self-Serve Analytics with Data Governance MDM: Our How-To Guide",
+  "description": "Unify data, boost analytics, and streamline processes with data governance MDM. Explore our proven step-by-step approach now!",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Unlock Self-Serve Analytics with Data Governance MDM: Our How-To Guide",
+    "og:description": "Unify data, boost analytics, and streamline processes with data governance MDM. Explore our proven step-by-step approach now!",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/01/Unlock-Self-Serve-Analytics-with-Data-Governance-MDM-Our-How-To-Guide.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Unlock Self-Serve Analytics with Data Governance MDM: Our How-To Guide",
+    "twitter:description": "Unify data, boost analytics, and streamline processes with data governance MDM. Explore our proven step-by-step approach now!",
+    "twitter:image": "/assets/wp-content/uploads/2025/01/Unlock-Self-Serve-Analytics-with-Data-Governance-MDM-Our-How-To-Guide.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-32857 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32857 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32857.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

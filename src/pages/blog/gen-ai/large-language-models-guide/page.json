@@ -1,0 +1,47 @@
+{
+  "route": "/blog/gen-ai/large-language-models-guide/",
+  "title": "Large Language Models: What You Need to Know in 2026 | HatchWorks AI",
+  "description": "Explore the latest on large language models in 2026 with our guide on their capabilities, advancements, and limitations.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Large Language Models: What You Need to Know in 2026 | HatchWorks AI",
+    "og:description": "Explore the latest on large language models in 2026 with our guide on their capabilities, advancements, and limitations.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/03/Large-Language-Models-what-you-need-to-know-2025-Social-Share.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Large Language Models: What You Need to Know in 2026 | HatchWorks AI",
+    "twitter:description": "Explore the latest on large language models in 2026 with our guide on their capabilities, advancements, and limitations.",
+    "twitter:image": "/assets/wp-content/uploads/2024/03/Large-Language-Models-what-you-need-to-know-2025-Social-Share.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30971 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30971 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-common-styles.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-vertical-timeline.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30971.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "twae-wrapper-2.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

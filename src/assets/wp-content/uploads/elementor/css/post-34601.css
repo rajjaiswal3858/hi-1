@@ -1,0 +1,23 @@
+.elementor-34601 .elementor-element.elementor-element-9f3c438{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--overlay-opacity:0.66;--padding-top:5%;--padding-bottom:5%;--padding-left:0%;--padding-right:0%;}.elementor-34601 .elementor-element.elementor-element-9f3c438:not(.elementor-motion-effects-element-type-background), .elementor-34601 .elementor-element.elementor-element-9f3c438 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#000000;}.elementor-34601 .elementor-element.elementor-element-9f3c438::before, .elementor-34601 .elementor-element.elementor-element-9f3c438 > .elementor-background-video-container::before, .elementor-34601 .elementor-element.elementor-element-9f3c438 > .e-con-inner > .elementor-background-video-container::before, .elementor-34601 .elementor-element.elementor-element-9f3c438 > .elementor-background-slideshow::before, .elementor-34601 .elementor-element.elementor-element-9f3c438 > .e-con-inner > .elementor-background-slideshow::before, .elementor-34601 .elementor-element.elementor-element-9f3c438 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:var( --e-global-color-3c0f7e0 );--background-overlay:'';}.elementor-34601 .elementor-element.elementor-element-9f3c438.e-con{--align-self:flex-start;}.elementor-34601 .elementor-element.elementor-element-74b55d2 .elementor-button{background-color:#00000069;font-size:20px;fill:#FFFFFF;color:#FFFFFF;border-style:solid;border-width:1px 1px 1px 1px;border-color:#A7F5FF70;}.elementor-34601 .elementor-element.elementor-element-74b55d2 .elementor-button:hover, .elementor-34601 .elementor-element.elementor-element-74b55d2 .elementor-button:focus{background-color:var( --e-global-color-1b33cc5 );box-shadow:0px 0px 56px 27px rgba(255, 255, 255, 0.16);}.elementor-34601 .elementor-element.elementor-element-74b55d2:hover{--e-transform-scale:1.05;}.elementor-34601 .elementor-element.elementor-element-74b55d2{margin:10% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;}.elementor-34601 .elementor-element.elementor-element-74b55d2.elementor-element{--align-self:center;}.elementor-34601 .elementor-element.elementor-element-74b55d2 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-34601 .elementor-element.elementor-element-4bfc7a4{width:var( --container-widget-width, 78% );max-width:78%;--container-widget-width:78%;--container-widget-flex-grow:0;}.elementor-34601 .elementor-element.elementor-element-4bfc7a4.elementor-element{--align-self:center;}@media(min-width:2400px){.elementor-34601 .elementor-element.elementor-element-74b55d2 .elementor-button{font-size:23px;}}@media(max-width:767px){.elementor-34601 .elementor-element.elementor-element-74b55d2.elementor-element{--align-self:center;}}/* Start custom CSS for container, class: .elementor-element-9f3c438 *//* Elementor background video: cover + align top (safe) */
+
+/* container + iframe/video sizing */
+.elementor-34601 .elementor-element.elementor-element-9f3c438 .elementor-background-video-container,
+.elementor-34601 .elementor-element.elementor-element-9f3c438 .elementor-background-video-container video,
+.elementor-34601 .elementor-element.elementor-element-9f3c438 .elementor-background-video-container iframe{
+  width:100% !important;
+  height:100% !important;
+}
+
+/* actual fit */
+.elementor-34601 .elementor-element.elementor-element-9f3c438 .elementor-background-video-container video{
+  object-fit:cover !important;
+  object-position: 50% 0% !important; /* top center */
+}
+
+/* if Elementor uses iframe (YouTube/Vimeo) */
+.elementor-34601 .elementor-element.elementor-element-9f3c438 .elementor-background-video-container iframe{
+  position:absolute !important;
+  inset:0 !important;
+  transform: scale(1.25); /* gives "cover" behavior for iframes */
+  transform-origin: top center;
+}/* End custom CSS */

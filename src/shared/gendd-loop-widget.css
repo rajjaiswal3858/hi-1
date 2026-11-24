@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+#gendd-loop-widget{all:initial;display:block;position:relative;background:#ffffff;font-family:'Open Sans',sans-serif;color:#1a1a2e;width:100%;overflow:hidden}
+#gendd-loop-widget *,#gendd-loop-widget *::before,#gendd-loop-widget *::after{box-sizing:border-box;margin:0;padding:0}
+
+#gendd-loop-widget .lw-bg{position:absolute;inset:0;z-index:0;background:linear-gradient(175deg,#ffffff,#f6f7f9 50%,#ffffff)}
+#gendd-loop-widget canvas{position:absolute;inset:0;z-index:1}
+
+#gendd-loop-widget .lw-wrap{position:relative;z-index:10;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;gap:clamp(2rem,5vw,5rem);max-width:1320px;margin:0 auto;padding:clamp(3rem,6vw,5rem) clamp(1.5rem,5vw,4rem)}
+@media(max-width:900px){#gendd-loop-widget .lw-wrap{grid-template-columns:1fr;padding:2.5rem 1.25rem 3rem}}
+
+#gendd-loop-widget .lw-diagram{position:relative;width:100%;max-width:clamp(320px,42vw,560px);margin:0 auto}
+#gendd-loop-widget .lw-diagram svg{width:100%;height:auto;display:block}
+#gendd-loop-widget .lw-clabel{font-family:'Open Sans',sans-serif;text-anchor:middle;dominant-baseline:middle;pointer-events:none}
+
+/* Nodes */
+#gendd-loop-widget .lw-node{cursor:pointer}
+#gendd-loop-widget .lw-node .n-border{transition:stroke-width .3s,stroke-opacity .3s}
+#gendd-loop-widget .lw-node .n-ring{opacity:0;transition:opacity .3s}
+#gendd-loop-widget .lw-node.active .n-border{stroke-width:4;stroke-opacity:1}
+#gendd-loop-widget .lw-node.active .n-ring{opacity:1}
+
+@keyframes lw-spin{to{transform:rotate(360deg)}}
+@keyframes lw-dash{to{stroke-dashoffset:-80}}
+
+/* Steps */
+#gendd-loop-widget .lw-steps{display:flex;flex-direction:column;gap:clamp(.4rem,.6vw,.5rem)}
+#gendd-loop-widget .lw-step{display:flex;align-items:center;gap:clamp(.7rem,1.1vw,.95rem);padding:clamp(.75rem,1.15vw,.95rem) clamp(1rem,1.4vw,1.2rem);border-radius:10px;border:1px solid rgba(0,0,0,.06);background:rgba(0,0,0,.015);cursor:pointer;transition:background .2s,border-color .2s,box-shadow .2s;position:relative;overflow:hidden}
+#gendd-loop-widget .lw-step::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:transparent;transition:background .2s}
+#gendd-loop-widget .lw-step:hover{background:rgba(0,0,0,.025);border-color:rgba(0,0,0,.09)}
+
+/* Icon circle */
+#gendd-loop-widget .lw-ico{width:clamp(36px,3.4vw,44px);height:clamp(36px,3.4vw,44px);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(0,0,0,.025);border:1.5px solid rgba(0,0,0,.06);transition:background .2s,border-color .2s}
+#gendd-loop-widget .lw-ico svg{width:clamp(16px,1.6vw,20px);height:clamp(16px,1.6vw,20px);stroke:rgba(26,26,46,.3);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;transition:stroke .2s}
+
+#gendd-loop-widget .lw-step-body{flex:1;min-width:0}
+#gendd-loop-widget .lw-step-head{display:flex;align-items:center;gap:clamp(.4rem,.6vw,.5rem)}
+#gendd-loop-widget .lw-step-num{font-family:'Space Grotesk',sans-serif;font-size:clamp(.6rem,.75vw,.68rem);font-weight:800;color:rgba(26,26,46,.2);letter-spacing:.04em;transition:color .2s}
+#gendd-loop-widget .lw-step-name{font-family:'Open Sans',sans-serif;font-size:clamp(1.05rem,1.4vw,1.22rem);font-weight:800;color:rgba(26,26,46,.7);transition:color .2s;letter-spacing:-.01em}
+#gendd-loop-widget .lw-step-sub{font-family:'Open Sans',sans-serif;font-size:clamp(.76rem,.95vw,.86rem);color:rgba(26,26,46,.4);line-height:1.5;max-height:0;overflow:hidden;opacity:0;transition:max-height .35s,opacity .25s,margin .25s}
+
+#gendd-loop-widget .lw-badge{flex-shrink:0;padding:.22rem .6rem;border-radius:5px;font-family:'Open Sans',sans-serif;font-size:clamp(.55rem,.7vw,.62rem);font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1px solid rgba(0,0,0,.06);background:rgba(0,0,0,.02);color:rgba(26,26,46,.35);transition:all .2s}
+
+#gendd-loop-widget .lw-step.active{background:rgba(0,0,0,.02);border-color:rgba(0,0,0,.1);box-shadow:0 2px 16px rgba(0,0,0,.06)}
+#gendd-loop-widget .lw-step.active .lw-step-sub{max-height:60px;opacity:1;margin-top:.25rem}
+
+/* Colors — Context */
+#gendd-loop-widget .lw-step[data-n="context"].active::before{background:#1a9e3f}
+#gendd-loop-widget .lw-step[data-n="context"].active .lw-step-name{color:#1a9e3f}
+#gendd-loop-widget .lw-step[data-n="context"].active .lw-step-num{color:rgba(26,158,63,.5)}
+#gendd-loop-widget .lw-step[data-n="context"].active .lw-ico{background:rgba(26,158,63,.07);border-color:rgba(26,158,63,.2)}
+#gendd-loop-widget .lw-step[data-n="context"].active .lw-ico svg{stroke:#1a9e3f}
+#gendd-loop-widget .lw-step[data-n="context"].active .lw-badge{border-color:rgba(26,158,63,.2);color:#1a9e3f;background:rgba(26,158,63,.06)}
+
+/* Colors — Plan */
+#gendd-loop-widget .lw-step[data-n="plan"].active::before{background:#c96a15}
+#gendd-loop-widget .lw-step[data-n="plan"].active .lw-step-name{color:#c96a15}
+#gendd-loop-widget .lw-step[data-n="plan"].active .lw-step-num{color:rgba(201,106,21,.5)}
+#gendd-loop-widget .lw-step[data-n="plan"].active .lw-ico{background:rgba(201,106,21,.07);border-color:rgba(201,106,21,.2)}
+#gendd-loop-widget .lw-step[data-n="plan"].active .lw-ico svg{stroke:#c96a15}
+#gendd-loop-widget .lw-step[data-n="plan"].active .lw-badge{border-color:rgba(201,106,21,.2);color:#c96a15;background:rgba(201,106,21,.06)}
+
+/* Colors — Confirm */
+#gendd-loop-widget .lw-step[data-n="confirm"].active::before{background:#b8a008}
+#gendd-loop-widget .lw-step[data-n="confirm"].active .lw-step-name{color:#b8a008}
+#gendd-loop-widget .lw-step[data-n="confirm"].active .lw-step-num{color:rgba(184,160,8,.5)}
+#gendd-loop-widget .lw-step[data-n="confirm"].active .lw-ico{background:rgba(184,160,8,.07);border-color:rgba(184,160,8,.2)}
+#gendd-loop-widget .lw-step[data-n="confirm"].active .lw-ico svg{stroke:#b8a008}
+#gendd-loop-widget .lw-step[data-n="confirm"].active .lw-badge{border-color:rgba(184,160,8,.2);color:#b8a008;background:rgba(184,160,8,.06)}
+
+/* Colors — Execute */
+#gendd-loop-widget .lw-step[data-n="execute"].active::before{background:#14917e}
+#gendd-loop-widget .lw-step[data-n="execute"].active .lw-step-name{color:#14917e}
+#gendd-loop-widget .lw-step[data-n="execute"].active .lw-step-num{color:rgba(20,145,126,.5)}
+#gendd-loop-widget .lw-step[data-n="execute"].active .lw-ico{background:rgba(20,145,126,.07);border-color:rgba(20,145,126,.2)}
+#gendd-loop-widget .lw-step[data-n="execute"].active .lw-ico svg{stroke:#14917e}
+#gendd-loop-widget .lw-step[data-n="execute"].active .lw-badge{border-color:rgba(20,145,126,.2);color:#14917e;background:rgba(20,145,126,.06)}
+
+/* Colors — Validate */
+#gendd-loop-widget .lw-step[data-n="validate"].active::before{background:#1e6ea0}
+#gendd-loop-widget .lw-step[data-n="validate"].active .lw-step-name{color:#1e6ea0}
+#gendd-loop-widget .lw-step[data-n="validate"].active .lw-step-num{color:rgba(30,110,160,.5)}
+#gendd-loop-widget .lw-step[data-n="validate"].active .lw-ico{background:rgba(30,110,160,.07);border-color:rgba(30,110,160,.2)}
+#gendd-loop-widget .lw-step[data-n="validate"].active .lw-ico svg{stroke:#1e6ea0}
+#gendd-loop-widget .lw-step[data-n="validate"].active .lw-badge{border-color:rgba(30,110,160,.2);color:#1e6ea0;background:rgba(30,110,160,.06)}
+
+#gendd-loop-widget .lw-a{opacity:0;transform:translateY(24px);filter:blur(6px);transition:opacity .7s ease,transform .7s ease,filter .7s ease}
+#gendd-loop-widget .lw-a.lw-v{opacity:1;transform:translateY(0);filter:blur(0)}

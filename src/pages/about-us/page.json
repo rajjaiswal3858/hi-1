@@ -1,0 +1,29 @@
+{
+  "route": "/about-us/",
+  "title": "About Us | HatchWorks AI",
+  "description": "We are a team that believes AI should earn its place, by doing real work and delivering real outcomes grounded in your data. This is how we got here.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "About Us | HatchWorks AI",
+    "og:description": "We are a team that believes AI should earn its place, by doing real work and delivering real outcomes grounded in your data. This is how we got here.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "About Us | HatchWorks AI",
+    "twitter:description": "We are a team that believes AI should earn its place, by doing real work and delivering real outcomes grounded in your data. This is how we got here.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-29970 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29970 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-29970.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

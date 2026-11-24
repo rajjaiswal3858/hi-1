@@ -1,0 +1,193 @@
+#geneq{--gq-base:#101419;--gq-tx:12%;--gq-ty:-6%;--gq-ta:.085;--gq-bx:92%;--gq-by:108%;--gq-ba:.055;
+  position:relative;isolation:isolate;width:100%;overflow-x:clip;background:var(--gq-base);color:#fff;
+  font-family:'Open Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+#geneq *,#geneq *::before,#geneq *::after{box-sizing:border-box}
+#geneq p,#geneq h1,#geneq h2,#geneq h3,#geneq ul{margin:0}
+#geneq a{text-decoration:none}
+#geneq img{max-width:100%}
+
+#geneq .gq-wash{position:sticky;top:0;z-index:0;height:100vh;margin-bottom:-100vh;pointer-events:none;
+  background-repeat:no-repeat,no-repeat;
+  background-image:radial-gradient(1100px 780px at var(--gq-tx) var(--gq-ty),rgba(58,189,188,var(--gq-ta)),transparent 62%),
+                   radial-gradient(940px 660px at var(--gq-bx) var(--gq-by),rgba(16,117,139,var(--gq-ba)),transparent 66%)}
+#geneq .gq-body{position:relative;z-index:1}
+#geneq section{padding:clamp(56px,7vw,104px) clamp(20px,5vw,64px)}
+#geneq .gq-band{border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05);background:rgba(255,255,255,.012)}
+
+@keyframes gqPulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes gqIn{from{opacity:0;translate:0 18px}to{opacity:1;translate:none}}
+@keyframes gqRail{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes gqDrift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-26px,0)}}
+#geneq [data-reveal]{animation:gqIn .7s cubic-bezier(.2,.8,.2,1) both}
+@supports (animation-timeline:view()){#geneq [data-reveal]{animation-timeline:view();animation-range:entry 0% cover 16%;animation-duration:auto;animation-delay:0s}}
+#geneq [data-rail]{transform-origin:top}
+@supports (animation-timeline:view()){#geneq [data-rail]{animation:gqRail linear both;animation-timeline:view();animation-range:cover 6% cover 58%}}
+@media(prefers-reduced-motion:reduce){#geneq [data-reveal],#geneq [data-rail],#geneq [data-drift],#geneq .gq-dot,#geneq .gq-spark::after,#geneq .gq-ring{animation:none}}
+
+#geneq .gq-eyebrow{display:inline-flex;align-items:center;gap:.55rem;font-size:clamp(.66rem,.9vw,.78rem);font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#3abdbc}
+#geneq .gq-dot{width:6px;height:6px;border-radius:50%;background:currentColor;animation:gqPulse 2.4s ease-in-out infinite;flex:none}
+#geneq .gq-h2{font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(1.7rem,3.6vw,2.9rem);font-weight:700;line-height:1.1;letter-spacing:-.028em;color:#fff;max-width:24ch;text-wrap:balance}
+#geneq .gq-teal{color:#3abdbc}
+#geneq .gq-lead{font-size:clamp(.9rem,1.15vw,1.05rem);line-height:1.6;color:rgba(255,255,255,.58);max-width:62ch;text-wrap:pretty}
+#geneq .gq-head{max-width:64ch;margin:0 auto clamp(2.2rem,4vw,3.2rem);display:flex;flex-direction:column;align-items:center;text-align:center;gap:clamp(.85rem,1.5vw,1.15rem)}
+#geneq .gq-glow{position:absolute;border-radius:50%;filter:blur(120px);pointer-events:none;animation:gqDrift 18s ease-in-out infinite}
+
+#geneq .gq-ico{display:grid;place-items:center;flex:none;color:#3abdbc;background:rgba(58,189,188,.07);border:1px solid rgba(58,189,188,.16)}
+#geneq .gq-ico--mute{color:rgba(255,255,255,.34);background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.08)}
+#geneq .gq-ico svg{stroke:currentColor;stroke-width:1.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+#geneq .gq-btn{display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:clamp(.7rem,1.1vw,.88rem) clamp(1.5rem,2.8vw,2.2rem);font-size:clamp(.88rem,1.1vw,1rem);font-weight:700;color:#080a0d;background:#3abdbc;border-radius:8px;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,gap .25s,background .25s}
+#geneq .gq-btn:hover{transform:translateY(-2px);background:#44cac9;box-shadow:0 10px 36px rgba(58,189,188,.32);gap:.85rem;color:#080a0d}
+#geneq .gq-btn--ghost{padding:clamp(.65rem,1vw,.82rem) clamp(1.2rem,2vw,1.6rem);font-size:clamp(.85rem,1vw,.95rem);font-weight:600;color:rgba(255,255,255,.55);background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.1)}
+#geneq .gq-btn--ghost:hover{transform:none;box-shadow:none;gap:.5rem;background:rgba(58,189,188,.06);border-color:rgba(58,189,188,.4);color:#fff}
+#geneq .gq-link{display:inline-flex;align-items:center;gap:.45rem;min-height:44px;font-size:clamp(.86rem,1.05vw,.96rem);font-weight:700;color:#3abdbc;transition:color .25s,gap .25s}
+#geneq .gq-link:hover{color:#bfefef;gap:.8rem}
+#geneq .gq-link svg{width:15px;height:15px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+#geneq .gq-pill{padding:.42rem .9rem;border:1px solid rgba(58,189,188,.18);border-radius:999px;background:rgba(58,189,188,.05);font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(.72rem,.9vw,.82rem);font-weight:500;letter-spacing:-.01em;color:#bfefef;transition:border-color .25s,background .25s}
+#geneq .gq-pill:hover{border-color:rgba(58,189,188,.4);background:rgba(58,189,188,.1)}
+
+/* pillars */
+#geneq .gq-pillar{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:clamp(.7rem,1.3vw,1rem);padding:clamp(1.7rem,2.8vw,2.4rem) clamp(1.4rem,2.2vw,1.9rem);border:1px solid rgba(255,255,255,.07);border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.015));transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s,box-shadow .3s}
+#geneq .gq-pillar:hover{border-color:rgba(58,189,188,.34);transform:translateY(-4px);box-shadow:0 18px 44px rgba(0,0,0,.32),inset 0 1px 0 rgba(58,189,188,.22)}
+#geneq .gq-pillar::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(58,189,188,.45),transparent)}
+#geneq .gq-ghost{position:absolute;top:-.55rem;right:.6rem;font-family:'Space Grotesk',sans-serif;font-size:clamp(3.4rem,6vw,4.6rem);font-weight:700;line-height:1;color:rgba(255,255,255,.035);pointer-events:none;transition:color .3s}
+#geneq .gq-pillar:hover .gq-ghost{color:rgba(58,189,188,.09)}
+#geneq .gq-pillar h3{font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(1.15rem,1.7vw,1.5rem);font-weight:700;line-height:1.15;letter-spacing:-.02em;color:#fff}
+#geneq .gq-pillar p{font-size:clamp(.85rem,1vw,.95rem);line-height:1.62;color:rgba(255,255,255,.6);text-wrap:pretty}
+
+/* spine timeline */
+#geneq .gq-spine{position:relative;padding-left:clamp(3rem,6vw,5rem)}
+#geneq .gq-spine .rail{position:absolute;left:clamp(1.32rem,2.7vw,2.25rem);top:1.5rem;bottom:2.5rem;width:2px;border-radius:2px;background:rgba(255,255,255,.07)}
+#geneq .gq-spine .rail-fill{background:linear-gradient(180deg,#3abdbc,rgba(58,189,188,.2))}
+#geneq .gq-stepcard{position:relative;display:grid;grid-template-columns:auto 1fr;gap:clamp(1rem,1.8vw,1.4rem);align-items:start;padding:clamp(1.2rem,2.1vw,1.7rem) clamp(1.3rem,2.2vw,1.8rem);border:1px solid rgba(255,255,255,.07);border-radius:16px;background:rgba(255,255,255,.022);transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s,background .3s}
+#geneq .gq-stepcard:hover{border-color:rgba(58,189,188,.3);background:rgba(255,255,255,.04);transform:translateX(5px)}
+#geneq .gq-node{position:absolute;left:calc(-1 * clamp(3rem,6vw,5rem) + clamp(.55rem,1.2vw,1.1rem));top:calc(clamp(1.2rem,2.1vw,1.7rem) - 2px);width:clamp(1.6rem,3.1vw,2.3rem);height:clamp(1.6rem,3.1vw,2.3rem);border-radius:50%;display:grid;place-items:center;font-family:'Space Grotesk',sans-serif;font-size:clamp(.66rem,1vw,.8rem);font-weight:700;color:#3abdbc;background:#12161c;border:1px solid rgba(58,189,188,.4);box-shadow:0 0 0 5px rgba(58,189,188,.07);transition:box-shadow .3s,background .3s}
+#geneq .gq-stepcard:hover .gq-node{box-shadow:0 0 0 7px rgba(58,189,188,.12);background:#161c24}
+#geneq .gq-stepcard h3{font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(1.02rem,1.4vw,1.22rem);font-weight:700;color:#fff;line-height:1.25;letter-spacing:-.018em;text-wrap:balance;margin-bottom:.35rem}
+#geneq .gq-stepcard p{font-size:clamp(.86rem,1.02vw,.96rem);line-height:1.6;color:rgba(255,255,255,.6);text-wrap:pretty;max-width:60ch}
+
+/* deliverable rows */
+#geneq .gq-deliv{display:grid;grid-template-columns:auto auto 1fr;gap:clamp(.85rem,1.5vw,1.25rem);align-items:start;padding:clamp(1.15rem,1.9vw,1.5rem) clamp(.9rem,1.5vw,1.2rem);border-top:1px solid rgba(255,255,255,.07);border-radius:12px;transition:background .3s,padding-left .3s,border-color .3s}
+#geneq .gq-deliv:last-child{border-bottom:1px solid rgba(255,255,255,.07)}
+#geneq .gq-deliv:hover{background:rgba(58,189,188,.05);padding-left:clamp(1.2rem,2.1vw,1.7rem);border-color:rgba(58,189,188,.28)}
+#geneq .gq-idx{font-family:'Space Grotesk',sans-serif;font-size:clamp(.72rem,.95vw,.82rem);font-weight:700;letter-spacing:.08em;color:rgba(58,189,188,.7);padding-top:.65rem;min-width:1.6rem}
+#geneq .gq-deliv h3{font-size:clamp(.98rem,1.2vw,1.1rem);font-weight:700;color:#fff;letter-spacing:-.015em;line-height:1.3;margin-bottom:.35rem}
+#geneq .gq-deliv p{font-size:clamp(.85rem,1vw,.94rem);line-height:1.6;color:rgba(255,255,255,.58);text-wrap:pretty}
+
+/* applies list */
+#geneq .gq-applies li{display:grid;grid-template-columns:auto 1fr;gap:.8rem;align-items:start;padding:.7rem .85rem;border-radius:10px;transition:background .3s}
+#geneq .gq-applies li:hover{background:rgba(255,255,255,.035)}
+#geneq .gq-check{width:19px;height:19px;margin-top:.22rem;flex:none;stroke:#3abdbc;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#geneq .gq-applies span{font-size:clamp(.9rem,1.08vw,1rem);line-height:1.55;color:rgba(255,255,255,.74);text-wrap:pretty}
+
+#geneq .gq-chip{padding:.7rem .95rem;border:1px solid rgba(255,255,255,.06);border-radius:10px;background:rgba(255,255,255,.02);font-size:clamp(.84rem,1vw,.93rem);line-height:1.45;color:rgba(255,255,255,.6)}
+
+/* ═══════════════════════════════════════════════════════════════
+   RAIL — "Where GenEQ fits" (armonizado con GenDD SECCION 09)
+   ═══════════════════════════════════════════════════════════════ */
+#geneq .gq-rail{--gq-node:clamp(54px,5.4vw,64px);--gq-fill:1;position:relative;max-width:1040px;margin:0 auto}
+#geneq .gq-track{position:absolute;left:16.667%;right:16.667%;top:calc(var(--gq-node)/2 - 1px);height:2px;border-radius:2px;background:rgba(255,255,255,.07)}
+#geneq .gq-track::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.2) 0 5px,transparent 5px 11px)}
+#geneq .gq-fill{position:absolute;inset:0;z-index:1;border-radius:2px;background:linear-gradient(90deg,#3abdbc,#71c7d2);box-shadow:0 0 14px rgba(58,189,188,.4);transform-origin:left center;transform:scaleX(var(--gq-fill))}
+@keyframes gqRailX{from{transform:scaleX(0)}to{transform:scaleX(var(--gq-fill))}}
+@keyframes gqRailY{from{transform:scaleY(0)}to{transform:scaleY(var(--gq-fill))}}
+@supports (animation-timeline:view()){#geneq .gq-fill{animation:gqRailX linear both;animation-timeline:view();animation-range:cover 6% cover 54%}}
+#geneq .gq-spark{position:absolute;z-index:2;left:0;right:0;top:0;height:2px;pointer-events:none}
+#geneq .gq-spark::after{content:'';position:absolute;top:50%;left:0;width:8px;height:8px;margin:-4px 0 0 -4px;border-radius:50%;background:#bfefef;box-shadow:0 0 12px 3px rgba(58,189,188,.7);animation:gqSpark 4.2s cubic-bezier(.4,0,.6,1) 1.5s infinite}
+@keyframes gqSpark{0%{opacity:0;left:0}12%{opacity:1}86%{opacity:1}100%{opacity:0;left:100%}}
+@keyframes gqSparkV{0%{opacity:0;top:0}12%{opacity:1}86%{opacity:1}100%{opacity:0;top:100%}}
+
+#geneq .gq-nodes{position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.6rem,1.4vw,1.4rem)}
+#geneq .gq-step{display:flex;flex-direction:column;align-items:center;text-align:center;gap:clamp(.5rem,.9vw,.7rem)}
+#geneq .gq-nd{position:relative;width:var(--gq-node);height:var(--gq-node);flex:none;border-radius:50%;display:grid;place-items:center;color:rgba(255,255,255,.34);background:rgba(21,25,32,.92);border:1px solid rgba(255,255,255,.1);transition:color .3s,border-color .3s,background .3s,box-shadow .3s}
+#geneq .gq-nd svg{width:clamp(21px,2vw,25px);height:clamp(21px,2vw,25px);stroke:currentColor;stroke-width:1.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+#geneq .gq-ring{position:absolute;inset:-1px;border-radius:50%;border:1px solid #3abdbc;opacity:0;pointer-events:none}
+#geneq .gq-step:hover .gq-nd{color:#3abdbc;border-color:rgba(58,189,188,.38);background:rgba(58,189,188,.07)}
+#geneq .gq-step--here .gq-nd{color:#3abdbc;border-color:rgba(58,189,188,.55);background:rgba(58,189,188,.08);box-shadow:0 0 0 4px rgba(58,189,188,.07),0 0 24px rgba(58,189,188,.2)}
+#geneq .gq-step--here .gq-ring{animation:gqRing 3s cubic-bezier(.2,.8,.2,1) 1.5s infinite}
+@keyframes gqRing{0%{opacity:.65;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.5)}}
+#geneq .gq-stem{width:1px;height:clamp(14px,1.8vw,22px);background:linear-gradient(180deg,rgba(255,255,255,.16),transparent);transition:background .3s}
+#geneq .gq-step:hover .gq-stem,#geneq .gq-step--here .gq-stem{background:linear-gradient(180deg,rgba(58,189,188,.65),transparent)}
+#geneq .gq-stepbody{display:flex;flex-direction:column;align-items:center;gap:clamp(.4rem,.7vw,.55rem)}
+#geneq .gq-steptag{font-family:'Space Grotesk',sans-serif;font-size:clamp(.7rem,.85vw,.78rem);font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.5);transition:color .3s}
+#geneq .gq-step:hover .gq-steptag,#geneq .gq-step--here .gq-steptag{color:#3abdbc}
+#geneq .gq-steptxt{font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(1rem,1.35vw,1.15rem);font-weight:700;line-height:1.28;letter-spacing:-.02em;color:rgba(255,255,255,.68);max-width:21ch;text-wrap:balance;transition:color .3s}
+#geneq .gq-step:hover .gq-steptxt,#geneq .gq-step--here .gq-steptxt{color:#fff}
+
+@media(max-width:840px){
+  #geneq .gq-rail{max-width:420px}
+  #geneq .gq-track{left:calc(var(--gq-node)/2 - 1px);right:auto;top:calc(var(--gq-node)/2);bottom:calc(var(--gq-node)/2);width:2px;height:auto}
+  #geneq .gq-track::after{background:repeating-linear-gradient(180deg,rgba(255,255,255,.2) 0 5px,transparent 5px 11px)}
+  #geneq .gq-fill{background:linear-gradient(180deg,#3abdbc,#71c7d2);transform-origin:center top;transform:scaleY(var(--gq-fill))}
+  #geneq .gq-spark{left:0;right:auto;top:0;bottom:0;width:2px;height:auto}
+  #geneq .gq-spark::after{left:50%;top:0;animation-name:gqSparkV}
+  #geneq .gq-nodes{grid-template-columns:1fr;gap:clamp(1.5rem,4vw,2rem)}
+  #geneq .gq-step{flex-direction:row;align-items:flex-start;text-align:left;gap:clamp(.9rem,3vw,1.1rem)}
+  #geneq .gq-stem{display:none}
+  #geneq .gq-stepbody{align-items:flex-start;padding-top:.35rem}
+  #geneq .gq-steptxt{max-width:none}
+}
+@supports (animation-timeline:view()){@media(max-width:840px){#geneq .gq-fill{animation-name:gqRailY}}}
+
+/* tarjetas de producto bajo el rail */
+#geneq .gq-prod{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(.6rem,1vw,.85rem);max-width:880px;margin:clamp(1.7rem,3vw,2.5rem) auto 0}
+@media(max-width:700px){#geneq .gq-prod{grid-template-columns:1fr;max-width:460px}}
+#geneq .gq-pcard{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:clamp(.7rem,1.1vw,.95rem);padding:clamp(1.3rem,2.1vw,1.7rem);border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.025);overflow:hidden;min-height:44px;transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s,background .3s}
+#geneq .gq-pcard::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#3abdbc,#71c7d2);transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+#geneq .gq-pcard:hover{border-color:rgba(58,189,188,.3);background:rgba(58,189,188,.055);transform:translateY(-3px)}
+#geneq .gq-pcard:hover::before{transform:scaleX(1)}
+#geneq .gq-pcard:focus-visible{outline:2px solid #3abdbc;outline-offset:2px}
+#geneq .gq-pcard img{height:clamp(24px,2.5vw,30px);width:auto;max-width:180px;display:block;object-fit:contain;object-position:left center}
+#geneq .gq-pmark{display:flex;align-items:center;min-height:clamp(24px,2.5vw,30px)}
+#geneq .gq-pwm{font-family:'Space Grotesk','Open Sans',sans-serif;font-size:clamp(1.05rem,1.5vw,1.3rem);font-weight:700;letter-spacing:-.022em;line-height:1;color:#fff}
+#geneq .gq-pwm b{font-weight:700;color:#3abdbc}
+#geneq .gq-pt{font-size:clamp(.92rem,1.15vw,1.05rem);font-weight:600;line-height:1.35;color:rgba(255,255,255,.7);text-wrap:pretty;transition:color .3s}
+#geneq .gq-pcard:hover .gq-pt{color:#fff}
+#geneq .gq-pgo{display:inline-flex;align-items:center;gap:.42rem;margin-top:auto;font-family:'Space Grotesk',sans-serif;font-size:clamp(.72rem,.88vw,.8rem);font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#3abdbc;transition:color .25s,gap .25s}
+#geneq .gq-pcard:hover .gq-pgo{color:#bfefef;gap:.62rem}
+#geneq .gq-pgo svg{width:14px;height:14px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round;transition:transform .28s cubic-bezier(.2,.8,.2,1)}
+#geneq .gq-pcard:hover .gq-pgo svg{transform:translate(3px,-3px)}
+
+/* ═══════════════════════════════════════════════════════════════
+   CTA FINAL — trust row, botón toggle y panel de formulario
+   ═══════════════════════════════════════════════════════════════ */
+#geneq button.gq-btn{border:0;cursor:pointer;font-family:inherit}
+#geneq .gq-btn svg{width:15px;height:15px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:none}
+#geneq .gq-caret{width:16px;height:16px;stroke-width:2.5;transition:transform .25s}
+#geneq .gq-btn.open .gq-caret{transform:rotate(180deg)}
+#geneq .gq-trust{display:flex;align-items:center;gap:clamp(.8rem,1.5vw,1.4rem);flex-wrap:wrap;justify-content:center}
+#geneq .gq-trust span{display:flex;align-items:center;gap:.4rem;font-size:clamp(.66rem,.85vw,.76rem);font-weight:600;color:rgba(255,255,255,.35);white-space:nowrap}
+#geneq .gq-trust svg{width:15px;height:15px;stroke:#3abdbc;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;flex:none}
+#geneq .gq-panel{width:100%;max-width:100%;max-height:0;overflow:hidden;opacity:0;margin-top:0;transition:max-height .5s cubic-bezier(.23,1,.32,1),opacity .4s,margin .4s}
+#geneq .gq-panel.open{max-height:3000px;opacity:1;margin-top:clamp(.8rem,1.5vw,1.2rem);overflow:visible}
+#geneq .gq-formcard{border-radius:18px;padding:clamp(1.8rem,3vw,2.8rem) clamp(2rem,4vw,3.5rem);background:#fff;box-shadow:0 4px 20px rgba(0,0,0,.08);text-align:left}
+
+/* HubSpot — mismas reglas que GenDD / GenROI, tarjeta blanca */
+#geneq .gq-form .hs-form{font-family:'Open Sans',sans-serif !important}
+#geneq .gq-form fieldset{max-width:100% !important}
+#geneq .gq-form fieldset.form-columns-1 .hs-form-field,
+#geneq .gq-form fieldset.form-columns-2 .hs-form-field{padding:0 !important}
+#geneq .gq-form fieldset.form-columns-2{display:grid !important;grid-template-columns:1fr 1fr !important;gap:.6rem !important}
+@media(max-width:500px){#geneq .gq-form fieldset.form-columns-2{grid-template-columns:1fr !important}}
+#geneq .gq-form .hs-form-field{margin-bottom:clamp(.5rem,.8vw,.6rem) !important}
+#geneq .gq-form label:not(.hs-error-msg){font-family:'Open Sans',sans-serif !important;font-size:clamp(.58rem,.72vw,.64rem) !important;font-weight:700 !important;color:rgba(26,30,42,.4) !important;letter-spacing:.04em !important;text-transform:uppercase !important;margin-bottom:.2rem !important;display:block !important}
+#geneq .gq-form .hs-input{width:100% !important;padding:clamp(.52rem,.8vw,.65rem) clamp(.7rem,1vw,.85rem) !important;border-radius:8px !important;border:1px solid rgba(26,30,42,.12) !important;background:#f8f9fa !important;color:#1a1e2a !important;font-family:'Open Sans',sans-serif !important;font-size:clamp(.76rem,.95vw,.86rem) !important;outline:none !important;transition:border-color .2s,background .2s,box-shadow .2s !important;-webkit-appearance:none !important}
+#geneq .gq-form .hs-input:focus{border-color:#3abdbc !important;background:#fff !important;box-shadow:0 0 0 3px rgba(58,189,188,.1) !important}
+#geneq .gq-form .hs-input::placeholder{color:rgba(26,30,42,.25) !important}
+#geneq .gq-form select.hs-input{color:rgba(26,30,42,.5) !important}
+#geneq .gq-form textarea.hs-input{min-height:80px !important;resize:vertical !important}
+#geneq .gq-form .hs-submit{margin-top:clamp(.4rem,.6vw,.5rem) !important}
+#geneq .gq-form .hs-button{width:100% !important;padding:clamp(.65rem,1vw,.78rem) !important;border-radius:8px !important;border:none !important;background:#3abdbc !important;color:#fff !important;font-family:'Open Sans',sans-serif !important;font-size:clamp(.82rem,1.05vw,.92rem) !important;font-weight:700 !important;cursor:pointer !important;transition:transform .2s,box-shadow .2s,background .2s !important}
+#geneq .gq-form .hs-button:hover{transform:translateY(-1px) !important;box-shadow:0 6px 24px rgba(58,189,188,.3) !important;background:#2fa8a7 !important}
+#geneq .gq-form .hs-error-msgs{list-style:none !important;padding:0 !important;margin:.15rem 0 0 !important}
+#geneq .gq-form .hs-error-msgs li label,
+#geneq .gq-form .hs-error-msg{color:#e97845 !important;font-size:clamp(.52rem,.65vw,.56rem) !important;font-weight:600 !important;text-transform:none !important;letter-spacing:0 !important}
+#geneq .gq-form .legal-consent-container{margin-top:.4rem !important}
+#geneq .gq-form .legal-consent-container p,
+#geneq .gq-form .legal-consent-container span,
+#geneq .gq-form .legal-consent-container label{font-size:clamp(.5rem,.62vw,.54rem) !important;color:rgba(26,30,42,.3) !important;line-height:1.4 !important;text-transform:none !important;letter-spacing:0 !important;font-weight:400 !important}
+#geneq .gq-form .legal-consent-container a{color:#3abdbc !important}
+#geneq .gq-form .submitted-message{font-family:'Open Sans',sans-serif !important;font-size:clamp(.95rem,1.2vw,1.05rem) !important;font-weight:700 !important;color:#3abdbc !important;text-align:center !important;padding:2rem 1rem !important}
+#geneq .gq-form .hs-richtext{font-size:clamp(.55rem,.7vw,.6rem) !important;color:rgba(26,30,42,.3) !important;line-height:1.4 !important}
+#geneq .gq-form .hs-richtext a{color:#3abdbc !important}

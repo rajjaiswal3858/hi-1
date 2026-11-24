@@ -1,0 +1,32 @@
+{
+  "route": "/tech-talent-report-2024/",
+  "title": "Nearshore Tech Talent Report - Latin America's Software Scene in 2024 | HatchWorks AI",
+  "description": "An overview of the fast-changing software development landscape in Latin America in 2024.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Nearshore Tech Talent Report - Latin America's Software Scene in 2024 | HatchWorks AI",
+    "og:description": "An overview of the fast-changing software development landscape in Latin America in 2024.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/02/tech-talent-report-1024x898.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Nearshore Tech Talent Report - Latin America's Software Scene in 2024 | HatchWorks AI",
+    "twitter:description": "An overview of the fast-changing software development landscape in Latin America in 2024.",
+    "twitter:image": "/assets/wp-content/uploads/2024/02/tech-talent-report-1024x898.webp"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-30906 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30906 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30906.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

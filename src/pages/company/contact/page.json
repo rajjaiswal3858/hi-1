@@ -1,0 +1,31 @@
+{
+  "route": "/company/contact/",
+  "title": "Contact | HatchWorks AI",
+  "description": "Get in touch with HatchWorks! Find our contact information, locations of our USA and LaTAM offices, and connect with us on social media. Learn more about our approach, explore our blog, and discover career opportunities.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Contact | HatchWorks AI",
+    "og:description": "Get in touch with HatchWorks! Find our contact information, locations of our USA and LaTAM offices, and connect with us on social media. Learn more about our approach, explore our blog, and discover career opportunities.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Contact | HatchWorks AI",
+    "twitter:description": "Get in touch with HatchWorks! Find our contact information, locations of our USA and LaTAM offices, and connect with us on social media. Learn more about our approach, explore our blog, and discover career opportunities.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg"
+  },
+  "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-28232 page-child parent-pageid-15443 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-28232",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28232.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,40 @@
+{
+  "route": "/blog/gendd/human-in-the-loop/",
+  "title": "The Execution Loop: Why \"Human-in-the-Loop\" Isn't Enough",
+  "description": "Human-in-the-loop is a principle, not a process. GenDD's Execution Loop turns it into a governed AI development cycle: Context→Plan→Confirm→Execute→Validate.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The Execution Loop: Why \"Human-in-the-Loop\" Isn't Enough",
+    "og:description": "Human-in-the-loop is a principle, not a process. GenDD's Execution Loop turns it into a governed AI development cycle: Context→Plan→Confirm→Execute→Validate.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/why-human-loop-isnt-enough2-1-1024x1024.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Execution Loop: Why \"Human-in-the-Loop\" Isn't Enough",
+    "twitter:description": "Human-in-the-loop is a principle, not a process. GenDD's Execution Loop turns it into a governed AI development cycle: Context→Plan→Confirm→Execute→Validate.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/why-human-loop-isnt-enough2-1-1024x1024.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35119 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35119 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35119.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

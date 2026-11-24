@@ -1,0 +1,33 @@
+{
+  "route": "/resource/events/deploy-llm-locally/",
+  "title": "How to Deploy an LLM on Your Own Machine | HatchWorks AI",
+  "description": "David Berrio explains how to deploy LLMs locally using RAG models for more flexibility and cost efficiency. Start deploying today!",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How to Deploy an LLM on Your Own Machine | HatchWorks AI",
+    "og:description": "David Berrio explains how to deploy LLMs locally using RAG models for more flexibility and cost efficiency. Start deploying today!",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/04/LLM-webinar.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How to Deploy an LLM on Your Own Machine | HatchWorks AI",
+    "twitter:description": "David Berrio explains how to deploy LLMs locally using RAG models for more flexibility and cost efficiency. Start deploying today!",
+    "twitter:image": "/assets/wp-content/uploads/2024/04/LLM-webinar.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-31212 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-31212",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31212.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,61 @@
+/* ── Scoped isolation ──────────────────────────────────────────────────────
+   Element styling is inline (already outranks theme stylesheets). These rules
+   exist only to undo theme/Elementor declarations that use !important, and to
+   re-assert the CTA and hover design at the same priority. Interactive states
+   are written by the script with priority "important", so they still win.     */
+
+#cre-cs, #cre-cs *, #cre-cs *::before, #cre-cs *::after { box-sizing: border-box !important; }
+#cre-cs { max-width: 100% !important; }
+#cre-cs p, #cre-cs h1, #cre-cs h2, #cre-cs h3, #cre-cs figure, #cre-cs figcaption { margin: 0; padding: 0; }
+#cre-cs ul, #cre-cs ol { list-style: none !important; margin: 0 !important; padding: 0 !important; }
+#cre-cs li { margin: 0 !important; list-style: none !important; }
+#cre-cs li::before, #cre-cs li::marker { content: none !important; }
+#cre-cs img { max-width: 100% !important; }
+#cre-cs svg { vertical-align: middle; }
+#cre-cs *:focus-visible { outline: 2px solid #3ABDBC !important; outline-offset: 2px !important; }
+
+/* DataTable (flattened) — themes love to restyle tables */
+#cre-cs table { width: 100% !important; border-collapse: collapse !important; margin: 0 !important; border: 0 !important; background: transparent !important; }
+#cre-cs thead, #cre-cs tbody, #cre-cs tr { border: 0 !important; }
+#cre-cs th, #cre-cs td { border-left: 0 !important; border-right: 0 !important; border-top: 0 !important; }
+
+/* links */
+#cre-cs a { text-decoration: none !important; background-image: none !important; box-shadow: none !important; }
+#cre-cs a:hover, #cre-cs a:focus { text-decoration: none !important; }
+#cre-cs [data-nav] { font-size: 13px !important; color: #5B6170 !important; transition: color .2s !important; }
+
+/* Button (flattened) — BTN_BASE + BTN_SIZES.md from the design system */
+#cre-cs [data-ds-btn] {
+  font-family: 'Open Sans', Arial, sans-serif !important; font-weight: 700 !important;
+  font-size: 14px !important; line-height: 1.2 !important; border-radius: 8px !important;
+  padding: 12px 20px !important; min-height: 44px !important;
+  border: 1px solid transparent !important; cursor: pointer !important;
+  display: inline-flex !important; align-items: center !important; gap: 8px !important;
+  text-transform: none !important; letter-spacing: normal !important; width: auto !important;
+  transition: background 200ms cubic-bezier(.2,.8,.2,1), border-color 200ms cubic-bezier(.2,.8,.2,1), color 200ms cubic-bezier(.2,.8,.2,1) !important;
+}
+#cre-cs [data-ds-btn="primary"] { background: #E97845 !important; color: #FFFFFF !important; }
+#cre-cs [data-ds-btn="primary"]:hover { background: #D96A38 !important; }
+#cre-cs [data-ds-btn="secondary"] { background: transparent !important; color: #FFFFFF !important; border-color: rgba(255,255,255,0.12) !important; }
+#cre-cs [data-ds-btn="secondary"]:hover { border-color: rgba(255,255,255,0.4) !important; }
+
+/* microinteractions */
+#cre-cs [data-hover="lift"] { transition: transform .2s cubic-bezier(.2,.8,.2,1), border-color .2s, box-shadow .2s !important; }
+#cre-cs [data-hover="lift"]:hover { transform: translateY(-4px) !important; border-color: #DCDDDE !important; box-shadow: 0 1px 2px rgba(21,25,32,.06) !important; }
+#cre-cs [data-hover="row"] { transition: background .2s !important; }
+#cre-cs [data-hover="row"]:hover { background: #F8F8F8 !important; }
+#cre-cs [data-hover="chip"] { transition: transform .12s cubic-bezier(.2,.8,.2,1), border-color .12s !important; }
+#cre-cs [data-hover="chip"]:hover { transform: translateY(-4px) !important; border-color: #DCDDDE !important; }
+#cre-cs [data-bar-row] [data-bar] { transition: filter .2s; }
+#cre-cs [data-bar-row]:hover [data-bar] { filter: brightness(1.06); }
+
+@keyframes creFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 700px) {
+  #cre-cs [data-grid2] { grid-template-columns: 1fr !important; }
+  #cre-cs [data-ba-row] { grid-template-columns: 1fr !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #cre-cs *, #cre-cs *::before, #cre-cs *::after { animation: none !important; transition: none !important; }
+  #cre-cs [data-hover]:hover, #cre-cs [data-ds-btn]:hover { transform: none !important; }
+}

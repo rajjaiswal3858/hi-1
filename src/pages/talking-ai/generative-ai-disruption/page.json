@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/generative-ai-disruption/",
+  "title": "Generative AI: Disrupting Software Development | HatchWorks AI",
+  "description": "Join Brandon Powell and J Schwan in Season 2, Episode 10 of the Built Right Podcast as they explore how Generative AI is disrupting software development and shaping the future of tech. Tune in for insights on the transformative impact of AI.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Generative AI: Disrupting Software Development | HatchWorks AI",
+    "og:description": "Join Brandon Powell and J Schwan in Season 2, Episode 10 of the Built Right Podcast as they explore how Generative AI is disrupting software development and shaping the future of tech. Tune in for insights on the transformative impact of AI.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/S2E10-J-Schwan-and-Brandon-Powell-Generative-AI-Disrupting-Software-Development.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Generative AI: Disrupting Software Development | HatchWorks AI",
+    "twitter:description": "Join Brandon Powell and J Schwan in Season 2, Episode 10 of the Built Right Podcast as they explore how Generative AI is disrupting software development and shaping the future of tech. Tune in for insights on the transformative impact of AI.",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/S2E10-J-Schwan-and-Brandon-Powell-Generative-AI-Disrupting-Software-Development.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-31446 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-31446 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31446.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

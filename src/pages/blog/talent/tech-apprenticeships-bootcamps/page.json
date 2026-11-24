@@ -1,0 +1,42 @@
+{
+  "route": "/blog/talent/tech-apprenticeships-bootcamps/",
+  "title": "Tech Apprenticeships and Bootcamps are on the Rise | HatchWorks AI",
+  "description": "Tech apprenticeships and bootcamps offer an accessible and affordable way to gain the skills needed for a successful career. It's time to level up your career with tech apprenticeships and bootcamps.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Tech Apprenticeships and Bootcamps are on the Rise | HatchWorks AI",
+    "og:description": "Tech apprenticeships and bootcamps offer an accessible and affordable way to gain the skills needed for a successful career. It's time to level up your career with tech apprenticeships and bootcamps.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/04/thumbnail-Tech-Apprenticeships-and-Bootcamps-Are-on-the-Rise-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Tech Apprenticeships and Bootcamps are on the Rise | HatchWorks AI",
+    "twitter:description": "Tech apprenticeships and bootcamps offer an accessible and affordable way to gain the skills needed for a successful career. It's time to level up your career with tech apprenticeships and bootcamps.",
+    "twitter:image": "/assets/wp-content/uploads/2023/04/thumbnail-Tech-Apprenticeships-and-Bootcamps-Are-on-the-Rise-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29507 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29507 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29507.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

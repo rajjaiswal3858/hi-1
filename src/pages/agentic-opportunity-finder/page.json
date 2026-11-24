@@ -1,0 +1,33 @@
+{
+  "route": "/agentic-opportunity-finder/",
+  "title": "Agentic Opportunity Finder | HatchWorks AI",
+  "description": "Our AI Agent Assessment evaluates your workflows, uncovers high-value automation opportunities, and provides a clear, actionable roadmap to implement AI—so",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Agentic Opportunity Finder | HatchWorks AI",
+    "og:description": "Our way of codifying the efficiency gains of AI across product, discovery, design, development, QA, DevOps…every part of the software development lifecycle.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/AGENTIC-ASSESMENT-TN.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Agentic Opportunity Finder | HatchWorks AI",
+    "twitter:description": "Our way of codifying the efficiency gains of AI across product, discovery, design, development, QA, DevOps…every part of the software development lifecycle.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/AGENTIC-ASSESMENT-TN.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35064 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35064 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35064.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,41 @@
+{
+  "route": "/news/top-100-react-js-development-companies/",
+  "title": "HatchWorks Ranks Among Top 100+ React.js Development Companies | HatchWorks AI",
+  "description": "HatchWorks has been named to Techreviewer’s list of Top 100 React.js Development Companies. The Techreriewer team ranks every company with a profile on the Techreviewer platform to provide lists of reputable software development service providers in various industries and locations.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks Ranks Among Top 100+ React.js Development Companies | HatchWorks AI",
+    "og:description": "HatchWorks has been named to Techreviewer’s list of Top 100 React.js Development Companies. The Techreriewer team ranks every company with a profile on the Techreviewer platform to provide lists of reputable software development service providers in various industries and locations.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/09/social-share_HatchWorks-Ranks-Among-Techreviewers-Top-100-React.js-Development-Companies.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks Ranks Among Top 100+ React.js Development Companies | HatchWorks AI",
+    "twitter:description": "HatchWorks has been named to Techreviewer’s list of Top 100 React.js Development Companies. The Techreriewer team ranks every company with a profile on the Techreviewer platform to provide lists of reputable software development service providers in various industries and locations.",
+    "twitter:image": "/assets/wp-content/uploads/2022/09/social-share_HatchWorks-Ranks-Among-Techreviewers-Top-100-React.js-Development-Companies.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-27970 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-27970 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27970.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

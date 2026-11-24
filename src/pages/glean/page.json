@@ -1,0 +1,35 @@
+{
+  "route": "/glean/",
+  "title": "Glean | HatchWorks AI",
+  "description": "Unlock the power of your company knowledge with Glean’s unified platform that connects all your apps, documents, and conversations—eliminating silos and",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Glean | HatchWorks AI",
+    "og:description": "Unlock the power of your company knowledge with Glean’s unified platform that connects all your apps, documents, and conversations—eliminating silos and",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/07/Screenshot-2025-07-31-at-7.21.47-PM.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Glean | HatchWorks AI",
+    "twitter:description": "Unlock the power of your company knowledge with Glean’s unified platform that connects all your apps, documents, and conversations—eliminating silos and",
+    "twitter:image": "/assets/wp-content/uploads/2025/07/Screenshot-2025-07-31-at-7.21.47-PM.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-33875 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33875 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33875.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,41 @@
+{
+  "route": "/news/inc-power-partner-awards-2023/",
+  "title": "HatchWorks Named an Inc. Power Partner for Software Development | HatchWorks AI",
+  "description": "HatchWorks was honored in Inc.'s Power Partner Awards 2023 as a top B2B champion. Based in Atlanta, GA, they excel in software solutions, driving growth for startups and established brands alike.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks Named an Inc. Power Partner for Software Development | HatchWorks AI",
+    "og:description": "HatchWorks was honored in Inc.'s Power Partner Awards 2023 as a top B2B champion. Based in Atlanta, GA, they excel in software solutions, driving growth for startups and established brands alike.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/10/Power-Partner-Thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks Named an Inc. Power Partner for Software Development | HatchWorks AI",
+    "twitter:description": "HatchWorks was honored in Inc.'s Power Partner Awards 2023 as a top B2B champion. Based in Atlanta, GA, they excel in software solutions, driving growth for startups and established brands alike.",
+    "twitter:image": "/assets/wp-content/uploads/2023/10/Power-Partner-Thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30142 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30142 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30142.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

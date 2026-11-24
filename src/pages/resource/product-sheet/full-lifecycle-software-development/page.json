@@ -1,0 +1,41 @@
+{
+  "route": "/resource/product-sheet/full-lifecycle-software-development/",
+  "title": "Full Lifecycle Software Development | HatchWorks AI",
+  "description": "A multi-year digital transformation journey. A need for additional engineering expertise to quickly support and maintain systems throughout the overhaul of",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Full Lifecycle Software Development | HatchWorks AI",
+    "og:description": "A multi-year digital transformation journey. A need for additional engineering expertise to quickly support and maintain systems throughout the overhaul of",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/09/Social-Feature-Image-Nearshore-Unbranded-case-study.001.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Full Lifecycle Software Development | HatchWorks AI",
+    "twitter:description": "A multi-year digital transformation journey. A need for additional engineering expertise to quickly support and maintain systems throughout the overhaul of",
+    "twitter:image": "/assets/wp-content/uploads/2021/09/Social-Feature-Image-Nearshore-Unbranded-case-study.001.jpeg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-23381 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-23381 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-23381.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,437 @@
+/* ==================================================================
+       COMPONENT 1 — .hwshift : entry-level vs senior comparison table (section 07)
+       ================================================================== */
+
+    #hwshift.hwshift{
+      container-type:inline-size;
+      /* --- tokens (all namespaced) --- */
+      --hwshift-accent:#2f5d8a;          /* swap for HatchWorks brand colour */
+      --hwshift-bg:#ffffff;
+      --hwshift-alt:#f4f6f8;
+      --hwshift-fg:#1f2933;
+      --hwshift-muted:#52606d;
+      --hwshift-border:#d7dce2;
+      --hwshift-tipbg:#1f2933;
+      --hwshift-tipfg:#ffffff;
+      box-sizing:border-box;
+      margin:2.25rem 0;
+      padding:1.25rem;
+      border:1px solid var(--hwshift-border);
+      border-radius:10px;
+      background:var(--hwshift-bg);
+      color:var(--hwshift-fg);
+      font-size:1rem;
+      line-height:1.5;
+    }
+    
+    #hwshift.hwshift *,#hwshift.hwshift *::before,#hwshift.hwshift *::after{box-sizing:border-box}
+    #hwshift .hwshift__title{
+      margin:0 0 .25rem;
+      font-size:1.125rem;
+      line-height:1.3;
+      font-weight:700;
+      color:var(--hwshift-fg);
+    }
+    #hwshift .hwshift__intro{margin:0 0 1rem;font-size:.9375rem;color:var(--hwshift-muted)}
+    #hwshift .hwshift__scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+    #hwshift .hwshift__table{
+      width:100%;
+      border-collapse:collapse;
+      background:transparent;
+      color:inherit;
+      font-size:.9375rem;
+    }
+    #hwshift .hwshift__table caption{
+      caption-side:bottom;
+      padding-top:.75rem;
+      text-align:left;
+      font-size:.8125rem;
+      color:var(--hwshift-muted);
+    }
+    #hwshift .hwshift__table th,#hwshift .hwshift__table td{
+      border:1px solid var(--hwshift-border);
+      padding:.75rem .875rem;
+      text-align:left;
+      vertical-align:top;
+      background:transparent;
+      color:inherit;
+    }
+    #hwshift .hwshift__table thead th{
+      background:var(--hwshift-alt);
+      font-weight:700;
+      font-size:.875rem;
+      letter-spacing:.01em;
+    }
+    #hwshift .hwshift__table thead th.hwshift__col--senior{
+      box-shadow:inset 0 -3px 0 0 var(--hwshift-accent);
+    }
+    #hwshift .hwshift__dim{
+      width:20%;
+      background:var(--hwshift-alt);
+      font-weight:700;
+      font-size:.875rem;
+    }
+    #hwshift .hwshift__fig{display:block;font-weight:700;margin-bottom:.35rem}
+    #hwshift .hwshift__note{display:block;color:var(--hwshift-muted);font-size:.875rem}
+    /* --- source tag + citation --- */
+    #hwshift .hwshift__srcwrap{position:relative;display:inline-block;margin-top:.5rem}
+    #hwshift .hwshift__src{
+      display:inline-flex;
+      align-items:center;
+      gap:.3em;
+      margin:0;
+      padding:.15rem .5rem;
+      border:1px dashed var(--hwshift-accent);
+      border-radius:999px;
+      background:transparent;
+      color:var(--hwshift-accent);
+      font:inherit;
+      font-size:.75rem;
+      font-weight:600;
+      line-height:1.4;
+      cursor:help;
+    }
+    #hwshift .hwshift__src::after{content:"\2139";font-weight:700}
+    #hwshift .hwshift__src:focus-visible{outline:3px solid var(--hwshift-accent);outline-offset:2px}
+    #hwshift .hwshift__src:focus{outline:3px solid var(--hwshift-accent);outline-offset:2px}
+    #hwshift .hwshift__cite{
+      position:absolute;
+      left:0;
+      bottom:calc(100% + .4rem);
+      z-index:20;
+      width:min(19rem,68vw);
+      padding:.55rem .7rem;
+      border-radius:8px;
+      background:var(--hwshift-tipbg);
+      color:var(--hwshift-tipfg);
+      font-size:.8125rem;
+      line-height:1.4;
+      box-shadow:0 6px 18px rgba(0,0,0,.28);
+      /* Kept in the accessibility tree on purpose: these spans are the
+         aria-describedby targets for the source buttons, so visibility:hidden
+         and display:none are both unusable here. Clipped + transparent +
+         non-interactive instead, which hides it visually only. */
+      opacity:0;
+      clip-path:inset(50%);
+      pointer-events:none;
+      transition:opacity .12s ease;
+    }
+    #hwshift .hwshift__srcwrap:hover .hwshift__cite,
+    #hwshift .hwshift__srcwrap:focus-within .hwshift__cite,
+    #hwshift .hwshift__src[aria-expanded="true"] + .hwshift__cite{
+      opacity:1;
+      clip-path:none;
+      pointer-events:auto;
+    }
+    /* --- mobile: stacked cards, one per row; citations become static blocks --- */
+    
+    @media (prefers-reduced-motion:reduce){
+      #hwshift .hwshift__cite{transition:none}
+    }
+
+    @container (max-width:760px){
+      /* caption is display:table-caption by default; once the rows are
+         blocks it collapses to a sliver, so make it a block too. */
+      #hwshift .hwshift__table caption{display:block;width:auto}
+
+      
+      #hwshift .hwshift__table,#hwshift .hwshift__table tbody,#hwshift .hwshift__table tr,#hwshift .hwshift__table td,#hwshift .hwshift__table th{display:block;width:auto}
+      #hwshift .hwshift__table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+      #hwshift .hwshift__table tr{
+        margin-bottom:1rem;
+        border:1px solid var(--hwshift-border);
+        border-radius:8px;
+        overflow:hidden;
+      }
+      #hwshift .hwshift__table th,#hwshift .hwshift__table td{border:0;border-bottom:1px solid var(--hwshift-border)}
+      #hwshift .hwshift__table tr > *:last-child{border-bottom:0}
+      #hwshift .hwshift__dim{width:auto;font-size:.9375rem}
+      #hwshift .hwshift__table td::before{
+        content:attr(data-hwshift-col);
+        display:block;
+        margin-bottom:.35rem;
+        font-size:.6875rem;
+        font-weight:700;
+        letter-spacing:.08em;
+        text-transform:uppercase;
+        color:var(--hwshift-muted);
+      }
+      #hwshift .hwshift__table td.hwshift__cell--senior{border-left:3px solid var(--hwshift-accent)}
+      /* Same rule applies on mobile: a visually-hidden pattern, never
+         display:none, so the aria-describedby target stays readable to
+         screen readers before the button is activated. */
+      #hwshift .hwshift__cite{
+        position:absolute;
+        width:1px;
+        height:1px;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        clip:rect(0 0 0 0);
+        clip-path:inset(50%);
+        white-space:nowrap;
+        box-shadow:none;
+        opacity:1;
+        pointer-events:none;
+      }
+      #hwshift .hwshift__srcwrap:hover .hwshift__cite,
+      #hwshift .hwshift__srcwrap:focus-within .hwshift__cite,
+      #hwshift .hwshift__src[aria-expanded="true"] + .hwshift__cite{
+        position:static;
+        width:auto;
+        height:auto;
+        margin-top:.4rem;
+        padding:.55rem .7rem;
+        overflow:visible;
+        clip:auto;
+        clip-path:none;
+        white-space:normal;
+        pointer-events:auto;
+      }
+      #hwshift .hwshift__srcwrap{display:block}
+    }
+
+    @media (max-width:760px){#hwshift.hwshift{padding:1rem}}
+
+
+    /* ---- theme armour ----------------------------------------------------
+       The site theme stripes tables with tbody tr:nth-child(even) and forces a
+       colour onto th/td. Those selectors outranked the component's own rules,
+       which is what produced the washed-out alternating rows. These re-assert
+       the component's surfaces at id specificity. The last rule also revives
+       .hwshift__dim's background, which the component's own th/td rule had
+       been beating since the original build.
+       -------------------------------------------------------------------- */
+    #hwshift .hwshift__table,
+    #hwshift .hwshift__table thead,
+    #hwshift .hwshift__table tbody,
+    #hwshift .hwshift__table tr,
+    #hwshift .hwshift__table tbody tr:nth-child(even),
+    #hwshift .hwshift__table tbody tr:nth-child(odd){background:transparent}
+    #hwshift .hwshift__table thead th{background:var(--hwshift-alt);color:var(--hwshift-fg)}
+    #hwshift .hwshift__table th.hwshift__dim{background:var(--hwshift-alt);color:var(--hwshift-fg)}
+
+
+    /* ==================================================================
+       COMPONENT 2 — .hwpath  : hiring situation selector (section 14)
+       ================================================================== */
+
+    #hwpath.hwpath{
+      container-type:inline-size;
+      --hwpath-accent:#2f5d8a;           /* swap for HatchWorks brand colour */
+      --hwpath-accent-soft:rgba(47,93,138,.10);
+      --hwpath-bg:#ffffff;
+      --hwpath-alt:#f4f6f8;
+      --hwpath-fg:#1f2933;
+      --hwpath-muted:#52606d;
+      --hwpath-border:#d7dce2;
+      --hwpath-onaccent:#ffffff;
+      box-sizing:border-box;
+      margin:2.25rem 0;
+      padding:1.25rem;
+      border:1px solid var(--hwpath-border);
+      border-radius:10px;
+      background:var(--hwpath-bg);
+      color:var(--hwpath-fg);
+      font-size:1rem;
+      line-height:1.55;
+    }
+    
+    #hwpath.hwpath *,#hwpath.hwpath *::before,#hwpath.hwpath *::after{box-sizing:border-box}
+    #hwpath .hwpath__title{margin:0 0 .25rem;font-size:1.125rem;line-height:1.3;font-weight:700}
+    #hwpath .hwpath__intro{margin:0 0 1rem;font-size:.9375rem;color:var(--hwpath-muted)}
+    #hwpath .hwpath__legend{
+      display:block;
+      margin:0 0 .5rem;
+      padding:0;
+      font-size:.75rem;
+      font-weight:700;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--hwpath-muted);
+    }
+    #hwpath .hwpath__chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.1rem}
+    #hwpath .hwpath__chip{
+      appearance:none;
+      display:inline-block;
+      margin:0;
+      padding:.55rem .9rem;
+      border:1px solid var(--hwpath-border);
+      border-radius:999px;
+      background:var(--hwpath-alt);
+      color:var(--hwpath-fg);
+      font:inherit;
+      font-size:.875rem;
+      font-weight:600;
+      line-height:1.3;
+      text-align:left;
+      cursor:pointer;
+      transition:background .12s ease,border-color .12s ease,color .12s ease;
+    }
+    #hwpath .hwpath__chip:hover{border-color:var(--hwpath-accent);background:var(--hwpath-accent-soft)}
+    #hwpath .hwpath__chip:focus{outline:3px solid var(--hwpath-accent);outline-offset:2px}
+    #hwpath .hwpath__chip:focus-visible{outline:3px solid var(--hwpath-accent);outline-offset:2px}
+    #hwpath .hwpath__chip[aria-expanded="true"]{
+      background:var(--hwpath-accent);
+      border-color:var(--hwpath-accent);
+      color:var(--hwpath-onaccent);
+    }
+    #hwpath .hwpath__panel{
+      padding:1.1rem;
+      border:1px solid var(--hwpath-border);
+      border-left:4px solid var(--hwpath-accent);
+      border-radius:8px;
+      background:var(--hwpath-alt);
+    }
+    #hwpath .hwpath__panel:focus{outline:3px solid var(--hwpath-accent);outline-offset:2px}
+    #hwpath .hwpath__panel + .hwpath__panel{margin-top:1rem}
+    #hwpath .hwpath__prompt{border-left-color:var(--hwpath-border);color:var(--hwpath-muted)}
+    #hwpath .hwpath__prompt p{margin:0}
+    #hwpath .hwpath__branch-title{margin:0 0 .85rem;font-size:1.0625rem;line-height:1.35;font-weight:700}
+    #hwpath .hwpath__label{
+      margin:0 0 .3rem;
+      font-size:.6875rem;
+      font-weight:700;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+      color:var(--hwpath-muted);
+    }
+    #hwpath .hwpath__cause{margin:0 0 1rem;font-size:.9375rem}
+    #hwpath .hwpath__actions{margin:0 0 1rem;padding-left:1.15rem;font-size:.9375rem}
+    #hwpath .hwpath__actions li{margin:0 0 .5rem}
+    #hwpath .hwpath__actions li:last-child{margin-bottom:0}
+    #hwpath .hwpath__link{margin:0;font-size:.9375rem}
+    #hwpath .hwpath__link a{color:var(--hwpath-accent);font-weight:600;text-decoration:underline}
+    #hwpath .hwpath__link a:focus{outline:3px solid var(--hwpath-accent);outline-offset:2px}
+    #hwpath .hwpath__note{margin:.75rem 0 0;font-size:.8125rem;color:var(--hwpath-muted)}
+    #hwpath .hwpath__reset{
+      margin:1rem 0 0;
+      padding:.4rem .8rem;
+      border:1px solid var(--hwpath-border);
+      border-radius:6px;
+      background:transparent;
+      color:var(--hwpath-muted);
+      font:inherit;
+      font-size:.8125rem;
+      cursor:pointer;
+    }
+    #hwpath .hwpath__reset:hover{border-color:var(--hwpath-accent);color:var(--hwpath-accent)}
+    #hwpath .hwpath__reset:focus{outline:3px solid var(--hwpath-accent);outline-offset:2px}
+    #hwpath .hwpath__chips[hidden],#hwpath .hwpath__reset[hidden]{display:none}
+    
+    @media (prefers-reduced-motion:reduce){
+      #hwpath .hwpath__chip{transition:none}
+    }
+
+    @container (max-width:600px){
+      
+      #hwpath .hwpath__chips{flex-direction:column}
+      #hwpath .hwpath__chip{width:100%}
+    }
+
+    @media (max-width:600px){#hwpath.hwpath{padding:1rem}}
+
+/* ==================================================================
+       COMPONENT 3 — .hwpit   : pitfalls accordion (section 16)
+       ================================================================== */
+
+    #hwpit.hwpit{
+      container-type:inline-size;
+      --hwpit-accent:#2f5d8a;            /* swap for HatchWorks brand colour */
+      --hwpit-accent-soft:rgba(47,93,138,.10);
+      --hwpit-bg:#ffffff;
+      --hwpit-alt:#f4f6f8;
+      --hwpit-fg:#1f2933;
+      --hwpit-muted:#52606d;
+      --hwpit-border:#d7dce2;
+      box-sizing:border-box;
+      margin:2.25rem 0;
+      padding:1.25rem;
+      border:1px solid var(--hwpit-border);
+      border-radius:10px;
+      background:var(--hwpit-bg);
+      color:var(--hwpit-fg);
+      font-size:1rem;
+      line-height:1.55;
+    }
+    
+    #hwpit.hwpit *,#hwpit.hwpit *::before,#hwpit.hwpit *::after{box-sizing:border-box}
+    #hwpit .hwpit__title{margin:0 0 .25rem;font-size:1.125rem;line-height:1.3;font-weight:700}
+    #hwpit .hwpit__intro{margin:0 0 1rem;font-size:.9375rem;color:var(--hwpit-muted)}
+    #hwpit .hwpit__toggle{
+      margin:0 0 1rem;
+      padding:.4rem .8rem;
+      border:1px solid var(--hwpit-border);
+      border-radius:6px;
+      background:transparent;
+      color:var(--hwpit-muted);
+      font:inherit;
+      font-size:.8125rem;
+      font-weight:600;
+      cursor:pointer;
+    }
+    #hwpit .hwpit__toggle:hover{border-color:var(--hwpit-accent);color:var(--hwpit-accent)}
+    #hwpit .hwpit__toggle:focus{outline:3px solid var(--hwpit-accent);outline-offset:2px}
+    #hwpit .hwpit__toggle:focus-visible{outline:3px solid var(--hwpit-accent);outline-offset:2px}
+    #hwpit .hwpit__toggle[hidden]{display:none}
+    #hwpit .hwpit__item{
+      border:1px solid var(--hwpit-border);
+      border-radius:8px;
+      background:var(--hwpit-alt);
+      overflow:hidden;
+    }
+    #hwpit .hwpit__item + .hwpit__item{margin-top:.6rem}
+    #hwpit .hwpit__item[open]{border-left:4px solid var(--hwpit-accent)}
+    #hwpit .hwpit__head{
+      display:flex;
+      align-items:flex-start;
+      gap:.65rem;
+      padding:.85rem 1rem;
+      font-size:1rem;
+      font-weight:700;
+      line-height:1.4;
+      color:var(--hwpit-fg);
+      cursor:pointer;
+      list-style:none;
+    }
+    #hwpit .hwpit__head::-webkit-details-marker{display:none}
+    #hwpit .hwpit__head::marker{content:""}
+    #hwpit .hwpit__head:hover{background:var(--hwpit-accent-soft)}
+    #hwpit .hwpit__head:focus{outline:3px solid var(--hwpit-accent);outline-offset:-3px}
+    #hwpit .hwpit__head:focus-visible{outline:3px solid var(--hwpit-accent);outline-offset:-3px}
+    #hwpit .hwpit__num{
+      flex:0 0 auto;
+      min-width:1.55rem;
+      color:var(--hwpit-accent);
+      font-variant-numeric:tabular-nums;
+    }
+    #hwpit .hwpit__headtext{flex:1 1 auto}
+    #hwpit .hwpit__chev{
+      flex:0 0 auto;
+      margin-left:auto;
+      color:var(--hwpit-accent);
+      font-weight:700;
+      transition:transform .15s ease;
+    }
+    #hwpit .hwpit__item[open] .hwpit__chev{transform:rotate(45deg)}
+    #hwpit .hwpit__body{padding:0 1rem 1rem 3.2rem}
+    #hwpit .hwpit__body p{margin:0 0 .7rem;font-size:.9375rem}
+    #hwpit .hwpit__body p:last-child{margin-bottom:0}
+    #hwpit .hwpit__fix{
+      padding:.6rem .75rem;
+      border-left:3px solid var(--hwpit-accent);
+      background:var(--hwpit-bg);
+      border-radius:0 6px 6px 0;
+    }
+    
+    @media (prefers-reduced-motion:reduce){
+      #hwpit .hwpit__chev{transition:none}
+    }
+
+    @container (max-width:600px){
+      
+      #hwpit .hwpit__head{padding:.75rem .8rem;font-size:.9375rem}
+      #hwpit .hwpit__body{padding:0 .8rem .9rem .8rem}
+    }
+
+    @media (max-width:600px){#hwpit.hwpit{padding:1rem}}

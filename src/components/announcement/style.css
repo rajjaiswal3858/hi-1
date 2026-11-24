@@ -1,0 +1,35 @@
+/* ---------- Elementor wrapper neutraliser (only the container/widget holding the banner) ---------- */
+.e-con:has(> .elementor-element #hwann),.e-con:has(> .elementor-widget-container #hwann){--padding-top:0px;--padding-right:0px;--padding-bottom:0px;--padding-left:0px;--gap:0px;--row-gap:0px;--column-gap:0px;--min-height:0px;padding:0!important;min-height:0!important;gap:0!important}
+.elementor-element:has(> #hwann),.elementor-element:has(> .elementor-widget-container > #hwann){margin:0!important;padding:0!important;width:100%!important;max-width:100%!important}
+
+/* ---------- banner ---------- */
+#hwann,#hwann *{box-sizing:border-box;margin:0;padding:0;border:0;background:none;box-shadow:none;text-shadow:none;text-decoration:none!important;letter-spacing:normal;text-transform:none}
+#hwann{font-family:'Open Sans',Arial,sans-serif!important;-webkit-font-smoothing:antialiased;width:100%}
+#hwann.hw-ann{position:relative;overflow:hidden;height:40px;background:linear-gradient(90deg,#10758B,#151920)!important;border-bottom:1px solid rgba(255,255,255,.06)}
+[data-hwann].is-ann-off{display:none!important}
+#hwann .hw-ann-link{display:flex;align-items:center;justify-content:center;gap:10px;height:100%;padding:0 52px;color:#fff!important;font-size:13px;font-weight:600;line-height:1;white-space:nowrap;overflow:hidden;animation:hwAnnIn 320ms cubic-bezier(.2,.8,.2,1) both}
+#hwann .hw-ann-link:hover{color:#fff!important}
+#hwann .hw-ann-tag{flex:none;font-family:'Space Grotesk',monospace!important;font-size:12px;font-weight:600;letter-spacing:.12em!important;text-transform:uppercase!important;color:#BFEFEF}
+#hwann .hw-ann-txt{overflow:hidden;text-overflow:ellipsis;line-height:1.5}
+#hwann .hw-ann-short{display:none}
+#hwann .hw-ann-cta{flex:none;display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 12px!important;border-radius:999px!important;background:#3ABDBC!important;color:#151920;font-size:12px;font-weight:700;transition:background-color 120ms cubic-bezier(.2,.8,.2,1)}
+#hwann .hw-ann-link:hover .hw-ann-cta,#hwann .hw-ann-link:focus-visible .hw-ann-cta{background:#BFEFEF!important}
+#hwann .hw-ann-cta svg{animation:hwAnnNudge 1.8s cubic-bezier(.2,.8,.2,1) infinite}
+#hwann .hw-ann-sweep{position:absolute;left:0;bottom:0;width:25%;height:1px;background:#3ABDBC!important;pointer-events:none;animation:hwAnnSweep 3.2s cubic-bezier(.2,.8,.2,1) infinite}
+#hwann .hw-ann-x{position:absolute;top:0;right:clamp(4px,1.5vw,16px);width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:6px!important;color:#C9CCD3!important;background:none!important;transition:color 120ms cubic-bezier(.2,.8,.2,1)}
+#hwann .hw-ann-x:hover,#hwann .hw-ann-x:focus{color:#fff!important}
+#hwann button{cursor:pointer;font:inherit;appearance:none;-webkit-appearance:none}
+#hwann .hw-ann-x:focus-visible,#hwann .hw-ann-link:focus-visible{outline:2px solid #3ABDBC;outline-offset:-4px}
+@keyframes hwAnnIn{from{opacity:0}to{opacity:1}}
+@keyframes hwAnnSweep{from{transform:translateX(-100%)}to{transform:translateX(400%)}}
+@keyframes hwAnnNudge{0%,60%,100%{transform:translateX(0)}30%{transform:translateX(4px)}}
+@media (max-width:900px){#hwann .hw-ann-long{display:none}#hwann .hw-ann-short{display:inline}}
+@media (max-width:600px){#hwann .hw-ann-tag{display:none}#hwann .hw-ann-link{padding:0 48px 0 16px;justify-content:flex-start}#hwann .hw-ann-cta svg{display:none}}
+@media (prefers-reduced-motion:reduce){#hwann .hw-ann-link,#hwann .hw-ann-sweep,#hwann .hw-ann-cta svg{animation:none}}
+@media print{#hwann{display:none!important}}
+
+/* ---------- nav hand-off: only active while a banner is on screen ----------
+   --hwann-top = where the nav bar should start (banner bottom, never above the WP admin bar). */
+html.hwann-on #hwnav .hw-bar{top:var(--hwann-top,0px)!important}
+html.hwann-on #hwnav .hw-drawer{top:calc(var(--hwann-top,0px) + var(--hw-h,72px))!important}
+html.hwann-on #hwnav .hw-panel--mega{max-height:calc(100vh - var(--hw-h,72px) - var(--hwann-top,0px))}

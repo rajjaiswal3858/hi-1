@@ -1,0 +1,30 @@
+{
+  "route": "/how-we-engage/",
+  "title": "How We Engage | HatchWorks AI",
+  "description": "Start with the model that fits the work today. Scale or combine them as the opportunity grows.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How We Engage | HatchWorks AI",
+    "og:description": "Start with the model that fits the work today. Scale or combine them as the opportunity grows.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How We Engage | HatchWorks AI",
+    "twitter:description": "Start with the model that fits the work today. Scale or combine them as the opportunity grows.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36543 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36543 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-36543.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

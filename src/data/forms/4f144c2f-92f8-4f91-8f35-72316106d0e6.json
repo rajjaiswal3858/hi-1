@@ -1,0 +1,74 @@
+{
+  "id": "4f144c2f-92f8-4f91-8f35-72316106d0e6",
+  "captcha": false,
+  "submitText": "Start now",
+  "inlineMessage": "",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "First name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "lastname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Last name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Email",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Company name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

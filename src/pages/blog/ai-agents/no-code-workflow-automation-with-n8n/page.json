@@ -1,0 +1,41 @@
+{
+  "route": "/blog/ai-agents/no-code-workflow-automation-with-n8n/",
+  "title": "No-Code Workflow Automation with n8n from Scratch: A 48-Hour Build",
+  "description": "See how a beginner tackled Automation with n8n. Learn how No-Code Workflow tools can unlock fast results—even with no coding background.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "No-Code Workflow Automation with n8n from Scratch: A 48-Hour Build",
+    "og:description": "See how a beginner tackled Automation with n8n. Learn how No-Code Workflow tools can unlock fast results—even with no coding background.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/No-Code-Workflow-Automation-with-n8n-from-Scratch-A-48-Hour-Build-2.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "No-Code Workflow Automation with n8n from Scratch: A 48-Hour Build",
+    "twitter:description": "See how a beginner tackled Automation with n8n. Learn how No-Code Workflow tools can unlock fast results—even with no coding background.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/No-Code-Workflow-Automation-with-n8n-from-Scratch-A-48-Hour-Build-2.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33498 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33498 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33498.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

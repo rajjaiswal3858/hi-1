@@ -1,0 +1,29 @@
+{
+  "route": "/state-of-ai-2026-mid-year/",
+  "title": "State of AI 2026 - Mid year | HatchWorks AI",
+  "description": "State of AI 2026: The Mid-Year Reality Check",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "State of AI 2026 - Mid year | HatchWorks AI",
+    "og:description": "State of AI 2026: The Mid-Year Reality Check",
+    "og:site_name": "HatchWorks AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "State of AI 2026 - Mid year | HatchWorks AI",
+    "twitter:description": "State of AI 2026: The Mid-Year Reality Check"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36041 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36041 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-36041.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+    "/assets/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

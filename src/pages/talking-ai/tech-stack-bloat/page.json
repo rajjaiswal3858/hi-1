@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/tech-stack-bloat/",
+  "title": "Taming Tech Stack Bloat with AI | HatchWorks AI",
+  "description": "Vanessa Heppner on how AI tackles tech stack bloat, streamlines ops, reshapes pricing, and opens new job opportunities in this Talking AI episode.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Taming Tech Stack Bloat with AI | HatchWorks AI",
+    "og:description": "Vanessa Heppner on how AI tackles tech stack bloat, streamlines ops, reshapes pricing, and opens new job opportunities in this Talking AI episode.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/Taming-Tech-Stack-Bloat-with-AI-1024x1024.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Taming Tech Stack Bloat with AI | HatchWorks AI",
+    "twitter:description": "Vanessa Heppner on how AI tackles tech stack bloat, streamlines ops, reshapes pricing, and opens new job opportunities in this Talking AI episode.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/Taming-Tech-Stack-Bloat-with-AI-1024x1024.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33476 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33476 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33476.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

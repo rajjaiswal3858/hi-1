@@ -1,0 +1,41 @@
+{
+  "route": "/talking-ai/the-built-right-mindset/",
+  "title": "The Built Right Mindset | HatchWorks AI",
+  "description": "Discover insights on assembling a triumphant product team, establishing adaptable infrastructure, and escalating your product efficiently in the first episode of the Built Right podcast.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The Built Right Mindset | HatchWorks AI",
+    "og:description": "Discover insights on assembling a triumphant product team, establishing adaptable infrastructure, and escalating your product efficiently in the first episode of the Built Right podcast.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/04/1-s1.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Built Right Mindset | HatchWorks AI",
+    "twitter:description": "Discover insights on assembling a triumphant product team, establishing adaptable infrastructure, and escalating your product efficiently in the first episode of the Built Right podcast.",
+    "twitter:image": "/assets/wp-content/uploads/2023/04/1-s1.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29301 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29301 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-accordion.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29301.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

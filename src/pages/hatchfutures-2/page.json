@@ -1,0 +1,30 @@
+{
+  "route": "/hatchfutures-2/",
+  "title": "HatchFutures | HatchWorks AI",
+  "description": "HatchFutures is not a foundation. It is a belief. That the technology gap is closeable. That young people deserve access to the tools shaping the future. And",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchFutures | HatchWorks AI",
+    "og:description": "HatchFutures is not a foundation. It is a belief. That the technology gap is closeable. That young people deserve access to the tools shaping the future. And",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/05/teach-hf.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchFutures | HatchWorks AI",
+    "twitter:description": "HatchFutures is not a foundation. It is a belief. That the technology gap is closeable. That young people deserve access to the tools shaping the future. And",
+    "twitter:image": "/assets/wp-content/uploads/2026/05/teach-hf.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35217 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35217 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35217.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,32 @@
+{
+  "route": "/gcp-partner/",
+  "title": "GCP Partner | HatchWorks AI",
+  "description": "Model Garden",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "GCP Partner | HatchWorks AI",
+    "og:description": "Model Garden",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/05/1.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GCP Partner | HatchWorks AI",
+    "twitter:description": "Model Garden",
+    "twitter:image": "/assets/wp-content/uploads/2026/05/1.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35276 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35276 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35276.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": [
+      "js.js"
+    ]
+  },
+  "externalScripts": []
+}

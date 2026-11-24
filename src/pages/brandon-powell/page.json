@@ -1,0 +1,31 @@
+{
+  "route": "/brandon-powell/",
+  "title": "Brandon Powell | HatchWorks AI",
+  "description": "Brandon Powell CEO @ HatchWorks AI Call LinkedIn Email +1 (404) 429-1281",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Brandon Powell | HatchWorks AI",
+    "og:description": "Brandon Powell CEO @ HatchWorks AI Call LinkedIn Email +1 (404) 429-1281",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/10/BRANDON-POWELL-300x300.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Brandon Powell | HatchWorks AI",
+    "twitter:description": "Brandon Powell CEO @ HatchWorks AI Call LinkedIn Email +1 (404) 429-1281",
+    "twitter:image": "/assets/wp-content/uploads/2023/10/BRANDON-POWELL-300x300.webp"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34012 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34012 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/custom-widget-link-in-bio-base.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-link-in-bio-var-7.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34012.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

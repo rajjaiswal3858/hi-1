@@ -1,0 +1,49 @@
+.hwpe-article{box-sizing:border-box;max-width:760px;margin:0 auto;padding:8px 0 16px;color:#151920;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:1.125rem;line-height:1.72;-webkit-font-smoothing:antialiased;}
+.hwpe-article .hwpe-eyebrow{box-sizing:border-box;display:inline-block;margin:0 0 14px;color:#10758b;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;}
+.hwpe-article .hwpe-h1{box-sizing:border-box;margin:0 0 18px;color:#151920;font-size:2.45rem;line-height:1.12;font-weight:800;letter-spacing:-.01em;}
+.hwpe-article .hwpe-deck{box-sizing:border-box;margin:0 0 26px;color:#363943;font-size:1.3rem;line-height:1.5;font-weight:400;}
+.hwpe-article .hwpe-byline{box-sizing:border-box;margin:0 0 36px;padding:16px 0;border-top:1px solid #dcddde;border-bottom:1px solid #dcddde;color:#363943;font-size:.95rem;line-height:1.4;}
+.hwpe-article .hwpe-byline strong{color:#151920;font-weight:700;}
+.hwpe-article .hwpe-h2{box-sizing:border-box;margin:48px 0 16px;padding-left:14px;border-left:4px solid #e97845;color:#151920;font-size:1.7rem;line-height:1.2;font-weight:700;letter-spacing:-.005em;}
+.hwpe-article .hwpe-h3{box-sizing:border-box;margin:32px 0 12px;color:#151920;font-size:1.28rem;line-height:1.25;font-weight:700;}
+.hwpe-article .hwpe-p{box-sizing:border-box;margin:0 0 20px;color:#151920;}
+.hwpe-article a.hwpe-link,.hwpe-article a.hwpe-link:link,.hwpe-article a.hwpe-link:visited,.hwpe-article a.hwpe-link:hover,.hwpe-article a.hwpe-link:focus,.hwpe-article a.hwpe-link:active{color:#10758b !important;text-decoration:underline !important;text-underline-offset:2px;font-weight:600;}
+.hwpe-article a.hwpe-link:hover,.hwpe-article a.hwpe-link:focus{color:#0c5b6c !important;}
+.hwpe-article .hwpe-takeaways{box-sizing:border-box;margin:0 0 36px;padding:24px 26px;background:#bfebef;border-radius:10px;}
+.hwpe-article .hwpe-takeaways-h{box-sizing:border-box;margin:0 0 12px;color:#151920;font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;}
+.hwpe-article .hwpe-list{box-sizing:border-box;margin:0;padding:0 0 0 4px;list-style:none;}
+.hwpe-article .hwpe-li{box-sizing:border-box;position:relative;margin:0 0 12px;padding-left:26px;color:#151920;font-size:1.02rem;line-height:1.55;}
+.hwpe-article .hwpe-li:last-child{margin-bottom:0;}
+.hwpe-article .hwpe-li::before{content:"";position:absolute;left:4px;top:.62em;width:8px;height:8px;background:#10758b;border-radius:2px;}
+.hwpe-article .hwpe-statband{box-sizing:border-box;margin:36px 0;padding:30px 32px;background:#363943;border-radius:12px;color:#ffffff;}
+.hwpe-article .hwpe-statband-num{box-sizing:border-box;display:block;margin:0 0 8px;color:#bfebef;font-size:2.6rem;line-height:1;font-weight:800;letter-spacing:-.02em;}
+.hwpe-article .hwpe-statband-txt{box-sizing:border-box;margin:0;color:#ffffff;font-size:1.06rem;line-height:1.55;}
+.hwpe-article .hwpe-statband-src{box-sizing:border-box;display:block;margin:12px 0 0;color:#dcddde;font-size:.82rem;font-style:normal;letter-spacing:.02em;}
+.hwpe-article .hwpe-pull{box-sizing:border-box;margin:34px 0;padding:6px 0 6px 24px;border-left:4px solid #e97845;color:#151920;font-size:1.35rem;line-height:1.45;font-weight:600;}
+.hwpe-article .hwpe-tablewrap{box-sizing:border-box;margin:32px 0;overflow-x:auto;border:1px solid #dcddde;border-radius:10px;}
+.hwpe-article .hwpe-table{box-sizing:border-box;width:100%;border-collapse:collapse;font-size:.98rem;}
+.hwpe-article .hwpe-table-cap{box-sizing:border-box;margin:0 0 14px;color:#363943;font-size:.92rem;font-weight:600;letter-spacing:.02em;text-transform:uppercase;}
+.hwpe-article .hwpe-th{box-sizing:border-box;padding:14px 16px;background:#151920;color:#ffffff;font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-align:left;vertical-align:top;}
+.hwpe-article .hwpe-td{box-sizing:border-box;padding:15px 16px;border-top:1px solid #dcddde;color:#151920;font-size:.98rem;line-height:1.5;vertical-align:top;background:#ffffff;}
+.hwpe-article .hwpe-td-lever{box-sizing:border-box;font-weight:700;color:#10758b;}
+.hwpe-article .hwpe-row-alt .hwpe-td{background:#f8f8f8;}
+.hwpe-article .hwpe-cta{box-sizing:border-box;margin:44px 0 28px;padding:34px 34px 38px;background:#151920;border-radius:14px;color:#ffffff;}
+.hwpe-article .hwpe-cta-eyebrow{box-sizing:border-box;display:inline-block;margin:0 0 12px;color:#e97845;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;}
+.hwpe-article .hwpe-cta-h{box-sizing:border-box;margin:0 0 14px;color:#ffffff;font-size:1.6rem;line-height:1.2;font-weight:800;}
+.hwpe-article .hwpe-cta-p{box-sizing:border-box;margin:0 0 22px;color:#dcddde;font-size:1.06rem;line-height:1.55;}
+.hwpe-article a.hwpe-cta-btn,.hwpe-article a.hwpe-cta-btn:link,.hwpe-article a.hwpe-cta-btn:visited,.hwpe-article a.hwpe-cta-btn:hover,.hwpe-article a.hwpe-cta-btn:focus,.hwpe-article a.hwpe-cta-btn:active{box-sizing:border-box;display:inline-block;padding:14px 28px;background:#e97845 !important;border:0;border-radius:8px;color:#151920 !important;font-size:1rem;font-weight:700;text-decoration:none !important;letter-spacing:.01em;}
+.hwpe-article a.hwpe-cta-btn:hover,.hwpe-article a.hwpe-cta-btn:focus{background:#d8632f !important;color:#151920 !important;}
+.hwpe-article .hwpe-sources{box-sizing:border-box;margin:40px 0 0;padding:24px 26px;background:#f8f8f8;border-radius:10px;}
+.hwpe-article .hwpe-sources-h{box-sizing:border-box;margin:0 0 14px;color:#151920;font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;}
+.hwpe-article .hwpe-sources-list{box-sizing:border-box;margin:0;padding:0;list-style:none;}
+.hwpe-article .hwpe-sources-li{box-sizing:border-box;margin:0 0 10px;padding:0 0 0 0;color:#363943;font-size:.9rem;line-height:1.45;}
+.hwpe-article .hwpe-sources-li:last-child{margin-bottom:0;}
+@media (max-width:600px){
+.hwpe-article{font-size:1.06rem;}
+.hwpe-article .hwpe-h1{font-size:1.95rem;}
+.hwpe-article .hwpe-deck{font-size:1.14rem;}
+.hwpe-article .hwpe-h2{font-size:1.42rem;}
+.hwpe-article .hwpe-statband-num{font-size:2.1rem;}
+.hwpe-article .hwpe-pull{font-size:1.18rem;}
+.hwpe-article .hwpe-cta{padding:26px 22px 30px;}
+}

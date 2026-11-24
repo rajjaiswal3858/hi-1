@@ -1,0 +1,36 @@
+{
+  "route": "/gpt-course/",
+  "title": "Build your Own GPT - A FREE Course by HatchWorks | HatchWorks AI",
+  "description": "Dive into the essentials of artificial intelligence with our course, focusing on the power of Custom Generative Pre-trained Transformers (GPTs).",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Build your Own GPT - A FREE Course by HatchWorks | HatchWorks AI",
+    "og:description": "Dive into the essentials of artificial intelligence with our course, focusing on the power of Custom Generative Pre-trained Transformers (GPTs).",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/02/GPT-COURSE-vertical-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Build your Own GPT - A FREE Course by HatchWorks | HatchWorks AI",
+    "twitter:description": "Dive into the essentials of artificial intelligence with our course, focusing on the power of Custom Generative Pre-trained Transformers (GPTs).",
+    "twitter:image": "/assets/wp-content/uploads/2024/02/GPT-COURSE-vertical-jpg.webp"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-30849 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30849 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30849.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

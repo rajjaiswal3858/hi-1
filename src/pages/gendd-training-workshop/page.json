@@ -1,0 +1,44 @@
+{
+  "route": "/gendd-training-workshop/",
+  "title": "GenDD Training Workshop | HatchWorks AI",
+  "description": "Get a free 1-on-1 AI roadmap & ROI session with our CTO. Limited to 10 slots until 11/30. Turn AI into ROI in 2025. Secure your spot now!",
+  "robots": "nofollow, noindex",
+  "og": {
+    "og:type": "article",
+    "og:title": "GenDD Training Workshop | HatchWorks AI",
+    "og:description": "Get a free 1-on-1 AI roadmap & ROI session with our CTO. Limited to 10 slots until 11/30. Turn AI into ROI in 2025. Secure your spot now!",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "GenDD Training Workshop | HatchWorks AI",
+    "twitter:description": "Get a free 1-on-1 AI roadmap & ROI session with our CTO. Limited to 10 slots until 11/30. Turn AI into ROI in 2025. Secure your spot now!",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-33584 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33584 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-pro-widget-loop-grid.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33584.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [
+      "elementor-32375.css",
+      "elementor-32738.css",
+      "elementor-32378.css"
+    ],
+    "js": []
+  },
+  "externalScripts": []
+}

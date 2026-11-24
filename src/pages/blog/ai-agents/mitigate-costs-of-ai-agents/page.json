@@ -1,0 +1,40 @@
+{
+  "route": "/blog/ai-agents/mitigate-costs-of-ai-agents/",
+  "title": "Mitigate Costs of AI Agents: The 3 Budget Leaks You Won’t See Until Production",
+  "description": "Most AI agent costs don't show up until production. Learn how to identify the 3 budget leaks driving hidden costs, track cost per outcome, and apply practical strategies to make agent spend predictable.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Mitigate Costs of AI Agents: The 3 Budget Leaks You Won’t See Until Production",
+    "og:description": "Most AI agent costs don't show up until production. Learn how to identify the 3 budget leaks driving hidden costs, track cost per outcome, and apply practical strategies to make agent spend predictable.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/Mitigate-Costs-of-AI-Agents-The-3-Budget-Leaks-You-Wont-See-Until-Production-social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Mitigate Costs of AI Agents: The 3 Budget Leaks You Won’t See Until Production",
+    "twitter:description": "Most AI agent costs don't show up until production. Learn how to identify the 3 budget leaks driving hidden costs, track cost per outcome, and apply practical strategies to make agent spend predictable.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/Mitigate-Costs-of-AI-Agents-The-3-Budget-Leaks-You-Wont-See-Until-Production-social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35129 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35129 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35129.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

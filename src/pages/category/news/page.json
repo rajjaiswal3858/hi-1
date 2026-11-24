@@ -1,0 +1,29 @@
+{
+  "route": "/category/news/",
+  "title": "News Archives | HatchWorks AI",
+  "description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, announcements, awards, and more.",
+  "robots": "follow, noindex",
+  "og": {
+    "og:type": "article",
+    "og:title": "News Archives | HatchWorks AI",
+    "og:description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, announcements, awards, and more.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/06/HatchWorks-Our-Latest-News.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "News Archives | HatchWorks AI",
+    "twitter:description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, announcements, awards, and more.",
+    "twitter:image": "/assets/wp-content/uploads/2021/06/HatchWorks-Our-Latest-News.jpeg"
+  },
+  "bodyClass": "archive category category-news category-53 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-page-28458 elementor-default elementor-template-full-width elementor-kit-15997",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28458.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

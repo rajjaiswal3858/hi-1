@@ -1,0 +1,40 @@
+{
+  "route": "/podcast/the-iot-takeover/",
+  "title": "The IoT Takeover | HatchWorks AI",
+  "description": "With the world of digital technology growing exponentially every day, the hardware supporting our newly ever-connected landscape is growing with it. As IoT devices permeate the world of business, the data and resulting potential of every connected system increases—lighting the path to new possibilities.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The IoT Takeover | HatchWorks AI",
+    "og:description": "With the world of digital technology growing exponentially every day, the hardware supporting our newly ever-connected landscape is growing with it. As IoT devices permeate the world of business, the data and resulting potential of every connected system increases—lighting the path to new possibilities.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/06/iot-Takeover.001.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The IoT Takeover | HatchWorks AI",
+    "twitter:description": "With the world of digital technology growing exponentially every day, the hardware supporting our newly ever-connected landscape is growing with it. As IoT devices permeate the world of business, the data and resulting potential of every connected system increases—lighting the path to new possibilities.",
+    "twitter:image": "/assets/wp-content/uploads/2021/06/iot-Takeover.001.jpeg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-21991 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-21991 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-21991.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

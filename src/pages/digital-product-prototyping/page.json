@@ -1,0 +1,38 @@
+{
+  "route": "/digital-product-prototyping/",
+  "title": "Digital Product Prototyping | HatchWorks AI",
+  "description": "Creating every UX variable and UI design detail before having buy-in and validation inevitably leads to rework, miscommunication, and wasted time and money.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Digital Product Prototyping | HatchWorks AI",
+    "og:description": "Creating every UX variable and UI design detail before having buy-in and validation inevitably leads to rework, miscommunication, and wasted time and money.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/10/hero-agileaka.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Digital Product Prototyping | HatchWorks AI",
+    "twitter:description": "Creating every UX variable and UI design detail before having buy-in and validation inevitably leads to rework, miscommunication, and wasted time and money.",
+    "twitter:image": "/assets/wp-content/uploads/2022/10/hero-agileaka.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-28947 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28947 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-lottie.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-animated-headline.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-image-box.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28947.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

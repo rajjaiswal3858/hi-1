@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/ai-agents-or-automation/",
+  "title": "AI Agents or Automation? How to Choose the Right Approach",
+  "description": "Learn when to use AI agents or automation with Marcus McGehee of The AI Consulting Lab. Practical tips, demos, and business insights.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI Agents or Automation? How to Choose the Right Approach",
+    "og:description": "Learn when to use AI agents or automation with Marcus McGehee of The AI Consulting Lab. Practical tips, demos, and business insights.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/08/Marcus-McGehee-3-1024x1024.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Agents or Automation? How to Choose the Right Approach",
+    "twitter:description": "Learn when to use AI agents or automation with Marcus McGehee of The AI Consulting Lab. Practical tips, demos, and business insights.",
+    "twitter:image": "/assets/wp-content/uploads/2025/08/Marcus-McGehee-3-1024x1024.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-34090 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34090 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34090.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

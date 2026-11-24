@@ -1,0 +1,42 @@
+{
+  "route": "/news/top-100-fintech-software-development-companies/",
+  "title": "HatchWorks AI Named Among Top 100 Fintech Software Development Companies 2025",
+  "description": "Top 100 Fintech Software Development Companies: HatchWorks AI recognized by Techreviewer for AI-powered fintech and faster time-to-market.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks AI Named Among Top 100 Fintech Software Development Companies 2025",
+    "og:description": "Top 100 Fintech Software Development Companies: HatchWorks AI recognized by Techreviewer for AI-powered fintech and faster time-to-market.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/09/3351-newsroomgraphic-HatchWorks-AI-Named-Among-Top-100-Fintech-Software-Development-Companies-2025-Social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks AI Named Among Top 100 Fintech Software Development Companies 2025",
+    "twitter:description": "Top 100 Fintech Software Development Companies: HatchWorks AI recognized by Techreviewer for AI-powered fintech and faster time-to-market.",
+    "twitter:image": "/assets/wp-content/uploads/2025/09/3351-newsroomgraphic-HatchWorks-AI-Named-Among-Top-100-Fintech-Software-Development-Companies-2025-Social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-34120 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34120 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34120.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

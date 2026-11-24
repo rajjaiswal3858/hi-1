@@ -1,0 +1,32 @@
+{
+  "route": "/development-framework/",
+  "title": "Unified Development Framework | HatchWorks",
+  "description": "Our one-of-a-kind pre-defined, pre-developed software modules and pre-scripted code libraries are all purpose-built to vastly accelerate your project.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Unified Development Framework | HatchWorks",
+    "og:description": "Our one-of-a-kind pre-defined, pre-developed software modules and pre-scripted code libraries are all purpose-built to vastly accelerate your project.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/elementor/thumbs/The-HatchWorks-Difference_Cloud-application-Services-p8fkjwbk7104g8a3cr1slev8nvqnmsce8cro1dxpmk.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Unified Development Framework | HatchWorks",
+    "twitter:description": "Our one-of-a-kind pre-defined, pre-developed software modules and pre-scripted code libraries are all purpose-built to vastly accelerate your project.",
+    "twitter:image": "/assets/wp-content/uploads/elementor/thumbs/The-HatchWorks-Difference_Cloud-application-Services-p8fkjwbk7104g8a3cr1slev8nvqnmsce8cro1dxpmk.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-16023 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-16023 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-image-box.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-16023.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

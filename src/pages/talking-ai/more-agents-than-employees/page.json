@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/more-agents-than-employees/",
+  "title": "More Agents Than Employees: How Zapier Disrupted Itself Before AI Could",
+  "description": "Zapier has more agents than employees. CEO Wade Foster on why the best AI model still scores 18% on real business tasks and what actually works instead.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "More Agents Than Employees: How Zapier Disrupted Itself Before AI Could",
+    "og:description": "Zapier has more agents than employees. CEO Wade Foster on why the best AI model still scores 18% on real business tasks and what actually works instead.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/wade-foster-2.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "More Agents Than Employees: How Zapier Disrupted Itself Before AI Could",
+    "twitter:description": "Zapier has more agents than employees. CEO Wade Foster on why the best AI model still scores 18% on real business tasks and what actually works instead.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/wade-foster-2.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-36555 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36555 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-36555.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

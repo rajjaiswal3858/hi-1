@@ -1,0 +1,42 @@
+{
+  "route": "/blog/product-design/minimum-viable-replacement/",
+  "title": "Minimum Viable Replacement: A New Approach to Modernizing Legacy Solutions | HatchWorks AI",
+  "description": "There's a better way to build software than the Minimal Viable Product (MVP) approach, the Minimal Viable Replacement (MVR). MVR is ideal for when you're not building a new solution but modernizing or replacing an existing one.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Minimum Viable Replacement: A New Approach to Modernizing Legacy Solutions | HatchWorks AI",
+    "og:description": "There's a better way to build software than the Minimal Viable Product (MVP) approach, the Minimal Viable Replacement (MVR). MVR is ideal for when you're not building a new solution but modernizing or replacing an existing one.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/12/v5-Minimum-Viable-Replacement-A-New-Approach-to-Modernizing-Legacy-Solution-Recovered-copy-Recovered-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Minimum Viable Replacement: A New Approach to Modernizing Legacy Solutions | HatchWorks AI",
+    "twitter:description": "There's a better way to build software than the Minimal Viable Product (MVP) approach, the Minimal Viable Replacement (MVR). MVR is ideal for when you're not building a new solution but modernizing or replacing an existing one.",
+    "twitter:image": "/assets/wp-content/uploads/2022/12/v5-Minimum-Viable-Replacement-A-New-Approach-to-Modernizing-Legacy-Solution-Recovered-copy-Recovered-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29000 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29000 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29000.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

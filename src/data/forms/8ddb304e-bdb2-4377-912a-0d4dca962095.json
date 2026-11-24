@@ -1,0 +1,74 @@
+{
+  "id": "8ddb304e-bdb2-4377-912a-0d4dca962095",
+  "captcha": false,
+  "submitText": "Download One Pager",
+  "inlineMessage": "<p><span style=\"color: #000000;\"><strong>Thank You! </strong>Your request has been received. </span></p>\n<p><span style=\"color: #000000;\">Your file is ready for download below, and we’ve also sent an email with an alternate download link to your provided address. Enjoy!</span></p>\n<p><span style=\"color: #000000;\"><strong><a href=\"https://6632357.fs1.hubspotusercontent-na1.net/hubfs/6632357/RAG-%20One%20Pager.pdf\" target=\"_blank\" rel=\"noopener\" style=\"color: #000000;\">Download Your One Pager</a></strong></span></p>",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "First name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "lastname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Last name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Email",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Company name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

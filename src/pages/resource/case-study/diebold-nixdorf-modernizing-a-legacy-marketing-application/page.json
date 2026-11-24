@@ -1,0 +1,43 @@
+{
+  "route": "/resource/case-study/diebold-nixdorf-modernizing-a-legacy-marketing-application/",
+  "title": "Diebold Nixdorf Case Study | HatchWorks AI",
+  "description": "A staffing company with branches across all 50 states, Puerto Rico and Canada. An aging platform that impeded employees’ job searches—and employers’ ability to find reliable and quality staff. A need to modernize the current organizational structure, create their own internal Product group, and develop a strategic solution focused on improving the user experience.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Diebold Nixdorf Case Study | HatchWorks AI",
+    "og:description": "A staffing company with branches across all 50 states, Puerto Rico and Canada. An aging platform that impeded employees’ job searches—and employers’ ability to find reliable and quality staff. A need to modernize the current organizational structure, create their own internal Product group, and develop a strategic solution focused on improving the user experience.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/09/Social-Feature-Image-Nearshore-Unbranded-case-study.001.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Diebold Nixdorf Case Study | HatchWorks AI",
+    "twitter:description": "A staffing company with branches across all 50 states, Puerto Rico and Canada. An aging platform that impeded employees’ job searches—and employers’ ability to find reliable and quality staff. A need to modernize the current organizational structure, create their own internal Product group, and develop a strategic solution focused on improving the user experience.",
+    "twitter:image": "/assets/wp-content/uploads/2021/09/Social-Feature-Image-Nearshore-Unbranded-case-study.001.jpeg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-23534 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-23534 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-23534.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

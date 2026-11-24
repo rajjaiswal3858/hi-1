@@ -1,0 +1,41 @@
+{
+  "route": "/news/hatchworks-receives-best-places-to-work-award-for-3rd-consecutive-year-by-atlanta-business-chronicle/",
+  "title": "HatchWorks Named “Best Place to Work” for 3rd Year in a Row | HatchWorks AI",
+  "description": "HatchWorks has been recognized by the Atlanta Business Chronicle as one of the Best Places to Work for the third year in a row.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks Named “Best Place to Work” for 3rd Year in a Row | HatchWorks AI",
+    "og:description": "HatchWorks has been recognized by the Atlanta Business Chronicle as one of the Best Places to Work for the third year in a row.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/08/blog-thumbnail-ABC-BEST-PLACE-TO-WORK-202-BLOG-02-1024x874.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks Named “Best Place to Work” for 3rd Year in a Row | HatchWorks AI",
+    "twitter:description": "HatchWorks has been recognized by the Atlanta Business Chronicle as one of the Best Places to Work for the third year in a row.",
+    "twitter:image": "/assets/wp-content/uploads/2022/08/blog-thumbnail-ABC-BEST-PLACE-TO-WORK-202-BLOG-02-1024x874.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-26500 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-26500 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-26500.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "58e16cf8-0ced-40c6-a92e-d841d7c9a163",
+  "captcha": false,
+  "submitText": "Sign Up",
+  "inlineMessage": "<h1 style=\"text-align: center;\"><span style=\"color: #ffffff;\">Thanks for subscribing!</span></h1>",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

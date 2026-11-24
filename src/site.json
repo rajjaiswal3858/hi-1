@@ -1,0 +1,3520 @@
+{
+  "origin": "https://hatchworks.com",
+  "commonStyles": [
+    "/assets/wp-content/plugins/cool-timeline/includes/cool-timeline-block/dist/style-index.css",
+    "/assets/wp-content/plugins/captivatesync-trade/captivate-sync-assets/css/dist/shortcode-min.css",
+    "/assets/wp-content/plugins/wp-expand-tabs-free/src/Shared/Assets/font-awesome.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-elementor-pro/assets/css/exad-header-footer.css",
+    "/assets/wp-content/uploads/elementor/css/custom-frontend.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-15997.css",
+    "/assets/wp-includes/css/dashicons.min.css",
+    "/assets/wp-content/themes/hello-elementor/assets/css/reset.css",
+    "/assets/wp-content/themes/hello-elementor/assets/css/theme.css",
+    "/assets/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35623.css",
+    "/assets/wp-content/uploads/elementor/css/post-35567.css",
+    "/assets/wp-content/plugins/exclusive-addons-elementor-pro/assets/css/exad-pro-styles.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-elementor-pro/assets/css/exad-pro-eicons-styles.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/vendor/css/slick.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/vendor/css/slick-theme.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/vendor/css/imagehover.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/vendor/css/swiper.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/css/exad-styles.min.css",
+    "https://fonts.bunny.net/css?family=Open%20Sans:regular,bold,700&display=swap&ver=1.0",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "dir": "home"
+    },
+    {
+      "route": "/private-equity/",
+      "dir": "private-equity"
+    },
+    {
+      "route": "/technology/",
+      "dir": "technology"
+    },
+    {
+      "route": "/communications/",
+      "dir": "communications"
+    },
+    {
+      "route": "/healthcare/",
+      "dir": "healthcare"
+    },
+    {
+      "route": "/retail/",
+      "dir": "retail"
+    },
+    {
+      "route": "/finance/",
+      "dir": "finance"
+    },
+    {
+      "route": "/careers/",
+      "dir": "careers"
+    },
+    {
+      "route": "/about-us/",
+      "dir": "about-us"
+    },
+    {
+      "route": "/real-estate/",
+      "dir": "real-estate"
+    },
+    {
+      "route": "/faq/",
+      "dir": "faq"
+    },
+    {
+      "route": "/hatchfutures/",
+      "dir": "hatchfutures"
+    },
+    {
+      "route": "/case-studies/",
+      "dir": "case-studies"
+    },
+    {
+      "route": "/company/contact/",
+      "dir": "company/contact"
+    },
+    {
+      "route": "/ai-change-management/",
+      "dir": "ai-change-management"
+    },
+    {
+      "route": "/ai-strategy-roadmap/",
+      "dir": "ai-strategy-roadmap"
+    },
+    {
+      "route": "/the-gendd-manifesto/",
+      "dir": "the-gendd-manifesto"
+    },
+    {
+      "route": "/intelligence-layer-ai/",
+      "dir": "intelligence-layer-ai"
+    },
+    {
+      "route": "/generative-driven-development/",
+      "dir": "generative-driven-development"
+    },
+    {
+      "route": "/agentic-ai-automation/",
+      "dir": "agentic-ai-automation"
+    },
+    {
+      "route": "/model-fine-tuning-optimization/",
+      "dir": "model-fine-tuning-optimization"
+    },
+    {
+      "route": "/data-science-machine-learning/",
+      "dir": "data-science-machine-learning"
+    },
+    {
+      "route": "/data-modernization/",
+      "dir": "data-modernization"
+    },
+    {
+      "route": "/ai-native-product-development-services/",
+      "dir": "ai-native-product-development-services"
+    },
+    {
+      "route": "/how-we-engage/",
+      "dir": "how-we-engage"
+    },
+    {
+      "route": "/talking-ai/",
+      "dir": "talking-ai"
+    },
+    {
+      "route": "/put-openai-to-work-in-your-business/",
+      "dir": "put-openai-to-work-in-your-business"
+    },
+    {
+      "route": "/databricks/",
+      "dir": "databricks"
+    },
+    {
+      "route": "/resources/blog/",
+      "dir": "resources/blog"
+    },
+    {
+      "route": "/anthropic/",
+      "dir": "anthropic"
+    },
+    {
+      "route": "/google-cloud-build-the-intelligence-layer-your-business-runs-on/",
+      "dir": "google-cloud-build-the-intelligence-layer-your-business-runs-on"
+    },
+    {
+      "route": "/cto-blueprint-rag/",
+      "dir": "cto-blueprint-rag"
+    },
+    {
+      "route": "/newsletter/",
+      "dir": "newsletter"
+    },
+    {
+      "route": "/gendd-ebook/",
+      "dir": "gendd-ebook"
+    },
+    {
+      "route": "/state-of-ai-2026-mid-year-reality-check/",
+      "dir": "state-of-ai-2026-mid-year-reality-check"
+    },
+    {
+      "route": "/resources/events/",
+      "dir": "resources/events"
+    },
+    {
+      "route": "/company/newsroom/",
+      "dir": "company/newsroom"
+    },
+    {
+      "route": "/agentic-opportunity-finder/",
+      "dir": "agentic-opportunity-finder"
+    },
+    {
+      "route": "/case-studies/ai-airspace-insights-made-simple/",
+      "dir": "case-studies/ai-airspace-insights-made-simple"
+    },
+    {
+      "route": "/case-studies/diebold-nixdorf/",
+      "dir": "case-studies/diebold-nixdorf"
+    },
+    {
+      "route": "/case-studies/designintelligence/",
+      "dir": "case-studies/designintelligence"
+    },
+    {
+      "route": "/case-studies/ai-virtual-assistant-aircraft-maintenance/",
+      "dir": "case-studies/ai-virtual-assistant-aircraft-maintenance"
+    },
+    {
+      "route": "/case-studies/helping-deliver-real-time-fleet-insights-with-retrieval-augmented-generation-rag/",
+      "dir": "case-studies/helping-deliver-real-time-fleet-insights-with-retrieval-augmented-generation-rag"
+    },
+    {
+      "route": "/case-studies/from-ad-hoc-ai-to-enterprise-operating-model/",
+      "dir": "case-studies/from-ad-hoc-ai-to-enterprise-operating-model"
+    },
+    {
+      "route": "/case-studies/ai-driven-video-platform-improves-healthcare-literacy-at-scale/",
+      "dir": "case-studies/ai-driven-video-platform-improves-healthcare-literacy-at-scale"
+    },
+    {
+      "route": "/case-studies/empowering-recruitment-marketing-ai-agents-smarter-hiring/",
+      "dir": "case-studies/empowering-recruitment-marketing-ai-agents-smarter-hiring"
+    },
+    {
+      "route": "/case-studies/scaling-ai-coaching-assistant-for-top-ceos/",
+      "dir": "case-studies/scaling-ai-coaching-assistant-for-top-ceos"
+    },
+    {
+      "route": "/case-studies/ics/",
+      "dir": "case-studies/ics"
+    },
+    {
+      "route": "/case-studies/juice-plus/",
+      "dir": "case-studies/juice-plus"
+    },
+    {
+      "route": "/forward-deployed-engineers/",
+      "dir": "forward-deployed-engineers"
+    },
+    {
+      "route": "/case-studies/innovative-platform-next-generation-sales-enablement-financial-wellness/",
+      "dir": "case-studies/innovative-platform-next-generation-sales-enablement-financial-wellness"
+    },
+    {
+      "route": "/case-studies/springhills/",
+      "dir": "case-studies/springhills"
+    },
+    {
+      "route": "/case-studies/scaling-financial-health-with-a-shift-to-digital-sales-and-automation/",
+      "dir": "case-studies/scaling-financial-health-with-a-shift-to-digital-sales-and-automation"
+    },
+    {
+      "route": "/case-studies/proprietary-patient-system-faster-onboarding/",
+      "dir": "case-studies/proprietary-patient-system-faster-onboarding"
+    },
+    {
+      "route": "/case-studies/ai-strategy-to-a-multi-agent-ai-platform/",
+      "dir": "case-studies/ai-strategy-to-a-multi-agent-ai-platform"
+    },
+    {
+      "route": "/case-studies/conversational-intelligence-across-52-franchise-locations/",
+      "dir": "case-studies/conversational-intelligence-across-52-franchise-locations"
+    },
+    {
+      "route": "/case-studies/ai-for-underwriting-improving-real-estate-investment-decisions-with-ai/",
+      "dir": "case-studies/ai-for-underwriting-improving-real-estate-investment-decisions-with-ai"
+    },
+    {
+      "route": "/news/2025-inc-power-partner/",
+      "dir": "news/2025-inc-power-partner"
+    },
+    {
+      "route": "/news/global-generative-ai-awards/",
+      "dir": "news/global-generative-ai-awards"
+    },
+    {
+      "route": "/news/code-generative-ai-solution-of-the-year/",
+      "dir": "news/code-generative-ai-solution-of-the-year"
+    },
+    {
+      "route": "/case-studies/from-50-ai-ideas-to-prioritized-outcome-driven-roadmap-modern-data-foundation/",
+      "dir": "case-studies/from-50-ai-ideas-to-prioritized-outcome-driven-roadmap-modern-data-foundation"
+    },
+    {
+      "route": "/privacy-policy/",
+      "dir": "privacy-policy"
+    },
+    {
+      "route": "/recruitment-fraud-disclaimer/",
+      "dir": "recruitment-fraud-disclaimer"
+    },
+    {
+      "route": "/terms-and-conditions/",
+      "dir": "terms-and-conditions"
+    },
+    {
+      "route": "/case-studies/gendd-accelerated-delivery/",
+      "dir": "case-studies/gendd-accelerated-delivery"
+    },
+    {
+      "route": "/case-studies/revolutionizing-compliance-document-reviews-with-machine-learning/",
+      "dir": "case-studies/revolutionizing-compliance-document-reviews-with-machine-learning"
+    },
+    {
+      "route": "/blog/gen-ai/proprietary-ai-solutions/",
+      "dir": "blog/gen-ai/proprietary-ai-solutions"
+    },
+    {
+      "route": "/gen-ai-solution-accelerator/",
+      "dir": "gen-ai-solution-accelerator"
+    },
+    {
+      "route": "/blog/gen-ai/embrace-generative-ai-team-integration/",
+      "dir": "blog/gen-ai/embrace-generative-ai-team-integration"
+    },
+    {
+      "route": "/resource/events/idea-to-mvp-gen-ai/",
+      "dir": "resource/events/idea-to-mvp-gen-ai"
+    },
+    {
+      "route": "/resource/events/using-small-language-models-industry/",
+      "dir": "resource/events/using-small-language-models-industry"
+    },
+    {
+      "route": "/resource/events/deploy-llm-locally/",
+      "dir": "resource/events/deploy-llm-locally"
+    },
+    {
+      "route": "/resource/events/create-fine-tune-computer-vision-model/",
+      "dir": "resource/events/create-fine-tune-computer-vision-model"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-evaluation-frameworks/",
+      "dir": "blog/ai-agents/ai-agent-evaluation-frameworks"
+    },
+    {
+      "route": "/case-studies/modernizing-revtrak-for-mobile-friendly-k-12-school-payments/",
+      "dir": "case-studies/modernizing-revtrak-for-mobile-friendly-k-12-school-payments"
+    },
+    {
+      "route": "/talking-ai/ai-roi/",
+      "dir": "talking-ai/ai-roi"
+    },
+    {
+      "route": "/news/the-ai-roi-engine/",
+      "dir": "news/the-ai-roi-engine"
+    },
+    {
+      "route": "/blog/gen-ai/brand-front-desk-inside-chatgpt/",
+      "dir": "blog/gen-ai/brand-front-desk-inside-chatgpt"
+    },
+    {
+      "route": "/rag/",
+      "dir": "rag"
+    },
+    {
+      "route": "/ai-roadmap-roi-workshop/",
+      "dir": "ai-roadmap-roi-workshop"
+    },
+    {
+      "route": "/case-studies/ai-powered-email-automation-frees-sales-team-to-focus-on-high-value-orders/",
+      "dir": "case-studies/ai-powered-email-automation-frees-sales-team-to-focus-on-high-value-orders"
+    },
+    {
+      "route": "/resource/product-sheet/healthcare/",
+      "dir": "resource/product-sheet/healthcare"
+    },
+    {
+      "route": "/blog/generative-driven-development/",
+      "dir": "blog/generative-driven-development"
+    },
+    {
+      "route": "/gendd/",
+      "dir": "gendd"
+    },
+    {
+      "route": "/blog/gen-ai/google-adk-best-practices/",
+      "dir": "blog/gen-ai/google-adk-best-practices"
+    },
+    {
+      "route": "/blog/gendd/gendd-pod/",
+      "dir": "blog/gendd/gendd-pod"
+    },
+    {
+      "route": "/blog/fde/forward-deployed-engineer/",
+      "dir": "blog/fde/forward-deployed-engineer"
+    },
+    {
+      "route": "/blog/gen-ai/fractional-chief-ai-officer/",
+      "dir": "blog/gen-ai/fractional-chief-ai-officer"
+    },
+    {
+      "route": "/talking-ai/ai-co-worker/",
+      "dir": "talking-ai/ai-co-worker"
+    },
+    {
+      "route": "/talking-ai/prompt-build-repeat/",
+      "dir": "talking-ai/prompt-build-repeat"
+    },
+    {
+      "route": "/talking-ai/ai-in-education/",
+      "dir": "talking-ai/ai-in-education"
+    },
+    {
+      "route": "/talking-ai/build-with-agents/",
+      "dir": "talking-ai/build-with-agents"
+    },
+    {
+      "route": "/talking-ai/building-in-public-as-a-solo-founder/",
+      "dir": "talking-ai/building-in-public-as-a-solo-founder"
+    },
+    {
+      "route": "/talking-ai/saas-pocalypse/",
+      "dir": "talking-ai/saas-pocalypse"
+    },
+    {
+      "route": "/talking-ai/ai-feel-like-a-person/",
+      "dir": "talking-ai/ai-feel-like-a-person"
+    },
+    {
+      "route": "/talking-ai/tech-stack-bloat/",
+      "dir": "talking-ai/tech-stack-bloat"
+    },
+    {
+      "route": "/talking-ai/ai-security/",
+      "dir": "talking-ai/ai-security"
+    },
+    {
+      "route": "/talking-ai/ai-agents-could-hire-you/",
+      "dir": "talking-ai/ai-agents-could-hire-you"
+    },
+    {
+      "route": "/talking-ai/collaborative-agents/",
+      "dir": "talking-ai/collaborative-agents"
+    },
+    {
+      "route": "/talking-ai/generic-intelligence/",
+      "dir": "talking-ai/generic-intelligence"
+    },
+    {
+      "route": "/talking-ai/state-of-ai-2026/",
+      "dir": "talking-ai/state-of-ai-2026"
+    },
+    {
+      "route": "/talking-ai/more-agents-than-employees/",
+      "dir": "talking-ai/more-agents-than-employees"
+    },
+    {
+      "route": "/talking-ai/productivity-ceiling/",
+      "dir": "talking-ai/productivity-ceiling"
+    },
+    {
+      "route": "/talking-ai/domain-specific-models/",
+      "dir": "talking-ai/domain-specific-models"
+    },
+    {
+      "route": "/talking-ai/coding-agents-to-ai-coworkers/",
+      "dir": "talking-ai/coding-agents-to-ai-coworkers"
+    },
+    {
+      "route": "/talking-ai/capability-was-never-the-bottleneck/",
+      "dir": "talking-ai/capability-was-never-the-bottleneck"
+    },
+    {
+      "route": "/blog/databricks/gcp-data-lake/",
+      "dir": "blog/databricks/gcp-data-lake"
+    },
+    {
+      "route": "/blog/databricks/databricks-lakehouse-fundamentals/",
+      "dir": "blog/databricks/databricks-lakehouse-fundamentals"
+    },
+    {
+      "route": "/blog/databricks/bi-report-migration/",
+      "dir": "blog/databricks/bi-report-migration"
+    },
+    {
+      "route": "/talking-ai/mission-critical-ai/",
+      "dir": "talking-ai/mission-critical-ai"
+    },
+    {
+      "route": "/talking-ai/rules-of-defensibility/",
+      "dir": "talking-ai/rules-of-defensibility"
+    },
+    {
+      "route": "/blog/databricks/lakehouse-ai/",
+      "dir": "blog/databricks/lakehouse-ai"
+    },
+    {
+      "route": "/author/andy-smithhatchworks-com/",
+      "dir": "author/andy-smithhatchworks-com"
+    },
+    {
+      "route": "/author/melissa-malec/",
+      "dir": "author/melissa-malec"
+    },
+    {
+      "route": "/blog/gen-ai/ai-in-credit-unions/",
+      "dir": "blog/gen-ai/ai-in-credit-unions"
+    },
+    {
+      "route": "/blog/databricks/data-lake-vs-data-warehouse-vs-data-mart/",
+      "dir": "blog/databricks/data-lake-vs-data-warehouse-vs-data-mart"
+    },
+    {
+      "route": "/blog/databricks/databricks-best-practices/",
+      "dir": "blog/databricks/databricks-best-practices"
+    },
+    {
+      "route": "/author/mona-champaneri/",
+      "dir": "author/mona-champaneri"
+    },
+    {
+      "route": "/blog/ai-agents/ai-coding-agent-costs/",
+      "dir": "blog/ai-agents/ai-coding-agent-costs"
+    },
+    {
+      "route": "/author/matt-paigehatchworks-com/",
+      "dir": "author/matt-paigehatchworks-com"
+    },
+    {
+      "route": "/blog/gen-ai/ai-pilots-fail-in-production/",
+      "dir": "blog/gen-ai/ai-pilots-fail-in-production"
+    },
+    {
+      "route": "/blog/leadership/hours-ai-gives-back/",
+      "dir": "blog/leadership/hours-ai-gives-back"
+    },
+    {
+      "route": "/blog/claude/anthropic-ipo-ai-budget/",
+      "dir": "blog/claude/anthropic-ipo-ai-budget"
+    },
+    {
+      "route": "/blog/product-design/ai-product-development/",
+      "dir": "blog/product-design/ai-product-development"
+    },
+    {
+      "route": "/blog/modernization/too-hard-to-copy/",
+      "dir": "blog/modernization/too-hard-to-copy"
+    },
+    {
+      "route": "/author/paulomello/",
+      "dir": "author/paulomello"
+    },
+    {
+      "route": "/author/mitchperkal/",
+      "dir": "author/mitchperkal"
+    },
+    {
+      "route": "/blog/modernization/cloud-agnostic-architecture/",
+      "dir": "blog/modernization/cloud-agnostic-architecture"
+    },
+    {
+      "route": "/blog/model-strategy/neutral-ai-harness/",
+      "dir": "blog/model-strategy/neutral-ai-harness"
+    },
+    {
+      "route": "/blog/gen-ai/openai-just-launched-dots/",
+      "dir": "blog/gen-ai/openai-just-launched-dots"
+    },
+    {
+      "route": "/state-of-ai-2026/",
+      "dir": "state-of-ai-2026"
+    },
+    {
+      "route": "/blog/gen-ai/ai-model-strategy/",
+      "dir": "blog/gen-ai/ai-model-strategy"
+    },
+    {
+      "route": "/blog/gen-ai/ai-roadmap-wrong-place/",
+      "dir": "blog/gen-ai/ai-roadmap-wrong-place"
+    },
+    {
+      "route": "/author/sreeniketh-aathreya/",
+      "dir": "author/sreeniketh-aathreya"
+    },
+    {
+      "route": "/blog/gen-ai/self-hosting-llms/",
+      "dir": "blog/gen-ai/self-hosting-llms"
+    },
+    {
+      "route": "/state-of-ai-2025-q3-edition/",
+      "dir": "state-of-ai-2025-q3-edition"
+    },
+    {
+      "route": "/resource/events/cursor-101-build-lightning-fast-with-generative-driven-development/",
+      "dir": "resource/events/cursor-101-build-lightning-fast-with-generative-driven-development"
+    },
+    {
+      "route": "/state-of-ai-2025/",
+      "dir": "state-of-ai-2025"
+    },
+    {
+      "route": "/resource/events/vibe-coding/",
+      "dir": "resource/events/vibe-coding"
+    },
+    {
+      "route": "/resource/events/model-context-protocol-mcp-explained-with-example/",
+      "dir": "resource/events/model-context-protocol-mcp-explained-with-example"
+    },
+    {
+      "route": "/resource/events/build-a-multimodal-agent-that-sees-hears-talks-back/",
+      "dir": "resource/events/build-a-multimodal-agent-that-sees-hears-talks-back"
+    },
+    {
+      "route": "/resource/events/training-fine-tuning-inference-whats-the-difference/",
+      "dir": "resource/events/training-fine-tuning-inference-whats-the-difference"
+    },
+    {
+      "route": "/resource/events/generative-ai-mdm-automation/",
+      "dir": "resource/events/generative-ai-mdm-automation"
+    },
+    {
+      "route": "/resource/events/business-case-genai-2025-roi-cfo-cto/",
+      "dir": "resource/events/business-case-genai-2025-roi-cfo-cto"
+    },
+    {
+      "route": "/resource/events/ai-agents/",
+      "dir": "resource/events/ai-agents"
+    },
+    {
+      "route": "/resource/events/data-contracts-databricks/",
+      "dir": "resource/events/data-contracts-databricks"
+    },
+    {
+      "route": "/resource/events/databricks-sandbox/",
+      "dir": "resource/events/databricks-sandbox"
+    },
+    {
+      "route": "/podcast/can-ai-be-trusted/",
+      "dir": "podcast/can-ai-be-trusted"
+    },
+    {
+      "route": "/news/clutch-global-2026/",
+      "dir": "news/clutch-global-2026"
+    },
+    {
+      "route": "/news/openai-partner-network/",
+      "dir": "news/openai-partner-network"
+    },
+    {
+      "route": "/podcast/balancing-profit-and-social-responsibility/",
+      "dir": "podcast/balancing-profit-and-social-responsibility"
+    },
+    {
+      "route": "/news/2026-inc-power-partner/",
+      "dir": "news/2026-inc-power-partner"
+    },
+    {
+      "route": "/podcast/developing-ai-tools-insights-for-ceos/",
+      "dir": "podcast/developing-ai-tools-insights-for-ceos"
+    },
+    {
+      "route": "/news/forbes-top-5-ai-leaders/",
+      "dir": "news/forbes-top-5-ai-leaders"
+    },
+    {
+      "route": "/news/clutch-global-leader/",
+      "dir": "news/clutch-global-leader"
+    },
+    {
+      "route": "/podcast/enterprise-ai-adoption/",
+      "dir": "podcast/enterprise-ai-adoption"
+    },
+    {
+      "route": "/news/inc-power-partner-awards-2023/",
+      "dir": "news/inc-power-partner-awards-2023"
+    },
+    {
+      "route": "/news/top-100-fintech-software-development-companies/",
+      "dir": "news/top-100-fintech-software-development-companies"
+    },
+    {
+      "route": "/category/news/",
+      "dir": "category/news"
+    },
+    {
+      "route": "/tag/ai-innovation/",
+      "dir": "tag/ai-innovation"
+    },
+    {
+      "route": "/news/brandon-powell-titan-100/",
+      "dir": "news/brandon-powell-titan-100"
+    },
+    {
+      "route": "/tag/ai-partners/",
+      "dir": "tag/ai-partners"
+    },
+    {
+      "route": "/tag/ai-engineering-teams/",
+      "dir": "tag/ai-engineering-teams"
+    },
+    {
+      "route": "/gendd-training-workshop/",
+      "dir": "gendd-training-workshop"
+    },
+    {
+      "route": "/tag/b2b-awards/",
+      "dir": "tag/b2b-awards"
+    },
+    {
+      "route": "/tag/ai-software-development/",
+      "dir": "tag/ai-software-development"
+    },
+    {
+      "route": "/tag/ai-recognition/",
+      "dir": "tag/ai-recognition"
+    },
+    {
+      "route": "/tag/atlanta-tech/",
+      "dir": "tag/atlanta-tech"
+    },
+    {
+      "route": "/tag/enterprise-ai/",
+      "dir": "tag/enterprise-ai"
+    },
+    {
+      "route": "/tag/inc-power-partner/",
+      "dir": "tag/inc-power-partner"
+    },
+    {
+      "route": "/tag/award/",
+      "dir": "tag/award"
+    },
+    {
+      "route": "/tag/gen-ai/",
+      "dir": "tag/gen-ai"
+    },
+    {
+      "route": "/tag/generative-driven-development/",
+      "dir": "tag/generative-driven-development"
+    },
+    {
+      "route": "/tag/hatchworks-ai/",
+      "dir": "tag/hatchworks-ai"
+    },
+    {
+      "route": "/tag/generative-ai/",
+      "dir": "tag/generative-ai"
+    },
+    {
+      "route": "/tag/awards/",
+      "dir": "tag/awards"
+    },
+    {
+      "route": "/news/titan-100-hall-of-fame/",
+      "dir": "news/titan-100-hall-of-fame"
+    },
+    {
+      "route": "/news/dallas-innovates-ai-75/",
+      "dir": "news/dallas-innovates-ai-75"
+    },
+    {
+      "route": "/news/top-software-development-companies/",
+      "dir": "news/top-software-development-companies"
+    },
+    {
+      "route": "/tag/ai-awards/",
+      "dir": "tag/ai-awards"
+    },
+    {
+      "route": "/news/claude-partner-network/",
+      "dir": "news/claude-partner-network"
+    },
+    {
+      "route": "/news/2025-fall-clutch-global-award/",
+      "dir": "news/2025-fall-clutch-global-award"
+    },
+    {
+      "route": "/tag/code-generative-ai/",
+      "dir": "tag/code-generative-ai"
+    },
+    {
+      "route": "/tag/ai-breakthrough-awards/",
+      "dir": "tag/ai-breakthrough-awards"
+    },
+    {
+      "route": "/tag/production-grade-ai/",
+      "dir": "tag/production-grade-ai"
+    },
+    {
+      "route": "/tag/atlanta-tech-company/",
+      "dir": "tag/atlanta-tech-company"
+    },
+    {
+      "route": "/tag/gendd/",
+      "dir": "tag/gendd"
+    },
+    {
+      "route": "/404/",
+      "dir": "404"
+    },
+    {
+      "route": "/blog/product-design/history-digital-transformation/",
+      "dir": "blog/product-design/history-digital-transformation"
+    },
+    {
+      "route": "/blog/claude/goal-automation/",
+      "dir": "blog/claude/goal-automation"
+    },
+    {
+      "route": "/blog/claude/claude-code/",
+      "dir": "blog/claude/claude-code"
+    },
+    {
+      "route": "/blog/claude/agent-sdk/",
+      "dir": "blog/claude/agent-sdk"
+    },
+    {
+      "route": "/blog/claude/skills-architecture/",
+      "dir": "blog/claude/skills-architecture"
+    },
+    {
+      "route": "/blog/claude/agent-harness/",
+      "dir": "blog/claude/agent-harness"
+    },
+    {
+      "route": "/blog/claude/building-agents-with-claude/",
+      "dir": "blog/claude/building-agents-with-claude"
+    },
+    {
+      "route": "/blog/claude/claude-skills/",
+      "dir": "blog/claude/claude-skills"
+    },
+    {
+      "route": "/blog/claude/claude-vs-claude-code-vs-cowork/",
+      "dir": "blog/claude/claude-vs-claude-code-vs-cowork"
+    },
+    {
+      "route": "/blog/claude/claude-sub-agents-and-agent-teams/",
+      "dir": "blog/claude/claude-sub-agents-and-agent-teams"
+    },
+    {
+      "route": "/blog/fde/inside-an-fde-engagement/",
+      "dir": "blog/fde/inside-an-fde-engagement"
+    },
+    {
+      "route": "/blog/claude/claude-agent-sdk-and-managed-agents/",
+      "dir": "blog/claude/claude-agent-sdk-and-managed-agents"
+    },
+    {
+      "route": "/news/top-us-software-development-company-2025/",
+      "dir": "news/top-us-software-development-company-2025"
+    },
+    {
+      "route": "/blog/data-governance/master-data-governance-guide/",
+      "dir": "blog/data-governance/master-data-governance-guide"
+    },
+    {
+      "route": "/news/most-reviewed-big-data-companies/",
+      "dir": "news/most-reviewed-big-data-companies"
+    },
+    {
+      "route": "/blog/ai-agents/autonomous-agents/",
+      "dir": "blog/ai-agents/autonomous-agents"
+    },
+    {
+      "route": "/news/top-atlanta-startup/",
+      "dir": "news/top-atlanta-startup"
+    },
+    {
+      "route": "/blog/data-governance/best-practices-for-data-governance/",
+      "dir": "blog/data-governance/best-practices-for-data-governance"
+    },
+    {
+      "route": "/blog/data-governance/components-of-data-governance/",
+      "dir": "blog/data-governance/components-of-data-governance"
+    },
+    {
+      "route": "/blog/data-governance/data-governance-pillars/",
+      "dir": "blog/data-governance/data-governance-pillars"
+    },
+    {
+      "route": "/blog/gen-ai/ai-inference/",
+      "dir": "blog/gen-ai/ai-inference"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-statistics/",
+      "dir": "blog/gen-ai/generative-ai-statistics"
+    },
+    {
+      "route": "/blog/gen-ai/ready-for-ai/",
+      "dir": "blog/gen-ai/ready-for-ai"
+    },
+    {
+      "route": "/blog/fde/why-ai-pilots-stall/",
+      "dir": "blog/fde/why-ai-pilots-stall"
+    },
+    {
+      "route": "/blog/fde/anthropic-certified-fde/",
+      "dir": "blog/fde/anthropic-certified-fde"
+    },
+    {
+      "route": "/blog/gen-ai/ai-strategy-should-use-ai/",
+      "dir": "blog/gen-ai/ai-strategy-should-use-ai"
+    },
+    {
+      "route": "/blog/fde/measure-the-roi/",
+      "dir": "blog/fde/measure-the-roi"
+    },
+    {
+      "route": "/blog/gen-ai/system-one-models-jev/",
+      "dir": "blog/gen-ai/system-one-models-jev"
+    },
+    {
+      "route": "/blog/fde/fde-vs-staff-augmentation/",
+      "dir": "blog/fde/fde-vs-staff-augmentation"
+    },
+    {
+      "route": "/blog/fde/ai-delivery-org/",
+      "dir": "blog/fde/ai-delivery-org"
+    },
+    {
+      "route": "/blog/gen-ai/how-to-deploy-an-llm/",
+      "dir": "blog/gen-ai/how-to-deploy-an-llm"
+    },
+    {
+      "route": "/blog/gen-ai/ai-driven-operating-systems/",
+      "dir": "blog/gen-ai/ai-driven-operating-systems"
+    },
+    {
+      "route": "/blog/gen-ai/llm-use-cases-single-vs-multiple-models/",
+      "dir": "blog/gen-ai/llm-use-cases-single-vs-multiple-models"
+    },
+    {
+      "route": "/blog/gen-ai/software-engineer-shortage/",
+      "dir": "blog/gen-ai/software-engineer-shortage"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-workplace-transformation/",
+      "dir": "blog/gen-ai/generative-ai-workplace-transformation"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-prompt-guide/",
+      "dir": "blog/gen-ai/generative-ai-prompt-guide"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-beginners/",
+      "dir": "blog/gen-ai/generative-ai-beginners"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-tools-for-modern-software-development/",
+      "dir": "blog/gen-ai/generative-ai-tools-for-modern-software-development"
+    },
+    {
+      "route": "/blog/gendd/modernization-at-portfolio-scale/",
+      "dir": "blog/gendd/modernization-at-portfolio-scale"
+    },
+    {
+      "route": "/blog/pe/ai-for-the-exit/",
+      "dir": "blog/pe/ai-for-the-exit"
+    },
+    {
+      "route": "/blog/pe/pilot-to-p-l/",
+      "dir": "blog/pe/pilot-to-p-l"
+    },
+    {
+      "route": "/blog/pe/owned-vs-rented/",
+      "dir": "blog/pe/owned-vs-rented"
+    },
+    {
+      "route": "/blog/pe/private-equity-value-creation/",
+      "dir": "blog/pe/private-equity-value-creation"
+    },
+    {
+      "route": "/blog/pe/ai-due-diligence/",
+      "dir": "blog/pe/ai-due-diligence"
+    },
+    {
+      "route": "/blog/nearshore-development/in-house-vs-outsourcing-software-development/",
+      "dir": "blog/nearshore-development/in-house-vs-outsourcing-software-development"
+    },
+    {
+      "route": "/blog/nearshore-development/how-to-select-the-right-outsourced-development-team/",
+      "dir": "blog/nearshore-development/how-to-select-the-right-outsourced-development-team"
+    },
+    {
+      "route": "/blog/nearshore-development/nearshore-software-development-guide/",
+      "dir": "blog/nearshore-development/nearshore-software-development-guide"
+    },
+    {
+      "route": "/blog/nearshore-development/staff-augmentation-success-guide/",
+      "dir": "blog/nearshore-development/staff-augmentation-success-guide"
+    },
+    {
+      "route": "/blog/nearshore-development/nearshore-vs-offshore-outsourcing/",
+      "dir": "blog/nearshore-development/nearshore-vs-offshore-outsourcing"
+    },
+    {
+      "route": "/blog/ai-agents/agent-mesh-architecture/",
+      "dir": "blog/ai-agents/agent-mesh-architecture"
+    },
+    {
+      "route": "/talking-ai/live-at-google-i-o/",
+      "dir": "talking-ai/live-at-google-i-o"
+    },
+    {
+      "route": "/talking-ai/start-building-agents/",
+      "dir": "talking-ai/start-building-agents"
+    },
+    {
+      "route": "/blog/gen-ai/vibe-coding-for-software-design/",
+      "dir": "blog/gen-ai/vibe-coding-for-software-design"
+    },
+    {
+      "route": "/blog/gendd/governed-automation/",
+      "dir": "blog/gendd/governed-automation"
+    },
+    {
+      "route": "/blog/gendd/ai-assisted-vs-ai-native-development/",
+      "dir": "blog/gendd/ai-assisted-vs-ai-native-development"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-guardrails/",
+      "dir": "blog/ai-agents/ai-agent-guardrails"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-cost-optimization/",
+      "dir": "blog/ai-agents/ai-agent-cost-optimization"
+    },
+    {
+      "route": "/blog/ai-agents/mitigate-costs-of-ai-agents/",
+      "dir": "blog/ai-agents/mitigate-costs-of-ai-agents"
+    },
+    {
+      "route": "/blog/gendd/human-in-the-loop/",
+      "dir": "blog/gendd/human-in-the-loop"
+    },
+    {
+      "route": "/blog/gendd/vibecoding-vs-gendd/",
+      "dir": "blog/gendd/vibecoding-vs-gendd"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-cost-controls/",
+      "dir": "blog/ai-agents/n8n-cost-controls"
+    },
+    {
+      "route": "/blog/gendd/ai-development-team-of-the-future/",
+      "dir": "blog/gendd/ai-development-team-of-the-future"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agents-become-the-buyer/",
+      "dir": "blog/ai-agents/ai-agents-become-the-buyer"
+    },
+    {
+      "route": "/blog/gendd/cost-of-vibe-coding/",
+      "dir": "blog/gendd/cost-of-vibe-coding"
+    },
+    {
+      "route": "/blog/ai-agents/ai-coding-agents/",
+      "dir": "blog/ai-agents/ai-coding-agents"
+    },
+    {
+      "route": "/blog/gendd/change-management-for-ai/",
+      "dir": "blog/gendd/change-management-for-ai"
+    },
+    {
+      "route": "/blog/gen-ai/the-art-of-prompting/",
+      "dir": "blog/gen-ai/the-art-of-prompting"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-best-practices/",
+      "dir": "blog/ai-agents/n8n-best-practices"
+    },
+    {
+      "route": "/blog/gen-ai/ai-hallucination-risk-assessment/",
+      "dir": "blog/gen-ai/ai-hallucination-risk-assessment"
+    },
+    {
+      "route": "/blog/gen-ai/ai-wrapper-product-strategy/",
+      "dir": "blog/gen-ai/ai-wrapper-product-strategy"
+    },
+    {
+      "route": "/news/k-12-school-payments/",
+      "dir": "news/k-12-school-payments"
+    },
+    {
+      "route": "/blog/gen-ai/ai-model-misbehavior/",
+      "dir": "blog/gen-ai/ai-model-misbehavior"
+    },
+    {
+      "route": "/blog/ai-agents/agent-ux-patterns/",
+      "dir": "blog/ai-agents/agent-ux-patterns"
+    },
+    {
+      "route": "/blog/gen-ai/ai-anxiety-in-the-workplace/",
+      "dir": "blog/gen-ai/ai-anxiety-in-the-workplace"
+    },
+    {
+      "route": "/talking-ai/dont-trust-verify/",
+      "dir": "talking-ai/dont-trust-verify"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-security/",
+      "dir": "blog/ai-agents/ai-agent-security"
+    },
+    {
+      "route": "/talking-ai/double-agents/",
+      "dir": "talking-ai/double-agents"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-vs-zapier/",
+      "dir": "blog/ai-agents/n8n-vs-zapier"
+    },
+    {
+      "route": "/blog/gen-ai/build-vs-buy-framework/",
+      "dir": "blog/gen-ai/build-vs-buy-framework"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-ai-agent/",
+      "dir": "blog/ai-agents/n8n-ai-agent"
+    },
+    {
+      "route": "/blog/ai-agents/general-purpose-vs-vertical-ai-agents/",
+      "dir": "blog/ai-agents/general-purpose-vs-vertical-ai-agents"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-design-best-practices/",
+      "dir": "blog/ai-agents/ai-agent-design-best-practices"
+    },
+    {
+      "route": "/blog/ai-agents/identify-ai-use-cases/",
+      "dir": "blog/ai-agents/identify-ai-use-cases"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agent-frameworks-guide/",
+      "dir": "blog/ai-agents/ai-agent-frameworks-guide"
+    },
+    {
+      "route": "/talking-ai/ai-agents-need-real-business-logic/",
+      "dir": "talking-ai/ai-agents-need-real-business-logic"
+    },
+    {
+      "route": "/blog/ai-agents/orchestrating-ai-agents/",
+      "dir": "blog/ai-agents/orchestrating-ai-agents"
+    },
+    {
+      "route": "/blog/gen-ai/ai-in-project-management/",
+      "dir": "blog/gen-ai/ai-in-project-management"
+    },
+    {
+      "route": "/blog/gen-ai/large-language-models-guide/",
+      "dir": "blog/gen-ai/large-language-models-guide"
+    },
+    {
+      "route": "/blog/gen-ai/open-source-vs-closed-llms-guide/",
+      "dir": "blog/gen-ai/open-source-vs-closed-llms-guide"
+    },
+    {
+      "route": "/blog/gen-ai/ai-orchestration/",
+      "dir": "blog/gen-ai/ai-orchestration"
+    },
+    {
+      "route": "/blog/gen-ai/small-language-models/",
+      "dir": "blog/gen-ai/small-language-models"
+    },
+    {
+      "route": "/blog/gen-ai/mlops-what-you-need-to-know/",
+      "dir": "blog/gen-ai/mlops-what-you-need-to-know"
+    },
+    {
+      "route": "/blog/data-governance/data-strategy-vs-data-governance/",
+      "dir": "blog/data-governance/data-strategy-vs-data-governance"
+    },
+    {
+      "route": "/blog/gen-ai/vibe-coding-for-retail/",
+      "dir": "blog/gen-ai/vibe-coding-for-retail"
+    },
+    {
+      "route": "/talking-ai/modern-marketing/",
+      "dir": "talking-ai/modern-marketing"
+    },
+    {
+      "route": "/blog/gen-ai/vibe-coding-for-real-estate/",
+      "dir": "blog/gen-ai/vibe-coding-for-real-estate"
+    },
+    {
+      "route": "/blog/data-governance/data-governance-responsibilities/",
+      "dir": "blog/data-governance/data-governance-responsibilities"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai/",
+      "dir": "blog/gen-ai/generative-ai"
+    },
+    {
+      "route": "/blog/gendd/gendd-for-architects/",
+      "dir": "blog/gendd/gendd-for-architects"
+    },
+    {
+      "route": "/blog/gen-ai/vibe-coding-for-executives/",
+      "dir": "blog/gen-ai/vibe-coding-for-executives"
+    },
+    {
+      "route": "/podcast/how-to-build-a-winning-partnership-between-hr-it-featuring-trent-cotton/",
+      "dir": "podcast/how-to-build-a-winning-partnership-between-hr-it-featuring-trent-cotton"
+    },
+    {
+      "route": "/podcast/secrets-to-successful-hr-it-cooperation-featuring-trent-cotton/",
+      "dir": "podcast/secrets-to-successful-hr-it-cooperation-featuring-trent-cotton"
+    },
+    {
+      "route": "/news/hatchworks-announces-free-beta-launch-of-new-saas-product-cinch/",
+      "dir": "news/hatchworks-announces-free-beta-launch-of-new-saas-product-cinch"
+    },
+    {
+      "route": "/talking-ai/building-in-public/",
+      "dir": "talking-ai/building-in-public"
+    },
+    {
+      "route": "/blog/software-development/build-vs-buy/",
+      "dir": "blog/software-development/build-vs-buy"
+    },
+    {
+      "route": "/podcast/how-passion-connects-you-to-the-future-with-trent-cotton/",
+      "dir": "podcast/how-passion-connects-you-to-the-future-with-trent-cotton"
+    },
+    {
+      "route": "/blog/product-design/mvp-vs-mvr/",
+      "dir": "blog/product-design/mvp-vs-mvr"
+    },
+    {
+      "route": "/blog/product-design/minimum-viable-replacement/",
+      "dir": "blog/product-design/minimum-viable-replacement"
+    },
+    {
+      "route": "/blog/product-design/iterative-design-process/",
+      "dir": "blog/product-design/iterative-design-process"
+    },
+    {
+      "route": "/blog/product-design/mvp-vs-prototype/",
+      "dir": "blog/product-design/mvp-vs-prototype"
+    },
+    {
+      "route": "/blog/nearshore-development/debunking-outsourcing-myths/",
+      "dir": "blog/nearshore-development/debunking-outsourcing-myths"
+    },
+    {
+      "route": "/blog/software-development/hire-development-team/",
+      "dir": "blog/software-development/hire-development-team"
+    },
+    {
+      "route": "/blog/nearshore-development/nearshore-software-development-statistics/",
+      "dir": "blog/nearshore-development/nearshore-software-development-statistics"
+    },
+    {
+      "route": "/blog/nearshore-development/outsourcing-colombia/",
+      "dir": "blog/nearshore-development/outsourcing-colombia"
+    },
+    {
+      "route": "/talking-ai/prompt-to-product/",
+      "dir": "talking-ai/prompt-to-product"
+    },
+    {
+      "route": "/blog/software-development/choosing-software-development-company/",
+      "dir": "blog/software-development/choosing-software-development-company"
+    },
+    {
+      "route": "/news/hatchworks-ranks-among-highest-scoring-businesses-on-inc-magazines-annual-list-of-best-workplaces-for-2022/",
+      "dir": "news/hatchworks-ranks-among-highest-scoring-businesses-on-inc-magazines-annual-list-of-best-workplaces-for-2022"
+    },
+    {
+      "route": "/blog/nearshore-development/nearshore-latin-america/",
+      "dir": "blog/nearshore-development/nearshore-latin-america"
+    },
+    {
+      "route": "/blog/agile/creating-an-agile-product-roadmap/",
+      "dir": "blog/agile/creating-an-agile-product-roadmap"
+    },
+    {
+      "route": "/blog/software-development/how-to-create-a-zen-like-agile-software-development-team/",
+      "dir": "blog/software-development/how-to-create-a-zen-like-agile-software-development-team"
+    },
+    {
+      "route": "/news/generative-ai-innovation/",
+      "dir": "news/generative-ai-innovation"
+    },
+    {
+      "route": "/blog/nearshore-development/5-tips-to-help-you-select-the-right-nearshore-development-partner/",
+      "dir": "blog/nearshore-development/5-tips-to-help-you-select-the-right-nearshore-development-partner"
+    },
+    {
+      "route": "/blog/gen-ai/generative-ai-use-cases/",
+      "dir": "blog/gen-ai/generative-ai-use-cases"
+    },
+    {
+      "route": "/blog/gendd/day-in-the-life-ai-software-developer/",
+      "dir": "blog/gendd/day-in-the-life-ai-software-developer"
+    },
+    {
+      "route": "/talking-ai/teaching-machines-to-smell/",
+      "dir": "talking-ai/teaching-machines-to-smell"
+    },
+    {
+      "route": "/blog/gen-ai/top-10-ai-podcasts/",
+      "dir": "blog/gen-ai/top-10-ai-podcasts"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-vs-make/",
+      "dir": "blog/ai-agents/n8n-vs-make"
+    },
+    {
+      "route": "/news/enterprise-software-development/",
+      "dir": "news/enterprise-software-development"
+    },
+    {
+      "route": "/talking-ai/from-rpa-to-ai-workers/",
+      "dir": "talking-ai/from-rpa-to-ai-workers"
+    },
+    {
+      "route": "/blog/ai-agents/multi-agent-solutions-in-n8n/",
+      "dir": "blog/ai-agents/multi-agent-solutions-in-n8n"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-guide/",
+      "dir": "blog/ai-agents/n8n-guide"
+    },
+    {
+      "route": "/blog/ai-agents/n8n-for-workflow-automation/",
+      "dir": "blog/ai-agents/n8n-for-workflow-automation"
+    },
+    {
+      "route": "/talking-ai/future-of-findability/",
+      "dir": "talking-ai/future-of-findability"
+    },
+    {
+      "route": "/ai-demos/propscan-ai/",
+      "dir": "ai-demos/propscan-ai"
+    },
+    {
+      "route": "/talking-ai/vibe-coding-with-noca-ai/",
+      "dir": "talking-ai/vibe-coding-with-noca-ai"
+    },
+    {
+      "route": "/ai-demos/trueval-ai/",
+      "dir": "ai-demos/trueval-ai"
+    },
+    {
+      "route": "/talking-ai/ai-translation/",
+      "dir": "talking-ai/ai-translation"
+    },
+    {
+      "route": "/talking-ai/ai-in-healthcare/",
+      "dir": "talking-ai/ai-in-healthcare"
+    },
+    {
+      "route": "/news/state-of-ai-2025-q3-update/",
+      "dir": "news/state-of-ai-2025-q3-update"
+    },
+    {
+      "route": "/talking-ai/revenue-with-automation/",
+      "dir": "talking-ai/revenue-with-automation"
+    },
+    {
+      "route": "/talking-ai/search-for-ai-agents/",
+      "dir": "talking-ai/search-for-ai-agents"
+    },
+    {
+      "route": "/resource/guide/the-5-pillars-of-the-aws-well-architected-framework/",
+      "dir": "resource/guide/the-5-pillars-of-the-aws-well-architected-framework"
+    },
+    {
+      "route": "/landing/5-pillars-of-the-aws-well-architected-framework/",
+      "dir": "landing/5-pillars-of-the-aws-well-architected-framework"
+    },
+    {
+      "route": "/resource/guide/how-aws-well-architected-reviews-can-drive-a-customer-first-culture/",
+      "dir": "resource/guide/how-aws-well-architected-reviews-can-drive-a-customer-first-culture"
+    },
+    {
+      "route": "/landing/solving-the-complexity-of-ai-driven-business-analytics-watch/",
+      "dir": "landing/solving-the-complexity-of-ai-driven-business-analytics-watch"
+    },
+    {
+      "route": "/landing/how-aws-well-architected-reviews-can-drive-customer-first-culture/",
+      "dir": "landing/how-aws-well-architected-reviews-can-drive-customer-first-culture"
+    },
+    {
+      "route": "/resource/webinar/solving-the-complexity-of-ai-driven-business-analytics/",
+      "dir": "resource/webinar/solving-the-complexity-of-ai-driven-business-analytics"
+    },
+    {
+      "route": "/news/ai-hackathon-2025/",
+      "dir": "news/ai-hackathon-2025"
+    },
+    {
+      "route": "/talking-ai/ai-agents-or-automation/",
+      "dir": "talking-ai/ai-agents-or-automation"
+    },
+    {
+      "route": "/blog/gendd/ai-developer-tools/",
+      "dir": "blog/gendd/ai-developer-tools"
+    },
+    {
+      "route": "/news/data-contracts-accelerator/",
+      "dir": "news/data-contracts-accelerator"
+    },
+    {
+      "route": "/talking-ai/truth-about-ai-wrappers/",
+      "dir": "talking-ai/truth-about-ai-wrappers"
+    },
+    {
+      "route": "/news/hatchworks-technologies-named-a-top-b2b-company-in-georgia-for-2020/",
+      "dir": "news/hatchworks-technologies-named-a-top-b2b-company-in-georgia-for-2020"
+    },
+    {
+      "route": "/news/hatchworks-technologies-ranks-14th-in-uga-alumni-associations-bulldog-100-list-of-fastest-growing-companies/",
+      "dir": "news/hatchworks-technologies-ranks-14th-in-uga-alumni-associations-bulldog-100-list-of-fastest-growing-companies"
+    },
+    {
+      "route": "/news/announcing-our-new-corporate-brand/",
+      "dir": "news/announcing-our-new-corporate-brand"
+    },
+    {
+      "route": "/news/hatchworks-technologies-inc-recognized-as-2021-atlanta-pacesetter/",
+      "dir": "news/hatchworks-technologies-inc-recognized-as-2021-atlanta-pacesetter"
+    },
+    {
+      "route": "/news/hatchworks-receives-best-places-to-work-award-for-2nd-consecutive-year-by-atlanta-business-chronicle/",
+      "dir": "news/hatchworks-receives-best-places-to-work-award-for-2nd-consecutive-year-by-atlanta-business-chronicle"
+    },
+    {
+      "route": "/news/hatchworks-named-one-of-inc-5000s-fastest-growing-companies-in-the-u-s-joining-ranks-of-alumni-businesses-including-microsoft-dell-and-linkedin/",
+      "dir": "news/hatchworks-named-one-of-inc-5000s-fastest-growing-companies-in-the-u-s-joining-ranks-of-alumni-businesses-including-microsoft-dell-and-linkedin"
+    },
+    {
+      "route": "/blog/culture/hatchworks-named-best-workplace-by-inc/",
+      "dir": "blog/culture/hatchworks-named-best-workplace-by-inc"
+    },
+    {
+      "route": "/blog/nearshore-development/3-simple-reasons-to-consider-nearshore-for-software-development/",
+      "dir": "blog/nearshore-development/3-simple-reasons-to-consider-nearshore-for-software-development"
+    },
+    {
+      "route": "/blog/product-design/why-you-should-establish-a-well-defined-ux-research-process/",
+      "dir": "blog/product-design/why-you-should-establish-a-well-defined-ux-research-process"
+    },
+    {
+      "route": "/news/hatchworks-commemorates-juneteenth-for-third-consecutive-year/",
+      "dir": "news/hatchworks-commemorates-juneteenth-for-third-consecutive-year"
+    },
+    {
+      "route": "/blog/product-design/the-biggest-mistake-product-managers-make-when-prioritizing-their-backlog/",
+      "dir": "blog/product-design/the-biggest-mistake-product-managers-make-when-prioritizing-their-backlog"
+    },
+    {
+      "route": "/news/hatchworks-receives-best-places-to-work-award-for-3rd-consecutive-year-by-atlanta-business-chronicle/",
+      "dir": "news/hatchworks-receives-best-places-to-work-award-for-3rd-consecutive-year-by-atlanta-business-chronicle"
+    },
+    {
+      "route": "/blog/nearshore-development/location-doesnt-matter-talent-does/",
+      "dir": "blog/nearshore-development/location-doesnt-matter-talent-does"
+    },
+    {
+      "route": "/blog/product-design/the-1-reason-your-product-is-failing-you-dont-have-a-product-trio/",
+      "dir": "blog/product-design/the-1-reason-your-product-is-failing-you-dont-have-a-product-trio"
+    },
+    {
+      "route": "/news/top-100-react-js-development-companies/",
+      "dir": "news/top-100-react-js-development-companies"
+    },
+    {
+      "route": "/news/hatchworks-ranks-among-top-b2b-providers-in-georgia-for-2022/",
+      "dir": "news/hatchworks-ranks-among-top-b2b-providers-in-georgia-for-2022"
+    },
+    {
+      "route": "/blog/software-development/6-key-benefits-of-custom-web-applications/",
+      "dir": "blog/software-development/6-key-benefits-of-custom-web-applications"
+    },
+    {
+      "route": "/news/colombias-most-reviewed-software-development-companies/",
+      "dir": "news/colombias-most-reviewed-software-development-companies"
+    },
+    {
+      "route": "/news/costa-ricas-most-reviewed-software-development-companies/",
+      "dir": "news/costa-ricas-most-reviewed-software-development-companies"
+    },
+    {
+      "route": "/blog/product-design/user-experience-statistics/",
+      "dir": "blog/product-design/user-experience-statistics"
+    },
+    {
+      "route": "/blog/software-development/built-right-mindset/",
+      "dir": "blog/software-development/built-right-mindset"
+    },
+    {
+      "route": "/blog/product-design/digital-product-prototype/",
+      "dir": "blog/product-design/digital-product-prototype"
+    },
+    {
+      "route": "/news/hatchworks-appoints-shawn-devries-as-new-vice-president-of-sales/",
+      "dir": "news/hatchworks-appoints-shawn-devries-as-new-vice-president-of-sales"
+    },
+    {
+      "route": "/blog/software-development/the-6-principles-of-minimum-viable-replacement-mvr/",
+      "dir": "blog/software-development/the-6-principles-of-minimum-viable-replacement-mvr"
+    },
+    {
+      "route": "/blog/talent/tech-apprenticeships-bootcamps/",
+      "dir": "blog/talent/tech-apprenticeships-bootcamps"
+    },
+    {
+      "route": "/news/hatchworks-top100-software-development-companies-2023/",
+      "dir": "news/hatchworks-top100-software-development-companies-2023"
+    },
+    {
+      "route": "/news/brandon-powell-nearshore-entrepreneur-of-the-year-2023/",
+      "dir": "news/brandon-powell-nearshore-entrepreneur-of-the-year-2023"
+    },
+    {
+      "route": "/news/hatchworks-expands-global-operations-new-offices-colombia/",
+      "dir": "news/hatchworks-expands-global-operations-new-offices-colombia"
+    },
+    {
+      "route": "/news/most-reviewed-b2b-companies/",
+      "dir": "news/most-reviewed-b2b-companies"
+    },
+    {
+      "route": "/blog/nearshore-development/top-nearshore-software-companies/",
+      "dir": "blog/nearshore-development/top-nearshore-software-companies"
+    },
+    {
+      "route": "/blog/nearshore-development/mitigating-nearshore-software-development-risks/",
+      "dir": "blog/nearshore-development/mitigating-nearshore-software-development-risks"
+    },
+    {
+      "route": "/blog/nearshore-development/time-zone-friendly/",
+      "dir": "blog/nearshore-development/time-zone-friendly"
+    },
+    {
+      "route": "/blog/nearshore-development/expert-insights-nearshoring/",
+      "dir": "blog/nearshore-development/expert-insights-nearshoring"
+    },
+    {
+      "route": "/news/hatchworks-clutch-1000/",
+      "dir": "news/hatchworks-clutch-1000"
+    },
+    {
+      "route": "/news/black-history-tech/",
+      "dir": "news/black-history-tech"
+    },
+    {
+      "route": "/news/generative-driven-development-launch/",
+      "dir": "news/generative-driven-development-launch"
+    },
+    {
+      "route": "/blog/software-development/monolithic-vs-microservices/",
+      "dir": "blog/software-development/monolithic-vs-microservices"
+    },
+    {
+      "route": "/blog/nearshore-development/outsourcing-costa-rica/",
+      "dir": "blog/nearshore-development/outsourcing-costa-rica"
+    },
+    {
+      "route": "/blog/nearshore-development/outsourcing-brazil/",
+      "dir": "blog/nearshore-development/outsourcing-brazil"
+    },
+    {
+      "route": "/news/womens-history-month-ai-ml-trailblazers/",
+      "dir": "news/womens-history-month-ai-ml-trailblazers"
+    },
+    {
+      "route": "/news/j-schwan-strategic-investment/",
+      "dir": "news/j-schwan-strategic-investment"
+    },
+    {
+      "route": "/blog/nearshore-development/outsourcing-to-peru/",
+      "dir": "blog/nearshore-development/outsourcing-to-peru"
+    },
+    {
+      "route": "/news/georgias-fastest-growing-companies/",
+      "dir": "news/georgias-fastest-growing-companies"
+    },
+    {
+      "route": "/news/hatchworks-secures-soc-2-type-i-compliance-top-data-standards/",
+      "dir": "news/hatchworks-secures-soc-2-type-i-compliance-top-data-standards"
+    },
+    {
+      "route": "/news/hatchworks-ai-unveils-geniq/",
+      "dir": "news/hatchworks-ai-unveils-geniq"
+    },
+    {
+      "route": "/blog/gen-ai/how-to-build-mvp-with-gen-ai/",
+      "dir": "blog/gen-ai/how-to-build-mvp-with-gen-ai"
+    },
+    {
+      "route": "/news/hatchworks-ai-partners-with-databricks/",
+      "dir": "news/hatchworks-ai-partners-with-databricks"
+    },
+    {
+      "route": "/news/omar-shanti-cto/",
+      "dir": "news/omar-shanti-cto"
+    },
+    {
+      "route": "/blog/gen-ai/train-and-fine-tune-multimodal-model/",
+      "dir": "blog/gen-ai/train-and-fine-tune-multimodal-model"
+    },
+    {
+      "route": "/news/rag-accelerator/",
+      "dir": "news/rag-accelerator"
+    },
+    {
+      "route": "/blog/gen-ai/codestral-mamba-guide/",
+      "dir": "blog/gen-ai/codestral-mamba-guide"
+    },
+    {
+      "route": "/blog/gen-ai/cto-blueprint-rag-llm/",
+      "dir": "blog/gen-ai/cto-blueprint-rag-llm"
+    },
+    {
+      "route": "/blog/gen-ai/llm-projects-production-abstraction/",
+      "dir": "blog/gen-ai/llm-projects-production-abstraction"
+    },
+    {
+      "route": "/blog/gen-ai/rag-ai-optimization-guide/",
+      "dir": "blog/gen-ai/rag-ai-optimization-guide"
+    },
+    {
+      "route": "/blog/gen-ai/rag-for-healthcare/",
+      "dir": "blog/gen-ai/rag-for-healthcare"
+    },
+    {
+      "route": "/blog/gen-ai/rag-for-financial-services/",
+      "dir": "blog/gen-ai/rag-for-financial-services"
+    },
+    {
+      "route": "/blog/gen-ai/rag-for-communications/",
+      "dir": "blog/gen-ai/rag-for-communications"
+    },
+    {
+      "route": "/blog/gen-ai/rag-for-retail/",
+      "dir": "blog/gen-ai/rag-for-retail"
+    },
+    {
+      "route": "/news/top-healthcare-software-developer/",
+      "dir": "news/top-healthcare-software-developer"
+    },
+    {
+      "route": "/blog/gen-ai/rag-for-technology/",
+      "dir": "blog/gen-ai/rag-for-technology"
+    },
+    {
+      "route": "/blog/software-development/atlanta-software-development-companies/",
+      "dir": "blog/software-development/atlanta-software-development-companies"
+    },
+    {
+      "route": "/blog/data-governance/data-product-manager-role/",
+      "dir": "blog/data-governance/data-product-manager-role"
+    },
+    {
+      "route": "/blog/gen-ai/llmops-hidden-challenges/",
+      "dir": "blog/gen-ai/llmops-hidden-challenges"
+    },
+    {
+      "route": "/blog/gen-ai/llm-integration-guide/",
+      "dir": "blog/gen-ai/llm-integration-guide"
+    },
+    {
+      "route": "/blog/gen-ai/testing-rag-ai-chatbot/",
+      "dir": "blog/gen-ai/testing-rag-ai-chatbot"
+    },
+    {
+      "route": "/blog/data-governance/data-governance-mdm/",
+      "dir": "blog/data-governance/data-governance-mdm"
+    },
+    {
+      "route": "/blog/gen-ai/amazon-q-developer/",
+      "dir": "blog/gen-ai/amazon-q-developer"
+    },
+    {
+      "route": "/news/charter-patient-management-system/",
+      "dir": "news/charter-patient-management-system"
+    },
+    {
+      "route": "/blog/databricks/databricks-mlops/",
+      "dir": "blog/databricks/databricks-mlops"
+    },
+    {
+      "route": "/blog/databricks/why-we-partnered-with-databricks/",
+      "dir": "blog/databricks/why-we-partnered-with-databricks"
+    },
+    {
+      "route": "/blog/data-governance/data-governance-goals/",
+      "dir": "blog/data-governance/data-governance-goals"
+    },
+    {
+      "route": "/blog/ai-agents/ai-agents-explained/",
+      "dir": "blog/ai-agents/ai-agents-explained"
+    },
+    {
+      "route": "/blog/ai-agents/multi-agent-systems/",
+      "dir": "blog/ai-agents/multi-agent-systems"
+    },
+    {
+      "route": "/blog/databricks/databricks-generative-ai/",
+      "dir": "blog/databricks/databricks-generative-ai"
+    },
+    {
+      "route": "/blog/gen-ai/ais-inflection-point/",
+      "dir": "blog/gen-ai/ais-inflection-point"
+    },
+    {
+      "route": "/blog/ai-agents/agent-architecture/",
+      "dir": "blog/ai-agents/agent-architecture"
+    },
+    {
+      "route": "/blog/ai-agents/no-code-workflow-automation-with-n8n/",
+      "dir": "blog/ai-agents/no-code-workflow-automation-with-n8n"
+    },
+    {
+      "route": "/blog/gen-ai/ai-readiness-outliers/",
+      "dir": "blog/gen-ai/ai-readiness-outliers"
+    },
+    {
+      "route": "/news/hatchworks-ai-welcomes-rajeev-kapur/",
+      "dir": "news/hatchworks-ai-welcomes-rajeev-kapur"
+    },
+    {
+      "route": "/blog/gen-ai/ai-project-management/",
+      "dir": "blog/gen-ai/ai-project-management"
+    },
+    {
+      "route": "/blog/data-governance/information-governance-vs-data-governance/",
+      "dir": "blog/data-governance/information-governance-vs-data-governance"
+    },
+    {
+      "route": "/blog/data-governance/data-governance-vs-data-management/",
+      "dir": "blog/data-governance/data-governance-vs-data-management"
+    },
+    {
+      "route": "/news/ai-driven-video-platform/",
+      "dir": "news/ai-driven-video-platform"
+    },
+    {
+      "route": "/news/ai-cost-management/",
+      "dir": "news/ai-cost-management"
+    },
+    {
+      "route": "/talking-ai/open-vs-closed/",
+      "dir": "talking-ai/open-vs-closed"
+    },
+    {
+      "route": "/talking-ai/interview-process-is-broken/",
+      "dir": "talking-ai/interview-process-is-broken"
+    },
+    {
+      "route": "/talking-ai/do-ai-wrappers-have-a-moat/",
+      "dir": "talking-ai/do-ai-wrappers-have-a-moat"
+    },
+    {
+      "route": "/talking-ai/from-boring-to-viral-chatgpt-images/",
+      "dir": "talking-ai/from-boring-to-viral-chatgpt-images"
+    },
+    {
+      "route": "/talking-ai/building-what-couldnt-be-built-before/",
+      "dir": "talking-ai/building-what-couldnt-be-built-before"
+    },
+    {
+      "route": "/talking-ai/ai-for-life/",
+      "dir": "talking-ai/ai-for-life"
+    },
+    {
+      "route": "/talking-ai/generative-ai-impact-developer-shortage/",
+      "dir": "talking-ai/generative-ai-impact-developer-shortage"
+    },
+    {
+      "route": "/talking-ai/ai-reasoning/",
+      "dir": "talking-ai/ai-reasoning"
+    },
+    {
+      "route": "/talking-ai/ux-design/",
+      "dir": "talking-ai/ux-design"
+    },
+    {
+      "route": "/talking-ai/the-built-right-mindset/",
+      "dir": "talking-ai/the-built-right-mindset"
+    },
+    {
+      "route": "/talking-ai/mvp-trap/",
+      "dir": "talking-ai/mvp-trap"
+    },
+    {
+      "route": "/talking-ai/five-mistakes-to-avoid-in-your-product-career/",
+      "dir": "talking-ai/five-mistakes-to-avoid-in-your-product-career"
+    },
+    {
+      "route": "/talking-ai/continuous-improvement/",
+      "dir": "talking-ai/continuous-improvement"
+    },
+    {
+      "route": "/talking-ai/quality-driven-product-development/",
+      "dir": "talking-ai/quality-driven-product-development"
+    },
+    {
+      "route": "/talking-ai/build-a-winning-product/",
+      "dir": "talking-ai/build-a-winning-product"
+    },
+    {
+      "route": "/talking-ai/generative-ai-playbook/",
+      "dir": "talking-ai/generative-ai-playbook"
+    },
+    {
+      "route": "/talking-ai/off-the-shelf-or-custom/",
+      "dir": "talking-ai/off-the-shelf-or-custom"
+    },
+    {
+      "route": "/talking-ai/generative-ai-ux-and-ui-design/",
+      "dir": "talking-ai/generative-ai-ux-and-ui-design"
+    },
+    {
+      "route": "/talking-ai/6-adaptive-leader-behaviors/",
+      "dir": "talking-ai/6-adaptive-leader-behaviors"
+    },
+    {
+      "route": "/talking-ai/beta-testing-product-development/",
+      "dir": "talking-ai/beta-testing-product-development"
+    },
+    {
+      "route": "/talking-ai/how-emotionally-intelligent-ai-is-reshaping-management/",
+      "dir": "talking-ai/how-emotionally-intelligent-ai-is-reshaping-management"
+    },
+    {
+      "route": "/talking-ai/generative-ai-augmenting-or-replacing-research/",
+      "dir": "talking-ai/generative-ai-augmenting-or-replacing-research"
+    },
+    {
+      "route": "/talking-ai/the-best-of-built-right-season-1/",
+      "dir": "talking-ai/the-best-of-built-right-season-1"
+    },
+    {
+      "route": "/talking-ai/how-generative-ai-works-as-told-by-a-phd-data-scientist/",
+      "dir": "talking-ai/how-generative-ai-works-as-told-by-a-phd-data-scientist"
+    },
+    {
+      "route": "/talking-ai/ai-business-growth/",
+      "dir": "talking-ai/ai-business-growth"
+    },
+    {
+      "route": "/talking-ai/trailer/",
+      "dir": "talking-ai/trailer"
+    },
+    {
+      "route": "/talking-ai/ai-era-success-laws/",
+      "dir": "talking-ai/ai-era-success-laws"
+    },
+    {
+      "route": "/talking-ai/demystifying-ai-non-techie-guide/",
+      "dir": "talking-ai/demystifying-ai-non-techie-guide"
+    },
+    {
+      "route": "/talking-ai/ai-product-management/",
+      "dir": "talking-ai/ai-product-management"
+    },
+    {
+      "route": "/talking-ai/season-2-trailer/",
+      "dir": "talking-ai/season-2-trailer"
+    },
+    {
+      "route": "/talking-ai/ai-orchestrating-the-web/",
+      "dir": "talking-ai/ai-orchestrating-the-web"
+    },
+    {
+      "route": "/talking-ai/ai-startup-journey/",
+      "dir": "talking-ai/ai-startup-journey"
+    },
+    {
+      "route": "/talking-ai/generative-ai-conversational-design/",
+      "dir": "talking-ai/generative-ai-conversational-design"
+    },
+    {
+      "route": "/talking-ai/workplace-challenges-ai-solution/",
+      "dir": "talking-ai/workplace-challenges-ai-solution"
+    },
+    {
+      "route": "/talking-ai/democratizing-ai/",
+      "dir": "talking-ai/democratizing-ai"
+    },
+    {
+      "route": "/talking-ai/transforming-data-from-2d-to-3d/",
+      "dir": "talking-ai/transforming-data-from-2d-to-3d"
+    },
+    {
+      "route": "/talking-ai/real-time-ai-agents/",
+      "dir": "talking-ai/real-time-ai-agents"
+    },
+    {
+      "route": "/talking-ai/data-contracts-best-practices/",
+      "dir": "talking-ai/data-contracts-best-practices"
+    },
+    {
+      "route": "/talking-ai/gen-ai-not-an-island/",
+      "dir": "talking-ai/gen-ai-not-an-island"
+    },
+    {
+      "route": "/talking-ai/scaling-ai-innovation/",
+      "dir": "talking-ai/scaling-ai-innovation"
+    },
+    {
+      "route": "/talking-ai/ai-abstractions/",
+      "dir": "talking-ai/ai-abstractions"
+    },
+    {
+      "route": "/talking-ai/ai-in-life-sciences/",
+      "dir": "talking-ai/ai-in-life-sciences"
+    },
+    {
+      "route": "/talking-ai/ai-product-mindset/",
+      "dir": "talking-ai/ai-product-mindset"
+    },
+    {
+      "route": "/talking-ai/how-to-avoid-the-ai-wrapper-trap/",
+      "dir": "talking-ai/how-to-avoid-the-ai-wrapper-trap"
+    },
+    {
+      "route": "/talking-ai/agentic-organizations-ai/",
+      "dir": "talking-ai/agentic-organizations-ai"
+    },
+    {
+      "route": "/talking-ai/agentic-ai-redefining-technology/",
+      "dir": "talking-ai/agentic-ai-redefining-technology"
+    },
+    {
+      "route": "/talking-ai/generative-ai-disruption/",
+      "dir": "talking-ai/generative-ai-disruption"
+    },
+    {
+      "route": "/talking-ai/ai-artistic-creation/",
+      "dir": "talking-ai/ai-artistic-creation"
+    },
+    {
+      "route": "/podcast/ai-for-beginners-matt-paige/",
+      "dir": "podcast/ai-for-beginners-matt-paige"
+    },
+    {
+      "route": "/podcast/finding-focus-with-guest-matt-paige/",
+      "dir": "podcast/finding-focus-with-guest-matt-paige"
+    },
+    {
+      "route": "/podcast/ai-in-recruitment/",
+      "dir": "podcast/ai-in-recruitment"
+    },
+    {
+      "route": "/podcast/business-transformation-matt-paige/",
+      "dir": "podcast/business-transformation-matt-paige"
+    },
+    {
+      "route": "/podcast/7-pillars-high-performance-recruiting/",
+      "dir": "podcast/7-pillars-high-performance-recruiting"
+    },
+    {
+      "route": "/podcast/mastering-marketing-strategy/",
+      "dir": "podcast/mastering-marketing-strategy"
+    },
+    {
+      "route": "/podcast/sprint-recruiting/",
+      "dir": "podcast/sprint-recruiting"
+    },
+    {
+      "route": "/podcast/key-to-success/",
+      "dir": "podcast/key-to-success"
+    },
+    {
+      "route": "/podcast/sprint-recruiting-helps-talent-leaders-prioritize/",
+      "dir": "podcast/sprint-recruiting-helps-talent-leaders-prioritize"
+    },
+    {
+      "route": "/resource/case-study/diebold-nixdorf-modernizing-a-legacy-marketing-application/",
+      "dir": "resource/case-study/diebold-nixdorf-modernizing-a-legacy-marketing-application"
+    },
+    {
+      "route": "/podcast/recruiting-in-times-of-layoffs-with-trent-cotton/",
+      "dir": "podcast/recruiting-in-times-of-layoffs-with-trent-cotton"
+    },
+    {
+      "route": "/podcast/hit-your-best-quarter-ever-with-brandon-powell/",
+      "dir": "podcast/hit-your-best-quarter-ever-with-brandon-powell"
+    },
+    {
+      "route": "/resource/product-sheet/integrated-us-nearshore-agile-development-teams/",
+      "dir": "resource/product-sheet/integrated-us-nearshore-agile-development-teams"
+    },
+    {
+      "route": "/podcast/crowded-industry-strategies/",
+      "dir": "podcast/crowded-industry-strategies"
+    },
+    {
+      "route": "/resource/product-sheet/financial-services/",
+      "dir": "resource/product-sheet/financial-services"
+    },
+    {
+      "route": "/resource/product-sheet/full-lifecycle-software-development/",
+      "dir": "resource/product-sheet/full-lifecycle-software-development"
+    },
+    {
+      "route": "/resource/product-sheet/cloud-managed-services/",
+      "dir": "resource/product-sheet/cloud-managed-services"
+    },
+    {
+      "route": "/resource/ebook/unified-development-framework/",
+      "dir": "resource/ebook/unified-development-framework"
+    },
+    {
+      "route": "/resource/product-sheet/data-intelligence-ai-ml/",
+      "dir": "resource/product-sheet/data-intelligence-ai-ml"
+    },
+    {
+      "route": "/resource/product-sheet/data-intelligence-analytics/",
+      "dir": "resource/product-sheet/data-intelligence-analytics"
+    },
+    {
+      "route": "/resource/case-study/integrated-care-solutions/",
+      "dir": "resource/case-study/integrated-care-solutions"
+    },
+    {
+      "route": "/resource/ebook/agile-software-development-methodology/",
+      "dir": "resource/ebook/agile-software-development-methodology"
+    },
+    {
+      "route": "/resource/case-study/springhills/",
+      "dir": "resource/case-study/springhills"
+    },
+    {
+      "route": "/podcast/positioning-yourself-as-a-problem-solver-with-matt-paige/",
+      "dir": "podcast/positioning-yourself-as-a-problem-solver-with-matt-paige"
+    },
+    {
+      "route": "/podcast/growth-marketing-camp-with-brandon-powell/",
+      "dir": "podcast/growth-marketing-camp-with-brandon-powell"
+    },
+    {
+      "route": "/podcast/creating-opportunities-with-brandon-powell/",
+      "dir": "podcast/creating-opportunities-with-brandon-powell"
+    },
+    {
+      "route": "/podcast/marketing-led-growth-with-matt-paige/",
+      "dir": "podcast/marketing-led-growth-with-matt-paige"
+    },
+    {
+      "route": "/podcast/how-to-build-killer-saas-products-with-matt-paige/",
+      "dir": "podcast/how-to-build-killer-saas-products-with-matt-paige"
+    },
+    {
+      "route": "/podcast/growth-marketing-camp-with-matt-paige/",
+      "dir": "podcast/growth-marketing-camp-with-matt-paige"
+    },
+    {
+      "route": "/podcast/innovating-the-recruiting-industry-with-trent-cotton/",
+      "dir": "podcast/innovating-the-recruiting-industry-with-trent-cotton"
+    },
+    {
+      "route": "/podcast/finding-that-next-gear-with-brandon-powell/",
+      "dir": "podcast/finding-that-next-gear-with-brandon-powell"
+    },
+    {
+      "route": "/podcast/making-the-complex-simple-with-matt-paige/",
+      "dir": "podcast/making-the-complex-simple-with-matt-paige"
+    },
+    {
+      "route": "/podcast/leadership-with-heart-with-brandon-powell/",
+      "dir": "podcast/leadership-with-heart-with-brandon-powell"
+    },
+    {
+      "route": "/podcast/the-elite-recruiter-podcast-featuring-trent-cotton/",
+      "dir": "podcast/the-elite-recruiter-podcast-featuring-trent-cotton"
+    },
+    {
+      "route": "/podcast/atlanta-business-radiox-featuring-matt-paige/",
+      "dir": "podcast/atlanta-business-radiox-featuring-matt-paige"
+    },
+    {
+      "route": "/podcast/the-iot-takeover/",
+      "dir": "podcast/the-iot-takeover"
+    },
+    {
+      "route": "/landing/solving-the-most-common-digital-challenges/",
+      "dir": "landing/solving-the-most-common-digital-challenges"
+    },
+    {
+      "route": "/our-work/",
+      "dir": "our-work"
+    },
+    {
+      "route": "/case-studies/how-on-demand-staffing-became-more-efficient-with-nearshore/",
+      "dir": "case-studies/how-on-demand-staffing-became-more-efficient-with-nearshore"
+    },
+    {
+      "route": "/hatchworks-ai-turn-ai-into-roi/",
+      "dir": "hatchworks-ai-turn-ai-into-roi"
+    },
+    {
+      "route": "/ai-agent-opportunity-lab/",
+      "dir": "ai-agent-opportunity-lab"
+    },
+    {
+      "route": "/ai-data-readiness-governance-assessment/",
+      "dir": "ai-data-readiness-governance-assessment"
+    },
+    {
+      "route": "/temp-ai-teams-talent/",
+      "dir": "temp-ai-teams-talent"
+    },
+    {
+      "route": "/abtus/",
+      "dir": "abtus"
+    },
+    {
+      "route": "/v2-ai-teams-talent/",
+      "dir": "v2-ai-teams-talent"
+    },
+    {
+      "route": "/claude-fde/",
+      "dir": "claude-fde"
+    },
+    {
+      "route": "/hatchmap/",
+      "dir": "hatchmap"
+    },
+    {
+      "route": "/ai-partners-openai-anthropic-google-databricks/",
+      "dir": "ai-partners-openai-anthropic-google-databricks"
+    },
+    {
+      "route": "/tiger21-ai-resources/",
+      "dir": "tiger21-ai-resources"
+    },
+    {
+      "route": "/the-future-of-accounting-agentic-ai-at-work-ai-resources/",
+      "dir": "the-future-of-accounting-agentic-ai-at-work-ai-resources"
+    },
+    {
+      "route": "/the-ai-native-organization-ai-resources-b/",
+      "dir": "the-ai-native-organization-ai-resources-b"
+    },
+    {
+      "route": "/the-ai-native-organization-ai-resources/",
+      "dir": "the-ai-native-organization-ai-resources"
+    },
+    {
+      "route": "/realpage-leading-the-age-of-ai-how-organizations-are-evolving-ai-resources/",
+      "dir": "realpage-leading-the-age-of-ai-how-organizations-are-evolving-ai-resources"
+    },
+    {
+      "route": "/ayvaz-ai-resources/",
+      "dir": "ayvaz-ai-resources"
+    },
+    {
+      "route": "/enterprise-ai-transformation/",
+      "dir": "enterprise-ai-transformation"
+    },
+    {
+      "route": "/gcp-partner/",
+      "dir": "gcp-partner"
+    },
+    {
+      "route": "/the-ai-native-organization-b/",
+      "dir": "the-ai-native-organization-b"
+    },
+    {
+      "route": "/claude-forward-deployed-engineers/",
+      "dir": "claude-forward-deployed-engineers"
+    },
+    {
+      "route": "/case-studies/enhancing-ecommerce-performance-for-a-leading-retail-brand/",
+      "dir": "case-studies/enhancing-ecommerce-performance-for-a-leading-retail-brand"
+    },
+    {
+      "route": "/case-studies/driving-growth-fintech-healthcare-leader/",
+      "dir": "case-studies/driving-growth-fintech-healthcare-leader"
+    },
+    {
+      "route": "/case-studies/accelerating-workforce-solutions-with-product-excellence/",
+      "dir": "case-studies/accelerating-workforce-solutions-with-product-excellence"
+    },
+    {
+      "route": "/the-ai-native-organization/",
+      "dir": "the-ai-native-organization"
+    },
+    {
+      "route": "/realpage-leading-the-age-of-ai-how-organizations-are-evolving/",
+      "dir": "realpage-leading-the-age-of-ai-how-organizations-are-evolving"
+    },
+    {
+      "route": "/the-future-of-accounting-agentic-ai-at-work/",
+      "dir": "the-future-of-accounting-agentic-ai-at-work"
+    },
+    {
+      "route": "/state-of-ai-2026-mid-year/",
+      "dir": "state-of-ai-2026-mid-year"
+    },
+    {
+      "route": "/tiger21/",
+      "dir": "tiger21"
+    },
+    {
+      "route": "/western-candy-ug/",
+      "dir": "western-candy-ug"
+    },
+    {
+      "route": "/less-ai-hype-more-results-2/",
+      "dir": "less-ai-hype-more-results-2"
+    },
+    {
+      "route": "/ayvaz/",
+      "dir": "ayvaz"
+    },
+    {
+      "route": "/less-ai-hype-more-results-3/",
+      "dir": "less-ai-hype-more-results-3"
+    },
+    {
+      "route": "/industries/",
+      "dir": "industries"
+    },
+    {
+      "route": "/retail-3/",
+      "dir": "retail-3"
+    },
+    {
+      "route": "/trophy-cabinet/",
+      "dir": "trophy-cabinet"
+    },
+    {
+      "route": "/hatchfutures-2/",
+      "dir": "hatchfutures-2"
+    },
+    {
+      "route": "/ug-curated-ai-resources-for-you/",
+      "dir": "ug-curated-ai-resources-for-you"
+    },
+    {
+      "route": "/gdd-ebk/",
+      "dir": "gdd-ebk"
+    },
+    {
+      "route": "/elementor-34877/",
+      "dir": "elementor-34877"
+    },
+    {
+      "route": "/ai-workshop-ypo-edge-short/",
+      "dir": "ai-workshop-ypo-edge-short"
+    },
+    {
+      "route": "/brandon-powell/",
+      "dir": "brandon-powell"
+    },
+    {
+      "route": "/aimc/",
+      "dir": "aimc"
+    },
+    {
+      "route": "/ai-demos/",
+      "dir": "ai-demos"
+    },
+    {
+      "route": "/state-of-ai-2025-q3/",
+      "dir": "state-of-ai-2025-q3"
+    },
+    {
+      "route": "/soai2026/",
+      "dir": "soai2026"
+    },
+    {
+      "route": "/glean/",
+      "dir": "glean"
+    },
+    {
+      "route": "/tutor-certificate/",
+      "dir": "tutor-certificate"
+    },
+    {
+      "route": "/checkout/",
+      "dir": "checkout"
+    },
+    {
+      "route": "/cart-2/",
+      "dir": "cart-2"
+    },
+    {
+      "route": "/student-registration/",
+      "dir": "student-registration"
+    },
+    {
+      "route": "/cart/",
+      "dir": "cart"
+    },
+    {
+      "route": "/instructor-registration/",
+      "dir": "instructor-registration"
+    },
+    {
+      "route": "/dashboard/",
+      "dir": "dashboard"
+    },
+    {
+      "route": "/soai/",
+      "dir": "soai"
+    },
+    {
+      "route": "/ai-training-workshops/",
+      "dir": "ai-training-workshops"
+    },
+    {
+      "route": "/ai-readiness-scorecard/",
+      "dir": "ai-readiness-scorecard"
+    },
+    {
+      "route": "/gpt-course/",
+      "dir": "gpt-course"
+    },
+    {
+      "route": "/geniq-ai-for-smarter-software-development/",
+      "dir": "geniq-ai-for-smarter-software-development"
+    },
+    {
+      "route": "/resources/",
+      "dir": "resources"
+    },
+    {
+      "route": "/engagement-models/",
+      "dir": "engagement-models"
+    },
+    {
+      "route": "/tech-talent-report-2024/",
+      "dir": "tech-talent-report-2024"
+    },
+    {
+      "route": "/awards-recognitions/",
+      "dir": "awards-recognitions"
+    },
+    {
+      "route": "/fintech-healthcare-provider-saas-solution-2/",
+      "dir": "fintech-healthcare-provider-saas-solution-2"
+    },
+    {
+      "route": "/company/",
+      "dir": "company"
+    },
+    {
+      "route": "/your-services/software-design-development/",
+      "dir": "your-services/software-design-development"
+    },
+    {
+      "route": "/your-services/software-strategy-development/",
+      "dir": "your-services/software-strategy-development"
+    },
+    {
+      "route": "/your-services/software-design/",
+      "dir": "your-services/software-design"
+    },
+    {
+      "route": "/your-services/healthcare-software-solution-development/",
+      "dir": "your-services/healthcare-software-solution-development"
+    },
+    {
+      "route": "/your-services/data-intelligence-services-analytics/",
+      "dir": "your-services/data-intelligence-services-analytics"
+    },
+    {
+      "route": "/development-framework/",
+      "dir": "development-framework"
+    },
+    {
+      "route": "/data-intelligence-services-ai-ml/",
+      "dir": "data-intelligence-services-ai-ml"
+    },
+    {
+      "route": "/news_insights/",
+      "dir": "news_insights"
+    },
+    {
+      "route": "/company/supporting-our-community/",
+      "dir": "company/supporting-our-community"
+    },
+    {
+      "route": "/how-we-deliver/",
+      "dir": "how-we-deliver"
+    },
+    {
+      "route": "/digital-product-prototyping/",
+      "dir": "digital-product-prototyping"
+    },
+    {
+      "route": "/company/news/",
+      "dir": "company/news"
+    },
+    {
+      "route": "/technology-consulting/",
+      "dir": "technology-consulting"
+    },
+    {
+      "route": "/agile-development-consulting/",
+      "dir": "agile-development-consulting"
+    },
+    {
+      "route": "/company/our-culture/",
+      "dir": "company/our-culture"
+    },
+    {
+      "route": "/what-we-do/",
+      "dir": "what-we-do"
+    },
+    {
+      "route": "/product-portfolio/",
+      "dir": "product-portfolio"
+    },
+    {
+      "route": "/company/talent-pool/",
+      "dir": "company/talent-pool"
+    },
+    {
+      "route": "/your-services/",
+      "dir": "your-services"
+    }
+  ],
+  "redirects": {
+    "/resources/newsroom/": "/company/newsroom/",
+    "/ai-opportunity-finder/": "/agentic-opportunity-finder/",
+    "/ai-teams-and-talent/": "/forward-deployed-engineers/",
+    "/blog/software-development/embrace-generative-ai-team-integration/": "/blog/gen-ai/embrace-generative-ai-team-integration/",
+    "/gen-ai-product-development/": "/ai-native-product-development-services/",
+    "/gen-ai-innovation-workshop/": "/ai-roadmap-roi-workshop/",
+    "/ai-powered-software-development/": "/ai-native-product-development-services/",
+    "/industry/real-estate/": "/real-estate/",
+    "/industries/healthcare/": "/resource/product-sheet/healthcare/",
+    "/intelligence-layer/": "/",
+    "/ai-services/data-modernization/": "/data-modernization/",
+    "/partners/anthropic/": "/anthropic/",
+    "/partners/databricks/": "/databricks/",
+    "/ai-services/intelligence-layer/": "/intelligence-layer-ai/",
+    "/partners/openai/": "/blog/gen-ai/openai-just-launched-dots/",
+    "/partners/google/": "/blog/gen-ai/google-adk-best-practices/",
+    "/ai-services/model-fine-tuning-optimization/": "/model-fine-tuning-optimization/",
+    "/ai-services/data-science-machine-learning/": "/data-science-machine-learning/",
+    "/openai/": "/put-openai-to-work-in-your-business/",
+    "/built-right-a-podcast-about-building-the-right-digital-product/": "/talking-ai/",
+    "/less-ai-hype-more-results/": "/ug-curated-ai-resources-for-you/",
+    "/software-development/": "/ai-native-product-development-services/",
+    "/nearshore-software-development/": "/forward-deployed-engineers/",
+    "/product-fundamentals/": "/ai-strategy-roadmap/",
+    "/product-design/": "/ai-native-product-development-services/",
+    "/data-analytics/": "/data-science-machine-learning/",
+    "/services/genai-innovation-workshop/": "/",
+    "/ai-consulting-services/": "/",
+    "/ai-strategy/": "/",
+    "/ai-driven-development/": "/",
+    "/ai-services/agentic-automation/": "/",
+    "/talking-ai/2/": "/talking-ai/",
+    "/databricks/2/": "/databricks/",
+    "/category/blog/ai-agents/": "/resources/blog/",
+    "/category/blog/gendd/": "/resources/blog/",
+    "/category/blog/fde/": "/resources/blog/",
+    "/category/blog/software-development/": "/resources/blog/",
+    "/category/blog/modernization/": "/resources/blog/",
+    "/category/blog/product-design/": "/resources/blog/",
+    "/category/blog/nearshore-development/": "/resources/blog/",
+    "/category/blog/agile/": "/resources/blog/",
+    "/category/blog/culture/": "/resources/blog/",
+    "/category/blog/talent/": "/resources/blog/",
+    "/ai-agent-lab/": "/",
+    "/category/blog/gen-ai/": "/resources/blog/",
+    "/tag/ai-strategy/": "/resources/blog/",
+    "/tag/ai-valuations/": "/resources/blog/",
+    "/tag/exit-multiples/": "/resources/blog/",
+    "/tag/intellectual-property/": "/resources/blog/",
+    "/tag/ma/": "/resources/blog/",
+    "/tag/mid-market/": "/resources/blog/",
+    "/tag/pe-portfolio/": "/resources/blog/",
+    "/tag/private-equity/": "/resources/blog/",
+    "/tag/proprietary-ai/": "/resources/blog/",
+    "/tag/value-creation/": "/resources/blog/",
+    "/blog/software-development/generative-ai-beginners/": "/resources/blog/",
+    "/blog/software-development/generative-ai-use-cases/": "/resources/blog/",
+    "/blog/software-development/generative-ai-statistics/": "/resources/blog/",
+    "/built-right/generative-ai-playbook/": "/",
+    "/ai-training-for-teams/": "/",
+    "/tag/ai/": "/resources/blog/",
+    "/tag/artificial-intelligence/": "/resources/blog/",
+    "/tag/agent-evaluation/": "/resources/blog/",
+    "/tag/ai-agent-evaluation/": "/resources/blog/",
+    "/tag/ai-agents/": "/resources/blog/",
+    "/tag/ai-governance/": "/resources/blog/",
+    "/tag/ai-guardrails/": "/resources/blog/",
+    "/tag/ai-observability/": "/resources/blog/",
+    "/tag/ai-testing/": "/resources/blog/",
+    "/tag/llm-evaluation/": "/resources/blog/",
+    "/tag/llm-as-a-judge/": "/resources/blog/",
+    "/category/talking-ai/": "/resources/blog/",
+    "/tag/ai-adoption/": "/resources/blog/",
+    "/tag/ai-investment/": "/resources/blog/",
+    "/tag/ai-roi/": "/resources/blog/",
+    "/tag/brandon-powell/": "/resources/blog/",
+    "/tag/leadership/": "/resources/blog/",
+    "/tag/talking-ai/": "/resources/blog/",
+    "/tag/the-ai-roi-engine/": "/resources/blog/",
+    "/tag/book-launch/": "/resources/blog/",
+    "/tag/press-release/": "/resources/blog/",
+    "/tag/agent-first-ux/": "/resources/blog/",
+    "/tag/agentic-ai/": "/resources/blog/",
+    "/tag/answer-engine-optimization/": "/resources/blog/",
+    "/tag/business-agents/": "/resources/blog/",
+    "/tag/chatgpt/": "/resources/blog/",
+    "/tag/chatgpt-business-hub/": "/resources/blog/",
+    "/tag/openai/": "/resources/blog/",
+    "/author/admin/": "/resources/blog/",
+    "/category/resource/product-sheet/": "/resources/blog/",
+    "/category/blog/": "/resources/blog/",
+    "/category/featured-home/": "/resources/blog/",
+    "/tag/ai-development/": "/resources/blog/",
+    "/tag/ai-methodology/": "/resources/blog/",
+    "/tag/cursor/": "/resources/blog/",
+    "/tag/engineering-productivity/": "/resources/blog/",
+    "/tag/sdlc/": "/resources/blog/",
+    "/tag/software-development/": "/resources/blog/",
+    "/gendd/page/2/": "/gendd/",
+    "/tag/agent-development-kit/": "/resources/blog/",
+    "/tag/gemini/": "/resources/blog/",
+    "/tag/google-adk/": "/resources/blog/",
+    "/tag/llm-agents/": "/resources/blog/",
+    "/tag/multi-agent-architecture/": "/resources/blog/",
+    "/tag/production-ai/": "/resources/blog/",
+    "/tag/pydantic-schemas/": "/resources/blog/",
+    "/tag/salesforce-soql/": "/resources/blog/",
+    "/tag/agentic-engineering/": "/resources/blog/",
+    "/tag/ai-development-methodology/": "/resources/blog/",
+    "/tag/ai-native-teams/": "/resources/blog/",
+    "/tag/software-delivery/": "/resources/blog/",
+    "/tag/software-team-structure/": "/resources/blog/",
+    "/tag/ai-delivery/": "/resources/blog/",
+    "/tag/ai-in-production/": "/resources/blog/",
+    "/tag/embedded-engineers/": "/resources/blog/",
+    "/tag/fde/": "/resources/blog/",
+    "/tag/forward-deployed-engineer/": "/resources/blog/",
+    "/tag/ai-leadership/": "/resources/blog/",
+    "/tag/ai-readiness/": "/resources/blog/",
+    "/tag/ai-transformation/": "/resources/blog/",
+    "/tag/chief-ai-officer-cost/": "/resources/blog/",
+    "/tag/data-governance/": "/resources/blog/",
+    "/tag/fractional-caio/": "/resources/blog/",
+    "/tag/fractional-chief-ai-officer/": "/resources/blog/",
+    "/tag/mid-market-ai/": "/resources/blog/",
+    "/tag/ai-for-developers/": "/resources/blog/",
+    "/tag/ai-workflow/": "/resources/blog/",
+    "/tag/andrew-miller/": "/resources/blog/",
+    "/tag/build-with-ai/": "/resources/blog/",
+    "/tag/future-of-work/": "/resources/blog/",
+    "/tag/human-in-the-loop/": "/resources/blog/",
+    "/tag/llm-tools/": "/resources/blog/",
+    "/tag/prompt-driven-development/": "/resources/blog/",
+    "/tag/ai-in-education/": "/resources/blog/",
+    "/tag/chatgpt-in-schools/": "/resources/blog/",
+    "/tag/edtech/": "/resources/blog/",
+    "/tag/personalized-learning/": "/resources/blog/",
+    "/tag/renaissance-intelligence/": "/resources/blog/",
+    "/tag/renaissance-learning/": "/resources/blog/",
+    "/tag/teacher-empowerment/": "/resources/blog/",
+    "/tag/todd-brekhus/": "/resources/blog/",
+    "/tag/agentic-development/": "/resources/blog/",
+    "/tag/ai-productivity/": "/resources/blog/",
+    "/tag/cloud-computing/": "/resources/blog/",
+    "/tag/code-review/": "/resources/blog/",
+    "/tag/developer-tools/": "/resources/blog/",
+    "/tag/software-engineering/": "/resources/blog/",
+    "/tag/voice-prompting/": "/resources/blog/",
+    "/tag/warp/": "/resources/blog/",
+    "/tag/ai-tools/": "/resources/blog/",
+    "/tag/design-taste/": "/resources/blog/",
+    "/tag/indie-founders/": "/resources/blog/",
+    "/tag/mac-apps/": "/resources/blog/",
+    "/tag/on-device-ai/": "/resources/blog/",
+    "/tag/privacy-ai/": "/resources/blog/",
+    "/tag/speech-to-text/": "/resources/blog/",
+    "/tag/vibe-coding/": "/resources/blog/",
+    "/tag/voice-ai/": "/resources/blog/",
+    "/tag/change-management/": "/resources/blog/",
+    "/tag/digital-transformation/": "/resources/blog/",
+    "/tag/pwc/": "/resources/blog/",
+    "/tag/agi/": "/resources/blog/",
+    "/tag/ai-characters/": "/resources/blog/",
+    "/tag/ai-entertainment/": "/resources/blog/",
+    "/tag/ai-memory/": "/resources/blog/",
+    "/tag/consumer-ai/": "/resources/blog/",
+    "/tag/conversational-ai/": "/resources/blog/",
+    "/tag/humanlike-ai/": "/resources/blog/",
+    "/tag/npcs/": "/resources/blog/",
+    "/tag/virtual-worlds/": "/resources/blog/",
+    "/tag/ai-defensibility/": "/resources/blog/",
+    "/tag/ai-podcast/": "/resources/blog/",
+    "/tag/ai-positioning/": "/resources/blog/",
+    "/tag/ai-product-strategy/": "/resources/blog/",
+    "/tag/ai-wrappers/": "/resources/blog/",
+    "/tag/no-code-ai/": "/resources/blog/",
+    "/tag/proprietary-data/": "/resources/blog/",
+    "/tag/ai-security/": "/resources/blog/",
+    "/tag/anirudh-ravula/": "/resources/blog/",
+    "/tag/attack-surface/": "/resources/blog/",
+    "/tag/cogent-security/": "/resources/blog/",
+    "/tag/cybersecurity/": "/resources/blog/",
+    "/tag/harness-engineering/": "/resources/blog/",
+    "/tag/hugging-face/": "/resources/blog/",
+    "/tag/open-source-ai/": "/resources/blog/",
+    "/tag/ai-and-jobs/": "/resources/blog/",
+    "/tag/ai-collaboration/": "/resources/blog/",
+    "/tag/ai-marketplace/": "/resources/blog/",
+    "/tag/openclaw/": "/resources/blog/",
+    "/tag/reskilling/": "/resources/blog/",
+    "/tag/sanctifai/": "/resources/blog/",
+    "/tag/coda/": "/resources/blog/",
+    "/tag/collaborative-agents/": "/resources/blog/",
+    "/tag/mcp/": "/resources/blog/",
+    "/tag/product-management/": "/resources/blog/",
+    "/tag/shared-context/": "/resources/blog/",
+    "/tag/superhuman/": "/resources/blog/",
+    "/tag/superhuman-docs/": "/resources/blog/",
+    "/tag/team-productivity/": "/resources/blog/",
+    "/tag/fine-tuning/": "/resources/blog/",
+    "/tag/manos-koukoumidis/": "/resources/blog/",
+    "/tag/oumi/": "/resources/blog/",
+    "/tag/small-language-models/": "/resources/blog/",
+    "/tag/specialized-ai/": "/resources/blog/",
+    "/tag/open-models/": "/resources/blog/",
+    "/tag/state-of-ai-2026/": "/resources/blog/",
+    "/tag/ai-benchmarks/": "/resources/blog/",
+    "/tag/ai-evals/": "/resources/blog/",
+    "/tag/wade-foster/": "/resources/blog/",
+    "/tag/workflow-automation/": "/resources/blog/",
+    "/tag/zapier/": "/resources/blog/",
+    "/tag/ai-skills/": "/resources/blog/",
+    "/tag/cio/": "/resources/blog/",
+    "/tag/devsecops/": "/resources/blog/",
+    "/tag/gitlab/": "/resources/blog/",
+    "/tag/ai-safety/": "/resources/blog/",
+    "/tag/domain-specific-models/": "/resources/blog/",
+    "/tag/legal-ai/": "/resources/blog/",
+    "/tag/legaltech/": "/resources/blog/",
+    "/tag/neuro-symbolic-ai/": "/resources/blog/",
+    "/tag/riskvantage-ai/": "/resources/blog/",
+    "/tag/clickup/": "/resources/blog/",
+    "/tag/coding-agents/": "/resources/blog/",
+    "/tag/context-engineering/": "/resources/blog/",
+    "/tag/knowledge-work/": "/resources/blog/",
+    "/tag/tom-scott/": "/resources/blog/",
+    "/tag/work-management/": "/resources/blog/",
+    "/tag/wrike/": "/resources/blog/",
+    "/category/blog/databricks/": "/resources/blog/",
+    "/tag/bigquery/": "/resources/blog/",
+    "/tag/cloud-data-management/": "/resources/blog/",
+    "/tag/data-analytics/": "/resources/blog/",
+    "/tag/data-engineering/": "/resources/blog/",
+    "/tag/data-lake/": "/resources/blog/",
+    "/tag/data-storage/": "/resources/blog/",
+    "/tag/gcp-data-lake/": "/resources/blog/",
+    "/tag/google-cloud/": "/resources/blog/",
+    "/tag/vertex-ai/": "/resources/blog/",
+    "/tag/apache-spark/": "/resources/blog/",
+    "/tag/data-lakes/": "/resources/blog/",
+    "/tag/data-management/": "/resources/blog/",
+    "/tag/data-warehouse/": "/resources/blog/",
+    "/tag/databricks/": "/resources/blog/",
+    "/tag/delta-lake/": "/resources/blog/",
+    "/tag/lakehouse-architecture/": "/resources/blog/",
+    "/tag/machine-learning/": "/resources/blog/",
+    "/tag/unity-catalog/": "/resources/blog/",
+    "/tag/bi-migration/": "/resources/blog/",
+    "/tag/data-migration/": "/resources/blog/",
+    "/tag/data-validation/": "/resources/blog/",
+    "/tag/etl/": "/resources/blog/",
+    "/tag/report-automation/": "/resources/blog/",
+    "/tag/report-optimization/": "/resources/blog/",
+    "/tag/sql-migration/": "/resources/blog/",
+    "/tag/agentic-coding/": "/resources/blog/",
+    "/tag/ai-trustworthiness/": "/resources/blog/",
+    "/tag/ai-verification/": "/resources/blog/",
+    "/tag/c-to-rust/": "/resources/blog/",
+    "/tag/code-modernization/": "/resources/blog/",
+    "/tag/codemetal/": "/resources/blog/",
+    "/tag/mission-critical-ai/": "/resources/blog/",
+    "/tag/ryan-aytay/": "/resources/blog/",
+    "/tag/talking-ai-podcast/": "/resources/blog/",
+    "/tag/ai-investing/": "/resources/blog/",
+    "/tag/enterprise-ai-infrastructure/": "/resources/blog/",
+    "/tag/frontier-models/": "/resources/blog/",
+    "/tag/intel-capital/": "/resources/blog/",
+    "/tag/specialized-foundation-models/": "/resources/blog/",
+    "/tag/venture-capital/": "/resources/blog/",
+    "/tag/world-models/": "/resources/blog/",
+    "/tag/ai-infrastructure/": "/resources/blog/",
+    "/tag/ai-model-deployment/": "/resources/blog/",
+    "/tag/data-lakehouse/": "/resources/blog/",
+    "/tag/lakehouse-ai/": "/resources/blog/",
+    "/tag/machine-learning-platforms/": "/resources/blog/",
+    "/author/andy-smithhatchworks-com/page/2/": "/resources/blog/",
+    "/author/andy-smithhatchworks-com/page/3/": "/resources/blog/",
+    "/author/andy-smithhatchworks-com/page/4/": "/resources/blog/",
+    "/author/andy-smithhatchworks-com/page/5/": "/resources/blog/",
+    "/author/melissa-malec/page/2/": "/resources/blog/",
+    "/author/melissa-malec/page/3/": "/resources/blog/",
+    "/author/melissa-malec/page/4/": "/resources/blog/",
+    "/author/melissa-malec/page/5/": "/resources/blog/",
+    "/tag/ai-in-credit-unions/": "/resources/blog/",
+    "/tag/ai-roadmap/": "/resources/blog/",
+    "/tag/credit-unions/": "/resources/blog/",
+    "/tag/financial-services/": "/resources/blog/",
+    "/tag/fraud-detection/": "/resources/blog/",
+    "/tag/member-experience/": "/resources/blog/",
+    "/tag/business-intelligence/": "/resources/blog/",
+    "/tag/data-mart/": "/resources/blog/",
+    "/tag/structured-data/": "/resources/blog/",
+    "/tag/unstructured-data/": "/resources/blog/",
+    "/tag/best-practices/": "/resources/blog/",
+    "/tag/cost-optimization/": "/resources/blog/",
+    "/tag/data-security/": "/resources/blog/",
+    "/tag/production-environment/": "/resources/blog/",
+    "/tag/agent-harness/": "/resources/blog/",
+    "/tag/ai-coding-agent-costs/": "/resources/blog/",
+    "/tag/ai-costs/": "/resources/blog/",
+    "/tag/ai-harness/": "/resources/blog/",
+    "/tag/claude-code/": "/resources/blog/",
+    "/tag/codex-cli/": "/resources/blog/",
+    "/author/matt-paigehatchworks-com/page/2/": "/resources/blog/",
+    "/author/matt-paigehatchworks-com/page/3/": "/resources/blog/",
+    "/tag/ai-pilots/": "/resources/blog/",
+    "/tag/ai-pilots-fail-in-production/": "/resources/blog/",
+    "/tag/data-readiness/": "/resources/blog/",
+    "/tag/genroi/": "/resources/blog/",
+    "/category/blog/leadership/": "/resources/blog/",
+    "/tag/geneq/": "/resources/blog/",
+    "/tag/operations/": "/resources/blog/",
+    "/tag/time-savings/": "/resources/blog/",
+    "/tag/workforce-planning/": "/resources/blog/",
+    "/category/blog/claude/": "/resources/blog/",
+    "/tag/ai-budget/": "/resources/blog/",
+    "/tag/anthropic/": "/resources/blog/",
+    "/tag/anthropic-ipo/": "/resources/blog/",
+    "/tag/claude/": "/resources/blog/",
+    "/tag/net-revenue-retention/": "/resources/blog/",
+    "/tag/s-1-filing/": "/resources/blog/",
+    "/tag/ai-product-development/": "/resources/blog/",
+    "/tag/ai-prototyping/": "/resources/blog/",
+    "/tag/product-development-lifecycle/": "/resources/blog/",
+    "/tag/ai-coding-agents/": "/resources/blog/",
+    "/tag/ai-reverse-engineering/": "/resources/blog/",
+    "/tag/decompilation/": "/resources/blog/",
+    "/tag/legacy-modernization/": "/resources/blog/",
+    "/tag/software-moats/": "/resources/blog/",
+    "/tag/cloud-platforms/": "/resources/blog/",
+    "/tag/cloud-agnostic-architecture/": "/resources/blog/",
+    "/tag/data-infrastructure/": "/resources/blog/",
+    "/tag/infrastructure-as-code/": "/resources/blog/",
+    "/tag/kubernetes/": "/resources/blog/",
+    "/tag/multi-cloud/": "/resources/blog/",
+    "/tag/software-architecture/": "/resources/blog/",
+    "/tag/vendor-lock-in/": "/resources/blog/",
+    "/category/blog/model-strategy/": "/resources/blog/",
+    "/tag/intelligence-layer/": "/resources/blog/",
+    "/tag/llm-routing/": "/resources/blog/",
+    "/tag/model-evaluation/": "/resources/blog/",
+    "/tag/open-weight-models/": "/resources/blog/",
+    "/tag/ai-assistants/": "/resources/blog/",
+    "/tag/openai-dots/": "/resources/blog/",
+    "/tag/ai-cost-optimization/": "/resources/blog/",
+    "/tag/ai-evaluation/": "/resources/blog/",
+    "/tag/ai-model-strategy/": "/resources/blog/",
+    "/tag/model-fine-tuning/": "/resources/blog/",
+    "/tag/rag/": "/resources/blog/",
+    "/tag/ai-discovery/": "/resources/blog/",
+    "/tag/ai-prioritization/": "/resources/blog/",
+    "/tag/ai-use-cases/": "/resources/blog/",
+    "/tag/data-foundation/": "/resources/blog/",
+    "/tag/ai-compliance/": "/resources/blog/",
+    "/tag/gpu-infrastructure/": "/resources/blog/",
+    "/tag/llm-hosting/": "/resources/blog/",
+    "/tag/mlops/": "/resources/blog/",
+    "/tag/quantization/": "/resources/blog/",
+    "/tag/self-hosting-llms/": "/resources/blog/",
+    "/category/podcast/": "/resources/blog/",
+    "/tag/entrepreneurship/": "/resources/blog/",
+    "/tag/podcast/": "/resources/blog/",
+    "/tag/profit/": "/resources/blog/",
+    "/tag/social-responsibility/": "/resources/blog/",
+    "/tag/ai-deployment/": "/resources/blog/",
+    "/tag/clutch/": "/resources/blog/",
+    "/tag/clutch-global/": "/resources/blog/",
+    "/tag/company-news/": "/resources/blog/",
+    "/tag/industry-recognition/": "/resources/blog/",
+    "/tag/ai-implementation/": "/resources/blog/",
+    "/tag/ai-partnerships/": "/resources/blog/",
+    "/tag/forward-deployed-engineers/": "/resources/blog/",
+    "/tag/openai-partner-network/": "/resources/blog/",
+    "/tag/b2b-partners/": "/resources/blog/",
+    "/tag/inc-magazine/": "/resources/blog/",
+    "/tag/recognition/": "/resources/blog/",
+    "/tag/ai-integration/": "/resources/blog/",
+    "/tag/ai-training/": "/resources/blog/",
+    "/tag/business-growth/": "/resources/blog/",
+    "/tag/ceo-insights/": "/resources/blog/",
+    "/tag/cost-effective-ai/": "/resources/blog/",
+    "/tag/practical-ai/": "/resources/blog/",
+    "/executive-ai-training/": "/",
+    "/tag/ai-humanist/": "/resources/blog/",
+    "/tag/forbes-ai-leaders/": "/resources/blog/",
+    "/tag/rajeev-kapur/": "/resources/blog/",
+    "/tag/top-ai-leaders/": "/resources/blog/",
+    "/tag/ai-solutions/": "/resources/blog/",
+    "/tag/b2b-services/": "/resources/blog/",
+    "/tag/client-reviews/": "/resources/blog/",
+    "/tag/clutch-global-leader/": "/resources/blog/",
+    "/tag/omar-shanti/": "/resources/blog/",
+    "/tag/inc/": "/resources/blog/",
+    "/tag/news/": "/resources/blog/",
+    "/tag/ai-in-finance/": "/resources/blog/",
+    "/tag/ai-software/": "/resources/blog/",
+    "/tag/banking-technology/": "/resources/blog/",
+    "/tag/compliance-automation/": "/resources/blog/",
+    "/tag/fintech-software-development/": "/resources/blog/",
+    "/tag/payments-technology/": "/resources/blog/",
+    "/tag/techreviewer/": "/resources/blog/",
+    "/category/news/page/2/": "/resources/blog/",
+    "/category/news/page/3/": "/resources/blog/",
+    "/category/news/page/4/": "/resources/blog/",
+    "/category/news/page/5/": "/resources/blog/",
+    "/tag/ai-innovation/page/2/": "/resources/blog/",
+    "/ai-engineering-teams/": "/",
+    "/tag/titan-100/": "/resources/blog/",
+    "/tag/enterprise-ai/page/2/": "/resources/blog/",
+    "/tag/enterprise-ai/page/3/": "/resources/blog/",
+    "/tag/enterprise-ai/page/4/": "/resources/blog/",
+    "/tag/enterprise-ai/page/5/": "/resources/blog/",
+    "/tag/award/page/2/": "/resources/blog/",
+    "/tag/award/page/3/": "/resources/blog/",
+    "/tag/gen-ai/page/2/": "/resources/blog/",
+    "/tag/gen-ai/page/3/": "/resources/blog/",
+    "/tag/gen-ai/page/4/": "/resources/blog/",
+    "/tag/generative-driven-development/page/2/": "/resources/blog/",
+    "/tag/generative-driven-development/page/3/": "/resources/blog/",
+    "/tag/hatchworks-ai/page/2/": "/resources/blog/",
+    "/tag/hatchworks-ai/page/3/": "/resources/blog/",
+    "/tag/generative-ai/page/2/": "/resources/blog/",
+    "/tag/generative-ai/page/3/": "/resources/blog/",
+    "/tag/generative-ai/page/4/": "/resources/blog/",
+    "/tag/generative-ai/page/5/": "/resources/blog/",
+    "/tag/ceo/": "/resources/blog/",
+    "/tag/georgia-business/": "/resources/blog/",
+    "/tag/hall-of-fame/": "/resources/blog/",
+    "/tag/dallas-innovates-ai-75/": "/resources/blog/",
+    "/tag/dallas-regional-chamber/": "/resources/blog/",
+    "/tag/dallas-fort-worth/": "/resources/blog/",
+    "/tag/dfw-tech/": "/resources/blog/",
+    "/tag/ai-development-partner/": "/resources/blog/",
+    "/tag/ai-governance-and-compliance/": "/resources/blog/",
+    "/tag/ai-strategy-and-roadmap/": "/resources/blog/",
+    "/tag/clutch-award-winner/": "/resources/blog/",
+    "/tag/clutch-global-awards/": "/resources/blog/",
+    "/tag/nearshore-engineering-teams/": "/resources/blog/",
+    "/tag/claude-partner-network/": "/resources/blog/",
+    "/tag/gendd/page/2/": "/resources/blog/",
+    "/tag/gendd/page/3/": "/resources/blog/",
+    "/tag/design/": "/resources/blog/",
+    "/tag/modernization/": "/resources/blog/",
+    "/tag/product/": "/resources/blog/",
+    "/tag/software/": "/resources/blog/",
+    "/blog/claude/claude-skills-architecture/": "/resources/blog/",
+    "/blog/claude/claude-agent-harness/": "/resources/blog/",
+    "/blog/claude/claude-code-agent-harness/": "/resources/blog/",
+    "/blog/claude/claude-agent-sdk-build-your-own/": "/resources/blog/",
+    "/contact/": "/",
+    "/anthropic-claude-partner/": "/",
+    "/tag/agent-autonomy/": "/resources/blog/",
+    "/tag/agentic-workflows/": "/resources/blog/",
+    "/tag/ai-agent-verification/": "/resources/blog/",
+    "/tag/autonomous-agents/": "/resources/blog/",
+    "/tag/goal-automation/": "/resources/blog/",
+    "/tag/claude-agent-sdk/": "/resources/blog/",
+    "/tag/claude-md/": "/resources/blog/",
+    "/tag/hooks/": "/resources/blog/",
+    "/tag/permission-modes/": "/resources/blog/",
+    "/tag/ai-agent-development/": "/resources/blog/",
+    "/tag/python/": "/resources/blog/",
+    "/tag/typescript/": "/resources/blog/",
+    "/tag/agent-architecture/": "/resources/blog/",
+    "/tag/claude-skills/": "/resources/blog/",
+    "/tag/llm/": "/resources/blog/",
+    "/tag/progressive-disclosure/": "/resources/blog/",
+    "/tag/prompt-engineering/": "/resources/blog/",
+    "/tag/agent-loop/": "/resources/blog/",
+    "/tag/context-management/": "/resources/blog/",
+    "/tag/ai-automation/": "/resources/blog/",
+    "/tag/ai-workflows/": "/resources/blog/",
+    "/tag/claude-code-routines/": "/resources/blog/",
+    "/tag/claude-cowork/": "/resources/blog/",
+    "/tag/scheduled-tasks/": "/resources/blog/",
+    "/tag/ai-coding-tools/": "/resources/blog/",
+    "/tag/ai-delegation/": "/resources/blog/",
+    "/tag/claude-agent-teams/": "/resources/blog/",
+    "/tag/claude-sub-agents/": "/resources/blog/",
+    "/forward-deployed-engineer/": "/",
+    "/tag/embedded-engineer/": "/resources/blog/",
+    "/tag/fde-engagement/": "/resources/blog/",
+    "/tag/find-ship-multiply/": "/resources/blog/",
+    "/tag/knowledge-transfer/": "/resources/blog/",
+    "/tag/agent-infrastructure/": "/resources/blog/",
+    "/tag/ai-engineering/": "/resources/blog/",
+    "/tag/claude-managed-agents/": "/resources/blog/",
+    "/tag/enterprise-software/": "/resources/blog/",
+    "/tag/top-software-companies/": "/resources/blog/",
+    "/tag/us-tech-companies/": "/resources/blog/",
+    "/data-governance-assessment/": "/",
+    "/category/blog/data-governance/": "/resources/blog/",
+    "/tag/data-integration/": "/resources/blog/",
+    "/tag/data-policies/": "/resources/blog/",
+    "/tag/data-quality/": "/resources/blog/",
+    "/tag/data-stewardship/": "/resources/blog/",
+    "/tag/master-data-management/": "/resources/blog/",
+    "/tag/ai-decision-making/": "/resources/blog/",
+    "/tag/business-ai/": "/resources/blog/",
+    "/tag/reinforcement-learning/": "/resources/blog/",
+    "/tag/best-place-to-work/": "/resources/blog/",
+    "/tag/top-startup/": "/resources/blog/",
+    "/tag/access-controls/": "/resources/blog/",
+    "/tag/automation/": "/resources/blog/",
+    "/tag/data-audits/": "/resources/blog/",
+    "/tag/data-compliance/": "/resources/blog/",
+    "/tag/data-framework/": "/resources/blog/",
+    "/tag/it-governance/": "/resources/blog/",
+    "/tag/data-cataloging/": "/resources/blog/",
+    "/tag/governance-framework/": "/resources/blog/",
+    "/tag/governance-metrics/": "/resources/blog/",
+    "/tag/lifecycle-management/": "/resources/blog/",
+    "/tag/metadata-management/": "/resources/blog/",
+    "/author/jsmith/": "/resources/blog/",
+    "/author/david-berrio/": "/resources/blog/",
+    "/blog/gen-ai/how-to-deploy-llm/": "/resources/blog/",
+    "/tag/llms/": "/resources/blog/",
+    "/tag/ai-readiness-assessment/": "/resources/blog/",
+    "/tag/engineering-leadership/": "/resources/blog/",
+    "/tag/anthropic-partner/": "/resources/blog/",
+    "/blog/gen-ai/ai-readiness-assessment/": "/resources/blog/",
+    "/tag/ai-consulting/": "/resources/blog/",
+    "/tag/ai-business-case/": "/resources/blog/",
+    "/tag/ai-metrics/": "/resources/blog/",
+    "/tag/cfo/": "/resources/blog/",
+    "/tag/embedded-ai-engineer/": "/resources/blog/",
+    "/tag/measuring-ai-value/": "/resources/blog/",
+    "/tag/ai-architecture/": "/resources/blog/",
+    "/tag/jev/": "/resources/blog/",
+    "/tag/large-language-models/": "/resources/blog/",
+    "/tag/model-routing/": "/resources/blog/",
+    "/tag/system-one-models/": "/resources/blog/",
+    "/tag/typesafe-ai/": "/resources/blog/",
+    "/tag/ai-talent/": "/resources/blog/",
+    "/tag/in-house-hiring/": "/resources/blog/",
+    "/tag/nearshore-development/": "/resources/blog/",
+    "/tag/staff-augmentation/": "/resources/blog/",
+    "/tag/agentic-ai-pods/": "/resources/blog/",
+    "/tag/ai-operating-model/": "/resources/blog/",
+    "/tag/scaling-ai/": "/resources/blog/",
+    "/blog/gen-ai/ai-inference-training-and-fine-tuning/": "/resources/blog/",
+    "/tag/prompts/": "/resources/blog/",
+    "/author/travis-shepherd/": "/resources/blog/",
+    "/tag/application-modernization/": "/resources/blog/",
+    "/tag/code-refactoring/": "/resources/blog/",
+    "/tag/legacy-code/": "/resources/blog/",
+    "/tag/openrewrite/": "/resources/blog/",
+    "/tag/technical-debt/": "/resources/blog/",
+    "/category/blog/pe/": "/resources/blog/",
+    "/tag/ai-documentation/": "/resources/blog/",
+    "/tag/ai-exit-readiness/": "/resources/blog/",
+    "/tag/ai-valuation/": "/resources/blog/",
+    "/tag/data-room/": "/resources/blog/",
+    "/tag/exit-multiple/": "/resources/blog/",
+    "/tag/exit-planning/": "/resources/blog/",
+    "/tag/portfolio-company/": "/resources/blog/",
+    "/tag/sell-side/": "/resources/blog/",
+    "/tag/vendor-due-diligence/": "/resources/blog/",
+    "/tag/ai-portfolio-value-creation/": "/resources/blog/",
+    "/tag/ebitda-growth/": "/resources/blog/",
+    "/tag/hold-period/": "/resources/blog/",
+    "/tag/operating-partners/": "/resources/blog/",
+    "/tag/portfolio-operations/": "/resources/blog/",
+    "/tag/value-creation-plan/": "/resources/blog/",
+    "/tag/ai-moat/": "/resources/blog/",
+    "/tag/build-vs-buy/": "/resources/blog/",
+    "/tag/competitive-advantage/": "/resources/blog/",
+    "/tag/defensibility/": "/resources/blog/",
+    "/tag/foundation-models/": "/resources/blog/",
+    "/tag/ai-due-diligence/": "/resources/blog/",
+    "/tag/ai-value-creation/": "/resources/blog/",
+    "/tag/ebitda-multiples/": "/resources/blog/",
+    "/tag/enterprise-value/": "/resources/blog/",
+    "/tag/mergers-and-acquisitions/": "/resources/blog/",
+    "/tag/ai-risk/": "/resources/blog/",
+    "/tag/deal-diligence/": "/resources/blog/",
+    "/tag/eu-ai-act/": "/resources/blog/",
+    "/tag/portfolio-companies/": "/resources/blog/",
+    "/tag/technology-due-diligence/": "/resources/blog/",
+    "/tag/outsourcing/": "/resources/blog/",
+    "/tag/agile-teams/": "/resources/blog/",
+    "/tag/latin-america/": "/resources/blog/",
+    "/tag/outcome-based-projects/": "/resources/blog/",
+    "/tag/talent/": "/resources/blog/",
+    "/tag/agent-gateway/": "/resources/blog/",
+    "/tag/agent-mesh/": "/resources/blog/",
+    "/tag/ai-orchestration/": "/resources/blog/",
+    "/tag/multi-agent-systems/": "/resources/blog/",
+    "/tag/ai-creators/": "/resources/blog/",
+    "/tag/ai-mode-search/": "/resources/blog/",
+    "/tag/gemini-3-5-flash/": "/resources/blog/",
+    "/tag/gemini-spark/": "/resources/blog/",
+    "/tag/generative-ui/": "/resources/blog/",
+    "/tag/google-antigravity/": "/resources/blog/",
+    "/tag/google-i-o-2026/": "/resources/blog/",
+    "/tag/omni-model/": "/resources/blog/",
+    "/tag/cio-strategy/": "/resources/blog/",
+    "/tag/low-code/": "/resources/blog/",
+    "/tag/outsystems/": "/resources/blog/",
+    "/author/sebastian-pinto/": "/resources/blog/",
+    "/tag/requirements-gathering/": "/resources/blog/",
+    "/tag/software-design/": "/resources/blog/",
+    "/tag/stakeholder-collaboration/": "/resources/blog/",
+    "/tag/ai-scaffolding/": "/resources/blog/",
+    "/tag/brownfield-analysis/": "/resources/blog/",
+    "/tag/context-packs/": "/resources/blog/",
+    "/tag/software-development-lifecycle/": "/resources/blog/",
+    "/tag/ai-assisted-development/": "/resources/blog/",
+    "/tag/ai-native-development/": "/resources/blog/",
+    "/tag/brownfield-development/": "/resources/blog/",
+    "/tag/ai-agent-design/": "/resources/blog/",
+    "/tag/ai-agent-guardrails/": "/resources/blog/",
+    "/tag/ai-agent-security/": "/resources/blog/",
+    "/tag/ai-risk-management/": "/resources/blog/",
+    "/tag/prompt-injection/": "/resources/blog/",
+    "/tag/ai-agent-cost-optimization/": "/resources/blog/",
+    "/tag/batch-processing/": "/resources/blog/",
+    "/tag/multi-agent-orchestration/": "/resources/blog/",
+    "/tag/tool-call-governance/": "/resources/blog/",
+    "/tag/ai-agent-costs/": "/resources/blog/",
+    "/tag/ai-cost-management/": "/resources/blog/",
+    "/tag/token-costs/": "/resources/blog/",
+    "/tag/execution-loop/": "/resources/blog/",
+    "/tag/gendd-pod/": "/resources/blog/",
+    "/tag/software-quality/": "/resources/blog/",
+    "/tag/vibecoding/": "/resources/blog/",
+    "/tag/api-rate-limiting/": "/resources/blog/",
+    "/tag/cost-controls/": "/resources/blog/",
+    "/tag/llm-costs/": "/resources/blog/",
+    "/tag/n8n/": "/resources/blog/",
+    "/tag/n8n-guardrails/": "/resources/blog/",
+    "/tag/token-optimization/": "/resources/blog/",
+    "/tag/workflow-observability/": "/resources/blog/",
+    "/tag/ai-teams/": "/resources/blog/",
+    "/tag/ai-native/": "/resources/blog/",
+    "/tag/development-roles/": "/resources/blog/",
+    "/tag/software-lifecycle/": "/resources/blog/",
+    "/tag/agent-mediated-commerce/": "/resources/blog/",
+    "/tag/ai-agents-become-the-buyer/": "/resources/blog/",
+    "/tag/ai-procurement/": "/resources/blog/",
+    "/tag/api-first-architecture/": "/resources/blog/",
+    "/tag/b2b-software/": "/resources/blog/",
+    "/tag/consumption-based-pricing/": "/resources/blog/",
+    "/tag/saas-pricing/": "/resources/blog/",
+    "/tag/ai-coding/": "/resources/blog/",
+    "/tag/ai-generated-code/": "/resources/blog/",
+    "/tag/ai-security-vulnerabilities/": "/resources/blog/",
+    "/tag/cost-of-vibe-coding/": "/resources/blog/",
+    "/tag/usage-based-pricing/": "/resources/blog/",
+    "/tag/vibe-coding-risks/": "/resources/blog/",
+    "/tag/vibe-coding-tools/": "/resources/blog/",
+    "/tag/agentic-coding-tools/": "/resources/blog/",
+    "/tag/ai-and-employment/": "/resources/blog/",
+    "/tag/ai-workforce-strategy/": "/resources/blog/",
+    "/tag/future-of-software-engineering/": "/resources/blog/",
+    "/tag/jevons-paradox/": "/resources/blog/",
+    "/tag/software-creation/": "/resources/blog/",
+    "/tag/software-engineering-jobs/": "/resources/blog/",
+    "/tag/ai-adoption-framework/": "/resources/blog/",
+    "/tag/ai-adoption-mistakes/": "/resources/blog/",
+    "/tag/ai-change-management/": "/resources/blog/",
+    "/tag/ai-resistance/": "/resources/blog/",
+    "/tag/ai-training-for-teams/": "/resources/blog/",
+    "/tag/cross-functional-ai-task-force/": "/resources/blog/",
+    "/tag/enterprise-ai-adoption/": "/resources/blog/",
+    "/tag/ai-hallucinations/": "/resources/blog/",
+    "/tag/art-of-prompting/": "/resources/blog/",
+    "/tag/chain-of-thought-prompting/": "/resources/blog/",
+    "/tag/few-shot-prompting/": "/resources/blog/",
+    "/tag/prompting-techniques/": "/resources/blog/",
+    "/tag/devops/": "/resources/blog/",
+    "/tag/error-handling/": "/resources/blog/",
+    "/tag/guardrails/": "/resources/blog/",
+    "/tag/low-code-automation/": "/resources/blog/",
+    "/tag/observability/": "/resources/blog/",
+    "/tag/production-workflows/": "/resources/blog/",
+    "/tag/webhook-security/": "/resources/blog/",
+    "/tag/hallucination-detection/": "/resources/blog/",
+    "/tag/risk-assessment/": "/resources/blog/",
+    "/tag/ai-startups/": "/resources/blog/",
+    "/tag/ai-wrapper/": "/resources/blog/",
+    "/tag/competitive-moat/": "/resources/blog/",
+    "/tag/platform-risk/": "/resources/blog/",
+    "/tag/product-strategy/": "/resources/blog/",
+    "/tag/saas/": "/resources/blog/",
+    "/tag/angular/": "/resources/blog/",
+    "/tag/case-study/": "/resources/blog/",
+    "/tag/frontend-modernization/": "/resources/blog/",
+    "/tag/k-12/": "/resources/blog/",
+    "/tag/mobile-first/": "/resources/blog/",
+    "/tag/revtrak/": "/resources/blog/",
+    "/tag/school-payments/": "/resources/blog/",
+    "/tag/vanco/": "/resources/blog/",
+    "/tag/emergent-misalignment/": "/resources/blog/",
+    "/tag/llm-security/": "/resources/blog/",
+    "/tag/model-misbehavior/": "/resources/blog/",
+    "/tag/reward-hacking/": "/resources/blog/",
+    "/tag/agent-orchestration/": "/resources/blog/",
+    "/tag/agent-ux-patterns/": "/resources/blog/",
+    "/tag/ai-trust/": "/resources/blog/",
+    "/tag/ai-ux-design/": "/resources/blog/",
+    "/tag/chat-first-ux/": "/resources/blog/",
+    "/tag/ai-anxiety/": "/resources/blog/",
+    "/tag/employee-wellbeing/": "/resources/blog/",
+    "/tag/hr-leadership/": "/resources/blog/",
+    "/tag/job-security/": "/resources/blog/",
+    "/tag/responsible-ai/": "/resources/blog/",
+    "/tag/workplace-anxiety/": "/resources/blog/",
+    "/tag/blockchain/": "/resources/blog/",
+    "/tag/data-provenance/": "/resources/blog/",
+    "/tag/incentives/": "/resources/blog/",
+    "/tag/synthetic-data/": "/resources/blog/",
+    "/tag/training-data/": "/resources/blog/",
+    "/tag/agent-security/": "/resources/blog/",
+    "/tag/agentic-zero-trust/": "/resources/blog/",
+    "/tag/ai-agent-security-checklist/": "/resources/blog/",
+    "/tag/anomaly-detection/": "/resources/blog/",
+    "/tag/identity-and-access-management/": "/resources/blog/",
+    "/tag/least-privilege/": "/resources/blog/",
+    "/tag/siem-monitoring/": "/resources/blog/",
+    "/tag/tool-calling/": "/resources/blog/",
+    "/tag/defense-in-depth/": "/resources/blog/",
+    "/tag/identity-management/": "/resources/blog/",
+    "/tag/risk-management/": "/resources/blog/",
+    "/tag/security-governance/": "/resources/blog/",
+    "/tag/zero-trust/": "/resources/blog/",
+    "/tag/automation-tools/": "/resources/blog/",
+    "/tag/business-automation/": "/resources/blog/",
+    "/tag/integration-platforms/": "/resources/blog/",
+    "/tag/n8n-vs-zapier/": "/resources/blog/",
+    "/tag/no-code/": "/resources/blog/",
+    "/tag/build-vs-buy-framework/": "/resources/blog/",
+    "/tag/operating-model/": "/resources/blog/",
+    "/tag/saas-vs-custom/": "/resources/blog/",
+    "/tag/software-procurement/": "/resources/blog/",
+    "/tag/vendor-evaluation/": "/resources/blog/",
+    "/tag/agent-workflows/": "/resources/blog/",
+    "/tag/automation-guide/": "/resources/blog/",
+    "/tag/llm-workflows/": "/resources/blog/",
+    "/tag/n8n-ai-agent/": "/resources/blog/",
+    "/tag/no-code-automation/": "/resources/blog/",
+    "/tag/general-purpose-ai/": "/resources/blog/",
+    "/tag/vertical-ai-agents/": "/resources/blog/",
+    "/tag/workflow-orchestration/": "/resources/blog/",
+    "/tag/agentic-systems/": "/resources/blog/",
+    "/tag/ai-agent-best-practices/": "/resources/blog/",
+    "/tag/memory-design/": "/resources/blog/",
+    "/tag/proof-of-value/": "/resources/blog/",
+    "/tag/roi-measurement/": "/resources/blog/",
+    "/tag/ai-agent-frameworks/": "/resources/blog/",
+    "/tag/langchain/": "/resources/blog/",
+    "/tag/alteryx/": "/resources/blog/",
+    "/tag/andy-macmillan/": "/resources/blog/",
+    "/tag/data-analysts/": "/resources/blog/",
+    "/tag/data-prep/": "/resources/blog/",
+    "/tag/enterprise-analytics/": "/resources/blog/",
+    "/tag/fpa/": "/resources/blog/",
+    "/tag/revops/": "/resources/blog/",
+    "/tag/agent-observability/": "/resources/blog/",
+    "/tag/agent-orchestration-patterns/": "/resources/blog/",
+    "/tag/ai-agent-orchestration/": "/resources/blog/",
+    "/tag/governance/": "/resources/blog/",
+    "/tag/llmops/": "/resources/blog/",
+    "/tag/orchestrating-ai-agents/": "/resources/blog/",
+    "/tag/production-ai-agents/": "/resources/blog/",
+    "/tag/testing/": "/resources/blog/",
+    "/tag/ai-in-project-management/": "/resources/blog/",
+    "/tag/ai-project-management/": "/resources/blog/",
+    "/tag/jira/": "/resources/blog/",
+    "/tag/pmo/": "/resources/blog/",
+    "/tag/project-management-ai-tools/": "/resources/blog/",
+    "/tag/status-reporting/": "/resources/blog/",
+    "/tag/closed-source/": "/resources/blog/",
+    "/tag/open-source/": "/resources/blog/",
+    "/built-right/ai-orchestrating-the-web/": "/",
+    "/tag/orchestration/": "/resources/blog/",
+    "/tag/slm-vs-llm/": "/resources/blog/",
+    "/tag/slms/": "/resources/blog/",
+    "/tag/business-data/": "/resources/blog/",
+    "/tag/data-strategy/": "/resources/blog/",
+    "/tag/data-driven-culture/": "/resources/blog/",
+    "/tag/regulatory-compliance/": "/resources/blog/",
+    "/tag/conversion-optimization/": "/resources/blog/",
+    "/tag/customer-experience/": "/resources/blog/",
+    "/tag/customer-service/": "/resources/blog/",
+    "/tag/ecommerce/": "/resources/blog/",
+    "/tag/merchandising/": "/resources/blog/",
+    "/tag/personalization/": "/resources/blog/",
+    "/tag/rapid-prototyping/": "/resources/blog/",
+    "/tag/retail/": "/resources/blog/",
+    "/tag/retail-marketing/": "/resources/blog/",
+    "/tag/ai-content-creation/": "/resources/blog/",
+    "/tag/ai-marketing/": "/resources/blog/",
+    "/tag/ai-video-generation/": "/resources/blog/",
+    "/tag/brand-consistency/": "/resources/blog/",
+    "/tag/creative-automation/": "/resources/blog/",
+    "/tag/marketing-workflows/": "/resources/blog/",
+    "/tag/product-photography/": "/resources/blog/",
+    "/tag/vibe-marketing/": "/resources/blog/",
+    "/tag/comps-analysis/": "/resources/blog/",
+    "/tag/document-analysis/": "/resources/blog/",
+    "/tag/due-diligence/": "/resources/blog/",
+    "/tag/lease-abstraction/": "/resources/blog/",
+    "/tag/real-estate-automation/": "/resources/blog/",
+    "/tag/real-estate-operations/": "/resources/blog/",
+    "/tag/valuation-modeling/": "/resources/blog/",
+    "/tag/chief-data-officer/": "/resources/blog/",
+    "/tag/compliance/": "/resources/blog/",
+    "/tag/data-responsibilities/": "/resources/blog/",
+    "/tag/ai-in-software-development/": "/resources/blog/",
+    "/tag/api-design/": "/resources/blog/",
+    "/tag/architecture-governance/": "/resources/blog/",
+    "/tag/enterprise-architecture/": "/resources/blog/",
+    "/tag/solution-architecture/": "/resources/blog/",
+    "/tag/ai-code-security/": "/resources/blog/",
+    "/tag/ai-assisted-coding/": "/resources/blog/",
+    "/tag/delivery-handoff/": "/resources/blog/",
+    "/tag/executive-prototyping/": "/resources/blog/",
+    "/tag/shadow-it/": "/resources/blog/",
+    "/tag/software-governance/": "/resources/blog/",
+    "/author/brandon-powell/": "/resources/blog/",
+    "/tag/buy-vs-build/": "/resources/blog/",
+    "/minimum-viable-replacement/": "/",
+    "/nearshore-software-development-guide/": "/",
+    "/product-portfolio/designintelligence/": "/product-portfolio/",
+    "/tag/nearshore/": "/resources/blog/",
+    "/tag/e‑signature/": "/resources/blog/",
+    "/tag/prompt‑driven-development/": "/resources/blog/",
+    "/tag/tiny-teams/": "/resources/blog/",
+    "/tag/culture/": "/resources/blog/",
+    "/tag/agile/": "/resources/blog/",
+    "/hire-development-team/": "/",
+    "/blog/software-development/generative-ai/": "/resources/blog/",
+    "/blog/software-development/generative-ai-tools-for-modern-software-development/": "/resources/blog/",
+    "/blog/modernization/generative-ai/": "/resources/blog/",
+    "/tag/use-cases/": "/resources/blog/",
+    "/tag/ai-agents-and-workflows/": "/resources/blog/",
+    "/tag/ai-coding-assistants/": "/resources/blog/",
+    "/tag/ai-developer-tools/": "/resources/blog/",
+    "/tag/chatgpt-said-ai-software-developer/": "/resources/blog/",
+    "/tag/future-of-software-development/": "/resources/blog/",
+    "/tag/gendd-workflow/": "/resources/blog/",
+    "/tag/prompting-and-context-engineering/": "/resources/blog/",
+    "/tag/chemical-sensing/": "/resources/blog/",
+    "/tag/embeddings/": "/resources/blog/",
+    "/tag/fragrance-technology/": "/resources/blog/",
+    "/tag/multimodal-ai/": "/resources/blog/",
+    "/tag/olfaction/": "/resources/blog/",
+    "/tag/product-innovation/": "/resources/blog/",
+    "/tag/robotics/": "/resources/blog/",
+    "/tag/synthetic-biology/": "/resources/blog/",
+    "/tag/2025-podcasts/": "/resources/blog/",
+    "/tag/ai-podcasts/": "/resources/blog/",
+    "/tag/ai-trends/": "/resources/blog/",
+    "/tag/innovation/": "/resources/blog/",
+    "/tag/listicle/": "/resources/blog/",
+    "/tag/podcast-recommendations/": "/resources/blog/",
+    "/tag/tech-podcasts/": "/resources/blog/",
+    "/tag/cloud-automation/": "/resources/blog/",
+    "/tag/integration-tools/": "/resources/blog/",
+    "/tag/make/": "/resources/blog/",
+    "/tag/self-hosted-automation/": "/resources/blog/",
+    "/tag/ai-driven-software/": "/resources/blog/",
+    "/tag/data-transformation/": "/resources/blog/",
+    "/tag/enterprise-software-development/": "/resources/blog/",
+    "/tag/intelligent-agents/": "/resources/blog/",
+    "/tag/techreviewer-co/": "/resources/blog/",
+    "/tag/claims/": "/resources/blog/",
+    "/tag/insurance/": "/resources/blog/",
+    "/tag/insurtech/": "/resources/blog/",
+    "/tag/underwriting/": "/resources/blog/",
+    "/tag/agentic-ai-automation/": "/resources/blog/",
+    "/tag/business-process-automation/": "/resources/blog/",
+    "/tag/multi-agent-solutions/": "/resources/blog/",
+    "/tag/multi-agent-workflows/": "/resources/blog/",
+    "/tag/n8n-ai-agents/": "/resources/blog/",
+    "/tag/automation-platform/": "/resources/blog/",
+    "/tag/data-orchestration/": "/resources/blog/",
+    "/tag/n8n-guide/": "/resources/blog/",
+    "/tag/n8n-tutorials/": "/resources/blog/",
+    "/tag/no-code-tools/": "/resources/blog/",
+    "/tag/secure-automation/": "/resources/blog/",
+    "/tag/api-integrations/": "/resources/blog/",
+    "/tag/devops-automation/": "/resources/blog/",
+    "/tag/docker-compose/": "/resources/blog/",
+    "/tag/google-sheets-automation/": "/resources/blog/",
+    "/tag/web-scraping-workflows/": "/resources/blog/",
+    "/tag/aeo/": "/resources/blog/",
+    "/tag/ai-seo/": "/resources/blog/",
+    "/tag/content-strategy/": "/resources/blog/",
+    "/tag/digital-marketing/": "/resources/blog/",
+    "/tag/geo/": "/resources/blog/",
+    "/tag/llm-crawlers/": "/resources/blog/",
+    "/tag/search-optimization/": "/resources/blog/",
+    "/tag/data-sync/": "/resources/blog/",
+    "/tag/flow-builder/": "/resources/blog/",
+    "/tag/process-automation/": "/resources/blog/",
+    "/tag/ux/": "/resources/blog/",
+    "/tag/ai-translation/": "/resources/blog/",
+    "/tag/localization/": "/resources/blog/",
+    "/tag/machine-translation/": "/resources/blog/",
+    "/tag/translation-quality/": "/resources/blog/",
+    "/tag/ai-in-healthcare/": "/resources/blog/",
+    "/tag/clinical-trials/": "/resources/blog/",
+    "/tag/erooms-law/": "/resources/blog/",
+    "/tag/faro-health/": "/resources/blog/",
+    "/tag/fda-regulatory/": "/resources/blog/",
+    "/tag/patrick-leung/": "/resources/blog/",
+    "/tag/trial-protocol-design/": "/resources/blog/",
+    "/tag/ai-report/": "/resources/blog/",
+    "/tag/state-of-ai-2025/": "/resources/blog/",
+    "/tag/cursor-ai/": "/resources/blog/",
+    "/tag/lovable-ai/": "/resources/blog/",
+    "/tag/small-business-automation/": "/resources/blog/",
+    "/tag/women-in-ai/": "/resources/blog/",
+    "/tag/ai-search/": "/resources/blog/",
+    "/tag/generative-engine-optimization/": "/resources/blog/",
+    "/category/resource/guide/": "/resources/blog/",
+    "/category/landing/": "/resources/blog/",
+    "/category/resource/webinar/": "/resources/blog/",
+    "/tag/ai-hackathon/": "/resources/blog/",
+    "/tag/loan-origination/": "/resources/blog/",
+    "/tag/npla/": "/resources/blog/",
+    "/tag/private-lending/": "/resources/blog/",
+    "/tag/property-valuation/": "/resources/blog/",
+    "/tag/user-experience/": "/resources/blog/",
+    "/tag/ai-ide/": "/resources/blog/",
+    "/tag/code-generation/": "/resources/blog/",
+    "/tag/data-contracts/": "/resources/blog/",
+    "/tag/databricks-marketplace/": "/resources/blog/",
+    "/tag/delta-live-tables/": "/resources/blog/",
+    "/tag/lakehouse/": "/resources/blog/",
+    "/tag/schema-drift/": "/resources/blog/",
+    "/hatchworks-receives-best-places-to-work-award-for-2nd-consecutive-year-by-atlanta-business-chronicle/": "/",
+    "/blog/agile/what-agile-recruiting-and-geese-have-in-common/": "/resources/blog/",
+    "/tag/built-right/": "/resources/blog/",
+    "/mvp-vs-mvr/": "/",
+    "/author/trentcotton/": "/resources/blog/",
+    "/blog/modernization/history-digital-transformation/": "/resources/blog/",
+    "/blog/modernization/minimum-viable-replacement/": "/resources/blog/",
+    "/tag/nearshore-companies/": "/resources/blog/",
+    "/blog/software-development/the-software-developer-shortage-and-what-we-can-do-about-it/": "/resources/blog/",
+    "/tag/black-history/": "/resources/blog/",
+    "/tag/dei/": "/resources/blog/",
+    "/blog/software-development/why-your-organization-needs-microservices/": "/resources/blog/",
+    "/tag/microservices/": "/resources/blog/",
+    "/tag/women-in-tech/": "/resources/blog/",
+    "/tag/womens-history/": "/resources/blog/",
+    "/tag/investment/": "/resources/blog/",
+    "/tag/partnership/": "/resources/blog/",
+    "/tag/series-a/": "/resources/blog/",
+    "/tag/acg-atlanta/": "/resources/blog/",
+    "/tag/fastest-growing-companies/": "/resources/blog/",
+    "/tag/georgia-fast-40/": "/resources/blog/",
+    "/tag/data/": "/resources/blog/",
+    "/tag/security/": "/resources/blog/",
+    "/tag/soc-2/": "/resources/blog/",
+    "/tag/bloomfilter/": "/resources/blog/",
+    "/tag/geniq/": "/resources/blog/",
+    "/author/jerrik-arango/": "/resources/blog/",
+    "/built-right/generative-ai-disruption/": "/",
+    "/blog/software-development/software-engineer-shortage/": "/resources/blog/",
+    "/author/oscar-romero/": "/resources/blog/",
+    "/tag/multimodal/": "/resources/blog/",
+    "/tag/training/": "/resources/blog/",
+    "/tag/codestral/": "/resources/blog/",
+    "/tag/mamba/": "/resources/blog/",
+    "/tag/guide/": "/resources/blog/",
+    "/author/omar-shanti/": "/resources/blog/",
+    "/tag/abstraction/": "/resources/blog/",
+    "/tag/ai-optimization/": "/resources/blog/",
+    "/tag/healthcare/": "/resources/blog/",
+    "/tag/finance/": "/resources/blog/",
+    "/tag/communications/": "/resources/blog/",
+    "/tag/technology/": "/resources/blog/",
+    "/tag/software-companies/": "/resources/blog/",
+    "/author/jonathan-barrios/": "/resources/blog/",
+    "/author/maria-araya/": "/resources/blog/",
+    "/tag/mdm/": "/resources/blog/",
+    "/tag/amazon-q/": "/resources/blog/",
+    "/tag/big-data/": "/resources/blog/",
+    "/tag/ci-cd/": "/resources/blog/",
+    "/tag/data-preparation/": "/resources/blog/",
+    "/tag/data-science/": "/resources/blog/",
+    "/tag/mlflow/": "/resources/blog/",
+    "/tag/model-deployment/": "/resources/blog/",
+    "/tag/data-platform/": "/resources/blog/",
+    "/tag/data-ownership/": "/resources/blog/",
+    "/tag/data-usability/": "/resources/blog/",
+    "/tag/governance-goals/": "/resources/blog/",
+    "/tag/business-optimization/": "/resources/blog/",
+    "/tag/chatbots/": "/resources/blog/",
+    "/tag/decision-making/": "/resources/blog/",
+    "/tag/collaboration/": "/resources/blog/",
+    "/tag/distributed-ai/": "/resources/blog/",
+    "/tag/hierarchical-architecture/": "/resources/blog/",
+    "/tag/understanding-agents/": "/resources/blog/",
+    "/tag/azure/": "/resources/blog/",
+    "/tag/serverless/": "/resources/blog/",
+    "/tag/business-innovation/": "/resources/blog/",
+    "/tag/service-as-software/": "/resources/blog/",
+    "/tag/autonomous-systems/": "/resources/blog/",
+    "/tag/deliberative-agents/": "/resources/blog/",
+    "/tag/hybrid-agents/": "/resources/blog/",
+    "/tag/layered-architecture/": "/resources/blog/",
+    "/tag/reactive-agents/": "/resources/blog/",
+    "/author/luisvillalobos/": "/resources/blog/",
+    "/tag/automation-with-n8n/": "/resources/blog/",
+    "/tag/beginner-automation-tutorial/": "/resources/blog/",
+    "/tag/no-code-guide/": "/resources/blog/",
+    "/tag/no-code-workflow/": "/resources/blog/",
+    "/author/randall-ramirez/": "/resources/blog/",
+    "/tag/business-transformation/": "/resources/blog/",
+    "/tag/emerging-technology/": "/resources/blog/",
+    "/tag/1105-media/": "/resources/blog/",
+    "/tag/board-of-directors/": "/resources/blog/",
+    "/tag/tech-executives/": "/resources/blog/",
+    "/tag/agile-project-management/": "/resources/blog/",
+    "/tag/ai-for-non-coders/": "/resources/blog/",
+    "/tag/project-delivery/": "/resources/blog/",
+    "/tag/project-management-tools/": "/resources/blog/",
+    "/tag/tech-leadership/": "/resources/blog/",
+    "/tag/governance-frameworks/": "/resources/blog/",
+    "/tag/information-governance/": "/resources/blog/",
+    "/tag/regulatory-standards/": "/resources/blog/",
+    "/tag/metadata/": "/resources/blog/",
+    "/tag/ai-explainer-videos/": "/resources/blog/",
+    "/tag/ai-video-platform/": "/resources/blog/",
+    "/tag/anchor-healthcare/": "/resources/blog/",
+    "/tag/cloud-healthcare-solutions/": "/resources/blog/",
+    "/tag/digital-health/": "/resources/blog/",
+    "/tag/healthcare-literacy/": "/resources/blog/",
+    "/tag/medical-technology/": "/resources/blog/",
+    "/tag/patient-education/": "/resources/blog/",
+    "/tag/ai-for-everyone/": "/resources/blog/",
+    "/tag/ai-assessments/": "/resources/blog/",
+    "/tag/ai-hiring/": "/resources/blog/",
+    "/tag/ai-driven-recruitment/": "/resources/blog/",
+    "/tag/interview-process/": "/resources/blog/",
+    "/tag/ai-content/": "/resources/blog/",
+    "/tag/business-creativity/": "/resources/blog/",
+    "/tag/image-generation/": "/resources/blog/",
+    "/tag/ai-coaching/": "/resources/blog/",
+    "/tag/ai-mentorship/": "/resources/blog/",
+    "/tag/building-with-ai/": "/resources/blog/",
+    "/tag/professional-development/": "/resources/blog/",
+    "/tag/workplace-learning/": "/resources/blog/",
+    "/tag/ai-for-life/": "/resources/blog/",
+    "/tag/celia-quillian/": "/resources/blog/",
+    "/tag/productivity/": "/resources/blog/",
+    "/tag/tech-podcast/": "/resources/blog/",
+    "/tag/developer-shortage/": "/resources/blog/",
+    "/tag/developers/": "/resources/blog/",
+    "/tag/hr/": "/resources/blog/",
+    "/tag/ai-reasoning/": "/resources/blog/",
+    "/tag/chain-of-thought/": "/resources/blog/",
+    "/tag/inference/": "/resources/blog/",
+    "/tag/product-development/": "/resources/blog/",
+    "/tag/tech-trends/": "/resources/blog/",
+    "/tag/tokens/": "/resources/blog/",
+    "/tag/product-design/": "/resources/blog/",
+    "/tag/ui-design/": "/resources/blog/",
+    "/tag/ux-design/": "/resources/blog/",
+    "/tag/ai-eq/": "/resources/blog/",
+    "/tag/product-building/": "/resources/blog/",
+    "/built-right/mvp-trap/": "/",
+    "/built-right/generative-ai-ux-and-ui-design/": "/",
+    "/built-right/build-a-winning-product/": "/",
+    "/built-right/quality-driven-product-development/": "/",
+    "/built-right/the-built-right-mindset/": "/",
+    "/built-right/6-adaptive-leader-behaviors/": "/",
+    "/built-right/how-generative-ai-works-as-told-by-a-phd-data-scientist/": "/",
+    "/built-right/how-emotionally-intelligent-ai-is-reshaping-management/": "/",
+    "/tag/season-recap/": "/resources/blog/",
+    "/tag/user-experience-design/": "/resources/blog/",
+    "/tag/season-2/": "/resources/blog/",
+    "/tag/startup/": "/resources/blog/",
+    "/tag/conversational-design/": "/resources/blog/",
+    "/tag/ai-assistant/": "/resources/blog/",
+    "/tag/workplace/": "/resources/blog/",
+    "/tag/ai-empowerment/": "/resources/blog/",
+    "/tag/ai-skills-training/": "/resources/blog/",
+    "/tag/business-value/": "/resources/blog/",
+    "/tag/chief-ai-officer/": "/resources/blog/",
+    "/tag/democratizing-ai/": "/resources/blog/",
+    "/tag/social-blended-learning/": "/resources/blog/",
+    "/tag/explainable-ai/": "/resources/blog/",
+    "/tag/intelligence-analysis/": "/resources/blog/",
+    "/tag/knowledge-graphs/": "/resources/blog/",
+    "/tag/natural-language-interface/": "/resources/blog/",
+    "/tag/real-time-ai/": "/resources/blog/",
+    "/tag/genai/": "/resources/blog/",
+    "/tag/abstractions/": "/resources/blog/",
+    "/tag/ai-in-enterprise/": "/resources/blog/",
+    "/tag/future-of-ai-technology/": "/resources/blog/",
+    "/tag/product-mindset/": "/resources/blog/",
+    "/tag/memra-ai-platform/": "/resources/blog/",
+    "/tag/artistic-creation/": "/resources/blog/",
+    "/tag/gpts/": "/resources/blog/",
+    "/tag/marketing/": "/resources/blog/",
+    "/tag/strategy/": "/resources/blog/",
+    "/category/resource/case-study/": "/resources/blog/",
+    "/category/resource/ebook/": "/resources/blog/",
+    "/tag/ebook/": "/resources/blog/",
+    "/tag/iot/": "/resources/blog/",
+    "/our-work/2/": "/our-work/",
+    "/ai-teams-talent/": "/",
+    "/data-engineering-analytics/": "/",
+    "/contact-us/": "/",
+    "/insights/": "/",
+    "/databricks-hatchworks-ai/": "/",
+    "/your-services/software-development/": "/your-services/",
+    "/your-services/cloud-managed-services/": "/your-services/",
+    "/your-advantages/development-framework/": "/",
+    "/your-services/aws-well-architected-review/": "/your-services/"
+  }
+}

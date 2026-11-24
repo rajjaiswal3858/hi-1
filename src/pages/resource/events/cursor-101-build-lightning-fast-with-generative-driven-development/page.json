@@ -1,0 +1,34 @@
+{
+  "route": "/resource/events/cursor-101-build-lightning-fast-with-generative-driven-development/",
+  "title": "Cursor 101 — Build Lightning-Fast with Generative-Driven Development | HatchWorks AI",
+  "description": "Empower your workforce with AI agents. Join our live session to explore AI-native workflows, robust governance, and live demos driving real-world innovation.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Cursor 101 — Build Lightning-Fast with Generative-Driven Development | HatchWorks AI",
+    "og:description": "Cursor is fast becoming the IDE of choice for AI developers—yet most teams are just scratching the surface.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/Build-Lightning-Fast-with-Generative-Driven-Development.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Cursor 101 — Build Lightning-Fast with Generative-Driven Development | HatchWorks AI",
+    "twitter:description": "Cursor is fast becoming the IDE of choice for AI developers—yet most teams are just scratching the surface.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/Build-Lightning-Fast-with-Generative-Driven-Development.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-33424 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-33424",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33424.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

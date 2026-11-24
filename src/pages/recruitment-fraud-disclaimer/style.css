@@ -1,0 +1,390 @@
+/* ── SCOPE: all rules prefixed .hw-rd to avoid Elementor bleed ── */
+
+.hw-rd {
+  --teal:        #00B89A;
+  --teal-mid:    #009e84;
+  --teal-light:  rgba(0,184,154,.07);
+  --teal-border: rgba(0,184,154,.22);
+  --red:         #DC2626;
+  --red-light:   rgba(220,38,38,.06);
+  --red-border:  rgba(220,38,38,.18);
+  --amber:       #D97706;
+  --amber-light: rgba(217,119,6,.07);
+  --amber-border:rgba(217,119,6,.2);
+  --ink:         #0F1923;
+  --text-body:   #374151;
+  --text-muted:  #6B7280;
+  --text-light:  #9CA3AF;
+  --border:      #E5E7EB;
+  --border-soft: #F3F4F6;
+  --bg-card:     #F9FAFB;
+  --display:     'Space Grotesk', system-ui, sans-serif;
+  --sans:        'Open Sans', system-ui, sans-serif;
+  --radius:      8px;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-body);
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+  max-width: 860px;
+}
+
+.hw-rd *, .hw-rd *::before, .hw-rd *::after { box-sizing: border-box; }
+
+/* ── META BAR ── */
+.hw-rd .rd-meta {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .7rem 1.2rem;
+  background: var(--teal-light);
+  border: 1px solid var(--teal-border);
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.hw-rd .rd-meta-label {
+  font-family: var(--display);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.hw-rd .rd-meta-dot {
+  width: 3px; height: 3px;
+  border-radius: 50%;
+  background: var(--teal-border);
+  flex-shrink: 0;
+}
+
+.hw-rd .rd-meta-value {
+  font-size: .78rem;
+  color: var(--text-muted);
+}
+
+/* ── ALERT BANNER ── */
+.hw-rd .rd-alert {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  background: var(--red-light);
+  border: 1px solid var(--red-border);
+  border-left: 4px solid var(--red);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hw-rd .rd-alert-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+
+.hw-rd .rd-alert-body {}
+
+.hw-rd .rd-alert-title {
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--red);
+  margin: 0 0 .35rem;
+  line-height: 1.2;
+}
+
+.hw-rd .rd-alert-body p {
+  font-size: .9rem;
+  color: var(--text-body);
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* ── SECTION HEADINGS ── */
+.hw-rd h2 {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 .75rem;
+  line-height: 1.25;
+}
+
+.hw-rd h2 .rd-rule-line {
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: var(--teal);
+  margin-top: .5rem;
+  border-radius: 2px;
+}
+
+.hw-rd p {
+  font-size: .93rem;
+  color: var(--text-body);
+  margin: 0 0 .9rem;
+  line-height: 1.75;
+}
+
+.hw-rd p:last-child { margin-bottom: 0; }
+
+.hw-rd a {
+  color: var(--teal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hw-rd a:hover { text-decoration: underline; }
+
+/* ── CONTENT SECTIONS ── */
+.hw-rd .rd-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.hw-rd .rd-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* ── NEVER LIST ── */
+.hw-rd .rd-never {
+  list-style: none;
+  margin: .75rem 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.hw-rd .rd-never li {
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .85rem 1.1rem;
+  font-size: .9rem;
+  color: var(--text-body);
+  line-height: 1.5;
+}
+
+.hw-rd .rd-never li .nd-x {
+  font-family: var(--display);
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  color: var(--red);
+  background: var(--red-light);
+  border: 1px solid var(--red-border);
+  border-radius: 4px;
+  padding: .15rem .4rem;
+  flex-shrink: 0;
+  margin-top: .1rem;
+  line-height: 1.4;
+}
+
+/* ── RED FLAGS LIST ── */
+.hw-rd .rd-flags {
+  list-style: none;
+  margin: .75rem 0 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+
+.hw-rd .rd-flags li {
+  display: flex;
+  align-items: baseline;
+  gap: .65rem;
+  font-size: .9rem;
+  color: var(--text-body);
+  padding: .4rem 0;
+  border-bottom: 1px solid var(--border-soft);
+  line-height: 1.55;
+}
+
+.hw-rd .rd-flags li:last-child { border-bottom: none; }
+
+.hw-rd .rd-flags li::before {
+  content: '⚠';
+  font-size: .78rem;
+  flex-shrink: 0;
+  color: var(--amber);
+}
+
+/* ── LEGIT CHANNELS GRID ── */
+.hw-rd .rd-channels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .65rem;
+  margin: .75rem 0 1rem;
+}
+
+.hw-rd .rd-channel-item {
+  background: var(--teal-light);
+  border: 1px solid var(--teal-border);
+  border-radius: var(--radius);
+  padding: .9rem 1.1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: .65rem;
+}
+
+.hw-rd .rd-channel-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+
+.hw-rd .rd-channel-text strong {
+  display: block;
+  font-family: var(--display);
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: .15rem;
+}
+
+.hw-rd .rd-channel-text span {
+  font-size: .78rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+/* ── ABSOLUTE RULE CALLOUT ── */
+.hw-rd .rd-rule {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--amber-light);
+  border: 1px solid var(--amber-border);
+  border-left: 4px solid var(--amber);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.4rem;
+  margin: 1.25rem 0;
+}
+
+.hw-rd .rd-rule-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+
+.hw-rd .rd-rule p {
+  margin: 0;
+  font-size: .9rem;
+  color: var(--text-body);
+}
+
+.hw-rd .rd-rule strong {
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* ── CTA BLOCK ── */
+.hw-rd .rd-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--teal);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.hw-rd .rd-cta-text strong {
+  display: block;
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: .3rem;
+}
+
+.hw-rd .rd-cta-text p {
+  font-size: .85rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.hw-rd .rd-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background: var(--teal);
+  color: #fff !important;
+  font-family: var(--display);
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-decoration: none !important;
+  padding: .7rem 1.4rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background .15s;
+  flex-shrink: 0;
+}
+
+.hw-rd .rd-cta-btn:hover { background: var(--teal-mid); }
+
+/* ── REPORT BLOCK ── */
+.hw-rd .rd-report {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hw-rd .rd-report p {
+  margin: 0;
+  font-size: .88rem;
+  color: var(--text-muted);
+  flex: 1;
+  min-width: 200px;
+}
+
+.hw-rd .rd-report a.rd-report-link {
+  font-family: var(--display);
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--teal);
+  text-decoration: none;
+  border: 1px solid var(--teal-border);
+  padding: .5rem 1rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background .15s;
+  flex-shrink: 0;
+}
+
+.hw-rd .rd-report a.rd-report-link:hover {
+  background: var(--teal-light);
+  text-decoration: none;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+  .hw-rd .rd-channels { grid-template-columns: 1fr; }
+  .hw-rd .rd-cta { flex-direction: column; align-items: flex-start; }
+  .hw-rd .rd-alert { flex-direction: column; gap: .65rem; }
+}

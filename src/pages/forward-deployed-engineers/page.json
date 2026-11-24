@@ -1,0 +1,30 @@
+{
+  "route": "/forward-deployed-engineers/",
+  "title": "Forward Deployed Engineers | HatchWorks AI",
+  "description": "HatchWorks AI embeds senior AI builders inside your business to identify high-value opportunities, build production AI systems, and help your teams move",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Forward Deployed Engineers | HatchWorks AI",
+    "og:description": "HatchWorks AI embeds senior AI builders inside your business to identify high-value opportunities, build production AI systems, and help your teams move",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Forward Deployed Engineers | HatchWorks AI",
+    "twitter:description": "HatchWorks AI embeds senior AI builders inside your business to identify high-value opportunities, build production AI systems, and help your teams move",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-32356 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32356 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-32356.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

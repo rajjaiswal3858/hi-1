@@ -1,0 +1,261 @@
+.elementor-kit-15997{--e-global-color-primary:#3BADBC;--e-global-color-secondary:#00788E;--e-global-color-text:#363943;--e-global-color-accent:#F37039;--e-global-color-3c0f7e0:#151920;--e-global-color-1b33cc5:#363943;--e-global-color-57c8c36:#10758B;--e-global-color-85681f4:#3BADBC;--e-global-color-8b32f22:#71C7D2;--e-global-color-f36e489:#BFEBEF;--e-global-color-2826241:#DAEFF3;--e-global-color-ea45f12:#BCBEC0;--e-global-color-c1f82dd:#DCDDDE;--e-global-color-2b2aad6:#F8F8F8;--e-global-color-bb53219:#FFFFFF;--e-global-color-8381b09:#F37039;--e-global-color-254d26e:#FDC713;--e-global-color-231cf26:#151920;--e-global-typography-primary-font-family:"Open Sans";--e-global-typography-primary-font-weight:500;--e-global-typography-secondary-font-family:"Open Sans";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Open Sans";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Open Sans";--e-global-typography-accent-font-weight:600;color:var( --e-global-color-1b33cc5 );font-family:"Open Sans", Helvetica, Arial, Sans-serif;font-size:14px;font-weight:400;}.elementor-kit-15997 e-page-transition{background-color:#FFFFFF;}.elementor-kit-15997 a{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 h1{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;font-weight:600;}.elementor-kit-15997 h2{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 h3{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 h4{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 h5{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 h6{color:var( --e-global-color-text );font-family:"Open Sans", Helvetica, Arial, Sans-serif;}.elementor-kit-15997 button,.elementor-kit-15997 input[type="button"],.elementor-kit-15997 input[type="submit"],.elementor-kit-15997 .elementor-button{font-family:"Open Sans", Helvetica, Arial, Sans-serif;font-size:15px;font-weight:600;color:var( --e-global-color-bb53219 );}.elementor-kit-15997 button:hover,.elementor-kit-15997 button:focus,.elementor-kit-15997 input[type="button"]:hover,.elementor-kit-15997 input[type="button"]:focus,.elementor-kit-15997 input[type="submit"]:hover,.elementor-kit-15997 input[type="submit"]:focus,.elementor-kit-15997 .elementor-button:hover,.elementor-kit-15997 .elementor-button:focus{color:var( --e-global-color-bb53219 );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+/* Start custom CSS *//* Mega Menu fix on mobile menu not scrolling*/
+#mega-menu-menu-1 {
+max-height: calc(100vh - 50px) !important;
+	overflow-y: auto;
+	
+}	
+
+/* Mega Menu Highlighted Column Styling */
+.highlighted-column {
+    background-color: #f4f4f4; /* Light gray background suitable for left-side column in a mega menu */
+ 
+}
+
+.megamenu-divider {
+     border: none; /* Removes default border */
+    height: 2px; /* Sets a thin line height for subtlety */
+    background-color:#cccccc; /* Soft light gray color */
+    width: 60%; /* Adjusts the width to 60% of its container for a balanced look */
+    margin: 8px auto; /* Centers the line horizontally and adds a little vertical spacing */
+  
+}
+}
+
+
+
+/* FIX FOR OFFSET ON ACHORED LINKS WITH THE STICKY WEATHER*/ 
+
+.staff-augmentation, .dedicated-agile-teams, .outcome-based-projects {
+    
+      scroll-margin-top: 4rem;
+
+}
+
+
+/* MEGA MENU STYLING */ 
+.submenu-title {
+    color:#363943;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:700;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    clear: both;
+    
+}
+
+
+.submenu-title a, a:link {
+    color:#363943;
+ 
+    
+}
+
+
+
+.custom-mega-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0; /* Removed padding */
+}
+
+.engagement-item {
+  text-align: center;
+  color: #363943;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.engagement-item a {
+  color: #363943;
+  text-decoration: none;
+  padding: 10px; /* Added padding for better spacing */
+  transition: color 0.3s ease; /* Added transition for smooth color change on hover */
+}
+
+.engagement-item a:hover {
+  color: #10758b; /* Change text color on hover */
+ 
+}
+
+.engagement-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.engagement-icon img {
+  width: 64px;
+  height: auto;
+}
+
+.engagement-text {
+  margin-top: 5px; /* Adjust the margin for spacing between image and text */
+}
+
+@media (max-width: 768px) {
+  .custom-mega-menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .engagement-item {
+    flex-basis: 30%;
+  }
+
+  .engagement-item a {
+    padding: 10px; /* Added padding for better spacing on mobile */
+  }
+}
+
+/* BUTTON HOVER */ 
+.buttoncta {
+background-color: #E67A57;
+}
+
+ button:hover {
+     background-color: #B56146 !important;
+}
+
+/*Ensure text remains visible during webfont load */ 
+@font-face {
+  font-family: 'slick';
+  font-display: swap;
+}
+
+
+
+
+/*Hide extra blocks from responsive max mega menu */ 
+
+div.mega-toggle-blocks-left,
+div.mega-toggle-blocks-center{
+    
+    display: none !important;
+}
+
+
+/* blockquote styling */ 
+
+.elementor-widget-wrap blockquote {
+font-size: 1.5em;
+clear: both;
+display: block;
+line-height: 1.5em;
+font-weight: 600;
+font-style: italic;
+margin: 15% 0%;
+
+
+}
+
+
+.elementor-widget-wrap blockquote p::before {
+content: '“';
+font-size: 4em;
+line-height: 0em;
+font-weight: 600;
+color:#3badbc;
+
+}
+
+
+/* BREEZY HR available rolls styling on Careers page */ 
+
+.breezy-styling .bzOpening {
+  margin-top: 6%;
+}
+
+.breezy-styling h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #393F4A !important;
+  text-decoration: underline;
+}
+
+.breezy-styling .bzButtonApply {
+  display: none !important;
+}
+
+.breezy-styling .bzOpeningsList {
+  list-style-type: none !important;
+}
+
+.breezy-styling .bzMeta {
+  margin: -1% -5% 0;
+}
+
+.breezy-styling .bzMeta li {
+  font-family: 'open sans';
+  font-size: 1em;
+  display: inline;
+  padding: 0 0 0 3%;
+}
+
+.breezy-styling li.bzDepartment, button.bzButtonApply {
+  display: none !important;
+}
+
+.breezy-styling li.bzRemote span::before {
+  content: '💻';
+  margin-right: 1%;
+}
+
+.breezy-styling li.bzType span::before {
+  content: '➡️';
+  margin-right: 1%;
+}
+
+.breezy-styling li.bzLocation::before {
+  content: '🌐';
+  margin-right: 1%;
+}
+
+.breezy-styling .bzLocation span {
+  margin: 0 0 0 1%;
+}
+
+/* Hatcher definition styling on career page */ 
+
+.definition {
+    font-size:0.5em;
+    font-style: italic;
+    font-weight: 500;
+        color: #393F4A;
+        font-family: times new roman;
+
+}
+
+
+@media (max-width: 360px) {
+   .responsivebr {
+   display:none;
+    }
+}
+
+.highlight {
+    color: #DAEFF3;
+}
+
+
+
+
+
+.highlight-left-menu .mega-menu-link { font-size: 120%;
+font-weight: 600
+   
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-display: auto;
+	src: url('https://hatchworksuat.wpengine.com/wp-content/uploads/2026/03/OpenSans-VariableFont_wdthwght.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

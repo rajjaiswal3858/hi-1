@@ -1,0 +1,68 @@
+/* ── Scoped isolation ──────────────────────────────────────────────────────
+   Element styling is inline (already outranks theme stylesheets). These rules
+   exist only to undo theme/Elementor declarations that use !important, and to
+   re-assert the button and CTA design at the same priority. Interactive states
+   are written by the script with priority "important", so they still win.     */
+
+#k9-cs, #k9-cs *, #k9-cs *::before, #k9-cs *::after { box-sizing: border-box !important; }
+#k9-cs { max-width: 100% !important; }
+#k9-cs p, #k9-cs h1, #k9-cs h2, #k9-cs h3, #k9-cs figure, #k9-cs figcaption, #k9-cs blockquote { margin: 0; padding: 0; }
+#k9-cs ul, #k9-cs ol { list-style: none !important; }
+#k9-cs li { margin: 0 !important; list-style: none !important; }
+#k9-cs li::before, #k9-cs li::marker { content: none !important; }
+#k9-cs img { max-width: 100% !important; }
+#k9-cs svg { vertical-align: middle; }
+#k9-cs [hidden] { display: none !important; }
+#k9-cs *:focus-visible { outline: 2px solid #3ABDBC !important; outline-offset: 3px !important; }
+
+/* buttons: strip every theme decoration first */
+#k9-cs button {
+  font-family: inherit !important; cursor: pointer !important;
+  background: none !important; background-color: transparent !important; background-image: none !important;
+  border: 0 !important; border-radius: 0 !important; box-shadow: none !important; text-shadow: none !important;
+  outline: none; margin: 0 !important; padding: 0 !important; width: auto !important;
+  min-width: 0 !important; min-height: 0 !important; height: auto !important;
+  color: inherit !important; font-size: inherit !important; font-weight: 400 !important;
+  line-height: inherit !important; letter-spacing: normal !important; text-transform: none !important;
+  text-decoration: none !important; transform: none !important; transition: none !important;
+  -webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important;
+}
+#k9-cs button:hover, #k9-cs button:focus, #k9-cs button:active {
+  background: none !important; background-image: none !important; box-shadow: none !important;
+  text-decoration: none !important; transform: none !important;
+}
+
+/* buttons: re-assert the design */
+#k9-cs [data-tab] {
+  display: inline-block !important; text-align: center !important;
+  padding: 11px 18px !important; border: 1px solid #d6dbe0 !important; border-radius: 4px !important;
+  background: #ffffff !important; color: #566069 !important;
+  font-size: .92rem !important; font-weight: 700 !important; letter-spacing: -.01em !important;
+  transition: background .18s, color .18s, border-color .18s !important;
+}
+#k9-cs [data-ba-tab] {
+  flex: 1 1 0 !important; display: inline-flex !important; align-items: center !important;
+  justify-content: center !important; gap: 9px !important;
+  padding: 12px 14px !important; border-radius: 4px !important;
+  background: transparent !important; color: #566069 !important;
+  font-size: .92rem !important; font-weight: 700 !important; letter-spacing: -.01em !important;
+  transition: background .18s, color .18s !important;
+}
+
+/* links and CTAs */
+#k9-cs a { color: inherit; text-decoration: none !important; background-image: none !important; box-shadow: none !important; }
+#k9-cs a:hover, #k9-cs a:focus { text-decoration: none !important; }
+#k9-cs [data-btn] {
+  display: inline-flex !important; align-items: center !important; gap: 9px !important;
+  padding: 14px 24px !important; border-radius: 4px !important;
+  font-size: .95rem !important; font-weight: 700 !important; letter-spacing: -.01em !important;
+  line-height: 1.2 !important; text-transform: none !important; width: auto !important;
+}
+#k9-cs [data-btn="primary"] { background: #151920 !important; color: #ffffff !important; border: 0 !important; }
+#k9-cs [data-btn="ghost"] { background: #ffffff !important; color: #151920 !important; border: 1px solid #d6dbe0 !important; }
+#k9-cs [data-nav] { font-size: 13px !important; color: #6f7883 !important; }
+
+@keyframes k9Fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  #k9-cs *, #k9-cs *::before, #k9-cs *::after { animation: none !important; transition: none !important; }
+}

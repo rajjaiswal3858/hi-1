@@ -1,0 +1,41 @@
+{
+  "route": "/news/most-reviewed-big-data-companies/",
+  "title": "HatchWorks Named One of the Most Reviewed Big Data Companies | HatchWorks AI",
+  "description": "Our team is ecstatic and proud to announce that we’ve been recently named one of the most-reviewed Big Data companies globally by The Manifest. This is a huge accolade for us and is truly one of the highlights of our year.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks Named One of the Most Reviewed Big Data Companies | HatchWorks AI",
+    "og:description": "Our team is ecstatic and proud to announce that we’ve been recently named one of the most-reviewed Big Data companies globally by The Manifest. This is a huge accolade for us and is truly one of the highlights of our year.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/11/THUMBNAIL-The-Manifest-Names-HatchWorks-Technologies-as-one-of-the-Most-Reviewed-Big-Data-Companies-Globally-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks Named One of the Most Reviewed Big Data Companies | HatchWorks AI",
+    "twitter:description": "Our team is ecstatic and proud to announce that we’ve been recently named one of the most-reviewed Big Data companies globally by The Manifest. This is a huge accolade for us and is truly one of the highlights of our year.",
+    "twitter:image": "/assets/wp-content/uploads/2022/11/THUMBNAIL-The-Manifest-Names-HatchWorks-Technologies-as-one-of-the-Most-Reviewed-Big-Data-Companies-Globally-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-28941 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28941 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28941.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

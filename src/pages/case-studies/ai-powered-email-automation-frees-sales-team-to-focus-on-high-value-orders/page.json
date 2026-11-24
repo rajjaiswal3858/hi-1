@@ -1,0 +1,30 @@
+{
+  "route": "/case-studies/ai-powered-email-automation-frees-sales-team-to-focus-on-high-value-orders/",
+  "title": "AI-Powered Email Automation Frees the Sales Team for High-Value Orders | HatchWorks AI",
+  "description": "A Los Angeles manufacturer automated 47% of response-worthy customer emails with OpenAI, n8n, and NetSuite, freeing its seven-person sales team for high-value orders.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI-Powered Email Automation Frees the Sales Team for High-Value Orders | HatchWorks AI",
+    "og:description": "A Los Angeles manufacturer automated 47% of response-worthy customer emails with OpenAI, n8n, and NetSuite, freeing its seven-person sales team for high-value orders.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/08/droneport.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI-Powered Email Automation Frees the Sales Team for High-Value Orders | HatchWorks AI",
+    "twitter:description": "A Los Angeles manufacturer automated 47% of response-worthy customer emails with OpenAI, n8n, and NetSuite, freeing its seven-person sales team for high-value orders.",
+    "twitter:image": "/assets/wp-content/uploads/2025/08/droneport.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34440 page-child parent-pageid-23823 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34440 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-34440.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

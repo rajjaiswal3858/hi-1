@@ -1,0 +1,29 @@
+{
+  "route": "/put-openai-to-work-in-your-business/",
+  "title": "Put OpenAI to work in your business. | HatchWorks AI",
+  "description": "We embed Forward Deployed Engineers inside your team to find where OpenAI models deliver value, ship them into production, and train your organization to make",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Put OpenAI to work in your business. | HatchWorks AI",
+    "og:description": "We embed Forward Deployed Engineers inside your team to find where OpenAI models deliver value, ship them into production, and train your organization to make",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Put OpenAI to work in your business. | HatchWorks AI",
+    "twitter:description": "We embed Forward Deployed Engineers inside your team to find where OpenAI models deliver value, ship them into production, and train your organization to make",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36464 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36464 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-36464.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

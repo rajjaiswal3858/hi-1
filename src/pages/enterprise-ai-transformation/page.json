@@ -1,0 +1,31 @@
+{
+  "route": "/enterprise-ai-transformation/",
+  "title": "Enterprise AI Transformation: Choosing the Right Partner | HatchWorks AI",
+  "description": "Most enterprise AI programs still stall between the pilot and the P&L. This guide answers what CEOs, CIOs, CTOs, product leaders, and private equity",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Enterprise AI Transformation: Choosing the Right Partner | HatchWorks AI",
+    "og:description": "What executives ask before funding enterprise AI: pricing models, timeline, build vs buy, security, adoption, delivery models, a partner scorecard. 70 cited answers.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Enterprise AI Transformation: Choosing the Right Partner | HatchWorks AI",
+    "twitter:description": "What executives ask before funding enterprise AI: pricing models, timeline, build vs buy, security, adoption, delivery models, a partner scorecard. 70 cited answers.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-37563 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-37563 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-37563.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap",
+    "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

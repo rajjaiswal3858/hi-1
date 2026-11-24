@@ -1,0 +1,43 @@
+{
+  "route": "/news/hatchworks-expands-global-operations-new-offices-colombia/",
+  "title": "Hatchworks Expands Its Global Footprint with New Offices in Colombia | HatchWorks AI",
+  "description": "HatchWorks, a leading Digital Acceleration Partner, announces its significant global expansion with new offices in Bogota and Medellin, Colombia. Discover how this move enables us to accelerate digital transformation for our clients and access top engineering talent in the Latin American region.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Hatchworks Expands Its Global Footprint with New Offices in Colombia | HatchWorks AI",
+    "og:description": "HatchWorks, a leading Digital Acceleration Partner, announces its significant global expansion with new offices in Bogota and Medellin, Colombia. Discover how this move enables us to accelerate digital transformation for our clients and access top engineering talent in the Latin American region.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/08/2-Hatchworks-Expands-Its-Global-Footprint-with-New-Offices-in-Colombia-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Hatchworks Expands Its Global Footprint with New Offices in Colombia | HatchWorks AI",
+    "twitter:description": "HatchWorks, a leading Digital Acceleration Partner, announces its significant global expansion with new offices in Bogota and Medellin, Colombia. Discover how this move enables us to accelerate digital transformation for our clients and access top engineering talent in the Latin American region.",
+    "twitter:image": "/assets/wp-content/uploads/2023/08/2-Hatchworks-Expands-Its-Global-Footprint-with-New-Offices-in-Colombia-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29686 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29686 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29686.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,78 @@
+/* HatchWorks newsroom article styles — Clutch Global Summer 2026 */
+
+.hw-deck {
+  font-size: clamp(1.125rem, 1rem + 0.6vw, 1.375rem);
+  line-height: 1.5;
+  font-weight: 400;
+  color: #4a5461;
+  margin: 0 0 1.75rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #e3e7ec;
+}
+
+.hw-dateline {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.hw-p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  margin: 0 0 1.5rem;
+}
+
+.hw-p--stat {
+  font-weight: 600;
+}
+
+.hw-quote {
+  margin: 2.25rem 0;
+  padding: 0 0 0 1.5rem;
+  border-left: 3px solid #c7ced8;
+}
+
+.hw-quote p {
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  line-height: 1.6;
+  margin: 0 0 0.875rem;
+}
+
+.hw-quote cite {
+  display: block;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #4a5461;
+}
+
+.hw-quote cite span {
+  display: block;
+  font-weight: 400;
+  color: #6b7484;
+}
+
+.hw-h2 {
+  font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  line-height: 1.3;
+  margin: 3rem 0 1rem;
+}
+
+.hw-about {
+  margin: 3rem 0 0;
+  padding: 1.75rem;
+  background: #f5f7f9;
+  border-radius: 6px;
+}
+
+.hw-about .hw-h2 {
+  margin-top: 0;
+}
+
+.hw-about .hw-p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .hw-quote { padding-left: 1.125rem; }
+  .hw-about { padding: 1.25rem; }
+}

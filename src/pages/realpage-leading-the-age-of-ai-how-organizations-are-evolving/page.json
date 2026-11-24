@@ -1,0 +1,33 @@
+{
+  "route": "/realpage-leading-the-age-of-ai-how-organizations-are-evolving/",
+  "title": "RealPage - Leading the Age of AI: How Organizations Are Evolving | HatchWorks AI",
+  "description": "Eleven resources, grouped by what you are trying to do next.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "RealPage - Leading the Age of AI: How Organizations Are Evolving | HatchWorks AI",
+    "og:description": "Eleven resources, grouped by what you are trying to do next.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/slides.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "RealPage - Leading the Age of AI: How Organizations Are Evolving | HatchWorks AI",
+    "twitter:description": "Eleven resources, grouped by what you are trying to do next.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/slides.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36139 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36139 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-float.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-36139.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/prompt-to-product/",
+  "title": "From Prompt to Product: How AI Is Disrupting SaaS | HatchWorks AI",
+  "description": "Michael Luo shows how to turn an AI prompt to a product with prototyping tips, tiny‑team insights, and AI’s future in development.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "From Prompt to Product: How AI Is Disrupting SaaS | HatchWorks AI",
+    "og:description": "Michael Luo shows how to turn an AI prompt to a product with prototyping tips, tiny‑team insights, and AI’s future in development.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/From-Prompt-to-Product-How-AI-Is-Disrupting-SaaS2-1-1024x1024.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "From Prompt to Product: How AI Is Disrupting SaaS | HatchWorks AI",
+    "twitter:description": "Michael Luo shows how to turn an AI prompt to a product with prototyping tips, tiny‑team insights, and AI’s future in development.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/From-Prompt-to-Product-How-AI-Is-Disrupting-SaaS2-1-1024x1024.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33304 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33304 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33304.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,76 @@
+#ilx {
+  --font-sans: 'Open Sans', Arial, Helvetica, sans-serif;
+  --font-accent: 'Space Grotesk', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+#ilx, #ilx *, #ilx *::before, #ilx *::after { box-sizing: border-box; }
+  #ilx a { text-decoration: none !important; box-shadow: none !important; }
+  #ilx h1, #ilx h2, #ilx h3, #ilx h4, #ilx p, #ilx ul, #ilx li, #ilx figure { margin: 0; padding: 0; }
+  #ilx li { list-style: none; }
+  #ilx img, #ilx svg { max-width: 100%; }
+  #ilx ::selection { background: rgba(58,189,188,.2); color: #fff; }
+  #ilx a:focus-visible, #ilx [tabindex]:focus-visible { outline: 2px solid #3ABDBC; outline-offset: 2px; border-radius: 4px; }
+  #ilx .ilx-stage { height: 430vh; height: 430svh; }
+  #ilx .ilx-stick { height: 100vh; height: 100svh; }
+  #ilx .ilx-plane { max-width: min(100%, 33svh); }
+  #ilx .ilx-copy { min-height: min(44svh, 290px); }
+  @media (min-width: 760px) {
+    #ilx .ilx-stage { height: 560vh; height: 560svh; }
+    #ilx .ilx-plane { max-width: min(100%, 52svh); }
+    #ilx .ilx-copy { min-height: min(42svh, 340px); }
+  }
+  @media (max-width: 400px) { #ilx .ilx-copy { min-height: min(48svh, 300px); } }
+  @keyframes ilx-rise { from { transform: translateY(112%); } to { transform: translateY(0); } }
+  @keyframes ilx-fade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes ilx-hero-float { 0%, 100% { transform: translateZ(-7px); } 50% { transform: translateZ(7px); } }
+  @keyframes ilx-hero-sway { 0% { transform: rotateX(59deg) rotateZ(-42deg); } 100% { transform: rotateX(56deg) rotateZ(-35deg); } }
+  @keyframes ilx-tip { 0% { transform: translateY(-8px); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(12px); opacity: 0; } }
+  @keyframes ilx-au-1 { 0% { transform: translate3d(-12%, 10%, 0) scale(1); } 30% { transform: translate3d(6%, -6%, 0) scale(1.25); } 62% { transform: translate3d(14%, 8%, 0) scale(1.1); } 100% { transform: translate3d(-12%, 10%, 0) scale(1); } }
+  @keyframes ilx-au-2 { 0% { transform: translate3d(10%, -8%, 0) scale(1.15); } 35% { transform: translate3d(-10%, 6%, 0) scale(.95); } 70% { transform: translate3d(4%, 14%, 0) scale(1.3); } 100% { transform: translate3d(10%, -8%, 0) scale(1.15); } }
+  @keyframes ilx-au-3 { 0% { transform: translate3d(4%, 14%, 0) scale(1.05); } 40% { transform: translate3d(-14%, -10%, 0) scale(1.3); } 75% { transform: translate3d(8%, -4%, 0) scale(1); } 100% { transform: translate3d(4%, 14%, 0) scale(1.05); } }
+  @keyframes ilx-au-4 { 0% { transform: translate3d(-8%, -12%, 0) scale(1.2); } 45% { transform: translate3d(12%, 10%, 0) scale(1); } 80% { transform: translate3d(-4%, 4%, 0) scale(1.22); } 100% { transform: translate3d(-8%, -12%, 0) scale(1.2); } }
+  @keyframes ilx-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  @keyframes ilx-spin-rev { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+  @keyframes ilx-au-p1 { 0%, 100% { opacity: 1; } 50% { opacity: .62; } }
+  @keyframes ilx-au-p2 { 0%, 100% { opacity: .64; } 50% { opacity: 1; } }
+  @keyframes ilx-au-p3 { 0%, 100% { opacity: .92; } 40% { opacity: .58; } 70% { opacity: 1; } }
+  @keyframes ilx-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes ilx-marquee-rev { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+  @media (prefers-reduced-motion: reduce) { #ilx *, #ilx *::before, #ilx *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+  #ilx .ilx-g3, #ilx .ilx-g4 { display: grid; grid-template-columns: minmax(0, 1fr); }
+  #ilx .ilx-g3 > * { max-width: 560px; }
+  @media (min-width: 840px) { #ilx .ilx-g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } #ilx .ilx-g3 > * { max-width: none; } }
+  @media (min-width: 640px) { #ilx .ilx-g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 1120px) { #ilx .ilx-g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  #ilx .ilx-g5 { display: grid; grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 620px) { #ilx .ilx-g5 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 1180px) { #ilx .ilx-g5 { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+  #ilx .ilx-hero { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; }
+  #ilx .ilx-hero-art { display: none; }
+
+  @media (min-width: 940px) { #ilx .ilx-hero { grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr); } #ilx .ilx-hero-art { display: block; } }
+  #ilx .ilx-proc { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+  #ilx .ilx-proc > * { padding-left: 30px; padding-bottom: 34px; border-left: 1px solid rgba(255,255,255,.14); }
+  #ilx .ilx-proc > *:last-child { padding-bottom: 0; }
+  #ilx .ilx-proc .ilx-dot { margin-left: -40px; }
+  #ilx .ilx-thru { display: none; }
+  @media (min-width: 1120px) {
+    #ilx .ilx-proc { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(32px, 3.4vw, 56px); }
+    #ilx .ilx-proc > * { padding-left: 0; padding-bottom: 0; border-left: none; }
+    #ilx .ilx-proc .ilx-dot { margin-left: 0; }
+    #ilx .ilx-thru { display: block; }
+  }
+#ilx .ilx-h1:hover { background: #f18f61 !important; gap: 18px !important; }
+#ilx .ilx-h2:hover { border-color: rgba(58,189,188,.4) !important; }
+#ilx .ilx-h3:hover { border-color: rgba(58,189,188,.4) !important; }
+#ilx .ilx-h4:hover { border-color: rgba(58,189,188,.4) !important; }
+#ilx .ilx-h5:hover { border-color: rgba(58,189,188,.4) !important; }
+#ilx .ilx-h6:hover { border-color: rgba(58,189,188,.4) !important; }
+#ilx .ilx-h7:hover { transform: translateY(-6px) !important; }
+#ilx .ilx-h8:hover { transform: translateY(-6px) !important; }
+#ilx .ilx-h9:hover { transform: translateY(-6px) !important; }
+#ilx .ilx-h10:hover { opacity: 1 !important; }
+#ilx .ilx-h11:hover { opacity: 1 !important; }
+#ilx .ilx-h12:hover { opacity: 1 !important; }
+#ilx .ilx-h13:hover { opacity: 1 !important; }
+#ilx .ilx-h14:hover { gap: 18px !important; }
+#ilx .ilx-h15:hover { background: #E97845 !important; border-color: #E97845 !important; gap: 18px !important; }

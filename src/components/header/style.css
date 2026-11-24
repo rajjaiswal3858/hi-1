@@ -1,0 +1,166 @@
+/* ---------- hard reset: neutralise theme + Elementor globals ---------- */
+#hwnav,#hwnav *,#hwnav *::before,#hwnav *::after{
+box-sizing:border-box;margin:0;padding:0;border:0 solid transparent;border-radius:0;
+background:none;box-shadow:none;text-shadow:none;outline:0;
+font:inherit;font-style:normal;font-variant:normal;line-height:inherit;letter-spacing:inherit;word-spacing:normal;
+text-transform:none;text-decoration:none;text-align:left;text-indent:0;direction:ltr;
+list-style:none;vertical-align:baseline;float:none;clear:none;
+min-width:0;max-width:none;min-height:0;
+transform:none;transition:none;animation:none;filter:none;opacity:1;visibility:inherit;
+-webkit-appearance:none;appearance:none}
+
+/* ---------- tokens + inheritance root (must follow the reset) ---------- */
+#hwnav{--hw-ground:#151920;--hw-surface:#1C2028;--hw-surface2:#23272F;--hw-hover:#2C3039;--hw-teal:#3ABDBC;--hw-cyan:#BFEFEF;--hw-cta:#E97845;--hw-txt:#C9CCD3;--hw-muted:#8A8F99;--hw-hair:rgba(255,255,255,.06);--hw-ease:cubic-bezier(.2,.8,.2,1);--hw-h:72px;
+position:relative;z-index:9000;isolation:isolate;
+font-family:'Open Sans',Arial,sans-serif!important;font-size:16px;font-weight:400;line-height:1.45;letter-spacing:normal;
+color:var(--hw-txt);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+#hwnav img{display:block;max-width:100%;height:auto}
+#hwnav svg{display:block}
+#hwnav button{cursor:pointer;color:inherit}
+/* keep :link / :visited OUT of the colour declaration — a pseudo-class
+   would outrank every .hw-* component rule below and repaint them teal */
+#hwnav a{color:var(--hw-teal)}
+#hwnav a:hover{color:var(--hw-cyan)}
+#hwnav a,#hwnav a:link,#hwnav a:visited,#hwnav a:hover,#hwnav a:focus,#hwnav a:active{text-decoration:none!important;box-shadow:none!important}
+#hwnav :focus-visible{outline:2px solid var(--hw-teal);outline-offset:2px;border-radius:4px}
+
+/* ---------- state neutraliser ----------
+   Theme Style > Buttons and most themes paint a background on
+   button:hover / a:hover. Kill it for every interactive element,
+   then re-declare the few backgrounds we DO want (each !important
+   below, so they win back). */
+#hwnav a:hover,#hwnav a:focus,#hwnav a:active,#hwnav a:focus-visible,
+#hwnav button:hover,#hwnav button:focus,#hwnav button:active,#hwnav button:focus-visible{
+background-color:transparent!important;background-image:none!important;box-shadow:none!important;text-decoration:none!important}
+
+#hwnav .hw-skip{position:absolute;left:-9999px;top:0;z-index:99;padding:12px 16px;border-radius:6px;background:var(--hw-cta);color:#fff;font-size:14px;font-weight:700}
+#hwnav .hw-skip:focus{left:16px;top:16px;color:#fff}
+
+#hwnav .hw-bar{position:sticky;top:0;left:0;right:0;background:var(--hw-ground)!important;border-bottom:1px solid var(--hw-hair)}
+/* auto-applied by the script when an ancestor clips position:sticky */
+#hwnav.is-fixed .hw-bar{position:fixed}
+body.admin-bar #hwnav.is-fixed .hw-bar{top:32px}
+body.admin-bar #hwnav.is-fixed .hw-drawer{top:calc(var(--hw-h) + 32px)}
+@media (max-width:782px){
+  body.admin-bar #hwnav.is-fixed .hw-bar{top:46px}
+  body.admin-bar #hwnav.is-fixed .hw-drawer{top:calc(var(--hw-h) + 46px)}
+}
+#hwnav .hw-inner{max-width:1280px;margin:0 auto;height:var(--hw-h);padding:0 clamp(16px,3vw,32px);display:flex;align-items:center;gap:clamp(12px,1.8vw,24px)}
+#hwnav .hw-logo{flex:none;display:flex;align-items:center;height:var(--hw-h);transition:opacity 120ms var(--hw-ease)}
+#hwnav .hw-logo:hover{opacity:.75}
+#hwnav .hw-logo img{height:21px;width:auto;max-width:182px}
+
+#hwnav .hw-nav{flex:1;display:flex;justify-content:center}
+#hwnav .hw-list{display:flex;align-items:center;gap:2px}
+#hwnav .hw-item{position:relative}
+#hwnav .hw-item.is-mega{position:static}
+#hwnav .hw-trigger{position:relative;display:inline-flex;align-items:center;gap:7px;height:var(--hw-h);padding:0 clamp(8px,.9vw,13px);white-space:nowrap;font-size:15px!important;font-weight:600!important;letter-spacing:-.01em!important;text-transform:none!important;background:none!important;border-radius:0!important;color:var(--hw-txt)!important;transition:color 120ms var(--hw-ease)}
+#hwnav .hw-trigger:hover,#hwnav .hw-trigger:focus,#hwnav .hw-trigger[aria-expanded="true"],#hwnav .hw-trigger.is-active{color:#fff!important;background:none!important}
+#hwnav .hw-caret{flex:none;color:var(--hw-muted)!important;transition:transform 200ms var(--hw-ease),color 200ms var(--hw-ease)}
+#hwnav .hw-trigger[aria-expanded="true"] .hw-caret{color:var(--hw-teal)!important;transform:translateY(2px)}
+#hwnav .hw-rule{position:absolute;left:clamp(8px,.9vw,13px);right:clamp(8px,.9vw,13px);bottom:16px;height:2px;border-radius:2px;background:var(--hw-teal)!important;opacity:0}
+#hwnav .hw-trigger[aria-expanded="true"] .hw-rule,#hwnav .hw-trigger.is-active .hw-rule{opacity:1;animation:hwRule 200ms var(--hw-ease) both}
+
+#hwnav .hw-actions{flex:none;display:flex;align-items:center;gap:clamp(8px,1.2vw,14px)}
+#hwnav .hw-btn{display:inline-flex;align-items:center;justify-content:flex-start;gap:8px;min-height:44px;padding:0 20px;border-radius:6px!important;font-size:14px!important;font-weight:700!important;line-height:1;letter-spacing:normal!important;text-transform:none!important;white-space:nowrap}
+#hwnav .hw-btn--ghost{padding:0 18px;border:1px solid rgba(255,255,255,.12)!important;background:none!important;color:#fff!important;transition:background 200ms var(--hw-ease),border-color 200ms var(--hw-ease)}
+#hwnav .hw-btn--ghost:hover,#hwnav .hw-btn--ghost:focus{background:var(--hw-surface2)!important;border-color:rgba(255,255,255,.28)!important;color:#fff!important}
+#hwnav .hw-btn--cta{background:var(--hw-cta)!important;color:#fff!important;transition:gap 200ms var(--hw-ease),transform 200ms var(--hw-ease)}
+#hwnav .hw-btn--cta:hover,#hwnav .hw-btn--cta:focus{gap:12px;transform:translateY(-2px);background:var(--hw-cta)!important;color:#fff!important}
+
+#hwnav .hw-burger{display:none;width:44px;height:44px;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.12)!important;border-radius:6px!important;background:none!important;transition:background 120ms var(--hw-ease)}
+#hwnav .hw-burger:hover,#hwnav .hw-burger:focus{background:var(--hw-surface2)!important}
+#hwnav .hw-burger .hw-x{display:none}
+#hwnav.is-drawer-open .hw-burger .hw-x{display:block}
+#hwnav.is-drawer-open .hw-burger .hw-lines{display:none}
+
+/* panels */
+#hwnav .hw-panel{display:none;position:absolute;top:100%;z-index:40}
+#hwnav .hw-panel.is-open{display:block;animation:hwPanel 200ms var(--hw-ease) both}
+#hwnav .hw-panel--drop{left:0;padding-top:10px}
+#hwnav .hw-drop{min-width:224px;padding:12px;border:1px solid var(--hw-hair);border-radius:10px;background:var(--hw-surface)!important;display:flex;flex-direction:column;gap:2px}
+#hwnav .hw-drop--wide{min-width:268px}
+#hwnav .hw-panel--mega{left:0;right:0;max-height:calc(100vh - var(--hw-h));overflow-y:auto;overscroll-behavior:contain;border-bottom:1px solid var(--hw-hair);background:var(--hw-surface)!important}
+#hwnav .hw-mega{max-width:1280px;margin:0 auto;padding:clamp(18px,2vw,26px) clamp(16px,3vw,32px) clamp(22px,2.4vw,30px)}
+#hwnav #hw-p-wwd .hw-mega{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.8vw,44px)}
+#hwnav .hw-cols{display:contents}
+#hwnav #hw-p-wwd .hw-mega>.hw-anim,#hwnav #hw-p-wwd .hw-cols>.hw-anim{display:flex;flex-direction:column}
+
+#hwnav .hw-eyebrow{display:block;font-family:'Space Grotesk',monospace!important;font-size:12px!important;font-weight:600;letter-spacing:.12em!important;text-transform:uppercase!important;color:var(--hw-cyan)!important}
+#hwnav .hw-link{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:4px;color:var(--hw-txt);font-size:14px;line-height:1.45;text-wrap:pretty;transition:background 120ms var(--hw-ease),color 120ms var(--hw-ease)}
+#hwnav .hw-link:hover,#hwnav .hw-link:focus{background:var(--hw-hover)!important;color:#fff!important}
+#hwnav .hw-link svg{flex:none}
+#hwnav .hw-arrowlink{display:inline-flex;align-items:center;gap:8px;border-radius:4px;color:var(--hw-teal);font-size:14px;font-weight:700;transition:gap 200ms var(--hw-ease)}
+#hwnav .hw-arrowlink:hover{gap:12px;color:var(--hw-cyan)}
+
+/* seamless services row */
+#hwnav .hw-svcs{display:flex;flex-direction:column;gap:2px;margin:0 -12px}
+#hwnav .hw-svc{display:flex;align-items:center;gap:12px;padding:7px 12px;border-radius:4px;transition:background 120ms var(--hw-ease)}
+#hwnav .hw-svc:hover,#hwnav .hw-svc:focus{background:var(--hw-hover)!important}
+#hwnav .hw-svc-copy{display:flex;flex-direction:column;gap:1px}
+#hwnav .hw-svc-title{font-size:14px;font-weight:600;color:#fff;letter-spacing:-.01em;line-height:1.35;text-wrap:pretty}
+#hwnav .hw-svc-verb{font-family:'Space Grotesk',monospace!important;font-size:12px;font-weight:500;letter-spacing:.1em!important;text-transform:uppercase!important;color:var(--hw-muted)}
+#hwnav .hw-svc-mark{flex:none;width:52px;height:auto;filter:brightness(0) invert(1);opacity:.85}
+#hwnav .hw-manifesto{align-self:flex-start;gap:6px;margin-top:6px;padding:8px 12px;border-radius:4px;font-size:13px;font-weight:400;color:var(--hw-muted)!important;transition:color 120ms var(--hw-ease)}
+#hwnav .hw-manifesto:hover{gap:6px;background:none!important;color:var(--hw-txt)!important}
+#hwnav .hw-manifesto svg{width:12px;height:10px;opacity:.7}
+
+#hwnav #hw-p-wwd .hw-eyebrow{padding:0 0 12px 12px;margin-bottom:8px;border-bottom:1px solid var(--hw-hair)}
+#hwnav .hw-links{display:flex;flex-direction:column;gap:2px}
+#hwnav .hw-links--two{display:flex;flex-direction:column;gap:2px}
+#hwnav .hw-mega--res{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:clamp(20px,2.6vw,40px)}
+#hwnav .hw-mega--res .hw-eyebrow{padding:0 0 12px 12px;margin-bottom:8px;border-bottom:1px solid var(--hw-hair)}
+
+/* drawer */
+#hwnav .hw-scrim{display:none;position:fixed;inset:0;z-index:55;background:rgba(21,25,32,.72)}
+#hwnav.is-drawer-open .hw-scrim{display:block;animation:hwFade 320ms var(--hw-ease) both}
+#hwnav .hw-drawer{display:none;position:fixed;top:var(--hw-h);right:0;bottom:0;z-index:60;width:min(420px,100%);background:var(--hw-ground)!important;border-left:1px solid var(--hw-hair);flex-direction:column}
+#hwnav.is-drawer-open .hw-drawer{display:flex;animation:hwSlide 320ms var(--hw-ease) both}
+#hwnav .hw-drawer-body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:8px clamp(16px,5vw,24px) 24px;-webkit-overflow-scrolling:touch}
+#hwnav .hw-acc{border-bottom:1px solid var(--hw-hair)}
+#hwnav .hw-acc:last-child{border-bottom:0}
+#hwnav .hw-acc-btn{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;min-height:56px;padding:16px 4px;font-size:17px!important;font-weight:700!important;text-transform:none!important;letter-spacing:normal!important;background:none!important;border-radius:0!important;color:#fff!important;text-align:left}
+#hwnav .hw-acc-btn .hw-caret{color:var(--hw-teal)}
+#hwnav .hw-acc-btn[aria-expanded="true"] .hw-caret{transform:translateY(3px)}
+/* a display toggle, not a 0fr->1fr grid animation: the grid trick resolves the
+   open row to 0px inside Elementor's cascade, which collapsed every panel and
+   made its links unreachable. display:none cannot half-open. */
+#hwnav .hw-acc-panel{display:none}
+#hwnav .hw-acc-btn[aria-expanded="true"]+.hw-acc-panel{display:block;animation:hwPanel 200ms var(--hw-ease) both}
+#hwnav .hw-acc-panel>div{overflow:visible}
+#hwnav .hw-acc-inner{padding-bottom:16px}
+#hwnav .hw-mlink{display:flex;align-items:center;gap:12px;min-height:44px;padding:10px 4px;color:var(--hw-txt)!important;font-size:15px}
+#hwnav .hw-mlink:hover{color:#fff!important}
+#hwnav .hw-mlink svg{flex:none}
+#hwnav .hw-msub{display:block;font-family:'Space Grotesk',monospace;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--hw-cyan);padding:20px 4px 6px}
+#hwnav .hw-msub:first-child{padding-top:4px}
+#hwnav .hw-msvc{display:flex;align-items:center;gap:14px;min-height:56px;padding:12px 4px;border-top:1px solid var(--hw-hair)}
+#hwnav .hw-msvc:hover{color:#fff}
+#hwnav .hw-msvc-mark{flex:none;width:56px;height:auto;filter:brightness(0) invert(1);opacity:.85}
+#hwnav .hw-msvc-copy{display:flex;flex-direction:column;gap:1px}
+#hwnav .hw-msvc-title{font-size:16px;font-weight:600;color:#fff;letter-spacing:-.01em;line-height:1.35;text-wrap:pretty}
+#hwnav .hw-msvc-verb{font-family:'Space Grotesk',monospace!important;font-size:12px;font-weight:500;letter-spacing:.1em!important;text-transform:uppercase!important;color:var(--hw-muted)}
+#hwnav .hw-mmanifesto{display:inline-flex;align-items:center;gap:6px;width:100%;min-height:44px;padding:12px 4px;border-top:1px solid var(--hw-hair);color:var(--hw-muted)!important;font-size:14px;font-weight:400;transition:color 120ms var(--hw-ease)}
+#hwnav .hw-mmanifesto:hover{color:var(--hw-txt)!important}
+#hwnav .hw-mmanifesto svg{flex:none;width:12px;height:10px;opacity:.7}
+#hwnav .hw-drawer-foot{flex:none;display:flex;flex-wrap:wrap;gap:12px;padding:16px clamp(16px,5vw,24px) max(16px,env(safe-area-inset-bottom));border-top:1px solid var(--hw-hair);background:var(--hw-surface)}
+#hwnav .hw-drawer-foot .hw-btn{flex:1;justify-content:center;min-height:48px;font-size:15px}
+
+@keyframes hwPanel{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes hwCol{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes hwRule{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes hwFade{from{opacity:0}to{opacity:1}}
+@keyframes hwSlide{from{transform:translateX(100%)}to{transform:translateX(0)}}
+#hwnav .hw-panel.is-open .hw-anim{animation:hwCol 200ms var(--hw-ease) both}
+#hwnav .hw-panel.is-open .hw-anim:nth-child(2){animation-delay:40ms}
+#hwnav .hw-panel.is-open .hw-anim:nth-child(3){animation-delay:80ms}
+#hwnav .hw-panel.is-open .hw-anim:nth-child(4){animation-delay:120ms}
+#hwnav .hw-panel.is-open .hw-anim:nth-child(5){animation-delay:160ms}
+
+@media (max-width:1159px){
+  #hwnav .hw-nav,#hwnav .hw-actions{display:none}
+  #hwnav .hw-burger{display:flex;margin-left:auto}
+}
+@media (prefers-reduced-motion:reduce){
+  #hwnav *,#hwnav *::before,#hwnav *::after{animation-duration:1ms!important;animation-delay:0ms!important;transition-duration:1ms!important}
+}

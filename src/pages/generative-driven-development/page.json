@@ -1,0 +1,30 @@
+{
+  "route": "/generative-driven-development/",
+  "title": "Generative-Driven Development™ | HatchWorks AI",
+  "description": "The AI-native operating model for building software by HatchWorks AI.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Generative-Driven Development™",
+    "og:description": "The AI-native operating model for building software.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/03/gendd-tn.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Generative-Driven Development™",
+    "twitter:description": "The AI-native operating model for building software.",
+    "twitter:image": "/assets/wp-content/uploads/2026/03/gendd-tn.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-30343 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30343 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30343.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

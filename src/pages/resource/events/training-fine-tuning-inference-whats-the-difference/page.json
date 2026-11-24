@@ -1,0 +1,33 @@
+{
+  "route": "/resource/events/training-fine-tuning-inference-whats-the-difference/",
+  "title": "Training, Fine-tuning, Inference… What’s the Difference? | HatchWorks AI",
+  "description": "Join our GenDD Lab to understand the differences between AI training, fine-tuning, and inference. Learn to optimize with live demos!",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Training, Fine-tuning, Inference… What’s the Difference? | HatchWorks AI",
+    "og:description": "Join our GenDD Lab to understand the differences between AI training, fine-tuning, and inference. Learn to optimize with live demos!",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/05/hwai-Training-Finetuning-Inference-Whats-the-DifferenceAsset-1-1.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Training, Fine-tuning, Inference… What’s the Difference? | HatchWorks AI",
+    "twitter:description": "Join our GenDD Lab to understand the differences between AI training, fine-tuning, and inference. Learn to optimize with live demos!",
+    "twitter:image": "/assets/wp-content/uploads/2024/05/hwai-Training-Finetuning-Inference-Whats-the-DifferenceAsset-1-1.png"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-31235 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-31235",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31235.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

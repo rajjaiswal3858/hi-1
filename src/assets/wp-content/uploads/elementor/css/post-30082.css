@@ -1,0 +1,24 @@
+.elementor-30082 .elementor-element.elementor-element-d0a3128{margin:10px 0px calc(var(--kit-widget-spacing, 0px) + 10px) 0px;text-align:center;}.elementor-30082 .elementor-element.elementor-element-d0a3128 .elementor-heading-title{font-family:"Open Sans", Helvetica, Arial, Sans-serif;font-size:23px;font-weight:600;color:var( --e-global-color-text );}.elementor-30082 .elementor-element.elementor-element-987e971 > .elementor-widget-container{padding:2% 15% 2% 15%;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container{border-style:none;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tr.table-heading th span.exad-table-heading{font-size:20px;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tr.table-heading th{text-align:center;padding:20px 20px 15px 20px;border-style:none;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-heading-regular-price{margin-right:0px;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tbody td{font-family:"Open Sans", Helvetica, Arial, Sans-serif;font-size:14px;padding:20px 20px 20px 20px;border-style:solid;border-width:0px 0px 1px 0px;border-color:var( --e-global-color-c1f82dd );}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tbody td .exad-td-content{justify-content:flex-start;text-align:left;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tbody > tr:nth-child(2n+1) td{background-color:var( --e-global-color-bb53219 );}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tbody > tr:nth-child(2n+1) td:hover{background-color:#FFFFFF;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-container tbody > tr:nth-child(2n) td:hover{background-color:var( --e-global-color-bb53219 );}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-tooltip-text{min-width:120px;left:calc( 50% - 120px/2 );color:#ffffff;background-color:#000000;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-tooltip-text::before{border-top-color:#000000;}.elementor-30082 .elementor-element.elementor-element-987e971 .exad-table-content-button{padding:8px 15px 8px 015px;color:#e67a57;border-style:solid;border-width:2px 2px 2px 2px;border-color:#e67a57;}.elementor-30082 .elementor-element.elementor-element-0390708:not(.elementor-motion-effects-element-type-background), .elementor-30082 .elementor-element.elementor-element-0390708 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#DAEFF3;}.elementor-30082 .elementor-element.elementor-element-0390708{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:50px;margin-bottom:0px;padding:52px 52px 52px 52px;}.elementor-30082 .elementor-element.elementor-element-0390708 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-30082 .elementor-element.elementor-element-0390708 > .elementor-shape-top svg{width:calc(236% + 1.3px);}.elementor-30082 .elementor-element.elementor-element-73939c9{padding:0px 50px 0px 50px;text-align:center;}.elementor-30082 .elementor-element.elementor-element-2c6398c .elementor-button-content-wrapper{flex-direction:row;}.elementor-30082 .elementor-element.elementor-element-2c6398c .elementor-button{fill:#FFFFFF;color:#FFFFFF;padding:10px 20px 10px 20px;}@media(max-width:767px){.elementor-30082 .elementor-element.elementor-element-0390708 > .elementor-shape-top svg{width:calc(300% + 1.3px);height:18px;}.elementor-30082 .elementor-element.elementor-element-0390708{padding:12px 12px 12px 12px;}}/* Start custom CSS for exad-comparison-table, class: .elementor-element-987e971 */.pros::before {
+    content: '✓';
+    color: #3badbc;
+    padding: 10px;
+    
+}
+
+.cons::before {
+    content: '✗';
+    color: #e97845;
+    padding: 10px;
+    
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-0390708 */@media only screen and (max-width: 600px) {
+.elementor-30082 .elementor-element.elementor-element-0390708 h2 {line-height:1.4em; 
+font-size:2em;}
+
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-display: auto;
+	src: url('/assets/wp-content/uploads/2026/03/OpenSans-VariableFont_wdthwght.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,41 @@
+{
+  "route": "/podcast/leadership-with-heart-with-brandon-powell/",
+  "title": "Leadership with Heart with Brandon Powell | HatchWorks AI",
+  "description": "Heather chats with Brandon Powell, a business executive, technology entrepreneur, and community philanthropist who helps transform organizations to be successful in today’s digital world. He is the founder and CEO of HatchWorks Technologies, a technology services firm that provides integrated US and nearshore (LATAM) Agile teams in your time zone to build transformative software and data solutions.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Leadership with Heart with Brandon Powell | HatchWorks AI",
+    "og:description": "Heather chats with Brandon Powell, a business executive, technology entrepreneur, and community philanthropist who helps transform organizations to be successful in today’s digital world. He is the founder and CEO of HatchWorks Technologies, a technology services firm that provides integrated US and nearshore (LATAM) Agile teams in your time zone to build transformative software and data solutions.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/09/social-share_Leadership-with-Heart-with-guest-Brandon-Powell.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Leadership with Heart with Brandon Powell | HatchWorks AI",
+    "twitter:description": "Heather chats with Brandon Powell, a business executive, technology entrepreneur, and community philanthropist who helps transform organizations to be successful in today’s digital world. He is the founder and CEO of HatchWorks Technologies, a technology services firm that provides integrated US and nearshore (LATAM) Agile teams in your time zone to build transformative software and data solutions.",
+    "twitter:image": "/assets/wp-content/uploads/2022/09/social-share_Leadership-with-Heart-with-guest-Brandon-Powell.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-27991 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-27991 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27991.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,33 @@
+{
+  "route": "/awards-recognitions/",
+  "title": "Awards & Recognitions | HatchWorks AI",
+  "description": "We're honored by the recognition we've received from respected organizations, celebrating our commitment to outstanding client service, steady growth, and",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Awards & Recognitions | HatchWorks AI",
+    "og:description": "We're honored by the recognition we've received from respected organizations, celebrating our commitment to outstanding client service, steady growth, and",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/09/hatchworks-logo-software-development.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Awards & Recognitions | HatchWorks AI",
+    "twitter:description": "We're honored by the recognition we've received from respected organizations, celebrating our commitment to outstanding client service, steady growth, and",
+    "twitter:image": "/assets/wp-content/uploads/2023/09/hatchworks-logo-software-development.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-31111 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-31111 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31111.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,30 @@
+{
+  "route": "/the-gendd-manifesto/",
+  "title": "The GenDD Manifesto | HatchWorks AI",
+  "description": "AI has made software easy to build. It did not make software easy to build well. Most teams end up saving time and money at the cost of quality and security.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The GenDD Manifesto | HatchWorks AI",
+    "og:description": "AI has made software easy to build. It did not make software easy to build well. Most teams end up saving time and money at the cost of quality and security.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The GenDD Manifesto | HatchWorks AI",
+    "twitter:description": "AI has made software easy to build. It did not make software easy to build well. Most teams end up saving time and money at the cost of quality and security.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-36234 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-36234",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-36234.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": [
+    "https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"
+  ]
+}

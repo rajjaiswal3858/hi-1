@@ -1,0 +1,25 @@
+{
+  "route": "/tag/generative-driven-development/",
+  "title": "Generative-Driven Development Archives | HatchWorks AI",
+  "description": "",
+  "robots": "follow, noindex",
+  "og": {
+    "og:type": "article",
+    "og:title": "Generative-Driven Development Archives | HatchWorks AI",
+    "og:site_name": "HatchWorks AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Generative-Driven Development Archives | HatchWorks AI"
+  },
+  "bodyClass": "archive tag tag-generative-driven-development tag-182 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-page-28458 elementor-default elementor-template-full-width elementor-kit-15997",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28458.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

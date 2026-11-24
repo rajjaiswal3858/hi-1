@@ -1,0 +1,42 @@
+{
+  "route": "/talking-ai/generative-ai-augmenting-or-replacing-research/",
+  "title": "Generative AI: Augmenting or Replacing Research? | HatchWorks AI",
+  "description": "In episode 16 of the Built Right podcast, Nisha Iyer shares industry insights and predictions on generative AI.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Generative AI: Augmenting or Replacing Research? | HatchWorks AI",
+    "og:description": "In episode 16 of the Built Right podcast, Nisha Iyer shares industry insights and predictions on generative AI.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/10/16-s1.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Generative AI: Augmenting or Replacing Research? | HatchWorks AI",
+    "twitter:description": "In episode 16 of the Built Right podcast, Nisha Iyer shares industry insights and predictions on generative AI.",
+    "twitter:image": "/assets/wp-content/uploads/2023/10/16-s1.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30139 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30139 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-accordion.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30139.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

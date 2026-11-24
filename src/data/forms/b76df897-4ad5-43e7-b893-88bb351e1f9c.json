@@ -1,0 +1,74 @@
+{
+  "id": "b76df897-4ad5-43e7-b893-88bb351e1f9c",
+  "captcha": false,
+  "submitText": "Download Your Copy",
+  "inlineMessage": "Thank You! Your request is received. An email with your download link is on its way to the provided address. Check your inbox soon!",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "First name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "lastname",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Last name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Email",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Company name",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

@@ -1,0 +1,34 @@
+{
+  "route": "/the-future-of-accounting-agentic-ai-at-work-ai-resources/",
+  "title": "The Future of Accounting: Agentic AI at Work AI Resources | HatchWorks AI",
+  "description": "Walk away with our full presentation deck, step-by-step guides to build the agents we demoed live, and the Agentic Opportunity Finder to pinpoint where agents",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The Future of Accounting: Agentic AI at Work AI Resources | HatchWorks AI",
+    "og:description": "Walk away with our full presentation deck, step-by-step guides to build the agents we demoed live, and the Agentic Opportunity Finder to pinpoint where agents",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/float.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Future of Accounting: Agentic AI at Work AI Resources | HatchWorks AI",
+    "twitter:description": "Walk away with our full presentation deck, step-by-step guides to build the agents we demoed live, and the Agentic Opportunity Finder to pinpoint where agents",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/float.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-36425 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36425 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-36425.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

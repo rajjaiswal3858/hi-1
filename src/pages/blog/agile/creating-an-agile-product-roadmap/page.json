@@ -1,0 +1,43 @@
+{
+  "route": "/blog/agile/creating-an-agile-product-roadmap/",
+  "title": "A Guide to Creating an Agile Product Roadmap (free templates!) | HatchWorks AI",
+  "description": "In this hands-on guide, we will show you how to go from a surface-level roadmap that no one looks at (don’t lie, we have all been there) to an Agile product roadmap your team and stakeholders can’t live without. Best of all, this guide will inform your product’s strategy and execution.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "A Guide to Creating an Agile Product Roadmap (free templates!) | HatchWorks AI",
+    "og:description": "In this hands-on guide, we will show you how to go from a surface-level roadmap that no one looks at (don’t lie, we have all been there) to an Agile product roadmap your team and stakeholders can’t live without. Best of all, this guide will inform your product’s strategy and execution.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/10/THUMBNAIL-AGILE-PRODUCT-ROADMAP-03-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "A Guide to Creating an Agile Product Roadmap (free templates!) | HatchWorks AI",
+    "twitter:description": "In this hands-on guide, we will show you how to go from a surface-level roadmap that no one looks at (don’t lie, we have all been there) to an Agile product roadmap your team and stakeholders can’t live without. Best of all, this guide will inform your product’s strategy and execution.",
+    "twitter:image": "/assets/wp-content/uploads/2022/10/THUMBNAIL-AGILE-PRODUCT-ROADMAP-03-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-28850 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28850 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-accordion.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28850.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

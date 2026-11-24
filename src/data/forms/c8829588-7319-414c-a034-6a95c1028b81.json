@@ -1,0 +1,26 @@
+{
+  "id": "c8829588-7319-414c-a034-6a95c1028b81",
+  "captcha": true,
+  "submitText": "SUBSCRIBE",
+  "inlineMessage": "<p>Thank you for subscribing to our blog! You'll now receive an email notification with our most recent blog posts.</p>",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "",
+          "type": "text",
+          "required": true,
+          "placeholder": "Email",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

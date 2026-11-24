@@ -1,0 +1,45 @@
+{
+  "route": "/blog/gendd/cost-of-vibe-coding/",
+  "title": "The Real Cost of Vibe Coding in 2026: What You Don't See Until It's Too Late",
+  "description": "The cost of vibe coding goes way beyond a $20/month subscription. Here's what you'll really pay across tools, credits, hosting, and infrastructure.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The Real Cost of Vibe Coding in 2026: What You Don't See Until It's Too Late",
+    "og:description": "The cost of vibe coding goes way beyond a $20/month subscription. Here's what you'll really pay across tools, credits, hosting, and infrastructure.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/Cost-of-Vibe-Coding-in-2026-What-Youll-Actually-Pay-Before-Your-App-Goes-Live-social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Real Cost of Vibe Coding in 2026: What You Don't See Until It's Too Late",
+    "twitter:description": "The cost of vibe coding goes way beyond a $20/month subscription. Here's what you'll really pay across tools, credits, hosting, and infrastructure.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/Cost-of-Vibe-Coding-in-2026-What-Youll-Actually-Pay-Before-Your-App-Goes-Live-social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35054 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35054 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35054.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "gendd-quadrant.css",
+      "gendd-loop-widget.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "js-2.js",
+      "js-3.js",
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

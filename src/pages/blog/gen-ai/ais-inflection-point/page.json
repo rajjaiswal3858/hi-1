@@ -1,0 +1,42 @@
+{
+  "route": "/blog/gen-ai/ais-inflection-point/",
+  "title": "AI’s Inflection Point: The Tipping Point That Will Change Everything",
+  "description": "Discover AI’s Inflection Point as HatchWorks AI reveals how companies are transforming into AI and data powerhouses.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI’s Inflection Point: The Tipping Point That Will Change Everything",
+    "og:description": "Discover AI’s Inflection Point as HatchWorks AI reveals how companies are transforming into AI and data powerhouses.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/03/AIs-Inflection-Point-The-Tipping-Point-That-Will-Change-Everything.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI’s Inflection Point: The Tipping Point That Will Change Everything",
+    "twitter:description": "Discover AI’s Inflection Point as HatchWorks AI reveals how companies are transforming into AI and data powerhouses.",
+    "twitter:image": "/assets/wp-content/uploads/2025/03/AIs-Inflection-Point-The-Tipping-Point-That-Will-Change-Everything.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33190 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33190 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33190.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

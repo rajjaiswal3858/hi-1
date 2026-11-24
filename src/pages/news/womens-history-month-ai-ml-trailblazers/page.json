@@ -1,0 +1,41 @@
+{
+  "route": "/news/womens-history-month-ai-ml-trailblazers/",
+  "title": "Celebrating Women's History Month: AI/ML Trailblazers | HatchWorks AI",
+  "description": "Celebrate Women's History Month with a spotlight on AI/ML trailblazers. Discover the impact of women in technology and how they shape the future of AI and ML, inspiring the next generation.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Celebrating Women's History Month: AI/ML Trailblazers | HatchWorks AI",
+    "og:description": "Celebrate Women's History Month with a spotlight on AI/ML trailblazers. Discover the impact of women in technology and how they shape the future of AI and ML, inspiring the next generation.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/03/thumbnail_v2-GIRLS-IN-TECH-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Celebrating Women's History Month: AI/ML Trailblazers | HatchWorks AI",
+    "twitter:description": "Celebrate Women's History Month with a spotlight on AI/ML trailblazers. Discover the impact of women in technology and how they shape the future of AI and ML, inspiring the next generation.",
+    "twitter:image": "/assets/wp-content/uploads/2024/03/thumbnail_v2-GIRLS-IN-TECH-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30948 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30948 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30948.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,38 @@
+{
+  "route": "/elementor-34877/",
+  "title": "Elementor #34877 | HatchWorks AI",
+  "description": "Most teams use AI wrong — sporadically, without structure. GenDD is the operating model that transforms how engineering teams ship. Same tools. Same team.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Elementor #34877 | HatchWorks AI",
+    "og:description": "Most teams use AI wrong — sporadically, without structure. GenDD is the operating model that transforms how engineering teams ship. Same tools. Same team.",
+    "og:site_name": "HatchWorks AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Elementor #34877 | HatchWorks AI",
+    "twitter:description": "Most teams use AI wrong — sporadically, without structure. GenDD is the operating model that transforms how engineering teams ship. Same tools. Same team."
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34877 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34877 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-34877.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": [],
+  "scriptFiles": [
+    "script-1.js",
+    "script-2.js",
+    "script-3.js",
+    "script-4.js",
+    "script-5.js",
+    "script-6.js",
+    "script-7.js",
+    "script-8.js"
+  ]
+}

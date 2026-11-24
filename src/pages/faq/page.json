@@ -1,0 +1,26 @@
+{
+  "route": "/faq/",
+  "title": "Frequently Asked Questions | HatchWorks AI",
+  "description": "Search, filter, or tap any question. The universe of AI, demystified in plain language by the team at HatchWorks AI.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Frequently Asked Questions | HatchWorks AI",
+    "og:description": "Search, filter, or tap any question. The universe of AI, demystified in plain language by the team at HatchWorks AI.",
+    "og:site_name": "HatchWorks AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Frequently Asked Questions | HatchWorks AI",
+    "twitter:description": "Search, filter, or tap any question. The universe of AI, demystified in plain language by the team at HatchWorks AI."
+  },
+  "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-30507 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-30507",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-30507.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

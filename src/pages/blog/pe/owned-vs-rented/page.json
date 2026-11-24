@@ -1,0 +1,41 @@
+{
+  "route": "/blog/pe/owned-vs-rented/",
+  "title": "Owned vs Rented: Why Off-the-Shelf AI Never Shows Up in the Valuation",
+  "description": "Off-the-shelf AI never reaches the valuation. See why a proprietary AI moat wins the owned vs rented debate, plus the scorecard buyers use.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Owned vs Rented: Why Off-the-Shelf AI Never Shows Up in the Valuation",
+    "og:description": "Off-the-shelf AI never reaches the valuation. See why a proprietary AI moat wins the owned vs rented debate, plus the scorecard buyers use.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/07/owned-vs-rented-off-the-shelf-ai-valuation-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Owned vs Rented: Why Off-the-Shelf AI Never Shows Up in the Valuation",
+    "twitter:description": "Off-the-shelf AI never reaches the valuation. See why a proprietary AI moat wins the owned vs rented debate, plus the scorecard buyers use.",
+    "twitter:image": "/assets/wp-content/uploads/2026/07/owned-vs-rented-off-the-shelf-ai-valuation-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35752 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35752 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35752.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwpe-article.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

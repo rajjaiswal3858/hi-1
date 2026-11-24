@@ -1,0 +1,42 @@
+{
+  "route": "/blog/databricks/bi-report-migration/",
+  "title": "BI Report Migration Made Simple: Automating with Databricks",
+  "description": "Simplify and accelerate your BI report migration to Databricks with HatchWorks AI—reducing errors and boosting performance.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "BI Report Migration Made Simple: Automating with Databricks",
+    "og:description": "Simplify and accelerate your BI report migration to Databricks with HatchWorks AI—reducing errors and boosting performance.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/07/BI-Report-Migration-Made-Simple-Automating-with-Databricks2.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "BI Report Migration Made Simple: Automating with Databricks",
+    "twitter:description": "Simplify and accelerate your BI report migration to Databricks with HatchWorks AI—reducing errors and boosting performance.",
+    "twitter:image": "/assets/wp-content/uploads/2025/07/BI-Report-Migration-Made-Simple-Automating-with-Databricks2.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33763 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33763 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33763.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

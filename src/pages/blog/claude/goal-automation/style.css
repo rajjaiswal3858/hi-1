@@ -1,0 +1,73 @@
+.hw-cgoal-root{--hw-cgoal-neural:#151920;--hw-cgoal-byte:#363943;--hw-cgoal-link:#10758b;--hw-cgoal-cyan:#bfebef;--hw-cgoal-silver:#f8f8f8;--hw-cgoal-platinum:#dcddde;--hw-cgoal-cta:#e97845;color:var(--hw-cgoal-byte);font-size:18px;line-height:1.7}
+.hw-cgoal-root .hw-cgoal-anchor{scroll-margin-top:90px}
+.hw-cgoal-root .hw-cgoal-h2{color:var(--hw-cgoal-neural);font-size:1.7em;line-height:1.25;font-weight:700;margin:0 0 .6em}
+.hw-cgoal-root .hw-cgoal-h3{color:var(--hw-cgoal-neural);font-size:1.25em;line-height:1.3;font-weight:700;margin:1.8em 0 .5em}
+.hw-cgoal-root .hw-cgoal-p{margin:0 0 1.1em}
+.hw-cgoal-root .hw-cgoal-lead{font-size:1.12em;color:var(--hw-cgoal-neural)}
+.hw-cgoal-root .hw-cgoal-a{color:var(--hw-cgoal-link);text-decoration:underline;font-weight:600}
+.hw-cgoal-root .hw-cgoal-a:hover{text-decoration:none}
+.hw-cgoal-root .hw-cgoal-callout{background:var(--hw-cgoal-silver);border-left:4px solid var(--hw-cgoal-link);border-radius:6px;padding:1.1em 1.3em;margin:1.6em 0}
+.hw-cgoal-root .hw-cgoal-callout .hw-cgoal-p:last-child{margin-bottom:0}
+/* toc */
+.hw-cgoal-root .hw-cgoal-toc{background:var(--hw-cgoal-silver);border:1px solid var(--hw-cgoal-platinum);border-radius:10px;padding:1.2em 1.4em;margin:1.4em 0}
+.hw-cgoal-root .hw-cgoal-toc-t{font-weight:700;color:var(--hw-cgoal-neural);font-size:.82em;letter-spacing:.06em;text-transform:uppercase;margin:0 0 .7em}
+.hw-cgoal-root .hw-cgoal-toc-ol{margin:0;padding:0;counter-reset:hwcgoal;list-style:none}
+.hw-cgoal-root .hw-cgoal-toc-li{counter-increment:hwcgoal;margin:0 0 .5em;padding-left:2.1em;position:relative}
+.hw-cgoal-root .hw-cgoal-toc-li:before{content:counter(hwcgoal,decimal-leading-zero);position:absolute;left:0;top:.05em;color:var(--hw-cgoal-link);font-weight:700;font-size:.85em}
+/* flow / grid */
+.hw-cgoal-root .hw-cgoal-flow{margin:1.6em 0}
+.hw-cgoal-root .hw-cgoal-flow-track{display:flex;align-items:stretch;flex-wrap:wrap}
+.hw-cgoal-root .hw-cgoal-flow-step{flex:1 1 160px;min-width:150px;background:#fff;border:1px solid var(--hw-cgoal-platinum);border-top:4px solid var(--hw-cgoal-link);border-radius:8px;padding:.8em .9em;margin:0 10px 10px 0}
+.hw-cgoal-root .hw-cgoal-flow-step .hw-cgoal-flow-k{font-size:.72em;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--hw-cgoal-link);margin:0 0 .25em}
+.hw-cgoal-root .hw-cgoal-flow-step .hw-cgoal-flow-n{font-weight:700;color:var(--hw-cgoal-neural);margin:0 0 .2em}
+.hw-cgoal-root .hw-cgoal-flow-step .hw-cgoal-flow-d{font-size:.85em;margin:0}
+.hw-cgoal-root .hw-cgoal-flow-step.hw-cgoal-accent{border-top-color:var(--hw-cgoal-cta)}
+.hw-cgoal-root .hw-cgoal-flow-step.hw-cgoal-accent .hw-cgoal-flow-k{color:var(--hw-cgoal-cta)}
+/* tables */
+.hw-cgoal-root .hw-cgoal-tablewrap{overflow-x:auto;margin:1.6em 0}
+.hw-cgoal-root .hw-cgoal-table{width:100%;border-collapse:collapse;font-size:.9em;min-width:620px}
+.hw-cgoal-root .hw-cgoal-table th{background:var(--hw-cgoal-neural);color:#fff;text-align:left;padding:.7em .85em;font-weight:700;vertical-align:top;border:1px solid var(--hw-cgoal-neural)}
+.hw-cgoal-root .hw-cgoal-table td{padding:.7em .85em;border:1px solid var(--hw-cgoal-platinum);vertical-align:top;background:#fff}
+.hw-cgoal-root .hw-cgoal-table tr:nth-child(even) td{background:var(--hw-cgoal-silver)}
+.hw-cgoal-root .hw-cgoal-table td:first-child{font-weight:700;color:var(--hw-cgoal-neural);white-space:nowrap}
+/* selector (gradient + boundary) */
+.hw-cgoal-root .hw-cgoal-sel{border:1px solid var(--hw-cgoal-platinum);border-radius:12px;padding:1.3em;margin:1.8em 0;background:#fff}
+.hw-cgoal-root .hw-cgoal-sel-q{font-weight:700;color:var(--hw-cgoal-neural);margin:0 0 .8em}
+.hw-cgoal-root .hw-cgoal-sel-opts{display:flex;flex-wrap:wrap;gap:.5em}
+.hw-cgoal-root .hw-cgoal-sel-opt{padding:.55em .9em;border-radius:8px;border:1px solid var(--hw-cgoal-platinum);background:var(--hw-cgoal-silver);color:var(--hw-cgoal-byte);font-size:.9em;font-weight:700;cursor:pointer;user-select:none}
+.hw-cgoal-root .hw-cgoal-sel-opt:hover{border-color:var(--hw-cgoal-link);background:var(--hw-cgoal-cyan)}
+.hw-cgoal-root .hw-cgoal-sel-opt:focus-visible{outline:3px solid var(--hw-cgoal-link);outline-offset:2px}
+.hw-cgoal-root .hw-cgoal-sel-opt[aria-pressed="true"]{border-color:var(--hw-cgoal-link);background:var(--hw-cgoal-link);color:#fff}
+.hw-cgoal-root .hw-cgoal-sel-ans{margin-top:1.1em;border-top:1px solid var(--hw-cgoal-platinum);padding-top:1.1em;display:none}
+.hw-cgoal-root .hw-cgoal-sel.hw-cgoal-answered .hw-cgoal-sel-ans{display:block}
+.hw-cgoal-root .hw-cgoal-badge{display:inline-block;font-weight:700;border-radius:999px;padding:.25em .9em;font-size:.82em;margin:0 0 .6em;text-transform:uppercase;letter-spacing:.04em}
+.hw-cgoal-root .hw-cgoal-b-low{background:#eaf3f2;color:#0c5a6b;border:1px solid var(--hw-cgoal-link)}
+.hw-cgoal-root .hw-cgoal-b-mid{background:var(--hw-cgoal-silver);color:var(--hw-cgoal-byte);border:1px solid var(--hw-cgoal-platinum)}
+.hw-cgoal-root .hw-cgoal-b-high{background:#fbeee7;color:#9a4521;border:1px solid var(--hw-cgoal-cta)}
+.hw-cgoal-root .hw-cgoal-split{display:flex;flex-wrap:wrap;gap:.6em;margin:0 0 .7em}
+.hw-cgoal-root .hw-cgoal-cell{flex:1 1 200px;background:var(--hw-cgoal-silver);border-radius:8px;padding:.6em .8em}
+.hw-cgoal-root .hw-cgoal-cell .hw-cgoal-cell-k{font-size:.72em;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--hw-cgoal-link);margin:0 0 .2em}
+.hw-cgoal-root .hw-cgoal-cell .hw-cgoal-cell-v{margin:0;font-size:.9em}
+.hw-cgoal-root .hw-cgoal-sel-note{margin:0;font-size:.9em}
+/* accordion */
+.hw-cgoal-root .hw-cgoal-acc{border:1px solid var(--hw-cgoal-platinum);border-radius:8px;margin:1.6em 0;overflow:hidden}
+.hw-cgoal-root .hw-cgoal-acc-item{border-top:1px solid var(--hw-cgoal-platinum)}
+.hw-cgoal-root .hw-cgoal-acc-item:first-child{border-top:none}
+.hw-cgoal-root .hw-cgoal-acc-head{display:flex;justify-content:space-between;align-items:center;gap:1em;padding:.95em 1.1em;cursor:pointer;background:#fff;font-weight:700;color:var(--hw-cgoal-neural);font-size:.98em}
+.hw-cgoal-root .hw-cgoal-acc-head:hover{background:var(--hw-cgoal-silver)}
+.hw-cgoal-root .hw-cgoal-acc-head:focus-visible{outline:3px solid var(--hw-cgoal-link);outline-offset:-3px}
+.hw-cgoal-root .hw-cgoal-acc-sign{flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:var(--hw-cgoal-cyan);color:var(--hw-cgoal-neural);font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1}
+.hw-cgoal-root .hw-cgoal-acc-panel{display:none;padding:0 1.1em 1.1em;background:#fff}
+.hw-cgoal-root .hw-cgoal-acc-item.hw-cgoal-open .hw-cgoal-acc-panel{display:block}
+.hw-cgoal-root .hw-cgoal-acc-item.hw-cgoal-open .hw-cgoal-acc-sign{background:var(--hw-cgoal-cta)}
+.hw-cgoal-root .hw-cgoal-acc-panel .hw-cgoal-p:last-child{margin-bottom:0}
+/* cta */
+.hw-cgoal-root .hw-cgoal-cta{background:var(--hw-cgoal-neural);border-radius:12px;padding:1.8em;margin:2.4em 0;color:#fff}
+.hw-cgoal-root .hw-cgoal-cta .hw-cgoal-cta-h{color:#fff;font-size:1.35em;font-weight:700;margin:0 0 .4em}
+.hw-cgoal-root .hw-cgoal-cta .hw-cgoal-p{color:#e3e7e9;margin-bottom:1.2em}
+.hw-cgoal-root .hw-cgoal-btn,.hw-cgoal-root .hw-cgoal-btn:link,.hw-cgoal-root .hw-cgoal-btn:visited,.hw-cgoal-root .hw-cgoal-btn:hover,.hw-cgoal-root .hw-cgoal-btn:active,.hw-cgoal-root .hw-cgoal-btn:focus{color:var(--hw-cgoal-neural) !important;text-decoration:none !important}
+.hw-cgoal-root .hw-cgoal-btn{display:inline-block;background:var(--hw-cgoal-cta);font-weight:700;padding:.75em 1.4em;border-radius:8px;margin:0 .6em .6em 0}
+.hw-cgoal-root .hw-cgoal-btn:hover{filter:brightness(1.06)}
+.hw-cgoal-root .hw-cgoal-btn-ghost,.hw-cgoal-root .hw-cgoal-btn-ghost:link,.hw-cgoal-root .hw-cgoal-btn-ghost:visited,.hw-cgoal-root .hw-cgoal-btn-ghost:hover,.hw-cgoal-root .hw-cgoal-btn-ghost:active,.hw-cgoal-root .hw-cgoal-btn-ghost:focus{color:#ffffff !important;text-decoration:none !important}
+.hw-cgoal-root .hw-cgoal-btn-ghost{display:inline-block;background:transparent;border:2px solid var(--hw-cgoal-cyan);font-weight:700;padding:.68em 1.3em;border-radius:8px}
+.hw-cgoal-root .hw-cgoal-btn-ghost:hover{background:rgba(191,235,239,.14)}

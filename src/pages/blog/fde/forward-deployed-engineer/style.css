@@ -1,0 +1,46 @@
+.hwfde-article{font-family:inherit;color:#151920;line-height:1.65}
+.hwfde-article h1{color:#151920;font-size:2.2rem;line-height:1.2;margin:0 0 18px}
+.hwfde-article h2{color:#151920;font-size:1.6rem;line-height:1.25;margin:38px 0 14px}
+.hwfde-article h3{color:#363943;font-size:1.2rem;line-height:1.3;margin:26px 0 10px}
+.hwfde-article p{margin:0 0 16px;font-size:1.05rem}
+.hwfde-article ul{margin:0 0 18px;padding-left:24px}
+.hwfde-article li{margin:0 0 8px}
+.hwfde-answer{background:#f8f8f8;border-left:4px solid #10758b;padding:18px 22px;margin:0 0 26px;border-radius:0 8px 8px 0}
+.hwfde-answer p{margin:0;font-size:1.08rem}
+.hwfde-kicker{color:#10758b;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:.85rem;margin:0 0 10px}
+.hwfde-takeaways{background:#bfebef;border-radius:12px;padding:24px 28px;margin:8px 0 10px}
+.hwfde-takeaways h2{margin:0 0 12px;font-size:1.25rem;color:#151920}
+.hwfde-takeaways ul{margin:0;padding-left:22px}
+.hwfde-takeaways li{color:#151920}
+.hwfde-table-wrap{overflow-x:auto;margin:22px 0}
+.hwfde-table{width:100%;border-collapse:collapse;font-size:.98rem}
+.hwfde-table th{background:#151920;color:#ffffff;text-align:left;padding:12px 14px;font-weight:700}
+.hwfde-table td{border:1px solid #dcddde;padding:12px 14px;vertical-align:top;color:#151920}
+.hwfde-table tr:nth-child(even) td{background:#f8f8f8}
+.hwfde-ladder{display:flex;flex-wrap:wrap;gap:16px;margin:24px 0}
+.hwfde-rung{flex:1 1 240px;background:#f8f8f8;border:1px solid #dcddde;border-top:5px solid #10758b;border-radius:10px;padding:20px}
+.hwfde-rung .hwfde-rungnum{color:#10758b;font-weight:800;font-size:.9rem;letter-spacing:.05em;text-transform:uppercase;margin:0 0 8px}
+.hwfde-rung h3{margin:0 0 8px;font-size:1.1rem;color:#151920}
+.hwfde-rung p{margin:0;font-size:.95rem;color:#363943}
+.hwfde-grid{display:flex;flex-wrap:wrap;gap:14px;margin:22px 0}
+.hwfde-chip{flex:1 1 260px;background:#ffffff;border:1px solid #dcddde;border-radius:10px;padding:16px 18px}
+.hwfde-chip h3{margin:0 0 6px;font-size:1.02rem;color:#151920}
+.hwfde-chip p{margin:0;font-size:.93rem;color:#363943}
+.hwfde-callout{background:#bfebef;border-radius:12px;padding:26px 30px;margin:34px 0}
+.hwfde-callout p{color:#151920;font-size:1.06rem;margin:0 0 16px}
+.hwfde-cta-dark{background:#151920;border-radius:14px;padding:34px 36px;margin:40px 0 10px}
+.hwfde-cta-dark h2{color:#ffffff;margin:0 0 12px;font-size:1.5rem}
+.hwfde-cta-dark p{color:#dcddde;margin:0 0 20px;font-size:1.04rem}
+.hwfde-btnrow{display:flex;flex-wrap:wrap;gap:14px}
+a.hwfde-btn{display:inline-block;background:#e97845 !important;color:#151920 !important;font-weight:700;padding:13px 26px;border-radius:8px;text-decoration:none !important;border:2px solid #e97845 !important}
+a.hwfde-btn:hover,a.hwfde-btn:focus,a.hwfde-btn:active,a.hwfde-btn:visited{background:#e97845 !important;color:#151920 !important;text-decoration:none !important}
+a.hwfde-btn-ghost{display:inline-block;background:transparent !important;color:#ffffff !important;font-weight:700;padding:13px 26px;border-radius:8px;text-decoration:none !important;border:2px solid #ffffff !important}
+a.hwfde-btn-ghost:hover,a.hwfde-btn-ghost:focus,a.hwfde-btn-ghost:active,a.hwfde-btn-ghost:visited{background:transparent !important;color:#ffffff !important;text-decoration:none !important}
+a.hwfde-btn-light{display:inline-block;background:#10758b !important;color:#ffffff !important;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none !important;border:2px solid #10758b !important}
+a.hwfde-btn-light:hover,a.hwfde-btn-light:focus,a.hwfde-btn-light:active,a.hwfde-btn-light:visited{background:#10758b !important;color:#ffffff !important;text-decoration:none !important}
+.hwfde-sources{background:#f8f8f8;border-radius:12px;padding:22px 26px;margin:30px 0 0}
+.hwfde-sources h2{margin:0 0 12px;font-size:1.2rem}
+.hwfde-sources ul{margin:0;padding-left:22px}
+.hwfde-sources li{font-size:.92rem;color:#363943;margin:0 0 6px}
+.hwfde-faq h3{color:#151920}
+@media (max-width:640px){.hwfde-article h1{font-size:1.7rem}.hwfde-article h2{font-size:1.35rem}}

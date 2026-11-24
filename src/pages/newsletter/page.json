@@ -1,0 +1,37 @@
+{
+  "route": "/newsletter/",
+  "title": "Talking AI Newsletter | HatchWorks AI",
+  "description": "Subscribe to the HatchWorks Newsletter for expert insights on AI, software development, tech trends, and innovation strategies—delivered straight to your inbox.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Talking AI Newsletter | HatchWorks AI",
+    "og:description": "Subscribe to the HatchWorks Newsletter for expert insights on AI, software development, tech trends, and innovation strategies—delivered straight to your inbox.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/07/TalkingAI.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Talking AI Newsletter | HatchWorks AI",
+    "twitter:description": "Subscribe to the HatchWorks Newsletter for expert insights on AI, software development, tech trends, and innovation strategies—delivered straight to your inbox.",
+    "twitter:image": "/assets/wp-content/uploads/2024/07/TalkingAI.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-32246 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32246 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32246.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css",
+    "/assets/wp-content/plugins/leadin/build/elementor.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,155 @@
+{
+  "id": "9ba971f2-6cc7-485d-8907-c7afc61ba714",
+  "captcha": true,
+  "submitText": "Submit",
+  "inlineMessage": "",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        },
+        {
+          "name": "lastname",
+          "label": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "Company name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Your company email",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        },
+        {
+          "name": "jobtitle",
+          "label": "Job title",
+          "type": "text",
+          "required": false,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "department_or_team",
+          "label": "Engineering Team Size",
+          "type": "text",
+          "required": false,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        },
+        {
+          "name": "current_tech_stack___tools",
+          "label": "Current tech stack / tools",
+          "type": "text",
+          "required": false,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "message",
+          "label": "Are you currently using AI in development?",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "what_are_your_learning_goals_for_the_team_",
+          "label": "What’s your biggest development challenge?",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "how_did_you_hear_about_us_",
+          "label": "How did you hear about HatchWorks AI?",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

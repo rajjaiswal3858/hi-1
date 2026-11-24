@@ -1,0 +1,14 @@
+.elementor-34986 .elementor-element.elementor-element-78b48ac:not(.elementor-motion-effects-element-type-background), .elementor-34986 .elementor-element.elementor-element-78b48ac > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F1F2F2;}.elementor-34986 .elementor-element.elementor-element-78b48ac{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:50px;margin-bottom:0px;padding:52px 52px 52px 52px;}.elementor-34986 .elementor-element.elementor-element-78b48ac > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-34986 .elementor-element.elementor-element-78b48ac > .elementor-shape-top svg{width:calc(236% + 1.3px);}.elementor-34986 .elementor-element.elementor-element-272d4aa{padding:0px 50px 0px 50px;text-align:center;}.elementor-34986 .elementor-element.elementor-element-bc436f2 > .elementor-container{text-align:center;}@media(max-width:767px){.elementor-34986 .elementor-element.elementor-element-78b48ac > .elementor-shape-top svg{width:calc(300% + 1.3px);height:18px;}.elementor-34986 .elementor-element.elementor-element-78b48ac{padding:12px 12px 12px 12px;}}/* Start custom CSS for section, class: .elementor-element-bc436f2 */.elementor-34986 .elementor-element.elementor-element-bc436f2 button {background-color: #E67A57;
+    width: 60%
+}
+
+@media only screen and (max-width: 600px) {
+.elementor-34986 .elementor-element.elementor-element-bc436f2 button {background-color: #E67A57;
+    width: 100%
+}
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-78b48ac */@media only screen and (max-width: 600px) {
+.elementor-34986 .elementor-element.elementor-element-78b48ac h2 {line-height:1.4em; 
+font-size:2em;}
+
+}/* End custom CSS */

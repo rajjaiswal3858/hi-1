@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/saas-pocalypse/",
+  "title": "PwC's Chief AI Officer on the SaaS-pocalypse, Agent Governance, and What's Real",
+  "description": "PwC Chief AI Officer Dan Priest on the SaaS-pocalypse, where Fortune 500s are getting AI ROI, and why 80% of success is business transformation, not tech.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "PwC's Chief AI Officer on the SaaS-pocalypse, Agent Governance, and What's Real",
+    "og:description": "PwC Chief AI Officer Dan Priest on the SaaS-pocalypse, where Fortune 500s are getting AI ROI, and why 80% of success is business transformation, not tech.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/Dan-Priest-TalkingAI-Thumbnail-Social-1024x1024.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "PwC's Chief AI Officer on the SaaS-pocalypse, Agent Governance, and What's Real",
+    "twitter:description": "PwC Chief AI Officer Dan Priest on the SaaS-pocalypse, where Fortune 500s are getting AI ROI, and why 80% of success is business transformation, not tech.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/Dan-Priest-TalkingAI-Thumbnail-Social-1024x1024.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35062 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35062 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35062.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

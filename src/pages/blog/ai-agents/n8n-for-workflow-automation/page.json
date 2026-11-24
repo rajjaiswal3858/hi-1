@@ -1,0 +1,51 @@
+{
+  "route": "/blog/ai-agents/n8n-for-workflow-automation/",
+  "title": "How to Use n8n for Workflow Automation (Step-by-Step With Examples)",
+  "description": "Learn how to save hours with n8n for workflow automation. Real examples, setup tips, and tools to build powerful workflows fast.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How to Use n8n for Workflow Automation (Step-by-Step With Examples)",
+    "og:description": "Learn how to save hours with n8n for workflow automation. Real examples, setup tips, and tools to build powerful workflows fast.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/11/n8n-4.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How to Use n8n for Workflow Automation (Step-by-Step With Examples)",
+    "twitter:description": "Learn how to save hours with n8n for workflow automation. Real examples, setup tips, and tools to build powerful workflows fast.",
+    "twitter:image": "/assets/wp-content/uploads/2025/11/n8n-4.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33667 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33667 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-code-highlight.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33667.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": [
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-core.min.js?ver=1.23.0",
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js?ver=1.23.0",
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js?ver=1.23.0",
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/line-numbers/prism-line-numbers.min.js?ver=1.23.0",
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js?ver=1.23.0",
+    "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js?ver=1.23.0"
+  ]
+}

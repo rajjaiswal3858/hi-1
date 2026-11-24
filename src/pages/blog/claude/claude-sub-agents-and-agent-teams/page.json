@@ -1,0 +1,43 @@
+{
+  "route": "/blog/claude/claude-sub-agents-and-agent-teams/",
+  "title": "Claude Sub Agents and Agent Teams: When to Delegate Inside Claude",
+  "description": "Claude sub agents and Agent Teams are delegation patterns for AI work. What each one does, when to use which, and the patterns that keep both governed.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Claude Sub Agents and Agent Teams: When to Delegate Inside Claude",
+    "og:description": "Claude sub agents and Agent Teams are delegation patterns for AI work. What each one does, when to use which, and the patterns that keep both governed.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/06/CLAUDE-BATCH-2026-14.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Claude Sub Agents and Agent Teams: When to Delegate Inside Claude",
+    "twitter:description": "Claude sub agents and Agent Teams are delegation patterns for AI work. What each one does, when to use which, and the patterns that keep both governed.",
+    "twitter:image": "/assets/wp-content/uploads/2026/06/CLAUDE-BATCH-2026-14.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35373 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35373 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35373.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwnsg-block.css",
+      "hwnsg-block-2.css",
+      "hw-fde-wrap.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

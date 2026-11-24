@@ -1,0 +1,656 @@
+/* ============================================================== */
+  /* LIGHT-TOUCH HARDENING                                           */
+  /* Only resets the specific things Elementor + WP themes commonly  */
+  /* override on buttons/links/inputs. No box-model or layout resets */
+  /* that could fight the component sizing.                          */
+  /* ============================================================== */
+  .hwai-faq, .hwai-faq *, .hwai-faq *::before, .hwai-faq *::after {
+    box-sizing: border-box;
+  }
+  .hwai-faq button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    text-transform: none;
+    text-shadow: none;
+    -webkit-appearance: button;
+    appearance: button;
+  }
+  .hwai-faq input {
+    font-family: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .hwai-faq a {
+    text-decoration: none;
+    background-image: none;
+  }
+  .hwai-faq a:hover, .hwai-faq a:focus {
+    text-decoration: none;
+  }
+  .hwai-faq h2, .hwai-faq h3 {
+    font-family: inherit;
+    text-transform: none;
+    text-shadow: none;
+    letter-spacing: normal;
+  }
+  .hwai-faq svg {
+    max-width: none;
+    max-height: none;
+  }
+  .hwai-faq summary { list-style: none; cursor: pointer; }
+  .hwai-faq summary::-webkit-details-marker { display: none; }
+
+  /* ============================================================== */
+  /* WIDGET STYLES                                                   */
+  /* ============================================================== */
+
+  .hwai-faq {
+    /* HatchWorks brand tokens — LIGHT theme, transparent background */
+    --hw-ink:       #0b1d22;
+    --hw-ink-soft:  #41575c;
+    --hw-muted:     #6b8086;
+    --hw-line:      #e3eef0;
+    --hw-line-soft: #f0f6f7;
+    --hw-paper:     #ffffff;
+
+    /* Category accents — harmonized palette */
+    --cat-approach: #0d8a8a;   /* teal       · GenDD / methodology (brand anchor) */
+    --cat-services: #2b6fb8;   /* blue       · offerings */
+    --cat-results:  #e8772e;   /* orange     · impact / ROI (high energy) */
+    --cat-training: #2fa66b;   /* green      · learning / growth */
+    --cat-company:  #d49a1a;   /* yellow     · about us (warm, legible on white) */
+    --cat-trust:    #4ec5c7;   /* light teal · security (soft, calm) */
+    --cat-all:      #0d8a8a;   /* teal       · default (matches Approach) */
+
+    --hw-font-display: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --hw-font-body:    "Open Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+    position: relative;
+    width: 100%;
+    padding: clamp(28px, 4vw, 48px) clamp(12px, 3vw, 24px);
+    background: transparent;
+    color: var(--hw-ink);
+    font-family: var(--hw-font-body);
+  }
+
+  /* ===== HEADER ===== */
+  .hwai-faq__header {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto clamp(20px, 3vw, 32px);
+  }
+  .hwai-faq__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 16px;
+    padding: 5px 13px;
+    font-family: var(--hw-font-display);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--cat-all);
+    background: rgba(13, 138, 138, 0.08);
+    border: 1px solid rgba(13, 138, 138, 0.18);
+    border-radius: 100px;
+  }
+  .hwai-faq__pulse {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--cat-all);
+    box-shadow: 0 0 0 0 rgba(13, 138, 138, 0.5);
+    animation: hwai-pulse 2s infinite;
+  }
+  @keyframes hwai-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(13, 138, 138, 0.5); }
+    70%  { box-shadow: 0 0 0 10px rgba(13, 138, 138, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(13, 138, 138, 0); }
+  }
+  .hwai-faq .hwai-faq__title {
+    font-family: var(--hw-font-display);
+    font-weight: 600;
+    font-size: clamp(26px, 4.5vw, 44px);
+    line-height: 1.1;
+    margin: 0 0 14px;
+    letter-spacing: -0.02em;
+    color: var(--hw-ink);
+  }
+  .hwai-faq__title-accent {
+    display: inline-block;
+    background: linear-gradient(120deg, var(--cat-approach) 0%, var(--cat-trust) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hwai-faq__lede {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.6;
+    color: var(--hw-ink-soft);
+    margin: 0;
+  }
+
+  /* ===== SEARCH ===== */
+  .hwai-faq__search {
+    position: relative;
+    max-width: 560px;
+    margin: 0 auto 18px;
+  }
+  .hwai-faq__search-icon {
+    position: absolute;
+    left: 18px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--hw-muted);
+    pointer-events: none;
+  }
+  .hwai-faq .hwai-faq__search-input {
+    display: block;
+    width: 100%;
+    padding: 14px 44px 14px 48px;
+    font-family: var(--hw-font-body);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--hw-ink);
+    background: var(--hw-paper);
+    border: 1.5px solid var(--hw-line);
+    border-radius: 100px;
+    outline: 0;
+    box-shadow: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    height: auto;
+  }
+  .hwai-faq .hwai-faq__search-input::placeholder {
+    color: var(--hw-muted);
+    opacity: 1;
+  }
+  .hwai-faq .hwai-faq__search-input:focus {
+    border-color: var(--cat-all);
+    box-shadow: 0 0 0 4px rgba(13, 138, 138, 0.12);
+    background: var(--hw-paper);
+  }
+  .hwai-faq .hwai-faq__search-input::-webkit-search-cancel-button,
+  .hwai-faq .hwai-faq__search-input::-webkit-search-decoration { display: none; -webkit-appearance: none; }
+
+  .hwai-faq .hwai-faq__search-clear {
+    position: absolute;
+    right: 12px; top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: var(--hw-line);
+    border: 0;
+    border-radius: 50%;
+    color: var(--hw-ink-soft);
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .hwai-faq .hwai-faq__search-clear:hover { background: #d4e3e6; }
+
+  /* ===== CATEGORY CHIPS ===== */
+  .hwai-faq__filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto 14px;
+    max-width: 900px;
+  }
+  .hwai-faq .hwai-faq__chip {
+    --c: var(--cat-all);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    font-family: var(--hw-font-body);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--hw-ink-soft);
+    background: var(--hw-paper) !important;
+    background-color: var(--hw-paper) !important;
+    background-image: none !important;
+    border: 1.5px solid var(--hw-line);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.22s ease;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  .hwai-faq .hwai-faq__chip svg { color: var(--c); transition: color 0.22s ease; }
+  .hwai-faq .hwai-faq__chip[data-cat="approach"] { --c: var(--cat-approach); }
+  .hwai-faq .hwai-faq__chip[data-cat="services"] { --c: var(--cat-services); }
+  .hwai-faq .hwai-faq__chip[data-cat="results"]  { --c: var(--cat-results);  }
+  .hwai-faq .hwai-faq__chip[data-cat="training"] { --c: var(--cat-training); }
+  .hwai-faq .hwai-faq__chip[data-cat="company"]  { --c: var(--cat-company);  }
+  .hwai-faq .hwai-faq__chip[data-cat="trust"]    { --c: var(--cat-trust);    }
+  .hwai-faq .hwai-faq__chip:hover,
+  .hwai-faq .hwai-faq__chip:focus {
+    color: var(--c);
+    border-color: var(--c);
+    background: var(--hw-paper) !important;
+    background-color: var(--hw-paper) !important;
+    background-image: none !important;
+    transform: translateY(-1px);
+  }
+  .hwai-faq .hwai-faq__chip.is-active {
+    color: #fff;
+    background: var(--c) !important;
+    background-color: var(--c) !important;
+    background-image: none !important;
+    border-color: var(--c);
+  }
+  .hwai-faq .hwai-faq__chip.is-active svg { color: #fff; }
+
+  /* ===== STATUS LINE ===== */
+  .hwai-faq__status {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--hw-muted);
+    margin: 0 0 20px;
+    min-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  .hwai-faq__status strong { color: var(--hw-ink); font-weight: 600; }
+
+  /* ===== ORB GRID ===== */
+  .hwai-faq__sky {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 14px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .hwai-faq .hwai-faq__orb {
+    --c: var(--cat-all);
+    --c-soft: rgba(13, 138, 138, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 170px;
+    padding: 22px;
+    background: var(--hw-paper) !important;
+    background-color: var(--hw-paper) !important;
+    background-image: none !important;
+    border: 1.5px solid var(--hw-line);
+    border-radius: 18px;
+    cursor: pointer;
+    text-align: left;
+    color: inherit;
+    font-family: var(--hw-font-body);
+    overflow: hidden;
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+    animation: hwai-orb-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+    animation-delay: var(--d, 0s);
+  }
+  .hwai-faq .hwai-faq__orb[data-cat="approach"] { --c: var(--cat-approach); --c-soft: rgba(13, 138, 138, 0.10); }
+  .hwai-faq .hwai-faq__orb[data-cat="services"] { --c: var(--cat-services); --c-soft: rgba(43, 111, 184, 0.10); }
+  .hwai-faq .hwai-faq__orb[data-cat="results"]  { --c: var(--cat-results);  --c-soft: rgba(232, 119, 46, 0.12); }
+  .hwai-faq .hwai-faq__orb[data-cat="training"] { --c: var(--cat-training); --c-soft: rgba(47, 166, 107, 0.12); }
+  .hwai-faq .hwai-faq__orb[data-cat="company"]  { --c: var(--cat-company);  --c-soft: rgba(212, 154, 26, 0.14); }
+  .hwai-faq .hwai-faq__orb[data-cat="trust"]    { --c: var(--cat-trust);    --c-soft: rgba(78, 197, 199, 0.14); }
+
+  .hwai-faq .hwai-faq__orb::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 8px;
+    height: 8px;
+    background: var(--c);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--c-soft);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .hwai-faq .hwai-faq__orb:hover,
+  .hwai-faq .hwai-faq__orb:focus,
+  .hwai-faq .hwai-faq__sky .hwai-faq__orb:hover {
+    transform: translateY(-4px);
+    background: var(--hw-paper) !important;
+    background-color: var(--hw-paper) !important;
+    background-image: none !important;
+    border-color: var(--c);
+    color: inherit;
+    box-shadow:
+      0 14px 32px -10px rgba(11, 29, 34, 0.10),
+      0 2px 6px rgba(11, 29, 34, 0.05);
+  }
+  .hwai-faq .hwai-faq__orb:hover::before {
+    transform: scale(1.15);
+    box-shadow: 0 0 0 6px var(--c-soft);
+  }
+  .hwai-faq .hwai-faq__orb:focus-visible {
+    outline: 2px solid var(--c);
+    outline-offset: 3px;
+  }
+  @keyframes hwai-orb-in {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .hwai-faq__orb-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .hwai-faq__orb-icon {
+    flex-shrink: 0;
+    width: 32px; height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--c-soft);
+    border-radius: 9px;
+    color: var(--c);
+  }
+  .hwai-faq__orb-icon svg { width: 16px; height: 16px; }
+  .hwai-faq__orb-cat {
+    font-family: var(--hw-font-display);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c);
+  }
+  .hwai-faq .hwai-faq__orb-q {
+    font-family: var(--hw-font-body);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.35;
+    color: var(--hw-ink);
+    margin: 0 0 16px;
+    letter-spacing: -0.005em;
+  }
+  .hwai-faq__orb-cue {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--c);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .hwai-faq__orb-cue svg { transition: transform 0.3s ease; }
+  .hwai-faq .hwai-faq__orb:hover .hwai-faq__orb-cue svg { transform: translateX(4px); }
+
+  .hwai-faq__orb mark {
+    background: var(--c-soft);
+    color: var(--hw-ink);
+    padding: 0 2px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .hwai-faq .hwai-faq__orb.is-hidden { display: none; }
+
+  /* ===== EMPTY STATE ===== */
+  .hwai-faq__empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--hw-muted);
+  }
+  .hwai-faq__empty svg { color: var(--hw-muted); margin-bottom: 12px; }
+  .hwai-faq__empty p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--hw-ink-soft);
+  }
+  .hwai-faq .hwai-faq__reset {
+    display: inline;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: var(--cat-all);
+    font-weight: 600;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .hwai-faq .hwai-faq__reset:hover { color: var(--cat-services); background: transparent; }
+
+  /* ===== SEMANTIC CRAWLABLE LIST (visually hidden) ===== */
+  .hwai-faq__semantic {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0);
+    white-space: nowrap; border: 0;
+  }
+
+  /* ===== CTA ===== */
+  .hwai-faq__cta {
+    text-align: center;
+    margin: clamp(32px, 5vw, 56px) auto 0;
+    max-width: 600px;
+  }
+  .hwai-faq__cta p {
+    font-family: var(--hw-font-body);
+    font-size: clamp(15px, 1.6vw, 18px);
+    color: var(--hw-ink-soft);
+    margin: 0 0 18px;
+  }
+  .hwai-faq a.hwai-faq__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 26px;
+    font-family: var(--hw-font-body);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    background: var(--cat-all);
+    background-image: none;
+    border: 0;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    transition: transform 0.22s ease, box-shadow 0.3s ease, background 0.2s ease;
+    box-shadow: 0 8px 22px -8px rgba(13, 138, 138, 0.5);
+  }
+  .hwai-faq a.hwai-faq__btn:hover,
+  .hwai-faq a.hwai-faq__btn:focus,
+  .hwai-faq a.hwai-faq__btn:visited {
+    transform: translateY(-2px);
+    color: #fff;
+    background: #0a6e6e;
+    background-image: none;
+    text-decoration: none;
+    box-shadow: 0 14px 28px -8px rgba(13, 138, 138, 0.6);
+  }
+  .hwai-faq a.hwai-faq__btn svg { transition: transform 0.22s ease; }
+  .hwai-faq a.hwai-faq__btn:hover svg { transform: translateX(4px); }
+
+  /* ===== MODAL ===== */
+  .hwai-faq__modal {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .hwai-faq__modal.is-open { opacity: 1; visibility: visible; }
+  .hwai-faq__modal-backdrop {
+    position: absolute; inset: 0;
+    background: rgba(11, 29, 34, 0.55);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .hwai-faq__modal-card {
+    --c: var(--cat-all);
+    --c-soft: rgba(13, 138, 138, 0.1);
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: clamp(32px, 4vw, 44px) clamp(28px, 4vw, 44px) clamp(28px, 4vw, 36px);
+    background: var(--hw-paper);
+    border-radius: 22px;
+    color: var(--hw-ink);
+    font-family: var(--hw-font-body);
+    transform: translateY(24px) scale(0.96);
+    opacity: 0;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
+    box-shadow: 0 30px 60px -20px rgba(11, 29, 34, 0.35);
+  }
+  .hwai-faq__modal-card[data-cat="approach"] { --c: var(--cat-approach); --c-soft: rgba(13, 138, 138, 0.10); }
+  .hwai-faq__modal-card[data-cat="services"] { --c: var(--cat-services); --c-soft: rgba(43, 111, 184, 0.10); }
+  .hwai-faq__modal-card[data-cat="results"]  { --c: var(--cat-results);  --c-soft: rgba(232, 119, 46, 0.12); }
+  .hwai-faq__modal-card[data-cat="training"] { --c: var(--cat-training); --c-soft: rgba(47, 166, 107, 0.12); }
+  .hwai-faq__modal-card[data-cat="company"]  { --c: var(--cat-company);  --c-soft: rgba(212, 154, 26, 0.14); }
+  .hwai-faq__modal-card[data-cat="trust"]    { --c: var(--cat-trust);    --c-soft: rgba(78, 197, 199, 0.14); }
+
+  .hwai-faq__modal.is-open .hwai-faq__modal-card {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  .hwai-faq__modal-accent {
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+    width: 8px;
+    height: 8px;
+    background: var(--c);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--c-soft);
+    pointer-events: none;
+  }
+  .hwai-faq .hwai-faq__modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: var(--hw-line-soft);
+    border: 0;
+    border-radius: 50%;
+    color: var(--hw-ink-soft);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .hwai-faq .hwai-faq__modal-close:hover {
+    background: var(--c);
+    color: #fff;
+    transform: rotate(90deg);
+  }
+  .hwai-faq__modal-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 16px;
+    padding: 5px 12px 5px 8px;
+    font-family: var(--hw-font-display);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c);
+    background: var(--c-soft);
+    border-radius: 100px;
+  }
+  .hwai-faq__modal-tag-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px; height: 18px;
+  }
+  .hwai-faq__modal-tag-icon svg { width: 12px; height: 12px; }
+  .hwai-faq .hwai-faq__modal-q {
+    font-family: var(--hw-font-body);
+    font-size: clamp(20px, 2.6vw, 26px);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin: 0 0 16px;
+    color: var(--hw-ink);
+  }
+  .hwai-faq__modal-a {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--hw-ink-soft);
+    margin: 0 0 24px;
+  }
+  .hwai-faq__modal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 18px;
+    border-top: 1px solid var(--hw-line);
+  }
+  .hwai-faq .hwai-faq__modal-nav button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 13px;
+    font-family: var(--hw-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--hw-ink-soft);
+    background: transparent;
+    border: 1.5px solid var(--hw-line);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .hwai-faq .hwai-faq__modal-nav button:hover {
+    background: var(--c);
+    color: #fff;
+    border-color: var(--c);
+  }
+  .hwai-faq__modal-count {
+    font-family: var(--hw-font-body);
+    font-size: 11px;
+    color: var(--hw-muted);
+    letter-spacing: 0.1em;
+    font-weight: 500;
+  }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 640px) {
+    .hwai-faq { padding: 24px 10px; }
+    .hwai-faq__sky { grid-template-columns: 1fr; gap: 12px; }
+    .hwai-faq .hwai-faq__orb { min-height: 140px; padding: 18px; }
+    .hwai-faq .hwai-faq__orb-q { font-size: 15px; }
+    .hwai-faq__filters { gap: 6px; }
+    .hwai-faq .hwai-faq__chip { padding: 7px 13px; font-size: 12px; }
+    .hwai-faq .hwai-faq__search-input { padding: 12px 40px 12px 44px; font-size: 14px; }
+  }
+
+  /* ===== REDUCED MOTION ===== */
+  @media (prefers-reduced-motion: reduce) {
+    .hwai-faq .hwai-faq__orb,
+    .hwai-faq__pulse { animation: none; }
+    .hwai-faq .hwai-faq__orb,
+    .hwai-faq .hwai-faq__chip,
+    .hwai-faq a.hwai-faq__btn { transition: none; }
+  }

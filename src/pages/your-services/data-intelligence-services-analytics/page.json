@@ -1,0 +1,32 @@
+{
+  "route": "/your-services/data-intelligence-services-analytics/",
+  "title": "Data Intelligence Services: Analytics | HatchWorks",
+  "description": "A suite of services dedicated to managing corporate data and driving advanced business intelligence for key stakeholders.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Data Intelligence Services: Analytics | HatchWorks",
+    "og:description": "A suite of services dedicated to managing corporate data and driving advanced business intelligence for key stakeholders.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/10/analytics.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Data Intelligence Services: Analytics | HatchWorks",
+    "twitter:description": "A suite of services dedicated to managing corporate data and driving advanced business intelligence for key stakeholders.",
+    "twitter:image": "/assets/wp-content/uploads/2021/10/analytics.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-16019 page-child parent-pageid-15441 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-16019 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-image-box.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-16019.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

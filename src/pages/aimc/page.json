@@ -1,0 +1,33 @@
+{
+  "route": "/aimc/",
+  "title": "AI Masterclass by HatchWorks AI | HatchWorks AI",
+  "description": "A focused breakdown of how Generative AI is reshaping business. Learn the core forces driving the shift, explore real-world use cases, and gain tools to turn",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI Masterclass by HatchWorks AI | HatchWorks AI",
+    "og:description": "A focused breakdown of how Generative AI is reshaping business. Learn the core forces driving the shift, explore real-world use cases, and gain tools to turn",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Masterclass by HatchWorks AI | HatchWorks AI",
+    "twitter:description": "A focused breakdown of how Generative AI is reshaping business. Learn the core forces driving the shift, explore real-world use cases, and gain tools to turn",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34251 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34251 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34251.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

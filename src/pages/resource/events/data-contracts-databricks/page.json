@@ -1,0 +1,34 @@
+{
+  "route": "/resource/events/data-contracts-databricks/",
+  "title": "Bridge the Governance Gap with Data Contracts on Databricks",
+  "description": "Learn how HatchWorks AI uses Data Contracts on Databricks to improve data quality, enhance collaboration, and bridge governance gaps.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Bridge the Governance Gap with Data Contracts on Databricks",
+    "og:description": "Learn how HatchWorks AI uses Data Contracts on Databricks to improve data quality, enhance collaboration, and bridge governance gaps.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/12/Bridge-the-Governance-Gap-with-Data-Contracts-on-Databricks.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Bridge the Governance Gap with Data Contracts on Databricks",
+    "twitter:description": "Learn how HatchWorks AI uses Data Contracts on Databricks to improve data quality, enhance collaboration, and bridge governance gaps.",
+    "twitter:image": "/assets/wp-content/uploads/2024/12/Bridge-the-Governance-Gap-with-Data-Contracts-on-Databricks.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-32530 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-32530",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32530.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

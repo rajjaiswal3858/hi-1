@@ -1,0 +1,71 @@
+/* HatchWorks AI blog: Anthropic IPO article. Scoped hw- classes; !important where the theme overrides. */
+.hw-src{font-size:.85em}
+.hw-src a{color:#10758b !important;text-decoration:underline !important}
+.hw-list{list-style:disc !important;padding-left:1.4em !important;margin:0 0 1.5em !important}
+.hw-list li{list-style:disc !important;margin:0 0 .75em !important;padding-left:.2em !important}
+.hw-list li::before{content:none !important;display:none !important}
+
+/* Charts */
+.hw-chart{margin:2em 0 !important;padding:24px 24px 16px;background:#f8f8f8;border:1px solid #dcddde;border-radius:12px;color:#151920}
+.hw-chart-title{font-weight:700;font-size:1.05em;margin:0 0 4px;color:#151920}
+.hw-chart-sub{font-size:.85em;color:#363943;margin:0 0 20px}
+.hw-chart figcaption{font-size:.8em;color:#363943;margin-top:16px;line-height:1.5}
+.hw-chart figcaption a{color:#10758b !important;text-decoration:underline !important}
+
+/* Vertical columns */
+.hw-cols{display:flex;align-items:flex-end;gap:12px;height:240px;border-bottom:2px solid #363943;padding:0 4px}
+.hw-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;position:relative}
+.hw-col-bar{width:100%;max-width:72px;background:#10758b;border-radius:6px 6px 0 0;transform-origin:bottom;transform:scaleY(0);transition:transform .9s cubic-bezier(.2,.8,.2,1),background .2s}
+.hw-col:hover .hw-col-bar,.hw-col:focus .hw-col-bar{background:#e97845}
+.hw-col-val{font-weight:700;font-size:.85em;margin-bottom:6px;color:#151920}
+.hw-col-labels{display:flex;gap:12px;padding:8px 4px 0}
+.hw-col-labels span{flex:1;text-align:center;font-size:.78em;color:#363943}
+.hw-chart.hw-in .hw-col-bar{transform:scaleY(1)}
+
+/* Horizontal bars */
+.hw-hbar{margin:0 0 18px}
+.hw-hbar-head{display:flex;justify-content:space-between;gap:12px;font-size:.9em;margin-bottom:6px}
+.hw-hbar-head strong{color:#151920}
+.hw-hbar-track{background:#dcddde;border-radius:6px;height:28px;overflow:hidden}
+.hw-hbar-fill{height:100%;background:#10758b;border-radius:6px;width:0;transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.hw-hbar-fill.hw-alt{background:#363943}
+.hw-chart.hw-in .hw-hbar-fill{width:var(--w)}
+
+/* Cost example */
+.hw-cost-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hw-cost-card{background:#fff;border:1px solid #dcddde;border-radius:10px;padding:18px}
+.hw-cost-card.hw-after{border-color:#10758b;box-shadow:inset 4px 0 0 #10758b}
+.hw-cost-tag{font-size:.75em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#363943;margin:0 0 8px}
+.hw-cost-big{font-size:1.9em;font-weight:800;line-height:1.1;color:#151920;margin:0 0 6px}
+.hw-cost-meta{font-size:.88em;color:#363943;margin:0}
+.hw-cost-deltas{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.hw-delta{background:#bfebef;color:#151920;border-radius:999px;padding:6px 14px;font-size:.85em;font-weight:700}
+.hw-calc{margin-top:20px;padding-top:16px;border-top:1px solid #dcddde}
+.hw-calc-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hw-calc label{display:block;font-size:.85em;font-weight:700;color:#151920;margin-bottom:6px}
+.hw-calc input[type=range]{width:100%;accent-color:#10758b}
+.hw-calc output{font-weight:700;color:#10758b}
+.hw-calc-result{margin:14px 0 0;font-size:.95em;color:#151920}
+
+/* CTAs */
+.hw-cta{margin:2.5em 0 !important;padding:28px;border-radius:12px;background:#151920;color:#f8f8f8}
+.hw-cta h2,.hw-cta h3,.hw-cta p{color:#f8f8f8 !important}
+.hw-cta h2,.hw-cta h3{margin:0 0 10px !important}
+.hw-cta p{margin:0 0 18px !important}
+.hw-cta a.hw-cta-link,.hw-cta a.hw-cta-link:visited,.hw-cta a.hw-cta-link:hover,.hw-cta a.hw-cta-link:focus,.hw-cta a.hw-cta-link:active{display:inline-block !important;background:#e97845 !important;color:#151920 !important;font-weight:700 !important;text-decoration:none !important;padding:12px 22px !important;border-radius:8px !important;border:0 !important;box-shadow:none !important}
+.hw-cta a.hw-cta-link:hover{background:#bfebef !important}
+.hw-cta-mid{background:#bfebef;color:#151920}
+.hw-cta-mid h3,.hw-cta-mid p{color:#151920 !important}
+
+@media (max-width:640px){
+  .hw-chart{padding:18px 14px 12px}
+  .hw-cols,.hw-col-labels{gap:6px}
+  .hw-cols{height:200px}
+  .hw-col-val{font-size:.7em}
+  .hw-col-labels span{font-size:.68em}
+  .hw-cost-grid,.hw-calc-row{grid-template-columns:1fr}
+  .hw-cta{padding:22px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hw-col-bar,.hw-hbar-fill{transition:none}
+}

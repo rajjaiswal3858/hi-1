@@ -1,0 +1,37 @@
+{
+  "route": "/agile-development-consulting/",
+  "title": "Agile Development Consulting | HatchWorks AI",
+  "description": "Super-charge your velocity",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Agile Development Consulting | HatchWorks AI",
+    "og:description": "Super-charge your velocity",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/10/hero-agileaka.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Agile Development Consulting | HatchWorks AI",
+    "twitter:description": "Super-charge your velocity",
+    "twitter:image": "/assets/wp-content/uploads/2022/10/hero-agileaka.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-28832 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28832 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-animated-headline.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-image-box.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28832.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

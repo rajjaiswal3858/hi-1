@@ -1,0 +1,36 @@
+{
+  "route": "/careers/",
+  "title": "Careers - Engineering & Product Design Jobs | HatchWorks AI",
+  "description": "Explore career opportunities at HatchWorks! Discover our innovative and collaborative culture, learn about our values, benefits, and open positions, and find out how you can become a part of our mission to create a brighter future through technology.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Careers - Engineering & Product Design Jobs | HatchWorks AI",
+    "og:description": "Explore career opportunities at HatchWorks! Discover our innovative and collaborative culture, learn about our values, benefits, and open positions, and find out how you can become a part of our mission to create a brighter future through technology.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Careers - Engineering & Product Design Jobs | HatchWorks AI",
+    "twitter:description": "Explore career opportunities at HatchWorks! Discover our innovative and collaborative culture, learn about our values, benefits, and open positions, and find out how you can become a part of our mission to create a brighter future through technology.",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-28960 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28960 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28960.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,400;1,700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

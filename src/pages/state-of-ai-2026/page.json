@@ -1,0 +1,34 @@
+{
+  "route": "/state-of-ai-2026/",
+  "title": "State of AI 2026 | HatchWorks AI",
+  "description": "A round-up of industry stats, research, and insights to understand where AI stands, how it got here, and where it’s going.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "State of AI 2026 | HatchWorks AI",
+    "og:description": "A round-up of industry stats, research, and insights to understand where AI stands, how it got here, and where it’s going.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/10/soai26-covers.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "State of AI 2026 | HatchWorks AI",
+    "twitter:description": "A round-up of industry stats, research, and insights to understand where AI stands, how it got here, and where it’s going.",
+    "twitter:image": "/assets/wp-content/uploads/2025/10/soai26-covers.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34224 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34224 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34224.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

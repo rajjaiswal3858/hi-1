@@ -1,0 +1,41 @@
+{
+  "route": "/news/k-12-school-payments/",
+  "title": "HatchWorks AI Modernizes Vanco’s RevTrak Platform for Mobile-Friendly K-12 School Payments",
+  "description": "HatchWorks AI modernized Vanco's RevTrak platform, delivering a mobile-friendly K-12 school payments experience for families and districts.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks AI Modernizes Vanco’s RevTrak Platform for Mobile-Friendly K-12 School Payments",
+    "og:description": "HatchWorks AI modernized Vanco's RevTrak platform, delivering a mobile-friendly K-12 school payments experience for families and districts.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/03/HatchWorks-AI-Modernizes-Vancos-RevTrak-Platform-for-Mobile-Friendly-K–12-School-Payments.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks AI Modernizes Vanco’s RevTrak Platform for Mobile-Friendly K-12 School Payments",
+    "twitter:description": "HatchWorks AI modernized Vanco's RevTrak platform, delivering a mobile-friendly K-12 school payments experience for families and districts.",
+    "twitter:image": "/assets/wp-content/uploads/2026/03/HatchWorks-AI-Modernizes-Vancos-RevTrak-Platform-for-Mobile-Friendly-K–12-School-Payments.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-34993 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34993 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34993.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

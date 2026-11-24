@@ -1,0 +1,42 @@
+{
+  "route": "/blog/ai-agents/autonomous-agents/",
+  "title": "Autonomous Agents: The Next Frontier in AI | HatchWorks AI",
+  "description": "Discover how autonomous agents are revolutionizing AI by handling complex tasks independently, improving efficiency, and driving business growth.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Autonomous Agents: The Next Frontier in AI | HatchWorks AI",
+    "og:description": "Discover how autonomous agents are revolutionizing AI by handling complex tasks independently, improving efficiency, and driving business growth.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/05/Autonomous-Agents-AIs-Next-Frontier.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Autonomous Agents: The Next Frontier in AI | HatchWorks AI",
+    "twitter:description": "Discover how autonomous agents are revolutionizing AI by handling complex tasks independently, improving efficiency, and driving business growth.",
+    "twitter:image": "/assets/wp-content/uploads/2025/05/Autonomous-Agents-AIs-Next-Frontier.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-33492 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33492 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33492.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

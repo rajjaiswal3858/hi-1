@@ -1,0 +1,42 @@
+{
+  "route": "/blog/software-development/built-right-mindset/",
+  "title": "What is the Built Right Mindset? | HatchWorks AI",
+  "description": "Discover the Built Right mindset for successful digital products and transformations. Learn the critical components of valuable, viable, and feasible products, and how to build them in a maintainable, scalable, secure, and usable way with HatchWorks.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "What is the Built Right Mindset? | HatchWorks AI",
+    "og:description": "Discover the Built Right mindset for successful digital products and transformations. Learn the critical components of valuable, viable, and feasible products, and how to build them in a maintainable, scalable, secure, and usable way with HatchWorks.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/03/thumbn-What-is-the-Built-Right-Mindset--jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What is the Built Right Mindset? | HatchWorks AI",
+    "twitter:description": "Discover the Built Right mindset for successful digital products and transformations. Learn the critical components of valuable, viable, and feasible products, and how to build them in a maintainable, scalable, secure, and usable way with HatchWorks.",
+    "twitter:image": "/assets/wp-content/uploads/2023/03/thumbn-What-is-the-Built-Right-Mindset--jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29411 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29411 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29411.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,42 @@
+{
+  "route": "/blog/nearshore-development/time-zone-friendly/",
+  "title": "Time Zone Friendly Outsourcing: Pros, Cons, and Best Practices | HatchWorks AI",
+  "description": "Discover the benefits of Time Zone Friendly Outsourcing for your business. Learn how nearshore solutions in Latin America or the US can boost efficiency and streamline communication.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Time Zone Friendly Outsourcing: Pros, Cons, and Best Practices | HatchWorks AI",
+    "og:description": "Discover the benefits of Time Zone Friendly Outsourcing for your business. Learn how nearshore solutions in Latin America or the US can boost efficiency and streamline communication.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/10/social-share_Time-zone-blog.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Time Zone Friendly Outsourcing: Pros, Cons, and Best Practices | HatchWorks AI",
+    "twitter:description": "Discover the benefits of Time Zone Friendly Outsourcing for your business. Learn how nearshore solutions in Latin America or the US can boost efficiency and streamline communication.",
+    "twitter:image": "/assets/wp-content/uploads/2023/10/social-share_Time-zone-blog.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30082 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30082 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30082.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,40 @@
+{
+  "route": "/blog/ai-agents/ai-agent-evaluation-frameworks/",
+  "title": "AI Agent Evaluation Frameworks: Metrics, Tools & Steps (2026)",
+  "description": "AI agent evaluation frameworks prove your agent is ready for production. Learn what to measure, which tools to use, and a 7-step process to follow.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI Agent Evaluation Frameworks: Metrics, Tools & Steps (2026)",
+    "og:description": "AI agent evaluation frameworks prove your agent is ready for production. Learn what to measure, which tools to use, and a 7-step process to follow.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/11/thumbnail-AI-Agent-Evaluation-Frameworks-Metrics-Tools-Steps-2026.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Agent Evaluation Frameworks: Metrics, Tools & Steps (2026)",
+    "twitter:description": "AI agent evaluation frameworks prove your agent is ready for production. Learn what to measure, which tools to use, and a 7-step process to follow.",
+    "twitter:image": "/assets/wp-content/uploads/2026/11/thumbnail-AI-Agent-Evaluation-Frameworks-Metrics-Tools-Steps-2026.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-38031 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-38031 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-38031.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

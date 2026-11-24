@@ -1,0 +1,61 @@
+.hw-nah{--nb:#151920;--bb:#363943;--lb:#10758b;--lc:#bfebef;--sv:#f8f8f8;--pt:#dcddde;--or:#e97845;color:var(--bb);}
+.hw-nah p{margin:0 0 1.1em;}
+.hw-nah a{color:var(--lb)!important;text-decoration:underline!important;}
+.hw-nah h2{color:var(--nb);margin:1.8em 0 .6em;}
+
+/* Figure (chart) */
+.hw-nah .hw-fig{margin:2em 0;padding:0;}
+.hw-nah .hw-fig img{display:block;width:100%;height:auto;border:1px solid var(--pt);border-radius:8px;}
+.hw-nah .hw-fig figcaption{font-size:.85em;color:var(--bb);margin-top:.6em;}
+.hw-nah .hw-source{font-size:.85em;font-style:italic;margin:.2em 0 1.4em;}
+
+/* Model portfolio */
+.hw-nah .hw-portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:2em 0;}
+.hw-nah .hw-tier{background:var(--sv);border:1px solid var(--pt);border-top:4px solid var(--lb);border-radius:8px;padding:20px;}
+.hw-nah .hw-tier:nth-child(2){border-top-color:var(--or);}
+.hw-nah .hw-tier:nth-child(3){border-top-color:var(--nb);}
+.hw-nah .hw-tier-label{font-size:.75em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--lb);margin:0 0 .4em;}
+.hw-nah .hw-tier h3{font-size:1.1em;color:var(--nb);margin:0 0 .4em;}
+.hw-nah .hw-tier p{font-size:.92em;margin:0;}
+.hw-nah .hw-portfolio-note{grid-column:1/-1;font-size:.85em;margin:0;text-align:center;}
+
+/* Harness explorer */
+.hw-nah .hw-explorer{background:var(--nb);color:#fff;border-radius:10px;padding:28px;margin:2em 0;}
+.hw-nah .hw-explorer-title{font-size:1.15em;font-weight:700;color:#fff;margin:0 0 .3em;}
+.hw-nah .hw-explorer-sub{font-size:.9em;color:var(--pt);margin:0 0 1.2em;}
+.hw-nah .hw-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+.hw-nah .hw-tab{cursor:pointer;user-select:none;font-size:.88em;font-weight:600;padding:8px 14px;border-radius:999px;border:1px solid var(--bb);background:var(--bb)!important;color:#fff!important;line-height:1.3;}
+.hw-nah .hw-tab:hover{border-color:var(--lc);}
+.hw-nah .hw-tab:focus{outline:2px solid var(--lc);outline-offset:2px;}
+.hw-nah .hw-tab[aria-selected="true"]{background:var(--lc)!important;color:var(--nb)!important;border-color:var(--lc);}
+.hw-nah .hw-panel{display:none;}
+.hw-nah .hw-panel.is-active{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.hw-nah .hw-col{background:var(--bb);border-radius:8px;padding:18px;}
+.hw-nah .hw-col.hw-neutral{background:#0d4f5e;}
+.hw-nah .hw-col-label{font-size:.75em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:0 0 .5em;color:var(--pt);}
+.hw-nah .hw-col.hw-neutral .hw-col-label{color:var(--lc);}
+.hw-nah .hw-col p{color:#fff;font-size:.93em;margin:0;}
+
+/* CTAs */
+.hw-nah .hw-cta{background:var(--sv);border-left:5px solid var(--or);border-radius:8px;padding:26px 28px;margin:2.2em 0;}
+.hw-nah .hw-cta.hw-cta-end{background:var(--nb);}
+.hw-nah .hw-cta-title{font-size:1.25em;font-weight:700;color:var(--nb);margin:0 0 .4em;}
+.hw-nah .hw-cta.hw-cta-end .hw-cta-title{color:#fff;}
+.hw-nah .hw-cta p{margin:0 0 1em;}
+.hw-nah .hw-cta.hw-cta-end p{color:var(--pt);}
+.hw-nah a.hw-cta-btn,.hw-nah a.hw-cta-btn:visited,.hw-nah a.hw-cta-btn:hover,.hw-nah a.hw-cta-btn:active,.hw-nah a.hw-cta-btn:focus{display:inline-block!important;background:var(--or)!important;color:var(--nb)!important;font-weight:700!important;text-decoration:none!important;padding:12px 22px!important;border-radius:6px!important;border:0!important;}
+.hw-nah a.hw-cta-btn:hover{background:#f0956b!important;}
+
+/* FAQ */
+.hw-nah .hw-faq details{border-bottom:1px solid var(--pt);padding:14px 0;}
+.hw-nah .hw-faq summary{cursor:pointer;font-weight:700;color:var(--nb);list-style:none;}
+.hw-nah .hw-faq summary::-webkit-details-marker{display:none;}
+.hw-nah .hw-faq summary::after{content:"+";float:right;color:var(--lb);font-weight:700;}
+.hw-nah .hw-faq details[open] summary::after{content:"\2212";}
+.hw-nah .hw-faq details p{margin:.7em 0 0;}
+
+@media (max-width:767px){
+.hw-nah .hw-portfolio{grid-template-columns:1fr;}
+.hw-nah .hw-panel.is-active{grid-template-columns:1fr;}
+.hw-nah .hw-explorer,.hw-nah .hw-cta{padding:20px;}
+}

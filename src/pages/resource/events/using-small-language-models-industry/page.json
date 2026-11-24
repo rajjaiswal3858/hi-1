@@ -1,0 +1,33 @@
+{
+  "route": "/resource/events/using-small-language-models-industry/",
+  "title": "How to Use Small Language Models for Industry Specific Use Cases | HatchWorks AI",
+  "description": "Discover the benefits of small language models with David Berrio. Tailor AI to your needs for better accuracy and cost savings.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How to Use Small Language Models for Industry Specific Use Cases | HatchWorks AI",
+    "og:description": "Discover the benefits of small language models with David Berrio. Tailor AI to your needs for better accuracy and cost savings.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/04/13-How-to-Use-SLMs-for-Domain-Specific-Use-Cases-1-1024x1024.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How to Use Small Language Models for Industry Specific Use Cases | HatchWorks AI",
+    "twitter:description": "Discover the benefits of small language models with David Berrio. Tailor AI to your needs for better accuracy and cost savings.",
+    "twitter:image": "/assets/wp-content/uploads/2024/04/13-How-to-Use-SLMs-for-Domain-Specific-Use-Cases-1-1024x1024.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-31214 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-31214",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31214.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

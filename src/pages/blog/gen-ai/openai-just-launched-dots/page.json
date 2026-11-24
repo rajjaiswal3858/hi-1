@@ -1,0 +1,40 @@
+{
+  "route": "/blog/gen-ai/openai-just-launched-dots/",
+  "title": "OpenAI Just Launched Dots: What It Means for Your Business",
+  "description": "OpenAI just launched dots: always-on AI agents with their own computers. What it means for your team, your customers, and agent-first UX.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "OpenAI Just Launched Dots: What It Means for Your Business",
+    "og:description": "OpenAI just launched dots: always-on AI agents with their own computers. What it means for your team, your customers, and agent-first UX.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/09/dots.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "OpenAI Just Launched Dots: What It Means for Your Business",
+    "twitter:description": "OpenAI just launched dots: always-on AI agents with their own computers. What it means for your team, your customers, and agent-first UX.",
+    "twitter:image": "/assets/wp-content/uploads/2026/09/dots.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-37469 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-37469 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-37469.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

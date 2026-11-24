@@ -1,0 +1,30 @@
+{
+  "route": "/data-science-machine-learning/",
+  "title": "Data Science & Machine Learning | HatchWorks AI",
+  "description": "Use proven machine learning and data science techniques to forecast what is coming, uncover patterns, optimize decisions, and automate work at scale.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Data Science & Machine Learning | HatchWorks AI",
+    "og:description": "Use proven machine learning and data science techniques to forecast what is coming, uncover patterns, optimize decisions, and automate work at scale.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Data Science & Machine Learning | HatchWorks AI",
+    "twitter:description": "Use proven machine learning and data science techniques to forecast what is coming, uncover patterns, optimize decisions, and automate work at scale.",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-32796 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32796 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-32796.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

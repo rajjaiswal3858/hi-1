@@ -1,0 +1,40 @@
+{
+  "route": "/talking-ai/data-contracts-best-practices/",
+  "title": "The Father of Data Contracts - AI’s New Best Friend",
+  "description": "Learn how data contracts revolutionize AI and data governance with insights from Andrew Jones and Omar Shanti on the Talking AI Podcast.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "The Father of Data Contracts - AI’s New Best Friend",
+    "og:description": "Learn how data contracts revolutionize AI and data governance with insights from Andrew Jones and Omar Shanti on the Talking AI Podcast.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/12/yt-andrew-jones-EPISODE_TALKING-AI.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "The Father of Data Contracts - AI’s New Best Friend",
+    "twitter:description": "Learn how data contracts revolutionize AI and data governance with insights from Andrew Jones and Omar Shanti on the Talking AI Podcast.",
+    "twitter:image": "/assets/wp-content/uploads/2024/12/yt-andrew-jones-EPISODE_TALKING-AI.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-32599 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32599 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32599.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

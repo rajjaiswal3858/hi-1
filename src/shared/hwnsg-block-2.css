@@ -1,0 +1,16 @@
+.hwnsg-block .hwnsg-codeblock {
+    background: var(--hwnsg-neural-black);
+    color: #e8eaed;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 18px 0 22px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    overflow-x: auto;
+    white-space: pre;
+    border-left: 3px solid var(--hwnsg-cta-orange);
+  }
+  .hwnsg-block .hwnsg-codeblock-comment { color: #8b95a3; }
+  .hwnsg-block .hwnsg-codeblock-key { color: var(--hwnsg-light-cyan); }
+  .hwnsg-block .hwnsg-codeblock-str { color: #f5b87a; }

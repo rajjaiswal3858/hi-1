@@ -1,0 +1,30 @@
+{
+  "route": "/case-studies/enhancing-ecommerce-performance-for-a-leading-retail-brand/",
+  "title": "Elevating eCommerce Through Cutting-Edge Technology for a Leading Children's Apparel Brand | HatchWorks AI",
+  "description": "A leading children's apparel retailer upgraded to Salesforce Composable Storefront and PWA 2.0 with HatchWorks, reaching a 16.7% conversion rate on Cyber Monday.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Elevating eCommerce Through Cutting-Edge Technology for a Leading Children's Apparel Brand | HatchWorks AI",
+    "og:description": "A leading children's apparel retailer upgraded to Salesforce Composable Storefront and PWA 2.0 with HatchWorks, reaching a 16.7% conversion rate on Cyber Monday.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/04/boosting-ecommerce-performance-leading-retail-brand-1024x665.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Elevating eCommerce Through Cutting-Edge Technology for a Leading Children's Apparel Brand | HatchWorks AI",
+    "twitter:description": "A leading children's apparel retailer upgraded to Salesforce Composable Storefront and PWA 2.0 with HatchWorks, reaching a 16.7% conversion rate on Cyber Monday.",
+    "twitter:image": "/assets/wp-content/uploads/2024/04/boosting-ecommerce-performance-leading-retail-brand-1024x665.webp"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-31086 page-child parent-pageid-23823 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-31086 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-31086.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

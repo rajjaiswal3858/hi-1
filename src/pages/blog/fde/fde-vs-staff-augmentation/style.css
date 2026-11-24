@@ -1,0 +1,363 @@
+/* ============================================================
+   FDE Cluster 1: Forward Deployed Engineer vs. Staff Augmentation
+   Paste block 1 of 2. All selectors are hw- prefixed so nothing
+   bleeds into theme or Elementor styles. Body copy is left
+   unstyled on purpose and inherits the HatchWorks theme.
+   Palette: Neural Black #151920 / Byte Black #363943 /
+   Link Blue #10758b / Light Cyan #bfebef / Silver #f8f8f8 /
+   Platinum #dcddde / CTA Orange #e97845
+   ============================================================ */
+
+:root {
+  --hw-neural-black: #151920;
+  --hw-byte-black: #363943;
+  --hw-link-blue: #10758b;
+  --hw-light-cyan: #bfebef;
+  --hw-silver: #f8f8f8;
+  --hw-platinum: #dcddde;
+  --hw-orange: #e97845;
+}
+
+/* --- Lead paragraph --- */
+.hw-lead {
+  font-size: 1.15em;
+  line-height: 1.6;
+  color: var(--hw-byte-black);
+}
+
+/* --- Key takeaways callout --- */
+.hw-callout {
+  background: var(--hw-silver);
+  border-left: 4px solid var(--hw-link-blue);
+  border-radius: 4px;
+  padding: 1.25em 1.5em;
+  margin: 2em 0;
+}
+.hw-callout__title {
+  margin: 0 0 .75em;
+  font-size: .85em;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--hw-link-blue);
+}
+.hw-callout ul {
+  margin: 0;
+  padding-left: 1.25em;
+}
+.hw-callout li {
+  margin: 0 0 .65em;
+  color: var(--hw-neural-black);
+}
+.hw-callout li:last-child { margin-bottom: 0; }
+
+/* --- Four-model comparison table --- */
+/* Fluid: fits whatever content width Elementor gives it, no sideways scroll.
+   Stacks into per-row cards below 680px. To stack earlier on a narrow
+   content column, raise the 680px breakpoint near the bottom of this file. */
+.hw-table-wrap {
+  margin: 2em 0;
+}
+.hw-table-title {
+  margin: 0 0 .85em;
+  font-size: .85em;
+  line-height: 1.5;
+  color: var(--hw-byte-black);
+}
+.hw-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: .88em;
+}
+.hw-table th,
+.hw-table td {
+  padding: .7em .7em;
+  border: 1px solid var(--hw-platinum);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.45;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.hw-table thead th {
+  background: var(--hw-neural-black);
+  color: #fff;
+  font-size: .95em;
+  font-weight: 600;
+}
+.hw-table thead th.hw-col-fde {
+  background: var(--hw-link-blue);
+  color: #fff;
+}
+.hw-table tbody th {
+  width: 16%;
+  background: var(--hw-silver);
+  color: var(--hw-neural-black);
+  font-weight: 600;
+}
+.hw-table td {
+  color: var(--hw-byte-black);
+}
+.hw-table td.hw-col-fde {
+  background: var(--hw-light-cyan);
+  color: var(--hw-neural-black);
+  font-weight: 500;
+}
+.hw-table__corner {
+  width: 16%;
+  background: #fff;
+  border-color: transparent !important;
+}
+
+/* --- Stat band --- */
+.hw-stat {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25em;
+  background: var(--hw-neural-black);
+  border-radius: 4px;
+  padding: 1.5em;
+  margin: 2em 0;
+}
+.hw-stat__figure {
+  font-size: 2.6em;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--hw-light-cyan);
+}
+.hw-stat__body {
+  flex: 1 1 260px;
+  margin: 0;
+  color: #fff;
+}
+.hw-stat__source {
+  display: block;
+  margin-top: .5em;
+  font-size: .8em;
+  color: var(--hw-platinum);
+}
+
+/* --- Pull quote --- */
+.hw-quote {
+  border-left: 4px solid var(--hw-orange);
+  margin: 2em 0;
+  padding: .25em 0 .25em 1.25em;
+}
+.hw-quote p {
+  margin: 0 0 .6em;
+  font-size: 1.15em;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--hw-neural-black);
+}
+.hw-quote cite {
+  font-style: normal;
+  font-size: .9em;
+  color: var(--hw-byte-black);
+}
+
+/* --- Bottleneck card grid --- */
+.hw-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 2em 0;
+}
+.hw-card {
+  background: #fff;
+  border: 1px solid var(--hw-platinum);
+  border-top: 4px solid var(--hw-byte-black);
+  border-radius: 4px;
+  padding: 1.1em 1.2em;
+}
+.hw-card--fde {
+  background: var(--hw-silver);
+  border-top-color: var(--hw-orange);
+}
+.hw-card__label {
+  display: block;
+  margin-bottom: .4em;
+  font-size: .75em;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--hw-link-blue);
+}
+.hw-card__title {
+  margin: 0 0 .5em;
+  font-size: 1.1em;
+  color: var(--hw-neural-black);
+}
+.hw-card p {
+  margin: 0;
+  font-size: .95em;
+  color: var(--hw-byte-black);
+}
+.hw-card__answer {
+  display: block;
+  margin-top: .8em;
+  font-weight: 700;
+  color: var(--hw-neural-black);
+}
+
+/* --- Pressure-test box --- */
+.hw-test {
+  background: var(--hw-light-cyan);
+  border-radius: 4px;
+  padding: 1.25em 1.5em;
+  margin: 2em 0;
+}
+.hw-test p.hw-test__title {
+  margin: 0 0 .6em;
+  font-size: 1.05em;
+  color: var(--hw-neural-black);
+}
+.hw-test p {
+  margin: 0 0 .75em;
+  color: var(--hw-neural-black);
+}
+.hw-test p.hw-test__title { margin-bottom: .6em; }
+.hw-test p:last-child { margin-bottom: 0; }
+
+/* --- CTA bands --- */
+.hw-cta {
+  background: var(--hw-neural-black);
+  border-top: 4px solid var(--hw-orange);
+  border-radius: 4px;
+  padding: 2em;
+  margin: 2.5em 0;
+}
+.hw-cta__eyebrow {
+  display: block;
+  margin-bottom: .6em;
+  font-size: .75em;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--hw-orange);
+}
+.hw-cta p {
+  margin: 0 0 1.5em;
+  line-height: 1.6;
+  color: var(--hw-platinum);
+}
+.hw-cta p.hw-cta__title {
+  margin: 0 0 .6em;
+  font-size: 1.35em;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #fff;
+}
+/* High specificity plus !important: theme and Elementor link styles
+   otherwise repaint the button text blue and add an underline. */
+.hw-cta a.hw-cta__btn,
+.hw-cta a.hw-cta__btn:link,
+.hw-cta a.hw-cta__btn:visited {
+  display: inline-block;
+  padding: .85em 1.75em;
+  background: var(--hw-orange) !important;
+  color: var(--hw-neural-black) !important;
+  font-size: .95em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  border: 0 !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  transition: background .15s ease;
+}
+.hw-cta a.hw-cta__btn:hover,
+.hw-cta a.hw-cta__btn:focus,
+.hw-cta a.hw-cta__btn:active {
+  background: var(--hw-light-cyan) !important;
+  color: var(--hw-neural-black) !important;
+  text-decoration: none !important;
+  border: 0 !important;
+}
+.hw-cta a.hw-cta__btn:focus-visible {
+  outline: 2px solid var(--hw-light-cyan);
+  outline-offset: 3px;
+}
+
+/* --- FAQ --- */
+.hw-faq {
+  margin: 2em 0;
+  border-top: 1px solid var(--hw-platinum);
+}
+.hw-faq__item {
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--hw-platinum);
+}
+.hw-faq__q {
+  margin: 0 0 .5em;
+  font-size: 1.05em;
+  color: var(--hw-neural-black);
+}
+.hw-faq__item p {
+  margin: 0;
+  color: var(--hw-byte-black);
+}
+
+/* --- Sources --- */
+.hw-sources {
+  font-size: .9em;
+  color: var(--hw-byte-black);
+  padding-left: 1.25em;
+}
+.hw-sources li { margin-bottom: .5em; }
+
+/* --- Table stacks into cards on narrow screens --- */
+@media (max-width: 680px) {
+  .hw-table,
+  .hw-table tbody,
+  .hw-table tbody tr,
+  .hw-table tbody th,
+  .hw-table tbody td {
+    display: block;
+    width: auto;
+  }
+  .hw-table { font-size: 1em; }
+  .hw-table thead { display: none; }
+  .hw-table tbody tr {
+    margin-bottom: 1.25em;
+    border: 1px solid var(--hw-platinum);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .hw-table tbody tr:last-child { margin-bottom: 0; }
+  .hw-table tbody th {
+    background: var(--hw-neural-black);
+    color: #fff;
+    border: 0;
+    padding: .7em 1em;
+    font-size: .95em;
+  }
+  .hw-table tbody td {
+    border: 0;
+    border-top: 1px solid var(--hw-platinum);
+    padding: .75em 1em;
+  }
+  .hw-table tbody td::before {
+    content: attr(data-model);
+    display: block;
+    margin-bottom: .15em;
+    font-size: .75em;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--hw-link-blue);
+  }
+  .hw-table tbody td.hw-col-fde::before { color: var(--hw-neural-black); }
+}
+
+/* --- Mobile --- */
+@media (max-width: 600px) {
+  .hw-stat { padding: 1.25em; }
+  .hw-stat__figure { font-size: 2em; }
+  .hw-cta { padding: 1.25em; }
+  .hw-callout,
+  .hw-test { padding: 1.1em 1.2em; }
+}

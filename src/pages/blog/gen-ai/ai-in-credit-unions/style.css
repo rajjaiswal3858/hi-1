@@ -1,0 +1,91 @@
+/* HatchWorks AI blog: AI in Credit Unions. Scoped hw- classes; !important where the theme overrides. */
+.hw-list{list-style:disc !important;padding-left:1.4em !important;margin:0 0 1.5em !important}
+.hw-list li{list-style:disc !important;margin:0 0 .75em !important;padding-left:.2em !important}
+.hw-list li::before{content:none !important;display:none !important}
+.hw-stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:1.75em 0 !important}
+.hw-stat{background:#f8f8f8;border:1px solid #dcddde;border-radius:12px;padding:18px}
+.hw-stat-num{display:block;font-size:2.2em;font-weight:800;line-height:1;color:#10758b;margin-bottom:8px}
+.hw-stat-txt{display:block;font-size:.88em;line-height:1.45;color:#363943}
+.hw-stat-src{display:block;font-size:.75em;color:#363943;margin-top:8px;font-style:italic}
+
+/* PDF download: hero panel */
+.hw-pdf{display:grid;grid-template-columns:180px 1fr;gap:28px;align-items:center;margin:2.5em 0 !important;padding:30px;border-radius:16px;background:#151920;color:#f8f8f8}
+.hw-pdf-cover{position:relative;aspect-ratio:8.5/11;border-radius:6px;background:linear-gradient(160deg,#10758b 0%,#151920 85%);box-shadow:0 14px 30px rgba(0,0,0,.45);padding:16px 14px;display:flex;flex-direction:column;justify-content:space-between;transform:rotate(-3deg)}
+.hw-pdf-cover::after{content:"";position:absolute;inset:0;border-radius:6px;border:1px solid rgba(191,235,239,.35)}
+.hw-pdf-cover-kicker{font-size:.62em;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#bfebef}
+.hw-pdf-cover-title{font-size:.95em;font-weight:800;line-height:1.15;color:#fff}
+.hw-pdf-cover-brand{font-size:.62em;font-weight:700;color:#bfebef}
+.hw-pdf-kicker{font-size:.78em !important;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#bfebef !important;margin:0 0 8px !important}
+.hw-pdf h2,.hw-pdf h3,.hw-pdf p,.hw-pdf li{color:#f8f8f8 !important}
+.hw-pdf h3{margin:0 0 10px !important;font-size:1.45em !important;line-height:1.2 !important}
+.hw-pdf p{margin:0 0 14px !important}
+.hw-pdf-list{list-style:none !important;padding:0 !important;margin:0 0 20px !important}
+.hw-pdf-list li{list-style:none !important;position:relative;padding-left:26px !important;margin:0 0 8px !important;font-size:.95em}
+.hw-pdf-list li::before{content:"" !important;display:block !important;position:absolute !important;left:0 !important;top:.35em !important;width:14px !important;height:8px !important;background:none !important;border-radius:0 !important;border:0 !important;border-left:3px solid #e97845 !important;border-bottom:3px solid #e97845 !important;transform:rotate(-45deg) !important;margin:0 !important}
+.hw-pdf-meta{font-size:.8em !important;color:#dcddde !important;margin:12px 0 0 !important}
+
+/* Shared button: forced so the theme can't restyle it */
+a.hw-btn,a.hw-btn:visited,a.hw-btn:hover,a.hw-btn:focus,a.hw-btn:active{display:inline-flex !important;align-items:center;gap:10px;background:#e97845 !important;color:#151920 !important;font-weight:700 !important;font-size:1em !important;text-decoration:none !important;padding:13px 24px !important;border-radius:8px !important;border:0 !important;box-shadow:none !important;line-height:1.2 !important}
+a.hw-btn:hover,a.hw-btn:focus{background:#bfebef !important}
+a.hw-btn svg{width:18px;height:18px;flex:none}
+a.hw-btn-ghost,a.hw-btn-ghost:visited{background:transparent !important;color:#f8f8f8 !important;border:2px solid #bfebef !important;padding:11px 22px !important}
+a.hw-btn-ghost:hover,a.hw-btn-ghost:focus{background:#bfebef !important;color:#151920 !important}
+.hw-btn-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* PDF download: inline strip */
+.hw-pdf-strip{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:2em 0 !important;padding:18px 22px;border:2px solid #10758b;border-radius:12px;background:#bfebef}
+.hw-pdf-strip p{margin:0 !important;color:#151920 !important;font-weight:600}
+.hw-pdf-strip p span{display:block;font-weight:400;font-size:.88em;color:#363943}
+
+/* Use case cards */
+.hw-cases{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:1.5em 0 2em !important}
+.hw-case{background:#fff;border:1px solid #dcddde;border-top:4px solid #10758b;border-radius:10px;padding:18px 20px}
+.hw-case h3{font-size:1.1em !important;margin:0 0 8px !important;color:#151920 !important}
+.hw-case p{font-size:.93em !important;margin:0 0 12px !important;line-height:1.55 !important}
+.hw-case-metric{font-size:.82em !important;color:#363943 !important;margin:0 !important;padding-top:10px;border-top:1px dashed #dcddde}
+.hw-case-metric strong{color:#10758b}
+
+/* Roadmap */
+.hw-road{margin:2em 0 !important;padding:24px;background:#f8f8f8;border:1px solid #dcddde;border-radius:14px}
+.hw-road-title{font-weight:800;font-size:1.1em;color:#151920;margin:0 0 4px !important}
+.hw-road-sub{font-size:.85em;color:#363943;margin:0 0 18px !important}
+.hw-phase{display:grid;grid-template-columns:200px 1fr;gap:18px;background:#fff;border:1px solid #dcddde;border-radius:10px;padding:16px 18px}
+.hw-phase.hw-last{background:#bfebef;border:2px solid #10758b}
+.hw-phase-name{font-weight:800;color:#151920;font-size:1.02em;line-height:1.25}
+.hw-phase-name span{display:block;font-weight:500;font-size:.8em;color:#363943;margin-top:4px}
+.hw-phase ul{list-style:none !important;margin:0 !important;padding:0 !important}
+.hw-phase li{list-style:none !important;margin:0 0 4px !important;padding:0 !important;font-size:.93em;color:#151920}
+.hw-phase li::before{content:none !important;display:none !important}
+.hw-gate{position:relative;margin:0 0 0 28px;padding:14px 0 14px 22px;border-left:2px solid #10758b;font-size:.85em;color:#363943}
+.hw-gate strong{color:#10758b}
+
+/* Disciplines */
+.hw-disc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:1.5em 0 2em !important}
+.hw-disc-card{background:#f8f8f8;border:1px solid #dcddde;border-radius:12px;padding:20px}
+.hw-disc-tag{display:inline-block;font-size:.72em !important;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:#151920;color:#f8f8f8 !important;border-radius:999px;padding:4px 10px;margin:0 0 10px !important}
+.hw-disc-card h3{font-size:1.15em !important;margin:0 0 6px !important}
+.hw-disc-card h3 a{color:#10758b !important}
+.hw-disc-card p{font-size:.9em !important;margin:0 0 8px !important;line-height:1.5 !important}
+
+/* CTAs */
+.hw-cta{margin:2.5em 0 !important;padding:28px;border-radius:12px;background:#bfebef;color:#151920}
+.hw-cta h3,.hw-cta p{color:#151920 !important}
+.hw-cta h3{margin:0 0 10px !important}
+.hw-cta p{margin:0 0 18px !important}
+.hw-cta-end{display:grid;grid-template-columns:1fr 160px;gap:28px;align-items:center;background:#151920}
+.hw-cta-end h2,.hw-cta-end p{color:#f8f8f8 !important}
+.hw-cta-end h2{margin:0 0 10px !important}
+.hw-cta-end .hw-pdf-cover{transform:rotate(3deg)}
+
+/* FAQ + sources */
+.hw-faq h3{font-size:1.1em !important;margin:1.4em 0 .4em !important}
+.hw-sources{font-size:.85em}
+.hw-sources li{margin-bottom:.5em !important}
+
+@media (max-width:760px){
+  .hw-stat-row,.hw-cases,.hw-disc{grid-template-columns:1fr}
+  .hw-pdf,.hw-cta-end{grid-template-columns:1fr;padding:24px}
+  .hw-pdf-cover{max-width:150px;margin:0 auto 8px}
+  .hw-cta-end .hw-pdf-cover{display:none}
+  .hw-phase{grid-template-columns:1fr;gap:8px}
+}

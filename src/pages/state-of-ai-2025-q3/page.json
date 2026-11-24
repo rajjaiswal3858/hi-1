@@ -1,0 +1,34 @@
+{
+  "route": "/state-of-ai-2025-q3/",
+  "title": "State of AI 2025 | HatchWorks AI",
+  "description": "Shift from pilot hype to production truth as enterprises grapple with integration, not innovation.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "State of AI 2025 | HatchWorks AI",
+    "og:description": "Shift from pilot hype to production truth as enterprises grapple with integration, not innovation.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/09/soai-th.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "State of AI 2025 | HatchWorks AI",
+    "twitter:description": "Shift from pilot hype to production truth as enterprises grapple with integration, not innovation.",
+    "twitter:image": "/assets/wp-content/uploads/2025/09/soai-th.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34139 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34139 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34139.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

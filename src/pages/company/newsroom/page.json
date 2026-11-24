@@ -1,0 +1,30 @@
+{
+  "route": "/company/newsroom/",
+  "title": "Newsroom | HatchWorks AI",
+  "description": "Stay up-to-date on all the latest podcast appearances from the HatchWorks team.​",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Newsroom | HatchWorks AI",
+    "og:description": "Stay up-to-date on all the latest podcast appearances from the HatchWorks team.​",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/09/blog-thumbnail-Leadership-with-Heart-with-guest-Brandon-Powell.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Newsroom | HatchWorks AI",
+    "twitter:description": "Stay up-to-date on all the latest podcast appearances from the HatchWorks team.​",
+    "twitter:image": "/assets/wp-content/uploads/2022/09/blog-thumbnail-Leadership-with-Heart-with-guest-Brandon-Powell.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-28442 page-child parent-pageid-15443 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28442 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28442.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

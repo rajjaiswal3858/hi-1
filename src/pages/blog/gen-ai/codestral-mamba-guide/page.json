@@ -1,0 +1,43 @@
+{
+  "route": "/blog/gen-ai/codestral-mamba-guide/",
+  "title": "A Complete Guide to Codestral Mamba: Features, Performance, and Comparison | HatchWorks AI",
+  "description": "See how Codestral Mamba enhances coding productivity with its advanced features, performance benchmarks, and comparisons to top coding models—all in one guide.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "A Complete Guide to Codestral Mamba: Features, Performance, and Comparison | HatchWorks AI",
+    "og:description": "See how Codestral Mamba enhances coding productivity with its advanced features, performance benchmarks, and comparisons to top coding models—all in one guide.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/09/share-CODESTRAL-MAMBA.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "A Complete Guide to Codestral Mamba: Features, Performance, and Comparison | HatchWorks AI",
+    "twitter:description": "See how Codestral Mamba enhances coding productivity with its advanced features, performance benchmarks, and comparisons to top coding models—all in one guide.",
+    "twitter:image": "/assets/wp-content/uploads/2024/09/share-CODESTRAL-MAMBA.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-32080 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-32080 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-32080.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

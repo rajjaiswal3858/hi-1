@@ -1,0 +1,41 @@
+{
+  "route": "/podcast/sprint-recruiting-helps-talent-leaders-prioritize/",
+  "title": "Sprint Recruiting Helps Talent Leaders Prioritize Their Pipeline | HatchWorks AI",
+  "description": "Discover Trent Cotton's innovative approach to talent acquisition on The Talent Intelligence Podcast, as he shares insights on sprint recruiting, saying \"no\" in hiring, and fostering team success. Learn from an industry leader's experience and expertise.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Sprint Recruiting Helps Talent Leaders Prioritize Their Pipeline | HatchWorks AI",
+    "og:description": "Discover Trent Cotton's innovative approach to talent acquisition on The Talent Intelligence Podcast, as he shares insights on sprint recruiting, saying \"no\" in hiring, and fostering team success. Learn from an industry leader's experience and expertise.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/03/thumbnail-2-How-Sprint-Recruiting-Helps-Talent-Leaders-Prioritize-Their-Pipeline-with-Trent-Cotton-copy-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Sprint Recruiting Helps Talent Leaders Prioritize Their Pipeline | HatchWorks AI",
+    "twitter:description": "Discover Trent Cotton's innovative approach to talent acquisition on The Talent Intelligence Podcast, as he shares insights on sprint recruiting, saying \"no\" in hiring, and fostering team success. Learn from an industry leader's experience and expertise.",
+    "twitter:image": "/assets/wp-content/uploads/2023/03/thumbnail-2-How-Sprint-Recruiting-Helps-Talent-Leaders-Prioritize-Their-Pipeline-with-Trent-Cotton-copy-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29428 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29428 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29428.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

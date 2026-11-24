@@ -1,0 +1,31 @@
+{
+  "route": "/claude-forward-deployed-engineers/",
+  "title": "Claude Forward Deployed Engineers | HatchWorks AI",
+  "description": "What that looks like in practice",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks AI on Anthropic | Put Claude to Work Inside Your Business",
+    "og:description": "What that looks like in practice",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks AI on Anthropic | Put Claude to Work Inside Your Business",
+    "twitter:description": "What that looks like in practice",
+    "twitter:image": "/assets/wp-content/uploads/2026/04/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35916 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35916 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35916.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": [
+      "js-4.js"
+    ]
+  },
+  "externalScripts": []
+}

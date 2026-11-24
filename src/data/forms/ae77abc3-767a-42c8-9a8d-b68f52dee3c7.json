@@ -1,0 +1,126 @@
+{
+  "id": "ae77abc3-767a-42c8-9a8d-b68f52dee3c7",
+  "captcha": false,
+  "submitText": "Submit",
+  "inlineMessage": "",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        },
+        {
+          "name": "lastname",
+          "label": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Your company email",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "Company name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "where_are_you_with_claude",
+          "label": "Where are you with Claude?",
+          "type": "select",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": [
+            {
+              "label": "Evaluating Claude",
+              "value": "Evaluating Claude"
+            },
+            {
+              "label": "Just purchased Claude",
+              "value": "Just purchased Claude"
+            },
+            {
+              "label": "Rolling out to teams",
+              "value": "Rolling out to teams"
+            },
+            {
+              "label": "Scaling across the business",
+              "value": "Scaling across the business"
+            },
+            {
+              "label": "Not sure yet",
+              "value": "Not sure yet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "what_would_you_like_to_operationalize_optional",
+          "label": "What would you like to operationalize? (Optional)",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "<p><span style=\"color: #ffffff;\">By filling out this form, you agree to allow us to handle your information as stated in our Privacy Policy. If you don't want to receive email updates from us, you can change your email settings at any time.</span></p>",
+      "fields": []
+    }
+  ],
+  "legal": null
+}

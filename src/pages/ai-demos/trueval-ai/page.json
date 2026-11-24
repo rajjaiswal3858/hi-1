@@ -1,0 +1,30 @@
+{
+  "route": "/ai-demos/trueval-ai/",
+  "title": "TrueVal AI | HatchWorks AI",
+  "description": "TrueVal AI is an AI-powered real estate appraisal system that detects inconsistencies in appraisals, validates property comps, and generates a full fraud-risk",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "TrueVal AI | HatchWorks AI",
+    "og:description": "TrueVal AI is an AI-powered real estate appraisal system that detects inconsistencies in appraisals, validates property comps, and generates a full fraud-risk",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/11/TRU-VAL.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "TrueVal AI | HatchWorks AI",
+    "twitter:description": "TrueVal AI is an AI-powered real estate appraisal system that detects inconsistencies in appraisals, validates property comps, and generates a full fraud-risk",
+    "twitter:image": "/assets/wp-content/uploads/2025/11/TRU-VAL.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-34292 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-34292",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34292.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

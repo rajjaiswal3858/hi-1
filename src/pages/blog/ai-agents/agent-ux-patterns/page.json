@@ -1,0 +1,42 @@
+{
+  "route": "/blog/ai-agents/agent-ux-patterns/",
+  "title": "Agent UX Patterns: Chat-First UX Fails. Use These Patterns Instead",
+  "description": "Agent UX patterns for AI agents: ditch chat-first UX and ship control surfaces—approvals, receipts, logs, undo, and safe recovery.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Agent UX Patterns: Chat-First UX Fails. Use These Patterns Instead",
+    "og:description": "Agent UX patterns for AI agents: ditch chat-first UX and ship control surfaces—approvals, receipts, logs, undo, and safe recovery.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/03/3711-Blog-Graphics-Agent-UX-Patterns-Chat-First-UX-Fails—Use-These-Patterns-Instead-social.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Agent UX Patterns: Chat-First UX Fails. Use These Patterns Instead",
+    "twitter:description": "Agent UX patterns for AI agents: ditch chat-first UX and ship control surfaces—approvals, receipts, logs, undo, and safe recovery.",
+    "twitter:image": "/assets/wp-content/uploads/2026/03/3711-Blog-Graphics-Agent-UX-Patterns-Chat-First-UX-Fails—Use-These-Patterns-Instead-social.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-34963 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34963 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34963.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,41 @@
+{
+  "route": "/blog/fde/why-ai-pilots-stall/",
+  "title": "Why AI Pilots Stall Before Production (and What Gets Them Shipped)",
+  "description": "Why AI pilots stall is rarely the model. The five predictable failure points, and what production requires to get an AI system shipped and adopted.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Why AI Pilots Stall Before Production (and What Gets Them Shipped)",
+    "og:description": "Why AI pilots stall is rarely the model. The five predictable failure points, and what production requires to get an AI system shipped and adopted.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/09/why-ai-pilots-stall-before-production-square.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Why AI Pilots Stall Before Production (and What Gets Them Shipped)",
+    "twitter:description": "Why AI pilots stall is rarely the model. The five predictable failure points, and what production requires to get an AI system shipped and adopted.",
+    "twitter:image": "/assets/wp-content/uploads/2026/09/why-ai-pilots-stall-before-production-square.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-37045 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-37045 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-37045.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "block.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,34 @@
+{
+  "route": "/data-intelligence-services-ai-ml/",
+  "title": "Data Intelligence Services: AI / ML | HatchWorks",
+  "description": "Cloud-native user-centric Artificial Intelligence and Machine Learning solutions",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Data Intelligence Services: AI / ML | HatchWorks",
+    "og:description": "Cloud-native user-centric Artificial Intelligence and Machine Learning solutions",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/elementor/thumbs/hatchworks_icons_phase1-pnbna73ag5l8cwkq2zp16p5rfo0gpnfays7z1sospo.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Data Intelligence Services: AI / ML | HatchWorks",
+    "twitter:description": "Cloud-native user-centric Artificial Intelligence and Machine Learning solutions",
+    "twitter:image": "/assets/wp-content/uploads/elementor/thumbs/hatchworks_icons_phase1-pnbna73ag5l8cwkq2zp16p5rfo0gpnfays7z1sospo.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-21779 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-21779 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-21779.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

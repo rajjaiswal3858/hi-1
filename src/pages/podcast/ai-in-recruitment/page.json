@@ -1,0 +1,41 @@
+{
+  "route": "/podcast/ai-in-recruitment/",
+  "title": "How AI Revolutionizes Recruiting | HatchWorks AI",
+  "description": "Join Benjamin Mena and Trent Cotton as they discuss the transformative impact of AI in recruitment in the latest episode of \"The Elite Recruiter Podcast\". Learn about AI's potential, managing change, and productivity tips from an industry expert.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How AI Revolutionizes Recruiting | HatchWorks AI",
+    "og:description": "Join Benjamin Mena and Trent Cotton as they discuss the transformative impact of AI in recruitment in the latest episode of \"The Elite Recruiter Podcast\". Learn about AI's potential, managing change, and productivity tips from an industry expert.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/07/thumbnail-Unlocking-the-Future-How-AI-Revolutionizes-Recruiting-with-Trent-Cotton-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How AI Revolutionizes Recruiting | HatchWorks AI",
+    "twitter:description": "Join Benjamin Mena and Trent Cotton as they discuss the transformative impact of AI in recruitment in the latest episode of \"The Elite Recruiter Podcast\". Learn about AI's potential, managing change, and productivity tips from an industry expert.",
+    "twitter:image": "/assets/wp-content/uploads/2023/07/thumbnail-Unlocking-the-Future-How-AI-Revolutionizes-Recruiting-with-Trent-Cotton-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29672 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29672 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29672.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

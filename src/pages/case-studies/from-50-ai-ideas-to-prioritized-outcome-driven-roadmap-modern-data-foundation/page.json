@@ -1,0 +1,30 @@
+{
+  "route": "/case-studies/from-50-ai-ideas-to-prioritized-outcome-driven-roadmap-modern-data-foundation/",
+  "title": "From 50+ AI Ideas to an Outcome-Driven Roadmap | HatchWorks AI",
+  "description": "A leading general contractor turned a sprawling list of AI possibilities into a focused, sequenced portfolio of priority workstreams, anchored on a modern data foundation built in Databricks.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "From 50+ AI Ideas to an Outcome-Driven Roadmap | HatchWorks AI",
+    "og:description": "A leading general contractor turned a sprawling list of AI possibilities into a focused, sequenced portfolio of priority workstreams, anchored on a modern data foundation built in Databricks.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/06/General-Contractor.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "From 50+ AI Ideas to an Outcome-Driven Roadmap | HatchWorks AI",
+    "twitter:description": "A leading general contractor turned a sprawling list of AI possibilities into a focused, sequenced portfolio of priority workstreams, anchored on a modern data foundation built in Databricks.",
+    "twitter:image": "/assets/wp-content/uploads/2026/06/General-Contractor.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35449 page-child parent-pageid-23823 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35449 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35449.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

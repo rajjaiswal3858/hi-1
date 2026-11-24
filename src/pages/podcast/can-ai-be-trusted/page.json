@@ -1,0 +1,39 @@
+{
+  "route": "/podcast/can-ai-be-trusted/",
+  "title": "Can AI Be Trusted With the Biggest Sale of Your Life with Brandon Powell",
+  "description": "Can AI be trusted with your business? HatchWorks AI CEO Brandon Powell separates AI hype from reality on The Ins & Outs of Selling a Business podcast.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Can AI Be Trusted With the Biggest Sale of Your Life with Brandon Powell",
+    "og:description": "Can AI be trusted with your business? HatchWorks AI CEO Brandon Powell separates AI hype from reality on The Ins & Outs of Selling a Business podcast.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/brandon-powell-selling-a-business-podcast-feature.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Can AI Be Trusted With the Biggest Sale of Your Life with Brandon Powell",
+    "twitter:description": "Can AI be trusted with your business? HatchWorks AI CEO Brandon Powell separates AI hype from reality on The Ins & Outs of Selling a Business podcast.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/brandon-powell-selling-a-business-podcast-feature.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-36226 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-36226 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

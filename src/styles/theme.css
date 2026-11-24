@@ -1,0 +1,173 @@
+/*
+ * Obsidian / acid-lime theme layer. Loaded after every other stylesheet.
+ * Colours across the site are remapped at build time (scripts/theme/recolor.mjs); this file adds
+ * the finishing touches: surfaces, motion, button transitions and neon hover glows.
+ * Nothing here changes size, spacing or position.
+ */
+:root {
+  --ob-black: #070809;
+  --ob-charcoal: #111316;
+  --ob-graphite: #1b1e22;
+  --ob-line: #262a2f;
+  --ob-text: #a3a7ad;
+  --ob-text-strong: #e8eaec;
+  --ob-lime: #ccff00;
+  --ob-lime-soft: #d9ff4d;
+  --ob-ink: #0b0c0d;
+  --ob-glow: 0 0 0 1px rgba(204, 255, 0, .55), 0 0 18px rgba(204, 255, 0, .28), 0 0 42px rgba(204, 255, 0, .12);
+  --ob-glow-soft: 0 0 14px rgba(204, 255, 0, .22);
+  --ob-ease: cubic-bezier(.22, .61, .36, 1);
+  color-scheme: dark;
+}
+
+html, body { background-color: var(--ob-black); }
+body { color: var(--ob-text); }
+
+::selection { background: var(--ob-lime); color: var(--ob-ink); }
+
+/* Scrollbar */
+html { scrollbar-color: #2b3036 var(--ob-black); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--ob-black); }
+::-webkit-scrollbar-thumb { background: #2b3036; border-radius: 10px; border: 2px solid var(--ob-black); }
+::-webkit-scrollbar-thumb:hover { background: #4a5a12; }
+
+/* Keyboard focus */
+:focus-visible { outline-color: var(--ob-lime) !important; }
+
+/* ---------------------------------------------------------------- links */
+a { transition: color .25s var(--ob-ease), text-shadow .25s var(--ob-ease), opacity .25s var(--ob-ease); }
+.elementor-widget-text-editor a:hover,
+.elementor-widget-theme-post-content a:hover,
+.elementor-icon-list-item a:hover,
+.elementor-nav-menu a:hover,
+.mega-menu-link:hover,
+footer a:hover,
+.elementor-location-footer a:hover {
+  color: var(--ob-lime) !important;
+  text-shadow: 0 0 12px rgba(204, 255, 0, .45);
+}
+
+/* ---------------------------------------------------------------- buttons */
+.elementor-button,
+.wp-element-button,
+.wp-block-button__link,
+.hs-button,
+input[type="submit"],
+input[type="button"],
+button:not([aria-label*="close" i]):not(.mega-toggle-animated):not(.swiper-pagination-bullet) {
+  transition:
+    background-color .35s var(--ob-ease),
+    border-color .35s var(--ob-ease),
+    color .35s var(--ob-ease),
+    box-shadow .35s var(--ob-ease),
+    transform .35s var(--ob-ease),
+    filter .35s var(--ob-ease) !important;
+}
+
+.elementor-button:hover,
+.wp-element-button:hover,
+.wp-block-button__link:hover,
+.hs-button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  box-shadow: var(--ob-glow) !important;
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+/* Custom button families used by the hand-built page sections */
+a[class*="btn"], button[class*="btn"], a[class*="cta"], a.hcta, a.buttoncta {
+  transition:
+    background-color .35s var(--ob-ease),
+    border-color .35s var(--ob-ease),
+    color .35s var(--ob-ease),
+    box-shadow .35s var(--ob-ease),
+    filter .35s var(--ob-ease) !important;
+}
+/* solid / primary */
+[class*="btn--primary"]:hover, [class*="btn--cta"]:hover, .btn-primary:hover, .btn-p:hover, .btn-g:hover,
+.hwh-cta:hover, .hw-cta__btn:hover, .hwca-btn:hover, .hwca-cta__btn:hover, .hwpe-cta-btn:hover,
+.exad-call-to-action-primary-btn:hover, .buttoncta:hover, .hcta:hover, .gj-cta:hover {
+  box-shadow: var(--ob-glow) !important;
+  filter: brightness(1.06);
+}
+/* header buttons (the nav resets box-shadow on every link with an id selector) */
+#hwnav a.hw-btn { transition: gap .2s var(--ob-ease), transform .3s var(--ob-ease), box-shadow .35s var(--ob-ease), border-color .35s var(--ob-ease), background-color .35s var(--ob-ease) !important; }
+#hwnav a.hw-btn--cta:hover, #hwnav a.hw-btn--cta:focus-visible { box-shadow: var(--ob-glow) !important; }
+#hwnav a.hw-btn--ghost:hover, #hwnav a.hw-btn--ghost:focus-visible { border-color: rgba(204, 255, 0, .6) !important; box-shadow: var(--ob-glow-soft) !important; }
+
+/* ghost / outline */
+[class*="btn--ghost"]:hover, .btn-outline:hover, .btn-ghost:hover {
+  border-color: var(--ob-lime) !important;
+  color: var(--ob-lime) !important;
+  box-shadow: var(--ob-glow-soft) !important;
+}
+
+.elementor-button:active,
+.hs-button:active,
+input[type="submit"]:active { transform: translateY(0) scale(.98); box-shadow: var(--ob-glow-soft) !important; }
+
+/* Arrow icons inside buttons nudge forward on hover */
+.elementor-button .elementor-button-icon,
+.elementor-button svg { transition: transform .35s var(--ob-ease); }
+.elementor-button:hover .elementor-button-icon,
+.elementor-button:hover .elementor-align-icon-right svg { transform: translateX(3px); }
+
+/* ---------------------------------------------------------------- cards & inputs */
+.elementor-widget-image-box .elementor-widget-container,
+.elementor-widget-icon-box .elementor-widget-container,
+.e-con.e-child[class*="card"],
+[class*="card"]:where(article, a, div):not([class*="cards"]):not(body) {
+  transition: box-shadow .4s var(--ob-ease), border-color .4s var(--ob-ease);
+}
+.e-con.e-child[class*="card"]:hover,
+[class*="card"]:where(article, a, div):not([class*="cards"]):not(body):hover {
+  box-shadow: 0 0 0 1px rgba(204, 255, 0, .22), 0 10px 40px -12px rgba(204, 255, 0, .18);
+}
+
+input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+select, textarea {
+  transition: border-color .25s var(--ob-ease), box-shadow .25s var(--ob-ease);
+}
+input:not([type="submit"]):not([type="button"]):focus, select:focus, textarea:focus {
+  border-color: var(--ob-lime) !important;
+  box-shadow: 0 0 0 3px rgba(204, 255, 0, .14), var(--ob-glow-soft) !important;
+}
+
+/* ---------------------------------------------------------------- decorative media
+ * Teal/blue atmospheric videos and artwork are shifted into the lime range. Photos, logos and
+ * screenshots are left untouched. */
+.hwh-hero-mesh video,
+.e-background-video__media,
+.elementor-background-video-hosted {
+  filter: hue-rotate(250deg) saturate(.7) brightness(.5) contrast(1.15) !important;
+}
+
+/* ---------------------------------------------------------------- component touch-ups */
+/* Footer CTA tabs: the active label sits on the lime glider */
+.hwf.hwf.hwf .hwf-tab.is-active { color: var(--ob-ink); }
+/* Featured testimonial card: dark glass with a lime edge instead of a bright lime slab */
+.hwh.hwh.hwh .hwh-mcard--accent,
+.hwh.hwh.hwh .hwh-mcard--accent:hover {
+  background: linear-gradient(150deg, rgba(204, 255, 0, .2) 0%, rgba(204, 255, 0, .06) 55%, #0e1008 100%);
+  border-color: rgba(204, 255, 0, .35);
+}
+.hwh.hwh.hwh .hwh-mcard--accent:hover { box-shadow: var(--ob-glow); }
+.hwh.hwh.hwh .hwh-pos-media img[src*="/infinite.png"] {
+  filter: hue-rotate(232deg) saturate(1.15) drop-shadow(0 26px 50px rgba(0, 0, 0, .55));
+}
+
+/* ---------------------------------------------------------------- fade-ins (driven by theme.js) */
+.ob-reveal {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition: opacity .9s var(--ob-ease), transform .9s var(--ob-ease);
+  transition-delay: var(--ob-delay, 0s);
+}
+.ob-reveal.ob-in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ob-reveal { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

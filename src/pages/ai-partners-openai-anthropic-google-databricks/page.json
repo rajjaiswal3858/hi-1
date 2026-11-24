@@ -1,0 +1,30 @@
+{
+  "route": "/ai-partners-openai-anthropic-google-databricks/",
+  "title": "AI Partners: OpenAI, Anthropic, Google, Databricks | HatchWorks AI",
+  "description": "HatchWorks AI is an enterprise AI services company that designs, builds and runs production AI on OpenAI, Anthropic Claude, Google Cloud and Databricks.",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI Partners: OpenAI, Anthropic, Google, Databricks | HatchWorks AI",
+    "og:description": "HatchWorks AI is an OpenAI, Anthropic Claude, Google Cloud and Databricks partner. Senior engineers ship production AI across models, agents and data.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Partners: OpenAI, Anthropic, Google, Databricks | HatchWorks AI",
+    "twitter:description": "HatchWorks AI is an OpenAI, Anthropic Claude, Google Cloud and Databricks partner. Senior engineers ship production AI across models, agents and data.",
+    "twitter:image": "/assets/wp-content/uploads/2026/08/HatchWorksAi.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-37753 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-37753 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-37753.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,41 @@
+{
+  "route": "/talking-ai/building-in-public/",
+  "title": "Building In Public: How Constraints Foster Creativity and Innovation | HatchWorks AI",
+  "description": "In episode 3, we find out what it means to build in public, why Rui Nunes chose this approach, the challenges, and how to get it right",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Building In Public: How Constraints Foster Creativity and Innovation | HatchWorks AI",
+    "og:description": "In episode 3, we find out what it means to build in public, why Rui Nunes chose this approach, the challenges, and how to get it right",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/05/3-s1.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Building In Public: How Constraints Foster Creativity and Innovation | HatchWorks AI",
+    "twitter:description": "In episode 3, we find out what it means to build in public, why Rui Nunes chose this approach, the challenges, and how to get it right",
+    "twitter:image": "/assets/wp-content/uploads/2023/05/3-s1.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29499 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29499 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-accordion.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29499.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,33 @@
+{
+  "route": "/resource/events/databricks-sandbox/",
+  "title": "Explore the Databricks Sandbox | HatchWorks AI",
+  "description": "Learn how to use the Databricks sandbox with our easy guide. Explore setup, navigation, and key features to boost your data skills.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Explore the Databricks Sandbox | HatchWorks AI",
+    "og:description": "Learn how to use the Databricks sandbox with our easy guide. Explore setup, navigation, and key features to boost your data skills.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/04/Explore-the-Databricks-Sandbox-1024x1024.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Explore the Databricks Sandbox | HatchWorks AI",
+    "twitter:description": "Learn how to use the Databricks sandbox with our easy guide. Explore setup, navigation, and key features to boost your data skills.",
+    "twitter:image": "/assets/wp-content/uploads/2025/04/Explore-the-Databricks-Sandbox-1024x1024.png"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-33284 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-33284",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33284.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

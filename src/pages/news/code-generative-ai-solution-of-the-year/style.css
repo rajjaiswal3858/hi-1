@@ -1,0 +1,154 @@
+.hw-newsroom {
+  --hw-accent: #F26B21;
+  --hw-ink: #1A1A1A;
+  --hw-muted: #5A6068;
+  --hw-rule: #E4E7EA;
+  color: var(--hw-ink);
+}
+
+.hw-newsroom .hw-eyebrow {
+  display: inline-block;
+  margin: 0 0 1.25rem;
+  padding: 0.35em 0.7em;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: var(--hw-accent);
+}
+
+.hw-newsroom .hw-lead {
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
+.hw-newsroom .hw-lead strong {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  color: var(--hw-muted);
+}
+
+.hw-newsroom h2 {
+  margin-top: 2.75rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--hw-accent);
+  line-height: 1.25;
+}
+
+.hw-newsroom h3 {
+  margin-top: 2.25rem;
+  line-height: 1.3;
+}
+
+.hw-newsroom blockquote {
+  margin: 2.25rem 0;
+  padding: 1.5rem 1.75rem;
+  border: 0;
+  border-top: 2px solid var(--hw-accent);
+  border-radius: 0;
+  background: #F7F8F9;
+  font-style: normal;
+  text-indent: 0;
+  quotes: none;
+}
+
+/* The theme injects decorative quote glyphs that overlap the text. Remove them. */
+.hw-newsroom blockquote::before,
+.hw-newsroom blockquote::after,
+.hw-newsroom blockquote p::before,
+.hw-newsroom blockquote p::after {
+  content: none !important;
+  display: none !important;
+}
+
+.hw-newsroom blockquote p {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.55;
+  font-style: normal;
+  text-indent: 0;
+}
+
+.hw-newsroom blockquote p + p { margin-top: 1rem; }
+
+.hw-newsroom blockquote cite {
+  display: block;
+  font-size: 0.85em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--hw-muted);
+}
+
+.hw-newsroom ul {
+  margin-top: 1.25rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.hw-newsroom ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.hw-newsroom ul li + li { margin-top: 0.75rem; }
+
+.hw-newsroom ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 0.5rem;
+  height: 2px;
+  background: var(--hw-accent);
+}
+
+.hw-newsroom a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--hw-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+  transition: color 0.15s ease;
+}
+
+.hw-newsroom a:hover,
+.hw-newsroom a:focus-visible { color: var(--hw-accent); }
+
+.hw-newsroom a:focus-visible {
+  outline: 2px solid var(--hw-accent);
+  outline-offset: 2px;
+}
+
+.hw-newsroom .hw-about {
+  margin-top: 2.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hw-rule);
+}
+
+.hw-newsroom .hw-about h2 {
+  margin-top: 0;
+  padding-left: 0;
+  border-left: 0;
+  font-size: 1.1em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--hw-muted);
+}
+
+.hw-newsroom .hw-about p {
+  font-size: 0.95em;
+  color: var(--hw-muted);
+}
+
+@media (max-width: 600px) {
+  .hw-newsroom blockquote { padding: 1.25rem; }
+  .hw-newsroom h2 { margin-top: 2.25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hw-newsroom a { transition: none; }
+}

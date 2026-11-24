@@ -1,0 +1,355 @@
+/* ─────────────────────────────────────────────
+       HatchWorks AI – HubSpot Form Styles
+    ───────────────────────────────────────────── */
+
+    /* Form Container */
+    #hw-form-wrapper .hbspt-form {
+      font-family: 'Open Sans', sans-serif;
+      color: #0A0A0A;
+      background: #ffffff;
+      padding: 40px 36px 32px;
+      border-radius: 16px;
+      max-width: 540px;
+      margin: auto;
+      font-size: 0.9rem;
+      position: relative;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 8px 32px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+    }
+
+    /* Teal top accent bar */
+    #hw-form-wrapper .hbspt-form::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #00C2B5 0%, #00E5D6 100%);
+      border-radius: 16px 16px 0 0;
+    }
+
+    /* Inputs & Textareas */
+    #hw-form-wrapper .hbspt-form input[type="text"],
+    #hw-form-wrapper .hbspt-form input[type="email"],
+    #hw-form-wrapper .hbspt-form textarea,
+    #hw-form-wrapper .hbspt-form select {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      font-family: 'Open Sans', sans-serif;
+      border: 1.5px solid #E2E5EA;
+      border-radius: 8px;
+      background: #F4F5F7;
+      box-sizing: border-box;
+      color: #0A0A0A;
+      transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    #hw-form-wrapper .hbspt-form input[type="text"]:hover,
+    #hw-form-wrapper .hbspt-form input[type="email"]:hover,
+    #hw-form-wrapper .hbspt-form textarea:hover,
+    #hw-form-wrapper .hbspt-form select:hover {
+      border-color: #C4C9D4;
+      background: #EDEEF1;
+    }
+
+    #hw-form-wrapper .hbspt-form input[type="text"]:focus,
+    #hw-form-wrapper .hbspt-form input[type="email"]:focus,
+    #hw-form-wrapper .hbspt-form textarea:focus,
+    #hw-form-wrapper .hbspt-form select:focus {
+      border-color: #00C2B5;
+      background: #ffffff;
+      box-shadow: 0 0 0 4px rgba(0,194,181,0.13);
+    }
+
+    #hw-form-wrapper .hbspt-form input::placeholder,
+    #hw-form-wrapper .hbspt-form textarea::placeholder {
+      color: #9CA3AF;
+      font-weight: 300;
+    }
+
+    /* Labels */
+    #hw-form-wrapper .hbspt-form label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #6B7280;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    /* Submit Button */
+    #hw-form-wrapper .hbspt-form input[type="submit"] {
+      background: #0A0A0A;
+      color: #fff;
+      border: none;
+      padding: 14px 28px;
+      font-size: 0.95rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.1px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.28s ease, box-shadow 0.22s ease, transform 0.18s ease;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    #hw-form-wrapper .hbspt-form input[type="submit"]:hover {
+      background: #009E93;
+      box-shadow: 0 4px 20px rgba(0,194,181,0.28);
+      transform: translateY(-1px);
+    }
+
+    #hw-form-wrapper .hbspt-form input[type="submit"]:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    /* Legal / Consent Text */
+    #hw-form-wrapper .hbspt-form .hs-richtext,
+    #hw-form-wrapper .hbspt-form .legal-consent-container {
+      font-size: 0.7rem;
+      color: #9CA3AF;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #E2E5EA;
+      line-height: 1.5;
+    }
+
+    #hw-form-wrapper .hbspt-form .hs-richtext a,
+    #hw-form-wrapper .hbspt-form .legal-consent-container a {
+      color: #009E93;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    #hw-form-wrapper .hbspt-form .hs-richtext a:hover,
+    #hw-form-wrapper .hbspt-form .legal-consent-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Remove HubSpot pink/purple GDPR border box */
+    #hw-form-wrapper .hbspt-form .legal-consent-container,
+    #hw-form-wrapper .hbspt-form .legal-consent-container * {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      background: transparent !important;
+    }
+
+    /* reCAPTCHA Badge – hidden (credited in disclaimer below per Google TOS) */
+    .grecaptcha-badge {
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+
+    /* Error Messages */
+    #hw-form-wrapper .hbspt-form .hs-error-msg {
+      color: #E53E3E;
+      font-size: 0.65rem;
+      margin-top: 0.25rem;
+      display: block;
+    }
+
+    #hw-form-wrapper .hbspt-form .hs-error-msgs li {
+      list-style: none;
+      position: relative;
+      padding-left: 1rem;
+    }
+
+    #hw-form-wrapper .hbspt-form .hs-error-msgs li::before {
+      content: "✖";
+      color: #E53E3E;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 0.65rem;
+      line-height: 1;
+    }
+
+    #hw-form-wrapper .hbspt-form input.invalid,
+    #hw-form-wrapper .hbspt-form input.error,
+    #hw-form-wrapper .hbspt-form textarea.invalid,
+    #hw-form-wrapper .hbspt-form textarea.error {
+      border-color: #E53E3E !important;
+      box-shadow: 0 0 0 3px rgba(229,62,62,0.12) !important;
+      background: #fff !important;
+    }
+
+    #hw-form-wrapper .hbspt-form .hs-error-msgs.inputs-list {
+      padding: 0 !important;
+    }
+
+    /* Discrete disclaimer */
+    #hw-disclaimer {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.6rem;
+      color: #C4C9D4;
+      line-height: 1.6;
+      text-align: center;
+      max-width: 540px;
+      margin: 10px auto 0;
+      padding: 0 4px;
+    }
+
+    #hw-disclaimer a {
+      color: #C4C9D4;
+      text-decoration: underline;
+      text-decoration-color: rgba(196,201,212,0.35);
+      text-underline-offset: 2px;
+      transition: color 0.2s ease, text-decoration-color 0.2s ease;
+    }
+
+    #hw-disclaimer a:hover {
+      color: #009E93;
+      text-decoration-color: #009E93;
+    }
+
+.hw-shortcuts {
+    background: transparent;
+    padding: 40px 16px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .hw-shortcuts *,
+  .hw-shortcuts *::before,
+  .hw-shortcuts *::after {
+    box-sizing: border-box;
+  }
+
+  .hw-shortcuts__grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+  }
+
+  .hw-shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 24px 12px;
+    border-radius: 12px;
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .hw-shortcut:hover,
+  .hw-shortcut:focus-visible {
+    transform: translateY(-4px);
+    outline: none;
+  }
+
+  .hw-shortcut:hover .hw-shortcut__title,
+  .hw-shortcut:focus-visible .hw-shortcut__title {
+    color: #00A0B8;
+  }
+
+  .hw-shortcut__icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .hw-shortcut__icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .hw-shortcut__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0B1F33;
+    margin: 0 0 6px 0;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  .hw-shortcut__desc {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A5A6A;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  /* Tablet - keep single row, just shrink type */
+  @media (max-width: 1024px) {
+    .hw-shortcuts {
+      padding: 32px 12px;
+    }
+    .hw-shortcuts__grid {
+      gap: 12px;
+    }
+    .hw-shortcut {
+      padding: 16px 6px;
+    }
+    .hw-shortcut__icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 12px;
+    }
+    .hw-shortcut__title {
+      font-size: 17px;
+    }
+    .hw-shortcut__desc {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hw-shortcut__title {
+      font-size: 15px;
+    }
+    .hw-shortcut__desc {
+      font-size: 12px;
+    }
+    .hw-shortcut__icon {
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  /* Mobile - break into 2 columns */
+  @media (max-width: 600px) {
+    .hw-shortcuts {
+      padding: 28px 16px;
+    }
+    .hw-shortcuts__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .hw-shortcut {
+      padding: 18px 8px;
+    }
+    .hw-shortcut__icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 12px;
+    }
+    .hw-shortcut__title {
+      font-size: 17px;
+    }
+    .hw-shortcut__desc {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .hw-shortcuts__grid {
+      grid-template-columns: 1fr;
+    }
+  }

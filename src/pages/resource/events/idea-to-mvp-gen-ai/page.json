@@ -1,0 +1,33 @@
+{
+  "route": "/resource/events/idea-to-mvp-gen-ai/",
+  "title": "How to Go from Idea to MVP Faster with Gen AI | HatchWorks AI",
+  "description": "Jerrik Arango shows how to use Gen AI to speed up the journey from idea to MVP, enhancing efficiency and reducing time to market.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "How to Go from Idea to MVP Faster with Gen AI | HatchWorks AI",
+    "og:description": "Jerrik Arango shows how to use Gen AI to speed up the journey from idea to MVP, enhancing efficiency and reducing time to market.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/05/hwai-How-to-Go-from-Idea-to-MVP-Faster-with-Gen-AI.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "How to Go from Idea to MVP Faster with Gen AI | HatchWorks AI",
+    "twitter:description": "Jerrik Arango shows how to use Gen AI to speed up the journey from idea to MVP, enhancing efficiency and reducing time to market.",
+    "twitter:image": "/assets/wp-content/uploads/2024/05/hwai-How-to-Go-from-Idea-to-MVP-Faster-with-Gen-AI.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-31215 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-31215",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31215.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

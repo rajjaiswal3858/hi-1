@@ -1,0 +1,41 @@
+{
+  "route": "/resource/case-study/springhills/",
+  "title": "SpringHills | HatchWorks AI",
+  "description": "WealthAbility: Scaling Financial Health with a Shift to Digital Sales and Automation A wealth management and tax strategy organization. A cumbersome manual system affecting the accuracy and quality consistency of report calculations and projections. A growing need for automation, driven by customer complaints and requests for refunds.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "SpringHills | HatchWorks AI",
+    "og:description": "WealthAbility: Scaling Financial Health with a Shift to Digital Sales and Automation A wealth management and tax strategy organization. A cumbersome manual system affecting the accuracy and quality consistency of report calculations and projections. A growing need for automation, driven by customer complaints and requests for refunds.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/07/WealthAblity-Social.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "SpringHills | HatchWorks AI",
+    "twitter:description": "WealthAbility: Scaling Financial Health with a Shift to Digital Sales and Automation A wealth management and tax strategy organization. A cumbersome manual system affecting the accuracy and quality consistency of report calculations and projections. A growing need for automation, driven by customer complaints and requests for refunds.",
+    "twitter:image": "/assets/wp-content/uploads/2021/07/WealthAblity-Social.jpeg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-22533 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-22533 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-22533.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

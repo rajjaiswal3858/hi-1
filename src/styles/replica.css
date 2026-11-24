@@ -1,0 +1,4 @@
+/*
+ * Replica-specific adjustments, loaded last.
+ * Keep this small: only fixes needed because the static build has no WordPress/Elementor runtime.
+ */

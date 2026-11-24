@@ -1,0 +1,217 @@
+/* Scoped styles for the three custom elements in this article.
+     Class prefixes prevent conflicts with theme/Elementor styles. */
+ 
+  .hw-pipeline-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 32px auto;
+    max-width: 760px;
+  }
+  .hw-pipeline-grid .hw-col-header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .hw-pipeline-grid .hw-col-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #0F2A47;
+  }
+  .hw-pipeline-grid .hw-col-sub {
+    font-size: 13px;
+    color: #6B7280;
+    margin-top: 2px;
+  }
+  .hw-pipeline-grid .hw-stage-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .hw-pipeline-grid .hw-stage {
+    background: #4B4B4B;
+    color: #FFFFFF;
+    padding: 14px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .hw-pipeline-grid .hw-stage--ai-active {
+    background: #5B4FE5;
+  }
+  .hw-pipeline-grid .hw-stage--green {
+    background: #0F6F5C;
+  }
+  .hw-pipeline-grid .hw-stage-sub {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 4px;
+  }
+  .hw-pipeline-grid .hw-checkpoint {
+    text-align: center;
+    margin: 4px 0;
+  }
+  .hw-pipeline-grid .hw-checkpoint-dot {
+    display: inline-block;
+    background: #1F2937;
+    color: #FFFFFF;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .hw-pipeline-grid .hw-col-footer {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+  }
+  .hw-pipeline-legend {
+    text-align: center;
+    font-size: 13px;
+    color: #6B7280;
+    margin: 0 auto 32px;
+    max-width: 760px;
+    line-height: 1.8;
+  }
+  .hw-pipeline-legend .hw-legend-item {
+    display: inline-block;
+    margin: 0 12px;
+    white-space: nowrap;
+  }
+  .hw-pipeline-legend .hw-swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+ 
+  .hw-sdlc-matrix-wrap {
+    overflow-x: auto;
+    margin: 32px 0;
+  }
+  .hw-sdlc-matrix {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 720px;
+  }
+  .hw-sdlc-matrix thead th {
+    padding: 16px;
+    text-align: left;
+    background: #F9FAFB;
+    border-bottom: 1px solid #E5E7EB;
+    font-weight: 600;
+  }
+  .hw-sdlc-matrix .hw-stage-label {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7280;
+    text-transform: uppercase;
+  }
+  .hw-sdlc-matrix .hw-pill {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .hw-sdlc-matrix .hw-pill--human { background: #5B4FE5; }
+  .hw-sdlc-matrix .hw-pill--assist { background: #0F6F5C; }
+  .hw-sdlc-matrix .hw-pill--automate { background: #B8541E; }
+  .hw-sdlc-matrix tbody th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 700;
+    color: #0F2A47;
+    background: #F9FAFB;
+    border-top: 1px solid #E5E7EB;
+    vertical-align: top;
+    width: 130px;
+  }
+  .hw-sdlc-matrix tbody td {
+    padding: 16px;
+    color: #374151;
+    border-top: 1px solid #E5E7EB;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+ 
+  .hw-staircase {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 32px 0 16px;
+    align-items: end;
+  }
+  .hw-staircase .hw-phase {
+    border-radius: 12px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+  }
+  .hw-staircase .hw-phase-1 { background: #4B4B4B; margin-top: 90px; }
+  .hw-staircase .hw-phase-2 { background: #0F6F5C; margin-top: 60px; }
+  .hw-staircase .hw-phase-3 { background: #0F6F5C; margin-top: 30px; }
+  .hw-staircase .hw-phase-4 { background: #B8541E; margin-top: 0; }
+  .hw-staircase .hw-phase-num {
+    font-size: 13px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .hw-staircase .hw-phase-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 4px 0 12px;
+    line-height: 1.3;
+  }
+  .hw-staircase .hw-phase-desc {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 16px;
+    opacity: 0.95;
+    flex-grow: 1;
+  }
+  .hw-staircase .hw-phase-pill {
+    background: #5B4FE5;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    align-self: flex-start;
+  }
+  .hw-staircase-caption {
+    text-align: center;
+    font-size: 13px;
+    color: #6B7280;
+    font-style: italic;
+    margin: 8px 0 32px;
+  }
+ 
+  /* Mobile fallback: stack everything, drop the staircase offset */
+  @media (max-width: 768px) {
+    .hw-pipeline-grid { grid-template-columns: 1fr; }
+    .hw-staircase {
+      grid-template-columns: 1fr;
+      align-items: stretch;
+    }
+    .hw-staircase .hw-phase { margin-top: 0 !important; min-height: auto; }
+  }

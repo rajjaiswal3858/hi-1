@@ -1,0 +1,37 @@
+{
+  "route": "/gen-ai-solution-accelerator/",
+  "title": "AI Solution Accelerator | HatchWorks AI",
+  "description": "We guide you from ideation to prototype creation. This approach provides a low-risk, high-value pathway for companies to validate and test Gen AI technology",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "AI Solution Accelerator | HatchWorks AI",
+    "og:description": "We guide you from ideation to prototype creation. This approach provides a low-risk, high-value pathway for companies to validate and test Gen AI technology",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/09/Gen-AI-Solution-Accelerator.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "AI Solution Accelerator | HatchWorks AI",
+    "twitter:description": "We guide you from ideation to prototype creation. This approach provides a low-risk, high-value pathway for companies to validate and test Gen AI technology",
+    "twitter:image": "/assets/wp-content/uploads/2024/09/Gen-AI-Solution-Accelerator.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-31001 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-31001 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-31001.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

@@ -1,0 +1,41 @@
+{
+  "route": "/news/colombias-most-reviewed-software-development-companies/",
+  "title": "HatchWorks Named as One of Colombia's Most Reviewed Companies | HatchWorks AI",
+  "description": "HatchWorks has been honored as one of Colombia's most reviewed software development, user experience, and web design companies by The Manifest. The award recognizes outstanding partnerships between service providers and clients, and HatchWorks is proud to be part of Colombia's thriving digital economy. Discover more about how HatchWorks can help you with top-notch services.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks Named as One of Colombia's Most Reviewed Companies | HatchWorks AI",
+    "og:description": "HatchWorks has been honored as one of Colombia's most reviewed software development, user experience, and web design companies by The Manifest. The award recognizes outstanding partnerships between service providers and clients, and HatchWorks is proud to be part of Colombia's thriving digital economy. Discover more about how HatchWorks can help you with top-notch services.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/12/the-manifest-most-reviewed-social-col.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks Named as One of Colombia's Most Reviewed Companies | HatchWorks AI",
+    "twitter:description": "HatchWorks has been honored as one of Colombia's most reviewed software development, user experience, and web design companies by The Manifest. The award recognizes outstanding partnerships between service providers and clients, and HatchWorks is proud to be part of Colombia's thriving digital economy. Discover more about how HatchWorks can help you with top-notch services.",
+    "twitter:image": "/assets/wp-content/uploads/2022/12/the-manifest-most-reviewed-social-col.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-29293 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-29293 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-29293.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

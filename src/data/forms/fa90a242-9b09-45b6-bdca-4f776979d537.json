@@ -1,0 +1,74 @@
+{
+  "id": "fa90a242-9b09-45b6-bdca-4f776979d537",
+  "captcha": true,
+  "submitText": "Submit",
+  "inlineMessage": "<span style=\"color: #000000;\"><strong>Thank You! Your request has been received.</strong></span><br><br><span style=\"color: #000000;\">Your file is ready for download below, and we’ve also sent an email with an alternate download link to your provided address. Enjoy!</span><br><br><span style=\"color: #000000;\"><strong><a href=\"https://6632357.fs1.hubspotusercontent-na1.net/hubfs/6632357/GenDD%20Training%20Workshop%20%5BLight%5D.pdf\" rel=\"noopener\" style=\"color: #000000;\">Download Your One Pager</a></strong></span>",
+  "cssClass": "hs-form stacked",
+  "groups": [
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "First name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "lastname",
+          "label": "Last name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "company",
+          "label": "Company name",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "richText": "",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Your company email",
+          "type": "text",
+          "required": true,
+          "placeholder": "",
+          "description": "",
+          "unselectedLabel": "",
+          "defaultValue": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "legal": null
+}

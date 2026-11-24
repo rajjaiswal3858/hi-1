@@ -1,0 +1,30 @@
+{
+  "route": "/ai-demos/propscan-ai/",
+  "title": "PropScan AI | HatchWorks AI",
+  "description": "A rapid prototype of an AI-powered home inspector built in 48 hours. Upload property details and photos, and the system uses multimodal AI plus the Zillow API",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "PropScan AI | HatchWorks AI",
+    "og:description": "A rapid prototype of an AI-powered home inspector built in 48 hours. Upload property details and photos, and the system uses multimodal AI plus the Zillow API",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/11/propscan-.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "PropScan AI | HatchWorks AI",
+    "twitter:description": "A rapid prototype of an AI-powered home inspector built in 48 hours. Upload property details and photos, and the system uses multimodal AI plus the Zillow API",
+    "twitter:image": "/assets/wp-content/uploads/2025/11/propscan-.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-34285 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-34285",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-34285.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

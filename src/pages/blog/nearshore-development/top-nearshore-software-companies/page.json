@@ -1,0 +1,42 @@
+{
+  "route": "/blog/nearshore-development/top-nearshore-software-companies/",
+  "title": "Top 9 Nearshore Software Development Companies [2025]",
+  "description": "Check out the Top Nearshore Software Development Companies in Latin America. Find the right partner to elevate your business with high-quality software .",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Top 9 Nearshore Software Development Companies [2025]",
+    "og:description": "Check out the Top Nearshore Software Development Companies in Latin America. Find the right partner to elevate your business with high-quality software .",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/10/thumbnail-Top-9-Nearshore-Software-Development-Companies-jpg.webp",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Top 9 Nearshore Software Development Companies [2025]",
+    "twitter:description": "Check out the Top Nearshore Software Development Companies in Latin America. Find the right partner to elevate your business with high-quality software .",
+    "twitter:image": "/assets/wp-content/uploads/2023/10/thumbnail-Top-9-Nearshore-Software-Development-Companies-jpg.webp"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-30087 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-30087 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-30087.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

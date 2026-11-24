@@ -1,0 +1,40 @@
+{
+  "route": "/blog/claude/anthropic-ipo-ai-budget/",
+  "title": "What the Anthropic IPO Reveals About Your Next AI Budget",
+  "description": "The Anthropic IPO filing shows enterprise AI spending soaring as task costs fall. Here's what that means for planning your next AI budget.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "What the Anthropic IPO Reveals About Your Next AI Budget",
+    "og:description": "The Anthropic IPO filing shows enterprise AI spending soaring as task costs fall. Here's what that means for planning your next AI budget.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/11/ant-ipo.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "What the Anthropic IPO Reveals About Your Next AI Budget",
+    "twitter:description": "The Anthropic IPO filing shows enterprise AI spending soaring as task costs fall. Here's what that means for planning your next AI budget.",
+    "twitter:image": "/assets/wp-content/uploads/2026/11/ant-ipo.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-37909 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-37909 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-37909.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

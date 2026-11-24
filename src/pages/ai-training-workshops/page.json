@@ -1,0 +1,43 @@
+{
+  "route": "/ai-training-workshops/",
+  "title": "HatchWorks - Your AI Development Partner",
+  "description": "Build innovative, AI-powered software faster with HatchWorks. We use Generative AI to create custom solutions that enhance user experience, drive revenue, and optimize development lifecycles. Trusted by leading brands like AT&T & PwC.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks - Your AI Development Partner",
+    "og:description": "Build innovative, AI-powered software faster with HatchWorks. We use Generative AI to create custom solutions that enhance user experience, drive revenue, and optimize development lifecycles. Trusted by leading brands like AT&T & PwC.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks - Your AI Development Partner",
+    "twitter:description": "Build innovative, AI-powered software faster with HatchWorks. We use Generative AI to create custom solutions that enhance user experience, drive revenue, and optimize development lifecycles. Trusted by leading brands like AT&T & PwC.",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-33631 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-33631",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-pro-widget-loop-grid.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33631.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [
+      "elementor-32375.css",
+      "elementor-32738.css",
+      "elementor-32378.css"
+    ],
+    "js": []
+  },
+  "externalScripts": []
+}

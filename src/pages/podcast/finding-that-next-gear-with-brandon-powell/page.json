@@ -1,0 +1,40 @@
+{
+  "route": "/podcast/finding-that-next-gear-with-brandon-powell/",
+  "title": "Finding that Next Gear with Brandon Powell | HatchWorks AI",
+  "description": "In this episode, Brandon Powell gets candid about entrepreneurship, the pluses, minuses, highs and lows, and advice Brandon would give himself if he could go back in time. This incredibly insightful discussion that pulls the covers back on the “plight of the entrepreneur” and what it takes to keep your head in the game.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Finding that Next Gear with Brandon Powell | HatchWorks AI",
+    "og:description": "In this episode, Brandon Powell gets candid about entrepreneurship, the pluses, minuses, highs and lows, and advice Brandon would give himself if he could go back in time. This incredibly insightful discussion that pulls the covers back on the “plight of the entrepreneur” and what it takes to keep your head in the game.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/11/social-share-finding-that-next-gear-1024x538.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Finding that Next Gear with Brandon Powell | HatchWorks AI",
+    "twitter:description": "In this episode, Brandon Powell gets candid about entrepreneurship, the pluses, minuses, highs and lows, and advice Brandon would give himself if he could go back in time. This incredibly insightful discussion that pulls the covers back on the “plight of the entrepreneur” and what it takes to keep your head in the game.",
+    "twitter:image": "/assets/wp-content/uploads/2022/11/social-share-finding-that-next-gear-1024x538.png"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-28935 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-28935 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28935.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

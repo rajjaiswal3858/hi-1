@@ -1,0 +1,25 @@
+{
+  "route": "/404/",
+  "title": "Page not found | HatchWorks AI",
+  "description": "",
+  "robots": "follow, noindex",
+  "og": {
+    "og:type": "article",
+    "og:title": "Page not found | HatchWorks AI",
+    "og:site_name": "HatchWorks AI",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Page not found | HatchWorks AI"
+  },
+  "bodyClass": "error404 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page-28242",
+  "styles": [
+    "/assets/wp-includes/css/dist/block-library/style.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-28242.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

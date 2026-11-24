@@ -1,0 +1,41 @@
+{
+  "route": "/resource/ebook/agile-software-development-methodology/",
+  "title": "Leveraging an Agile Approach for Software Development Success | HatchWorks AI",
+  "description": "This guide provides an overview of the benefits of software development that embeds an Agile approach, and how partnering with the right developer can guide you through a process that: Increases predictability, Enhances quality, Maintains innovation, Leads to a host of better outcomes—always.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Leveraging an Agile Approach for Software Development Success | HatchWorks AI",
+    "og:description": "This guide provides an overview of the benefits of software development that embeds an Agile approach, and how partnering with the right developer can guide you through a process that: Increases predictability, Enhances quality, Maintains innovation, Leads to a host of better outcomes—always.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/08/HatchWorks-Social-Image-Agile-ebook.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Leveraging an Agile Approach for Software Development Success | HatchWorks AI",
+    "twitter:description": "This guide provides an overview of the benefits of software development that embeds an Agile approach, and how partnering with the right developer can guide you through a process that: Increases predictability, Enhances quality, Maintains innovation, Leads to a host of better outcomes—always.",
+    "twitter:image": "/assets/wp-content/uploads/2021/08/HatchWorks-Social-Image-Agile-ebook.jpeg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-22577 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-22577 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-22577.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

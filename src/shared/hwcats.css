@@ -1,0 +1,89 @@
+/* hard reset: que el CSS global de Elementor y del tema no entre */
+#hwcats,#hwcats *,#hwcats *::before,#hwcats *::after{
+box-sizing:border-box;margin:0;padding:0;border:0 solid transparent;border-radius:0;
+background:none;box-shadow:none;text-shadow:none;outline:0;
+font:inherit;font-style:normal;line-height:inherit;letter-spacing:inherit;
+text-transform:none;text-decoration:none;text-align:left;text-indent:0;
+list-style:none;vertical-align:baseline;float:none;
+min-width:0;max-width:none;transform:none;transition:none;animation:none;
+opacity:1;visibility:visible;-webkit-appearance:none;appearance:none}
+
+#hwcats{
+--c-page:#FFFFFF;--c-surface:#F8F8F8;--c-head:#151920;--c-body:#363943;
+--c-meta:#5B6170;--c-accent:#10758B;--c-rule:#E6E7E9;--c-platinum:#DCDDDE;
+--ease:cubic-bezier(.2,.8,.2,1);
+display:block;padding:20px;border:1px solid var(--c-rule);border-radius:14px;
+background:var(--c-page);box-shadow:0 1px 2px rgba(21,25,32,.06);
+font-family:"Open Sans",Arial,sans-serif;font-size:15px;line-height:1.45;color:var(--c-body);
+-webkit-font-smoothing:antialiased}
+#hwcats :focus-visible{outline:2px solid var(--c-accent);outline-offset:2px;border-radius:6px}
+
+#hwcats .hwc-eyebrow{
+display:block;margin-bottom:14px;
+font-family:"Space Grotesk","Open Sans",Arial,sans-serif;
+font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--c-meta)}
+
+/* ---- buscador ---- */
+#hwcats .hwc-search{position:relative;display:block;margin-bottom:8px}
+#hwcats .hwc-search svg{
+position:absolute;left:12px;top:50%;margin-top:-8px;
+width:16px;height:16px;color:var(--c-meta);pointer-events:none}
+#hwcats .hwc-input{
+width:100%;height:44px;padding:0 38px 0 36px;
+border:1px solid var(--c-platinum);border-radius:8px;background:var(--c-page);
+font-family:inherit;font-size:15px;color:var(--c-head);
+transition:border-color 200ms var(--ease)}
+#hwcats .hwc-input::placeholder{color:#8A8F99}
+#hwcats .hwc-input:focus{border-color:var(--c-accent)}
+#hwcats .hwc-clear{
+position:absolute;right:6px;top:6px;display:none;
+width:32px;height:32px;align-items:center;justify-content:center;
+border-radius:6px;color:var(--c-meta);cursor:pointer;
+transition:color 120ms var(--ease),background-color 120ms var(--ease)}
+#hwcats .hwc-clear:hover{background:var(--c-surface);color:var(--c-head)}
+#hwcats.is-filtering .hwc-clear{display:flex}
+
+/* ---- grupos ---- */
+#hwcats .hwc-group{display:block}
+#hwcats .hwc-group[hidden]{display:none}
+#hwcats .hwc-glabel{
+display:block;padding:16px 0 6px;
+font-family:"Space Grotesk","Open Sans",Arial,sans-serif;
+font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--c-accent)}
+#hwcats .hwc-group--more .hwc-glabel{color:var(--c-meta)}
+
+/* ---- filas ---- */
+#hwcats .hwc-row{
+display:flex;align-items:center;gap:10px;
+min-height:44px;padding:9px 0;
+border-bottom:1px solid var(--c-rule);
+color:var(--c-body);font-size:15px;font-weight:600;line-height:1.35;
+transition:color 200ms var(--ease),padding-left 200ms var(--ease)}
+#hwcats .hwc-row[hidden]{display:none}
+#hwcats .hwc-row:hover,#hwcats .hwc-row:focus-visible{padding-left:6px;color:var(--c-accent)}
+#hwcats .hwc-row.is-first-match{color:var(--c-accent)}
+#hwcats .hwc-name{flex:1;text-wrap:pretty}
+#hwcats .hwc-name b{font-weight:800;color:var(--c-head);background:#F1F6F8}
+#hwcats .hwc-row:hover .hwc-name b{color:var(--c-accent)}
+#hwcats .hwc-arw{
+flex:0 0 auto;width:16px;height:16px;color:var(--c-platinum);
+transition:color 200ms var(--ease),transform 200ms var(--ease)}
+#hwcats .hwc-row:hover .hwc-arw,#hwcats .hwc-row:focus-visible .hwc-arw{
+color:var(--c-accent);transform:translateX(2px)}
+
+/* ---- vacío + pie ---- */
+#hwcats .hwc-empty{
+display:none;padding:20px 0 4px;
+font-family:"Space Grotesk","Open Sans",Arial,sans-serif;font-size:13px;color:var(--c-meta)}
+#hwcats.is-empty .hwc-empty{display:block}
+#hwcats .hwc-all{
+display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:4px;
+font-size:14px;font-weight:700;color:var(--c-accent);
+transition:gap 200ms var(--ease)}
+#hwcats .hwc-all:hover{gap:12px}
+#hwcats .hwc-all svg{width:14px;height:12px}
+
+@media (prefers-reduced-motion:reduce){
+#hwcats *{transition-duration:.01ms!important}
+#hwcats .hwc-row:hover{padding-left:0}
+}

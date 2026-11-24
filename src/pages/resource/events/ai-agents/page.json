@@ -1,0 +1,34 @@
+{
+  "route": "/resource/events/ai-agents/",
+  "title": "Make AI Agents Your Workforce Multiplier | HatchWorks AI",
+  "description": "Empower your workforce with AI agents. Join our live session to explore AI-native workflows, robust governance, and live demos driving real-world innovation.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Make AI Agents Your Workforce Multiplier | HatchWorks AI",
+    "og:description": "Empower your workforce with AI agents. Join our live session to explore AI-native workflows, robust governance, and live demos driving real-world innovation.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2025/03/AI-Agents-Webinar-Ads-and-Organic-Social-copy-2.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Make AI Agents Your Workforce Multiplier | HatchWorks AI",
+    "twitter:description": "Empower your workforce with AI agents. Join our live session to explore AI-native workflows, robust governance, and live demos driving real-world innovation.",
+    "twitter:image": "/assets/wp-content/uploads/2025/03/AI-Agents-Webinar-Ads-and-Organic-Social-copy-2.jpg"
+  },
+  "bodyClass": "wp-singular post-template post-template-elementor_header_footer single single-post postid-33091 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-template-full-width elementor-kit-15997 elementor-page elementor-page-33091",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33091.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

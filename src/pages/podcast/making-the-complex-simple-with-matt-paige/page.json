@@ -1,0 +1,41 @@
+{
+  "route": "/podcast/making-the-complex-simple-with-matt-paige/",
+  "title": "Making the Complex Simple with Matt Paige | HatchWorks AI",
+  "description": "CRM technology and sales process expert Christopher Smith talks with guest Matt Paige, VP of Marketing & Strategy for HatchWorks.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Making the Complex Simple with Matt Paige | HatchWorks AI",
+    "og:description": "CRM technology and sales process expert Christopher Smith talks with guest Matt Paige, VP of Marketing & Strategy for HatchWorks.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/08/social-share-Matt-Paige-on-Sales-Lead-Dog.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Making the Complex Simple with Matt Paige | HatchWorks AI",
+    "twitter:description": "CRM technology and sales process expert Christopher Smith talks with guest Matt Paige, VP of Marketing & Strategy for HatchWorks.",
+    "twitter:image": "/assets/wp-content/uploads/2022/08/social-share-Matt-Paige-on-Sales-Lead-Dog.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-27229 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-27229 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27229.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

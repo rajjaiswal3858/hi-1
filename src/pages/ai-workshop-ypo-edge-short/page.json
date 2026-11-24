@@ -1,0 +1,31 @@
+{
+  "route": "/ai-workshop-ypo-edge-short/",
+  "title": "HatchWorks AI Workshop - YPO Edge Short | HatchWorks AI",
+  "description": "Download Slides",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "HatchWorks AI Workshop - YPO Edge Short | HatchWorks AI",
+    "og:description": "Download Slides",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/02/Screenshot-2026-02-06-at-12.40.12-PM.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "HatchWorks AI Workshop - YPO Edge Short | HatchWorks AI",
+    "twitter:description": "Download Slides",
+    "twitter:image": "/assets/wp-content/uploads/2026/02/Screenshot-2026-02-06-at-12.40.12-PM.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-34601 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-34601 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-34601.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

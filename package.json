@@ -1,0 +1,21 @@
+{
+  "name": "hatchworks-replica",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static replica of hatchworks.com (local study/reference build).",
+  "scripts": {
+    "crawl": "node scripts/import/crawl.mjs",
+    "extract": "node scripts/import/extract.mjs",
+    "posts": "node scripts/import/posts-index.mjs",
+    "import": "npm run crawl && npm run extract",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "npm run build && npm run serve",
+    "compare": "node scripts/compare.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0",
+    "playwright-core": "^1.48.2"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "route": "/news_insights/",
+  "title": "News & Insights | HatchWorks",
+  "description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, blog posts, podcasts, awards, and more.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "News & Insights | HatchWorks",
+    "og:description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, blog posts, podcasts, awards, and more.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2022/05/HW-BEST-PLACE-TO-WORK-ANDY-MONTANA.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "News & Insights | HatchWorks",
+    "twitter:description": "Stay up-to-date on all things HatchWorks-related including corporate news, press releases, blog posts, podcasts, awards, and more.",
+    "twitter:image": "/assets/wp-content/uploads/2022/05/HW-BEST-PLACE-TO-WORK-ANDY-MONTANA.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-23837 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-23837 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-spacer.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-23837.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

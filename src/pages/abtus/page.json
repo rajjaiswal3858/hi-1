@@ -1,0 +1,53 @@
+{
+  "route": "/abtus/",
+  "title": "About Us Backstage | HatchWorks AI",
+  "description": "AI-Powered Development Built for ROI",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "About Us Backstage | HatchWorks AI",
+    "og:description": "AI-Powered Development Built for ROI",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2023/09/hatchworks-logo-software-development.png",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "About Us Backstage | HatchWorks AI",
+    "twitter:description": "AI-Powered Development Built for ROI",
+    "twitter:image": "/assets/wp-content/uploads/2023/09/hatchworks-logo-software-development.png"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-33826 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-33826 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-animated-headline.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-common-styles.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+    "/assets/wp-content/plugins/timeline-widget-addon-for-elementor/assets/css/twae-horizontal-timeline.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-apple-webkit.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-pro-widget-loop-grid.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-33826.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/feather-icon/feather-icon-style.min.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/teeny-icon/teeny-icon-style.min.css"
+  ],
+  "shared": {
+    "css": [
+      "twae-wrapper.css",
+      "elementor-32375.css",
+      "elementor-32738.css",
+      "elementor-32378.css"
+    ],
+    "js": []
+  },
+  "externalScripts": []
+}

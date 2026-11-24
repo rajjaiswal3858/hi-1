@@ -1,0 +1,33 @@
+{
+  "route": "/company/our-culture/",
+  "title": "Our Culture | HatchWorks",
+  "description": "Our success is predicated on the success of our customers and team members. Our culture drives everything we do, and everything that we deliver.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Our Culture | HatchWorks",
+    "og:description": "Our success is predicated on the success of our customers and team members. Our culture drives everything we do, and everything that we deliver.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2021/06/HatchWorks-Our-Culture.jpeg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Our Culture | HatchWorks",
+    "twitter:description": "Our success is predicated on the success of our customers and team members. Our culture drives everything we do, and everything that we deliver.",
+    "twitter:image": "/assets/wp-content/uploads/2021/06/HatchWorks-Our-Culture.jpeg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-18378 page-child parent-pageid-15443 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-18378 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-video.min.css",
+    "/assets/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-18378.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}

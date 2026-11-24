@@ -1,0 +1,43 @@
+{
+  "route": "/blog/claude/claude-skills/",
+  "title": "Claude Skills: What They Are, How to Build Them, and When to Use Them",
+  "description": "Claude Skills package instructions, code, and context into reusable capabilities. What they are, when to build one, and how to ship Skills that actually work.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Claude Skills: What They Are, How to Build Them, and When to Use Them",
+    "og:description": "Claude Skills package instructions, code, and context into reusable capabilities. What they are, when to build one, and how to ship Skills that actually work.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2026/06/CLAUDE-BATCH-2026-11.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Claude Skills: What They Are, How to Build Them, and When to Use Them",
+    "twitter:description": "Claude Skills package instructions, code, and context into reusable capabilities. What they are, when to build one, and how to ship Skills that actually work.",
+    "twitter:image": "/assets/wp-content/uploads/2026/06/CLAUDE-BATCH-2026-11.jpg"
+  },
+  "bodyClass": "wp-singular post-template-default single single-post postid-35372 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35372 elementor-page-27514",
+  "styles": [
+    "/assets/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-35372.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css",
+    "/assets/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "/assets/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
+    "/assets/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "/assets/wp-content/uploads/elementor/css/post-27514.css",
+    "/assets/wp-content/plugins/exclusive-addons-for-elementor/assets/fonts/remix-icon/remixicon.min.css"
+  ],
+  "shared": {
+    "css": [
+      "hwnsg-block.css",
+      "hwnsg-block-2.css",
+      "hw-fde-wrap.css",
+      "hwcats.css"
+    ],
+    "js": [
+      "cats.js"
+    ]
+  },
+  "externalScripts": []
+}

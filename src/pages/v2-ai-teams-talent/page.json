@@ -1,0 +1,30 @@
+{
+  "route": "/v2-ai-teams-talent/",
+  "title": "v2 AI Teams & Talent | HatchWorks AI",
+  "description": "AI Teams & Talent — Forward-Deployed Engineers",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:type": "article",
+    "og:title": "Forward-Deployed AI Engineers & Teams | HatchWorks AI",
+    "og:description": "Enterprise AI capability without the big-consulting baggage. Forward-Deployed Engineers and elite AI practitioners across the Americas.",
+    "og:site_name": "HatchWorks AI",
+    "og:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "v2 AI Teams & Talent | HatchWorks AI",
+    "twitter:description": "AI Teams & Talent — Forward-Deployed Engineers",
+    "twitter:image": "/assets/wp-content/uploads/2024/06/HatchWorksAI-thumbnail.jpg"
+  },
+  "bodyClass": "wp-singular page-template-default page page-id-35333 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor exad-hf-template-hello-elementor exad-hf-stylesheet-hello-elementor mega-menu-menu-1 hello-elementor-default exclusive-addons-elementor elementor-default elementor-kit-15997 elementor-page elementor-page-35333 elementor-page-28202",
+  "styles": [
+    "/assets/wp-content/uploads/elementor/css/post-35333.css",
+    "/assets/wp-content/uploads/elementor/css/base-desktop.css",
+    "/assets/wp-content/uploads/elementor/css/base-mobile.css",
+    "/assets/wp-content/uploads/elementor/css/post-28202.css",
+    "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+  ],
+  "shared": {
+    "css": [],
+    "js": []
+  },
+  "externalScripts": []
+}
